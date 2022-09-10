@@ -1,0 +1,122 @@
+[
+  {
+    "id": "VER",
+    "first-name": "Max",
+    "surname": "Verstappen",
+    "team-id": "RBR"
+  },
+  {
+    "id": "PER",
+    "first-name": "Sergio",
+    "surname": "Perez",
+    "team-id": "RBR"
+  },
+  {
+    "id": "SAI",
+    "first-name": "Carlos",
+    "surname": "Sainz",
+    "team-id": "FER"
+  },
+  {
+    "id": "LEC",
+    "first-name": "Charles",
+    "surname": "Leclerc",
+    "team-id": "FER"
+  },
+  {
+    "id": "HAM",
+    "first-name": "Lewis",
+    "surname": "Hamilton",
+    "team-id": "MER"
+  },
+  {
+    "id": "RUS",
+    "first-name": "George",
+    "surname": "Russell",
+    "team-id": "MER"
+  },
+  {
+    "id": "OCO",
+    "first-name": "Esteban",
+    "surname": "Ocon",
+    "team-id": "ALP"
+  },
+  {
+    "id": "ALO",
+    "first-name": "Fernando",
+    "surname": "Alonso",
+    "team-id": "ALP"
+  },
+  {
+    "id": "NOR",
+    "first-name": "Lando",
+    "surname": "Norris",
+    "team-id": "MCL"
+  },
+  {
+    "id": "RIC",
+    "first-name": "Daniel",
+    "surname": "Ricciardo",
+    "team-id": "MCL"
+  },
+  {
+    "id": "ZHO",
+    "first-name": "Guanyu",
+    "surname": "Zhou",
+    "team-id": "AR"
+  },
+  {
+    "id": "BOT",
+    "first-name": "Valtteri",
+    "surname": "Bottas",
+    "team-id": "AR"
+  },
+  {
+    "id": "MSC",
+    "first-name": "Mick",
+    "surname": "Schumacher",
+    "team-id": "HAA"
+  },
+  {
+    "id": "MAG",
+    "first-name": "Kevin",
+    "surname": "Magnussen",
+    "team-id": "HAA"
+  },
+  {
+    "id": "TSU",
+    "first-name": "Yuki",
+    "surname": "Tsunoda",
+    "team-id": "AT"
+  },
+  {
+    "id": "GAS",
+    "first-name": "Pierre",
+    "surname": "Gasly",
+    "team-id": "AT"
+  },
+  {
+    "id": "VET",
+    "first-name": "Sebastian",
+    "surname": "Vettel",
+    "team-id": "AM"
+  },
+  {
+    "id": "STR",
+    "first-name": "Lance",
+    "surname": "Stroll",
+    "team-id": "AM"
+  },
+  {
+    "id": "LAT",
+    "first-name": "Nicholas",
+    "surname": "Latifi",
+    "team-id": "WIL"
+  },
+  {
+    "id": "ALB",
+    "first-name": "Alex",
+    "surname": "Albon",
+    "team-id": "WIL"
+  }
+]
