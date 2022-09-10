@@ -1,0 +1,63 @@
+[
+	{
+		"id": "RBR",
+		"name": "Red Bull Racing",
+		"short-name": "Red Bull",
+		"image-name": "red-bull",
+		"color": "#3671C6"
+	},
+	{
+		"id": "FER",
+		"name": "Ferrari",
+		"image-name": "ferrari",
+		"color": "#F91536"
+	},
+	{
+		"id": "MER",
+		"name": "Mercedes",
+		"image-name": "mercedes",
+		"color": "#6CD3BF"
+	},
+	{
+		"id": "ALP",
+		"name": "Alpine",
+		"image-name": "alpine",
+		"color": "#2293D1"
+	},
+	{
+		"id": "MCL",
+		"name": "McLaren",
+		"image-name": "mclaren",
+		"color": "#F58020"
+	},
+	{
+		"id": "AR",
+		"name": "Alfa Romeo",
+		"image-name": "alfa-romeo",
+		"color": "#C92D4B"
+	},
+	{
+		"id": "HAA",
+		"name": "Haas",
+		"image-name": "haas",
+		"color": "#B6BABD"
+	},
+	{
+		"id": "AT",
+		"name": "Alpha Tauri",
+		"image-name": "alpha-tauri",
+		"color": "#5E8FAA"
+	},
+	{
+		"id": "AM",
+		"name": "Aston Martin",
+		"image-name": "aston-martin",
+		"color": "#358C75"
+	},
+	{
+		"id": "WIL",
+		"name": "Williams",
+		"image-name": "williams",
+		"color": "#37BEDD"
+	}
+]
