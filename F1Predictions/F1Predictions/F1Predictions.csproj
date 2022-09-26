@@ -7,13 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="wwwroot\data\2021\**" />
     <Compile Remove="wwwroot\images\drivers\**" />
-    <Content Remove="wwwroot\data\2021\**" />
     <Content Remove="wwwroot\images\drivers\**" />
-    <EmbeddedResource Remove="wwwroot\data\2021\**" />
     <EmbeddedResource Remove="wwwroot\images\drivers\**" />
-    <None Remove="wwwroot\data\2021\**" />
     <None Remove="wwwroot\images\drivers\**" />
   </ItemGroup>
 

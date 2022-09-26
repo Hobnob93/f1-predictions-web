@@ -1,0 +1,56 @@
+[
+  {
+    "id": "KH",
+    "name": "Kyle",
+    "nickname": "Hobnob",
+    "liveryId": "MCL"
+  },
+  {
+    "id": "SH",
+    "name": "Samantha",
+    "nickname": "Sammy",
+    "liveryId": "RBR"
+  },
+  {
+    "id": "HI",
+    "name": "Sam",
+    "nickname": "Higgy",
+    "liveryId": "ALP"
+  },
+  {
+    "id": "KC",
+    "name": "Keith",
+    "nickname": "Bubbles",
+    "liveryId": "AR"
+  },
+  {
+    "id": "TW",
+    "name": "Tiegan",
+    "nickname": "Tigs",
+    "liveryId": "MCL"
+  },
+  {
+    "id": "GH",
+    "name": "Gareth",
+    "nickname": "Gdog",
+    "liveryId": "AR"
+  },
+  {
+    "id": "MG",
+    "name": "Mike",
+    "nickname": "Ginge",
+    "liveryId": "MCL"
+  },
+  {
+    "id": "CB",
+    "name": "Courtney",
+    "nickname": "Courtney",
+    "liveryId": "MER"
+  },
+  {
+    "id": "MH",
+    "name": "Michael",
+    "nickname": "8 times world champ",
+    "liveryId": "MCL"
+  }
+]
