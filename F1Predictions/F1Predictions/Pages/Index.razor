@@ -2,4 +2,20 @@
 
 <PageTitle>F1 Predictions 2022</PageTitle>
 
-<MudProgressLinear Color="Color.Primary" Indeterminate="true" Class="my-7" />
+<MudLayout>
+    <MudAppBar Elevation="0" Color="Color.Primary" Style="min-height:100px">
+        <MudText Typo="Typo.h2" Class="ml-10 pt-9" Style="font-weight:500">F1 Predictions 2022</MudText>
+    </MudAppBar>
+
+    <MudDrawer Elevation="0" Open="true" ClipMode="DrawerClipMode.Always" Color="Color.Primary" Width="120px" Variant="DrawerVariant.Mini">
+        <MudNavMenu>
+
+        </MudNavMenu>
+    </MudDrawer>
+
+    <MudContainer MaxWidth="MaxWidth.ExtraExtraLarge" Style="margin-left:96px;margin-top:35px">
+        <MudAppBar Elevation="0" Fixed="false" Dense="true" Color="Color.Info">
+            <MudText Typo="Typo.h5">Competitors</MudText>
+        </MudAppBar>
+    </MudContainer>
+</MudLayout>
