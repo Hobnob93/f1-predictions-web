@@ -30,3 +30,24 @@
 .blazor-error-boundary::after {
     content: "An error has occurred."
 }
+
+#question-bar {
+    background-color: #21222bff !important;
+}
+
+#title-bar {
+    background-color: #050705ff !important;
+    min-height: 100px !important;
+}
+
+#title-bar > .mud-toolbar-appbar > .mud-typography {
+    font-weight: 500 !important;
+}
+
+#side-bar {
+    background-color: #050705ff !important;
+}
+
+.f1-text {
+    color: #f50814;
+}
