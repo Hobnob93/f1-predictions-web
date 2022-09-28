@@ -35,6 +35,10 @@
     background-color: #21222bff !important;
 }
 
+#question-bar > .mud-toolbar-appbar {
+    padding-right: 0 !important;
+}
+
 #title-bar {
     background-color: #050705ff !important;
     min-height: 100px !important;
@@ -50,4 +54,10 @@
 
 .f1-text {
     color: #f50814;
+}
+
+#core-container {
+    width: calc(100vw - 70px);
+    margin-left: 96px;
+    margin-top: 35px;
 }
