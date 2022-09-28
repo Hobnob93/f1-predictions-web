@@ -3,23 +3,10 @@
 <PageTitle>F1 Predictions 2022</PageTitle>
 
 <MudLayout>
-    <MudAppBar Elevation="0" Color="Color.Primary" id="title-bar">
-        <MudText Typo="Typo.h2" Class="ml-10 pt-9">Introduction</MudText>
-        <MudSpacer />
-        <MudImage Src="images/logo.png" Alt="Logo" Height="225" Class="pt-9 rounded-lg" />
-        <MudSpacer />
-        <MudText Typo="Typo.h4" Class="mr-10 pt-9 f1-text">F1 2022 Predictions</MudText>
-    </MudAppBar>
-
-    <MudDrawer Elevation="0" Open="true" ClipMode="DrawerClipMode.Always" Color="Color.Primary" Width="120px" Variant="DrawerVariant.Mini" id="side-bar">
-        <MudNavMenu>
-
-        </MudNavMenu>
-    </MudDrawer>
+    <SectionBar />
+    <SideBar />
 
     <MudContainer MaxWidth="MaxWidth.ExtraExtraLarge" Style="margin-left:96px;margin-top:35px">
-        <MudAppBar Elevation="0" Fixed="false" Dense="true" Color="Color.Info" id="question-bar">
-            <MudText Typo="Typo.h5">Competitors</MudText>
-        </MudAppBar>
+        <TitleBar />
     </MudContainer>
 </MudLayout>

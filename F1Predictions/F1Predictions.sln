@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1Predictions", "F1Predicti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1Predictions.Components", "F1Predictions.Components\F1Predictions.Components.csproj", "{134AC49A-29D5-4816-BB37-EA36043E720F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F1Predictions.Core", "F1Predictions.Core\F1Predictions.Core.csproj", "{6C52AF7A-D754-41C8-8EE5-540283432AB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1Predictions.Core", "F1Predictions.Core\F1Predictions.Core.csproj", "{6C52AF7A-D754-41C8-8EE5-540283432AB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F1Predictions.Api", "F1Predictions.Api\F1Predictions.Api.csproj", "{F3549A08-B2FD-4442-B208-6F7E5E50A5E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F1Predictions.Api", "F1Predictions.Api\F1Predictions.Api.csproj", "{F3549A08-B2FD-4442-B208-6F7E5E50A5E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
