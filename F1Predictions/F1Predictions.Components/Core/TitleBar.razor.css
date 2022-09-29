@@ -1,0 +1,7 @@
+﻿#title-bar ::deep > header {
+    background-color: #21222bff !important;
+}
+
+#title-bar ::deep > header > .mud-toolbar-appbar {
+    padding-right: 0 !important;
+}

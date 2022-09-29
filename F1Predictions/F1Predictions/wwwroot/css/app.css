@@ -31,14 +31,6 @@
     content: "An error has occurred."
 }
 
-#question-bar {
-    background-color: #21222bff !important;
-}
-
-#question-bar > .mud-toolbar-appbar {
-    padding-right: 0 !important;
-}
-
 #core-container {
     width: calc(100vw - 70px);
     margin-left: 96px;
