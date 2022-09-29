@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\F1Predictions.Components\F1Predictions.Components.csproj" />
+    <ProjectReference Include="..\F1Predictions.Core\F1Predictions.Core.csproj" />
   </ItemGroup>
 
 </Project>
