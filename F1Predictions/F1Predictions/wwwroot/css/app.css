@@ -1,5 +1,5 @@
 ﻿body {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #blazor-error-ui {
@@ -60,4 +60,17 @@
     width: calc(100vw - 70px);
     margin-left: 96px;
     margin-top: 35px;
+    min-height: 100vh;
+}
+
+#question-container {
+    min-height: calc(100vh - 150px);
+}
+
+.competitor:first-of-type {
+    margin-top: 30px;
+}
+
+.competitor:last-of-type {
+    margin-bottom: 30px;
 }
