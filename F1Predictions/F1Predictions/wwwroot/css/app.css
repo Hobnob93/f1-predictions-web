@@ -58,3 +58,25 @@
 .competitor:last-of-type {
     margin-bottom: 30px;
 }
+
+#nameplate {
+    background-color: #050705ff;
+    border: 2px solid #ff6a00;
+    color: #ff6a00;
+    box-shadow: 0 0 10px, inset 0 0 10px;
+    -webkit-animation: pulse 3s linear 2s infinite;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        box-shadow: 0 0 8px, inset 0 0 8px;
+    }
+
+    50% {
+        box-shadow: 0 0 16px, inset 0 0 14px;
+    }
+
+    100% {
+        box-shadow: 0 0 8px, inset 0 0 8px;
+    }
+}
