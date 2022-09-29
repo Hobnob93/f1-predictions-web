@@ -1,0 +1,12 @@
+﻿#section-bar ::deep > header {
+    background-color: #050705ff !important;
+    min-height: 100px !important;
+}
+
+#section-bar ::deep > header > div > .mud-typography {
+    font-weight: 500 !important;
+}
+
+#section-bar ::deep > header > div > .f1-text {
+    color: #f50814;
+}
