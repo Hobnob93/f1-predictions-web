@@ -32,8 +32,8 @@
 }
 
 #core-container {
-    width: calc(100vw - 70px);
-    margin-left: 96px;
+    width: calc(100vw - 150px);
+    margin-left: 176px;
     margin-top: 35px;
     min-height: 100vh;
 }
