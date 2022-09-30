@@ -1,5 +1,6 @@
 ﻿#title-bar ::deep > header {
     background-color: #21222bff !important;
+    z-index: -10;
 }
 
 #title-bar ::deep > header > .mud-toolbar-appbar {
