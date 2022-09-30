@@ -67,6 +67,56 @@
     -webkit-animation: pulse 3s linear 2s infinite;
 }
 
+#nameplate.rbr {
+    color: #3671C6;
+    border-color: #3671C6;
+}
+
+#nameplate.fer {
+    color: #F91536;
+    border-color: #F91536;
+}
+
+#nameplate.mer {
+    color: #6CD3BF;
+    border-color: #6CD3BF;
+}
+
+#nameplate.alp {
+    color: #2293D1;
+    border-color: #2293D1;
+}
+
+#nameplate.mcl {
+    color: #F58020;
+    border-color: #F58020;
+}
+
+#nameplate.ar {
+    color: #C92D4B;
+    border-color: #C92D4B;
+}
+
+#nameplate.haa {
+    color: #B6BABD;
+    border-color: #B6BABD;
+}
+
+#nameplate.at {
+    color: #5E8FAA;
+    border-color: #5E8FAA;
+}
+
+#nameplate.am {
+    color: #358C75;
+    border-color: #358C75;
+}
+
+#nameplate.wil {
+    color: #37BEDD;
+    border-color: #37BEDD;
+}
+
 @-webkit-keyframes pulse {
     0% {
         box-shadow: 0 0 8px, inset 0 0 8px;
