@@ -1,3 +1,12 @@
-﻿<div class="competitor ml-n11 z-10">
-    <MudAvatar Class="@($"nameplate {TeamId}")" Variant="Variant.Outlined" Size="Size.Large">@Initials</MudAvatar>
-</div>
+﻿@if (IsLeft)
+{
+    <div class="d-flex flex-row justify-start competitor ml-n11 z-10">
+        <MudAvatar Class="@($"nameplate {TeamId}")" Variant="Variant.Outlined" Size="Size.Large">@Initials</MudAvatar>
+    </div>
+}
+else
+{
+    <div class="d-flex flex-row justify-end competitor mr-n11 z-10">
+        <MudAvatar Class="@($"nameplate {TeamId}")" Variant="Variant.Outlined" Size="Size.Large">@Initials</MudAvatar>
+    </div>
+}
