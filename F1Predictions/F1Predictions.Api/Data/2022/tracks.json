@@ -1,0 +1,112 @@
+[
+  {
+    "id": "BAH",
+    "name": "Bahrain International",
+    "country": "Bahrain"
+  },
+  {
+    "id": "SAA",
+    "name": "Jeddah Corniche",
+    "country": "Saudi Arabia"
+  },
+  {
+    "id": "AUS",
+    "name": "Melbourne",
+    "country": "Australia"
+  },
+  {
+    "id": "EMR",
+    "name": "Emilia Romagna",
+    "country": "Italy"
+  },
+  {
+    "id": "MIA",
+    "name": "Miami",
+    "country": "USA"
+  },
+  {
+    "id": "BAR",
+    "name": "Barcelona",
+    "country": "Spain"
+  },
+  {
+    "id": "MON",
+    "name": "Circuit De Monaco",
+    "country": "Monaco"
+  },
+  {
+    "id": "BAK",
+    "name": "Baku",
+    "country": "Azerbaijan"
+  },
+  {
+    "id": "CAN",
+    "name": "Circuit Gilles-Villeneuve",
+    "country": "Canada"
+  },
+  {
+    "id": "GBR",
+    "name": "Silverstone",
+    "country": "Great Britain"
+  },
+  {
+    "id": "RBR",
+    "name": "Red Bull Ring",
+    "country": "Austria"
+  },
+  {
+    "id": "CPR",
+    "name": "Circuit Paul Ricard",
+    "country": "France"
+  },
+  {
+    "id": "HUN",
+    "name": "Hungaroring",
+    "country": "Hungary"
+  },
+  {
+    "id": "SPA",
+    "name": "Circuit De Spa-Francorchamps",
+    "country": "Belgium"
+  },
+  {
+    "id": "NED",
+    "name": "Zandvoort",
+    "country": "Netherlands"
+  },
+  {
+    "id": "MZA",
+    "name": "Monza",
+    "country": "Italy"
+  },
+  {
+    "id": "SIN",
+    "name": "Marina Bay",
+    "country": "Singapore"
+  },
+  {
+    "id": "JPN",
+    "name": "Suzuka",
+    "country": "Japan"
+  },
+  {
+    "id": "CTA",
+    "name": "Circuit of the Americas",
+    "country": "USA"
+  },
+  {
+    "id": "AHR",
+    "name": "Autodromo Hermanos Rodriguez",
+    "country": "Mexico"
+  },
+  {
+    "id": "AJC",
+    "name": "Autodromo Jose Carlos Pace",
+    "country": "Brazil"
+  },
+  {
+    "id": "YMC",
+    "name": "Yas Marina",
+    "country": "Abu Dhabi"
+  }
+]
