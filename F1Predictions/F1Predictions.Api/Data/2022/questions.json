@@ -1,0 +1,386 @@
+[
+  {
+    "id": "0-A",
+    "question": "Which is your favourite livery?",
+    "scoring": "NA",
+    "kh-response": "MCL"
+  },
+  {
+    "id": "1-A",
+    "question": "Who will win Constructor's Championship?",
+    "scoring": "GP",
+    "kh-response": "FER"
+  },
+  {
+    "id": "1-B",
+    "question": "What will the percentage of points difference be between first and second place in the Constructor's Championship?",
+    "scoring": "VAL",
+    "kh-response": 8
+  },
+  {
+    "id": "1-C",
+    "question": "Which team will come FIFTH in the Constructor's Championship?",
+    "scoring": "GP",
+    "kh-response": "WIL"
+  },
+  {
+    "id": "1-D",
+    "question": "Which team will come LAST in the Constructor's Championship?",
+    "scoring": "GP",
+    "kh-response": "HAA"
+  },
+  {
+    "id": "1-E",
+    "question": "Who will WIN the Driver's Championship?",
+    "scoring": "GP",
+    "kh-response": "LEC"
+  },
+  {
+    "id": "1-F",
+    "question": "What will the percentage of points difference be between first and second place in the Driver's Championship?",
+    "scoring": "VAL",
+    "kh-response": "5"
+  },
+  {
+    "id": "1-G",
+    "question": "Who will come TENTH in the Driver's Championship?",
+    "scoring": "GP",
+    "kh-response": "ALB"
+  },
+  {
+    "id": "1-H",
+    "question": "Who will come LAST in the Driver's Championship?",
+    "scoring": "GP",
+    "kh-response": "ZHO"
+  },
+  {
+    "id": "1-I",
+    "question": "Which team will have the highest repair cost, and WIN the Destructors Championship?",
+    "scoring": "GP",
+    "kh-response": "AT"
+  },
+  {
+    "id": "1-J",
+    "question": "Which team will have the lowest repair cost, and come LAST in the Destructors Championship?",
+    "scoring": "GP",
+    "kh-response": "MER"
+  },
+  {
+    "id": "1-K",
+    "question": "Which driver will cause the most cost in repairs, and WIN the Destructors Championship?",
+    "scoring": "GP",
+    "kh-response": "TSU"
+  },
+  {
+    "id": "1-L",
+    "question": "Which driver will cause the least in repair cost, and come LAST in the Destructors Championship?",
+    "scoring": "GP",
+    "kh-response": "HAM"
+  },
+  {
+    "id": "2-A",
+    "question": "Which team will have the MOST podiums?",
+    "scoring": "GP",
+    "kh-response": "MER"
+  },
+  {
+    "id": "2-B",
+    "question": "Which team will have the FASTEST pitstop?",
+    "scoring": "GP",
+    "kh-response": "RBR"
+  },
+  {
+    "id": "2-C",
+    "question": "Which team will have the MOST DNFs? (specific to Sunday races)",
+    "scoring": "GP",
+    "kh-response": "MCL"
+  },
+  {
+    "id": "2-D",
+    "question": "Chose TWO teams - every time one of their drivers make it to Q2, you LOSE 1 point",
+    "scoring": "MISC-1",
+    "kh-response": "AR,HAA"
+  },
+  {
+    "id": "2-E",
+    "question": "Which team will have the FIRST mechanical failure in the season during a RACE?",
+    "scoring": "GP",
+    "kh-response": "MCL"
+  },
+  {
+    "id": "2-F",
+    "question": "Which team will have the LONGEST pitstop in the first race of the season?",
+    "scoring": "GP",
+    "kh-response": "FER"
+  },
+  {
+    "id": "2-G",
+    "question": "Pick THREE races of the season YOU think the AlphaTauri drivers will do the BEST at.",
+    "scoring": "MISC-2",
+    "kh-response": "Bahrain,Baku,Monza"
+  },
+  {
+    "id": "2-H",
+    "question": "Pick a team - every time one of their drivers finishes 16th OR LOWER, you score points.",
+    "scoring": "MISC-3",
+    "kh-response": "AR"
+  },
+  {
+    "id": "2-G",
+    "question": "Which team will be the biggest winner compared to 2021?",
+    "scoring": "GP",
+    "kh-response": "WIL"
+  },
+  {
+    "id": "3-A",
+    "question": "Who will have the most laps led throughout the season?",
+    "scoring": "GP",
+    "kh-response": "LEC"
+  },
+  {
+    "id": "3-B",
+    "question": "Which drivers will receive the \"Driver of the Day\" award?",
+    "scoring": "MISC-4",
+    "kh-response": "GAS,HAM,LEC,NOR,RUS,SAI,VER,VET"
+  },
+  {
+    "id": "3-C",
+    "question": "Select ONE track for Sainz, Stroll, Tsunoda, Alonso, and Bottas.",
+    "scoring": "MISC-5",
+    "kh-response": "SAI-Zandvoort,STR-Canada,TSU-Bahrain,ALO-Barcelona,BOT-Belgium"
+  },
+  {
+    "id": "3-D",
+    "question": "Pick THREE drivers who will come the \"best of the rest\" the most.",
+    "scoring": "MISC-6",
+    "kh-response": "GAS,PER,SAI"
+  },
+  {
+    "id": "3-E",
+    "question": "Who are going to be the Q2 specialists?",
+    "scoring": "MISC-7",
+    "kh-response": "ALB,ALO,TSU,VET"
+  },
+  {
+    "id": "3-F",
+    "question": "Pick all the drivers you think will make the podium.",
+    "scoring": "MISC-8",
+    "kh-response": "GAS,HAM,LEC,NOR,PER,RIC,RUS,SAI,VER"
+  },
+  {
+    "id": "3-G",
+    "question": "Which driver will get the most grid penalties?",
+    "scoring": "MISC-9",
+    "kh-response": "RIC"
+  },
+  {
+    "id": "3-H",
+    "question": "Which drivers will be the most mischievous and get the most license point penalties?",
+    "scoring": "MISC-10",
+    "kh-response": "LEC,MAG"
+  },
+  {
+    "id": "3-I",
+    "question": "Select the drivers who you think will NOT be on the grid in 2023.",
+    "scoring": "MISC-11",
+    "kh-response": "ALO,MAG,TSU,ZHO"
+  },
+  {
+    "id": "3-J",
+    "question": "Who will be the biggest loser compared to 2021?",
+    "scoring": "GP",
+    "kh-response": "BOT"
+  },
+  {
+    "id": "3-K",
+    "question": "Pick THREE races of the season YOU think Leclerc will perform the BEST at.",
+    "scoring": "MISC-12",
+    "kh-response": "Baku,Zandvoort,Monza"
+  },
+  {
+    "id": "4-A",
+    "question": "Which team will score the most points at the Baku circuit?",
+    "scoring": "GP",
+    "kh-response": "FER"
+  },
+  {
+    "id": "4-B",
+    "question": "How many safety cars will there be during the Sunday races?",
+    "scoring": "VAL",
+    "kh-response": "15"
+  },
+  {
+    "id": "4-C",
+    "question": "How many Virtual Safety Cars (VSCs) will there be during the Sunday races?",
+    "scoring": "VAL",
+    "kh-response": "10"
+  },
+  {
+    "id": "4-D",
+    "question": "How many Red Flags will there be during the Sunday races?",
+    "scoring": "VAL",
+    "kh-response": "4"
+  },
+  {
+    "id": "4-E",
+    "question": "How many wet sessions will there be?",
+    "scoring": "VAL",
+    "kh-response": "20"
+  },
+  {
+    "id": "4-F",
+    "question": "Which race will be voted the fan favourite?",
+    "scoring": "GP",
+    "kh-response": "Monza"
+  },
+  {
+    "id": "4-G",
+    "question": "Pick THREE drivers you think will perform the best at the MIAMI circuit.",
+    "scoring": "MISC-13",
+    "kh-response": "HAM,LEC,VER"
+  },
+  {
+    "id": "4-H",
+    "question": "Pick FOUR tracks you think there will be the MOST DNFs during the race.",
+    "scoring": "MISC-13",
+    "kh-response": "Bahrain,Saudi,Emilia,Monaco"
+  },
+  {
+    "id": "5-A",
+    "question": "All teams will score points.",
+    "scoring": "BOOL",
+    "kh-response": true
+  },
+  {
+    "id": "5-B",
+    "question": "Russell outscores Perez.",
+    "scoring": "BOOL",
+    "kh-response": true
+  },
+  {
+    "id": "5-C",
+    "question": "The winning constructor takes 10 or fewer race wins.",
+    "scoring": "BOOL",
+    "kh-response": true
+  },
+  {
+    "id": "5-D",
+    "question": "Team in 10th place after Race 10 will still be 10th by the end of the season.",
+    "scoring": "BOOL",
+    "kh-response": true
+  },
+  {
+    "id": "5-E",
+    "question": "The Formula 2 Driver Champion gets a 2023 seat.",
+    "scoring": "BOOL",
+    "kh-response": true
+  },
+  {
+    "id": "5-F",
+    "question": "Select all the bold predictions you think will come true!",
+    "scoring": "BOOL-LIST",
+    "kh-response": "0,3,4,7,8,11,12"
+  },
+  {
+    "id": "6-A",
+    "question": "Mercedes vs Red Bull",
+    "scoring": "VS",
+    "kh-response": "MER"
+  },
+  {
+    "id": "6-B",
+    "question": "Ferrari vs McLaren",
+    "scoring": "VS",
+    "kh-response": "FER"
+  },
+  {
+    "id": "6-C",
+    "question": "Alpine vs AlphaTauri",
+    "scoring": "VS",
+    "kh-response": "AT"
+  },
+  {
+    "id": "6-D",
+    "question": "Aston Martin vs Williams",
+    "scoring": "VS",
+    "kh-response": "WIL"
+  },
+  {
+    "id": "6-E",
+    "question": "Alfa Romeo vs Haas",
+    "scoring": "VS",
+    "kh-response": "HAA"
+  },
+  {
+    "id": "6-F",
+    "question": "Mercedes Drivers Head to Head",
+    "scoring": "H2H",
+    "kh-response": "RUS,HAM"
+  },
+  {
+    "id": "6-G",
+    "question": "Red Bull Drivers Head to Head",
+    "scoring": "H2H",
+    "kh-response": "VER,VER"
+  },
+  {
+    "id": "6-H",
+    "question": "Ferrari Drivers Head to Head",
+    "scoring": "H2H",
+    "kh-response": "LEC,SAI"
+  },
+  {
+    "id": "6-I",
+    "question": "McLaren Drivers Head to Head",
+    "scoring": "H2H",
+    "kh-response": "NOR,NOR"
+  },
+  {
+    "id": "6-J",
+    "question": "Alpine Drivers Head to Head",
+    "scoring": "H2H",
+    "kh-response": "OCO,ALO"
+  },
+  {
+    "id": "6-K",
+    "question": "AlphaTauri Drivers Head to Head",
+    "scoring": "H2H",
+    "kh-response": "GAS,GAS"
+  },
+  {
+    "id": "6-L",
+    "question": "Aston Martin Drivers Head to Head",
+    "scoring": "H2H",
+    "kh-response": "VET,VET"
+  },
+  {
+    "id": "6-M",
+    "question": "Alfa Romeo Drivers Head to Head",
+    "scoring": "H2H",
+    "kh-response": "BOT,BOT"
+  },
+  {
+    "id": "6-N",
+    "question": "Williams Drivers Head to Head",
+    "scoring": "H2H",
+    "kh-response": "ALB,ALB"
+  },
+  {
+    "id": "6-O",
+    "question": "Haas Drivers Head to Head",
+    "scoring": "H2H",
+    "kh-response": "MSC,MAG"
+  },
+  {
+    "id": "7-1",
+    "question": "Constructor Championship Order",
+    "scoring": "ORDER",
+    "kh-response": "FER,MER,RBR,MCL,WIL,AT,AM,ALP,HAA,AR"
+  },
+  {
+    "id": "7-2",
+    "question": "Driver Championship Order",
+    "scoring": "ORDER",
+    "kh-response": "LEC,HAM,VER,SAI,RUS,NOR,PER,GAS,RIC,ALB,ALO,VET,TSU,OCO,STR,LAT,BOT,MSC,MAG,ZHO"
+  }
+]
