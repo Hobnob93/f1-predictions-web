@@ -80,6 +80,11 @@
     "country": "Italy"
   },
   {
+    "id": "RUS",
+    "name": "<Russia Replacement>",
+    "country": "CANCELLED"
+  }
+  {
     "id": "SIN",
     "name": "Marina Bay",
     "country": "Singapore"
