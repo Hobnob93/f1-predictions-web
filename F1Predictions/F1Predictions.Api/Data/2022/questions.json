@@ -8,7 +8,8 @@
     "sh-response": "RBR",
     "kc-response": "AR",
     "tw-response": "MCL",
-    "gh-response": "AR"
+    "gh-response": "AR",
+    "mg-response": "MCL"
   },
   {
     "id": "1-A",
@@ -19,7 +20,8 @@
     "sh-response": "RBR",
     "kc-response": "MER",
     "tw-response": "RBR",
-    "gh-response": "MER"
+    "gh-response": "MER",
+    "mg-response": "MER"
   },
   {
     "id": "1-B",
@@ -30,7 +32,8 @@
     "sh-response": 5,
     "kc-response": 3,
     "tw-response": 4,
-    "gh-response": 6
+    "gh-response": 6,
+    "mg-response": 10
   },
   {
     "id": "1-C",
@@ -41,7 +44,8 @@
     "sh-response": "AT",
     "kc-response": "AT",
     "tw-response": "ALP",
-    "gh-response": "AT"
+    "gh-response": "AT",
+    "mg-response": "AM"
   },
   {
     "id": "1-D",
@@ -52,7 +56,8 @@
     "sh-response": "HAA",
     "kc-response": "HAA",
     "tw-response": "WIL",
-    "gh-response": "WIL"
+    "gh-response": "WIL",
+    "mg-response": "HAA"
   },
   {
     "id": "1-E",
@@ -63,7 +68,8 @@
     "sh-response": "VER",
     "kc-response": "HAM",
     "tw-response": "VER",
-    "gh-response": "HAM"
+    "gh-response": "HAM",
+    "mg-response": "VER"
   },
   {
     "id": "1-F",
@@ -74,7 +80,8 @@
     "sh-response": 5,
     "kc-response": 3,
     "tw-response": 6,
-    "gh-response": 10
+    "gh-response": 10,
+    "mg-response": 5
   },
   {
     "id": "1-G",
@@ -85,7 +92,8 @@
     "sh-response": "ALO",
     "kc-response": "ALO",
     "tw-response": "OCO",
-    "gh-response": "VET"
+    "gh-response": "VET",
+    "mg-response": "GAS"
   },
   {
     "id": "1-H",
@@ -96,7 +104,8 @@
     "sh-response": "ZHO",
     "kc-response": "ZHO",
     "tw-response": "LAT",
-    "gh-response": "LAT"
+    "gh-response": "LAT",
+    "mg-response": "ZHO"
   },
   {
     "id": "1-I",
@@ -107,7 +116,8 @@
     "sh-response": "AM",
     "kc-response": "HAA",
     "tw-response": "AR",
-    "gh-response": "WIL"
+    "gh-response": "WIL",
+    "mg-response": "AR"
   },
   {
     "id": "1-J",
@@ -118,7 +128,8 @@
     "sh-response": "MER",
     "kc-response": "MCL",
     "tw-response": "AT",
-    "gh-response": "ALP"
+    "gh-response": "ALP",
+    "mg-response": "MER"
   },
   {
     "id": "1-K",
@@ -129,7 +140,8 @@
     "sh-response": "STR",
     "kc-response": "STR",
     "tw-response": "ZHO",
-    "gh-response": "ZHO"
+    "gh-response": "ZHO",
+    "mg-response": "LAT"
   },
   {
     "id": "1-L",
@@ -140,7 +152,8 @@
     "sh-response": "HAM",
     "kc-response": "HAM",
     "tw-response": "GAS",
-    "gh-response": "ALO"
+    "gh-response": "ALO",
+    "mg-response": "HAM"
   },
   {
     "id": "2-A",
@@ -151,7 +164,8 @@
     "sh-response": "MER",
     "kc-response": "MER",
     "tw-response": "MER",
-    "gh-response": "MER"
+    "gh-response": "MER",
+    "mg-response": "MER"
   },
   {
     "id": "2-B",
@@ -162,7 +176,8 @@
     "sh-response": "RBR",
     "kc-response": "RBR",
     "tw-response": "RBR",
-    "gh-response": "RBR"
+    "gh-response": "RBR",
+    "mg-response": "RBR"
   },
   {
     "id": "2-C",
@@ -173,7 +188,8 @@
     "sh-response": "ALP",
     "kc-response": "HAA",
     "tw-response": "AR",
-    "gh-response": "WIL"
+    "gh-response": "WIL",
+    "mg-response": "FER"
   },
   {
     "id": "2-D",
@@ -184,7 +200,8 @@
     "sh-response": "HAA,WIL",
     "kc-response": "AR,HAA",
     "tw-response": "AR,WIL",
-    "gh-response": "AR,WIL"
+    "gh-response": "AR,WIL",
+    "mg-response": "AR,HAA"
   },
   {
     "id": "2-E",
@@ -195,7 +212,8 @@
     "sh-response": "AM",
     "kc-response": "WIL",
     "tw-response": "WIL",
-    "gh-response": "WIL"
+    "gh-response": "WIL",
+    "mg-response": "WIL"
   },
   {
     "id": "2-F",
@@ -206,7 +224,8 @@
     "sh-response": "HAA",
     "kc-response": "AR",
     "tw-response": "HAA",
-    "gh-response": "HAA"
+    "gh-response": "HAA",
+    "mg-response": "AT"
   },
   {
     "id": "2-G",
@@ -217,7 +236,8 @@
     "sh-response": "EMR,MIA,BAK",
     "kc-response": "HUN,SPA,NED",
     "tw-response": "BAR,BAK,YMC",
-    "gh-response": "BAR,RUS,YMC"
+    "gh-response": "BAR,RUS,YMC",
+    "mg-response": "BAH,MIA,CAN"
   },
   {
     "id": "2-H",
@@ -228,7 +248,8 @@
     "sh-response": "WIL",
     "kc-response": "HAA",
     "tw-response": "WIL",
-    "gh-response": "WIL"
+    "gh-response": "WIL",
+    "mg-response": "HAA"
   },
   {
     "id": "2-G",
@@ -239,7 +260,8 @@
     "sh-response": "MCL",
     "kc-response": "AT",
     "tw-response": "HAA",
-    "gh-response": "HAA"
+    "gh-response": "HAA",
+    "mg-response": "FER"
   },
   {
     "id": "3-A",
@@ -250,7 +272,8 @@
     "sh-response": "VER",
     "kc-response": "VER",
     "tw-response": "VER",
-    "gh-response": "HAM"
+    "gh-response": "HAM",
+    "mg-response": "HAM"
   },
   {
     "id": "3-B",
@@ -261,7 +284,8 @@
     "sh-response": "ALB,ALO,GAS,HAM,LEC,NOR,OCO,PER,RIC,RUS,MSC,VER,VET",
     "kc-response": "ALO,HAM,LEC,NOR,RUS,VER",
     "tw-response": "ALO,HAM,LEC,NOR,RIC,RUS,MSC,VER",
-    "gh-response": "ALO,HAM,LEC,NOR,PER,RUS,SAI,MSC,VER,VET"
+    "gh-response": "ALO,HAM,LEC,NOR,PER,RUS,SAI,MSC,VER,VET",
+    "mg-response": "HAM,NOR,RUS"
   },
   {
     "id": "3-C",
@@ -272,7 +296,8 @@
     "sh-response": "SAI-MON,STR-MIA,TSU-EMR,ALO-AUS,BOT-SAA",
     "kc-response": "SAI-AUS,STR-BAR,TSU-MIA,ALO-SAA,BOT-EMR",
     "tw-response": "SAI-BAR,STR-CAN,TSU-JPN,ALO-HUN,BOT-SPA",
-    "gh-response": "SAI-BAH,STR-CAN,TSU-JPN,ALO-BAR,BOT-SAA"
+    "gh-response": "SAI-BAH,STR-CAN,TSU-JPN,ALO-BAR,BOT-SAA",
+    "mg-response": "SAI-BAR,STR-HUN,TSU-JPN,ALO-MZA,BOT-SPA"
   },
   {
     "id": "3-D",
@@ -283,7 +308,8 @@
     "sh-response": "GAS,NOR,RUS",
     "kc-response": "NOR,PER,RIC",
     "tw-response": "LEC,NOR,RUS",
-    "gh-response": "LEC,NOR,PER"
+    "gh-response": "LEC,NOR,PER",
+    "mg-response": "LEC,PER,RUS"
   },
   {
     "id": "3-E",
@@ -294,7 +320,8 @@
     "sh-response": "ALB,MAG,MSC,TSU",
     "kc-response": "BOT,LAT,STR,VET",
     "tw-response": "BOT,MSC,STR,TSU",
-    "gh-response": "BOT,MAG,MSC,TSU"
+    "gh-response": "BOT,MAG,MSC,TSU",
+    "mg-response": "ALB,MAG,SAI,VET"
   },
   {
     "id": "3-F",
@@ -305,7 +332,8 @@
     "sh-response": "GAS,HAM,LEC,NOR,PER,RIC,RUS,SAI,VER",
     "kc-response": "GAS,HAM,LEC,NOR,PER,RIC,RUS,SAI,VER",
     "tw-response": "ALO,GAS,HAM,LEC,NOR,PER,RIC,RUS,SAI,VER",
-    "gh-response": "ALO,GAS,HAM,LEC,NOR,PER,RIC,RUS,SAI,VER"
+    "gh-response": "ALO,GAS,HAM,LEC,NOR,PER,RIC,RUS,SAI,VER",
+    "mg-response": "HAM,NOR,PER,RUS,VER,VET"
   },
   {
     "id": "3-G",
@@ -316,7 +344,8 @@
     "sh-response": "MAG",
     "kc-response": "MSC",
     "tw-response": "ZHO",
-    "gh-response": "ZHO"
+    "gh-response": "ZHO",
+    "mg-response": "VER"
   },
   {
     "id": "3-H",
@@ -327,18 +356,21 @@
     "sh-response": "STR,TSU",
     "kc-response": "MAG,ZHO",
     "tw-response": "STR,ZHO",
-    "gh-response": "STR,ZHO"
+    "gh-response": "STR,ZHO",
+    "mg-response": "HAM,VER"
   },
   {
     "id": "3-I",
     "question": "Select the drivers who you think will NOT be on the grid in 2023.",
     "scoring": "MISC-11",
+    "star": "MG",
     "kh-response": "ALO,MAG,TSU,ZHO",
     "hi-response": "HAM,VET,ZHO",
     "sh-response": "LAT,MAG",
     "kc-response": "MAG,VET,ZHO",
     "tw-response": "ALO,LAT,MAG",
-    "gh-response": "ALO,MAG"
+    "gh-response": "ALO,MAG",
+    "mg-response": "ALB,TSU,ZHO"
   },
   {
     "id": "3-J",
@@ -349,7 +381,8 @@
     "sh-response": "BOT",
     "kc-response": "BOT",
     "tw-response": "BOT",
-    "gh-response": "BOT"
+    "gh-response": "BOT",
+    "mg-response": "BOT"
   },
   {
     "id": "3-K",
@@ -360,7 +393,8 @@
     "sh-response": "EMR,BAR,CTA",
     "kc-response": "EMR,GBR,MZA",
     "tw-response": "BAH,MON,MZA",
-    "gh-response": "BAH,MON,MZA"
+    "gh-response": "BAH,MON,MZA",
+    "mg-response": "BAR,MON,CPR"
   },
   {
     "id": "4-A",
@@ -371,7 +405,8 @@
     "sh-response": "RBR",
     "kc-response": "RBR",
     "tw-response": "FER",
-    "gh-response": "RBR"
+    "gh-response": "RBR",
+    "mg-response": "MER"
   },
   {
     "id": "4-B",
@@ -383,6 +418,7 @@
     "kc-response": 17,
     "tw-response": 18,
     "gh-response": 20,
+    "mg-response": 16
   },
   {
     "id": "4-C",
@@ -393,7 +429,8 @@
     "sh-response": 9,
     "kc-response": 9,
     "tw-response": 7,
-    "gh-response": 10
+    "gh-response": 10,
+    "mg-response": 10
   },
   {
     "id": "4-D",
@@ -404,7 +441,8 @@
     "sh-response": 8,
     "kc-response": 7,
     "tw-response": 8,
-    "gh-response": 9
+    "gh-response": 9,
+    "mg-response": 3
   },
   {
     "id": "4-E",
@@ -415,7 +453,8 @@
     "sh-response": 15,
     "kc-response": 20,
     "tw-response": 15,
-    "gh-response": 20
+    "gh-response": 20,
+    "mg-response": 20
   },
   {
     "id": "4-F",
@@ -426,7 +465,8 @@
     "sh-response": "MZA",
     "kc-response": "MON",
     "tw-response": "SPA",
-    "gh-response": "MZA"
+    "gh-response": "MZA",
+    "mg-response": "MIA"
   },
   {
     "id": "4-G",
@@ -437,7 +477,8 @@
     "sh-response": "HAM,RUS,VER",
     "kc-response": "HAM,RUS,VER",
     "tw-response": "NOR,SAI,VER",
-    "gh-response": "HAM,SAI,VER"
+    "gh-response": "HAM,SAI,VER",
+    "mg-response": "HAM,PER,VER"
   },
   {
     "id": "4-H",
@@ -448,7 +489,8 @@
     "sh-response": "BAH,MIA,MON,SIN",
     "kc-response": "BAH,AUS,BAK,SPA",
     "tw-response": "SAA,MON,BAK,SPA",
-    "gh-response": "SAA,MON,SPA,JPN"
+    "gh-response": "SAA,MON,SPA,JPN",
+    "mg-response": "RBR,CPR,SPA,RUS"
   },
   {
     "id": "5-A",
@@ -459,7 +501,8 @@
     "sh-response": true,
     "kc-response": false,
     "tw-response": false,
-    "gh-response": true
+    "gh-response": true,
+    "mg-response": true
   },
   {
     "id": "5-B",
@@ -470,7 +513,8 @@
     "sh-response": true,
     "kc-response": true,
     "tw-response": true,
-    "gh-response": true
+    "gh-response": true,
+    "mg-response": false
   },
   {
     "id": "5-C",
@@ -481,7 +525,8 @@
     "sh-response": false,
     "kc-response": false,
     "tw-response": true,
-    "gh-response": true
+    "gh-response": true,
+    "mg-response": false
   },
   {
     "id": "5-D",
@@ -492,7 +537,8 @@
     "sh-response": false,
     "kc-response": false,
     "tw-response": false,
-    "gh-response": false
+    "gh-response": false,
+    "mg-response": true
   },
   {
     "id": "5-E",
@@ -503,7 +549,8 @@
     "sh-response": false,
     "kc-response": true,
     "tw-response": false,
-    "gh-response": false
+    "gh-response": false,
+    "mg-response": true
   },
   {
     "id": "5-F",
@@ -514,7 +561,8 @@
     "sh-response": "4,9,10,11,12",
     "kc-response": "3,4,8,9,11",
     "tw-response": "2,3,4,9,12",
-    "gh-response": "0,3,9,10,12"
+    "gh-response": "0,3,9,10,12",
+    "mg-response": "9,10"
   },
   {
     "id": "6-A",
@@ -525,7 +573,8 @@
     "sh-response": "MER",
     "kc-response": "MER",
     "tw-response": "RBR",
-    "gh-response": "MER"
+    "gh-response": "MER",
+    "mg-response": "RBR"
   },
   {
     "id": "6-B",
@@ -536,7 +585,8 @@
     "sh-response": "MCL",
     "kc-response": "FER",
     "tw-response": "FER",
-    "gh-response": "FER"
+    "gh-response": "FER",
+    "mg-response": "FER"
   },
   {
     "id": "6-C",
@@ -547,7 +597,8 @@
     "sh-response": "AT",
     "kc-response": "AT",
     "tw-response": "ALP",
-    "gh-response": "AT"
+    "gh-response": "AT",
+    "mg-response": "AT"
   },
   {
     "id": "6-D",
@@ -558,7 +609,8 @@
     "sh-response": "AM",
     "kc-response": "AM",
     "tw-response": "AM",
-    "gh-response": "AM"
+    "gh-response": "AM",
+    "mg-response": "AM"
   },
   {
     "id": "6-E",
@@ -569,7 +621,8 @@
     "sh-response": "AR",
     "kc-response": "AR",
     "tw-response": "HAA",
-    "gh-response": "HAA"
+    "gh-response": "HAA",
+    "mg-response": "AR"
   },
   {
     "id": "6-F",
@@ -580,7 +633,8 @@
     "sh-response": "HAM,HAM",
     "kc-response": "HAM,HAM",
     "tw-response": "HAM,HAM",
-    "gh-response": "HAM,HAM"
+    "gh-response": "HAM,HAM",
+    "mg-response": "HAM,HAM"
   },
   {
     "id": "6-G",
@@ -591,7 +645,8 @@
     "sh-response": "VER,VER",
     "kc-response": "VER,VER",
     "tw-response": "VER,VER",
-    "gh-response": "VER,VER"
+    "gh-response": "VER,VER",
+    "mg-response": "VER,VER"
   },
   {
     "id": "6-H",
@@ -602,7 +657,8 @@
     "sh-response": "LEC,SAI",
     "kc-response": "LEC,LEC",
     "tw-response": "LEC,SAI",
-    "gh-response": "LEC,SAI"
+    "gh-response": "LEC,SAI",
+    "mg-response": "LEC,LEC"
   },
   {
     "id": "6-I",
@@ -613,7 +669,8 @@
     "sh-response": "NOR,NOR",
     "kc-response": "NOR,NOR",
     "tw-response": "NOR,NOR",
-    "gh-response": "NOR,NOR"
+    "gh-response": "NOR,NOR",
+    "mg-response": "RIC,RIC"
   },
   {
     "id": "6-J",
@@ -624,7 +681,8 @@
     "sh-response": "ALO,ALO",
     "kc-response": "ALO,ALO",
     "tw-response": "ALO,OCO",
-    "gh-response": "ALO,OCO"
+    "gh-response": "ALO,OCO",
+    "mg-response": "OCO,ALO"
   },
   {
     "id": "6-K",
@@ -635,7 +693,8 @@
     "sh-response": "GAS,GAS",
     "kc-response": "GAS,GAS",
     "tw-response": "GAS,GAS",
-    "gh-response": "GAS,GAS"
+    "gh-response": "GAS,GAS",
+    "mg-response": "TSU,GAS"
   },
   {
     "id": "6-L",
@@ -646,7 +705,8 @@
     "sh-response": "VET,VET",
     "kc-response": "STR,VET",
     "tw-response": "VET,VET",
-    "gh-response": "VET,VET"
+    "gh-response": "VET,VET",
+    "mg-response": "VET,VET"
   },
   {
     "id": "6-M",
@@ -657,7 +717,8 @@
     "sh-response": "BOT,BOT",
     "kc-response": "BOT,BOT",
     "tw-response": "BOT,BOT",
-    "gh-response": "BOT,BOT"
+    "gh-response": "BOT,BOT",
+    "mg-response": "BOT,BOT"
   },
   {
     "id": "6-N",
@@ -668,7 +729,8 @@
     "sh-response": "ALB,ALB",
     "kc-response": "ALB,ALB",
     "tw-response": "LAT,ALB",
-    "gh-response": "ALB,ALB"
+    "gh-response": "ALB,ALB",
+    "mg-response": "ALB,ALB"
   },
   {
     "id": "6-O",
@@ -679,7 +741,8 @@
     "sh-response": "MAG,MSC",
     "kc-response": "MSC,MSC",
     "tw-response": "MSC,MAG",
-    "gh-response": "MSC,MAG"
+    "gh-response": "MSC,MAG",
+    "mg-response": "MSC,MAG"
   },
   {
     "id": "7-1",
@@ -690,7 +753,8 @@
     "sh-response": "RBR,MER,MCL,FER,AT,ALP,AM,AR,WIL,HAA",
     "kc-response": "MER,RBR,FER,MCL,AT,ALP,AM,WIL,AR,HAA",
     "tw-response": "MER,RBR,FER,MCL,ALP,AT,AM,AR,HAA,WIL",
-    "gh-response": "MER,RBR,FER,MCL,ALP,AT,AM,AR,HAA,WIL"
+    "gh-response": "MER,RBR,FER,MCL,ALP,AT,AM,AR,HAA,WIL",
+    "mg-response": "MER,RBR,FER,MCL,AM,AT,AR,ALP,WIL,HAA"
   },
   {
     "id": "7-2",
@@ -702,6 +766,7 @@
     "sh-response": "VER,HAM,RUS,PER,SAI,NOR,RIC,LEC,GAS,ALO,BOT,VET,OCO,TSU,ALB,STR,MAG,MSC,LAT,ZHO",
     "kc-response": "HAM,VER,RUS,LEC,SAI,PER,NOR,RIC,GAS,ALO,VET,TSU,OCO,ALB,BOT,STR,LAT,MAG,MSC,ZHO",
     "tw-response": "VER,HAM,RUS,LEC,NOR,PER,SAI,RIC,ALO,GAS,OCO,TSU,VET,BOT,STR,MAG,MSC,LAT,ALB,ZHO",
-    "gh-response": "HAM,VER,RUS,PER,LEC,NOR,SAI,GAS,ALO,RIC,VET,STR,OCO,TSU,MSC,MAG,ALB,BOT,ZHO,LAT"
+    "gh-response": "HAM,VER,RUS,PER,LEC,NOR,SAI,GAS,ALO,RIC,VET,STR,OCO,TSU,MSC,MAG,ALB,BOT,ZHO,LAT",
+    "mg-response": "VER,HAM,PER,RUS,SAI,NOR,LEC,RIC,GAS,VET,ALB,ALO,BOT,LAT,OCO,MAG,STR,TSU,ZHO,MSC"
   }
 ]
