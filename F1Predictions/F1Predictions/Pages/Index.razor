@@ -9,39 +9,39 @@
     <MudContainer id="core-container" MaxWidth="MaxWidth.ExtraExtraLarge">
         <TitleBar />
         
-        <MudPaper id="question-container" Class="pa-4 d-flex flex-column justify-space-between" Elevation="0">
+        <MudPaper id="question-container" Class="pa-4 d-flex flex-column justify-start gap-8" Elevation="0">
             <MudChip id="question-chip" Class="mt-n4">Welcome, everyone! Another season has gone, and with that comes another conclusion to our predictions! I hope you're ready to laugh at your younger self for making such foolish predictions. Good luck!</MudChip>
-            <MudGrid>
-                <MudItem xs="6">
-                    <Competitor Index="0" Initials="KH" TeamId="rbr" />
-                </MudItem>
-                <MudItem xs="6">
-                    <Competitor Index="1" Initials="SH" TeamId="fer" />
-                </MudItem>
-                <MudItem xs="6">
-                    <Competitor Index="2" Initials="HI" TeamId="mer" />
-                </MudItem>
-                <MudItem xs="6">
-                    <Competitor Index="3" Initials="KC" TeamId="alp" />
-                </MudItem>
-                <MudItem xs="6">
-                    <Competitor Index="4" Initials="TW" TeamId="mcl" />
-                </MudItem>
-                <MudItem xs="6">
-                    <Competitor Index="5" Initials="GH" TeamId="ar" />
-                </MudItem>
-                <MudItem xs="6">
-                    <Competitor Index="6" Initials="MG" TeamId="haa" />
-                </MudItem>
-                <MudItem xs="6">
-                    <Competitor Index="7" Initials="CB" TeamId="at" />
-                </MudItem>
-                <MudItem xs="6">
-                    <Competitor Index="8" Initials="MH" TeamId="am" />
-                </MudItem>
-                <MudItem xs="6">
-                    <Competitor Index="9" Initials="KB" TeamId="wil" />
-                </MudItem>
+            <MudGrid Spacing="1">
+                <ResponseContainer Index="0">
+                    <Competitor Initials="KH" TeamId="rbr" Breathe="true" />
+                </ResponseContainer>
+                <ResponseContainer Index="1">
+                    <Competitor Initials="SH" TeamId="fer" Breathe="true" />
+                </ResponseContainer>
+                <ResponseContainer Index="2">
+                    <Competitor Initials="HI" TeamId="mer" Breathe="true" />
+                </ResponseContainer>
+                <ResponseContainer Index="3">
+                    <Competitor Initials="KC" TeamId="alp" Breathe="true" />
+                </ResponseContainer>
+                <ResponseContainer Index="4">
+                    <Competitor Initials="TW" TeamId="mcl" Breathe="true" />
+                </ResponseContainer>
+                <ResponseContainer Index="5">
+                    <Competitor Initials="GH" TeamId="ar" Breathe="true" />
+                </ResponseContainer>
+                <ResponseContainer Index="6">
+                    <Competitor Initials="MG" TeamId="haa" Breathe="true" />
+                </ResponseContainer>
+                <ResponseContainer Index="7">
+                    <Competitor Initials="CB" TeamId="at" Breathe="true" />
+                </ResponseContainer>
+                <ResponseContainer Index="8">
+                    <Competitor Initials="MH" TeamId="am" Breathe="true" />
+                </ResponseContainer>
+                <ResponseContainer Index="9">
+                    <Competitor Initials="KB" TeamId="wil" Breathe="true" />
+                </ResponseContainer>
             </MudGrid>
 
             <MudPaper Class="pa-5" Elevation="0">
