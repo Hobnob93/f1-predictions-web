@@ -4,80 +4,60 @@
 		"name": "Red Bull Racing",
 		"short-name": "Red Bull",
 		"image-name": "red-bull",
-		"color": "#3671C6",
-		"car-location": "images/2022/cars/red-bull.png",
-		"team-location": "images/2022/teams/red-bull.png"
+		"color": "#3671C6"
 	},
 	{
 		"id": "FER",
 		"name": "Ferrari",
 		"image-name": "ferrari",
-		"color": "#F91536",
-		"car-location": "images/2022/cars/ferrari.png",
-		"team-location": "images/2022/teams/ferrari.png"
+		"color": "#F91536"
 	},
 	{
 		"id": "MER",
 		"name": "Mercedes",
 		"image-name": "mercedes",
-		"color": "#6CD3BF",
-		"car-location": "images/2022/cars/mercedes.png",
-		"team-location": "images/2022/teams/mercedes.png"
+		"color": "#6CD3BF"
 	},
 	{
 		"id": "ALP",
 		"name": "Alpine",
 		"image-name": "alpine",
-		"color": "#2293D1",
-		"car-location": "images/2022/cars/alpine.png",
-		"team-location": "images/2022/teams/alpine.png"
+		"color": "#2293D1"
 	},
 	{
 		"id": "MCL",
 		"name": "McLaren",
 		"image-name": "mclaren",
-		"color": "#F58020",
-		"car-location": "images/2022/cars/mclaren.png",
-		"team-location": "images/2022/teams/mclaren.png"
+		"color": "#F58020"
 	},
 	{
 		"id": "AR",
 		"name": "Alfa Romeo",
 		"image-name": "alfa-romeo",
-		"color": "#C92D4B",
-		"car-location": "images/2022/cars/alfa-romeo.png",
-		"team-location": "images/2022/teams/alfa-romeo.png"
+		"color": "#C92D4B"
 	},
 	{
 		"id": "HAA",
 		"name": "Haas",
 		"image-name": "haas",
-		"color": "#B6BABD",
-		"car-location": "images/2022/cars/haas.png",
-		"team-location": "images/2022/teams/haas.png"
+		"color": "#B6BABD"
 	},
 	{
 		"id": "AT",
 		"name": "Alpha Tauri",
 		"image-name": "alpha-tauri",
-		"color": "#5E8FAA",
-		"car-location": "images/2022/cars/alpha-tauri.png",
-		"team-location": "images/2022/teams/alpha-tauri.png"
+		"color": "#5E8FAA"
 	},
 	{
 		"id": "AM",
 		"name": "Aston Martin",
 		"image-name": "aston-martin",
-		"color": "#358C75",
-		"car-location": "images/2022/cars/aston-martin.png",
-		"team-location": "images/2022/teams/aston-martin.png"
+		"color": "#358C75"
 	},
 	{
 		"id": "WIL",
 		"name": "Williams",
 		"image-name": "williams",
-		"color": "#37BEDD",
-		"car-location": "images/2022/cars/williams.png",
-		"team-location": "images/2022/teams/williams.png"
+		"color": "#37BEDD"
 	}
 ]
