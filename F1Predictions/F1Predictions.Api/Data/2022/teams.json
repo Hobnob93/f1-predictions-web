@@ -4,60 +4,70 @@
 		"name": "Red Bull Racing",
 		"short-name": "Red Bull",
 		"image-name": "red-bull",
-		"color": "#3671C6"
+		"color": "#3671C6",
+		"location": "images/2022/cars/red-bull.png"
 	},
 	{
 		"id": "FER",
 		"name": "Ferrari",
 		"image-name": "ferrari",
-		"color": "#F91536"
+		"color": "#F91536",
+		"location": "images/2022/cars/ferrari.png"
 	},
 	{
 		"id": "MER",
 		"name": "Mercedes",
 		"image-name": "mercedes",
-		"color": "#6CD3BF"
+		"color": "#6CD3BF",
+		"location": "images/2022/cars/mercedes.png"
 	},
 	{
 		"id": "ALP",
 		"name": "Alpine",
 		"image-name": "alpine",
-		"color": "#2293D1"
+		"color": "#2293D1",
+		"location": "images/2022/cars/alpine.png"
 	},
 	{
 		"id": "MCL",
 		"name": "McLaren",
 		"image-name": "mclaren",
-		"color": "#F58020"
+		"color": "#F58020",
+		"location": "images/2022/cars/mclaren.png"
 	},
 	{
 		"id": "AR",
 		"name": "Alfa Romeo",
 		"image-name": "alfa-romeo",
-		"color": "#C92D4B"
+		"color": "#C92D4B",
+		"location": "images/2022/cars/alfa-romeo.png"
 	},
 	{
 		"id": "HAA",
 		"name": "Haas",
 		"image-name": "haas",
-		"color": "#B6BABD"
+		"color": "#B6BABD",
+		"location": "images/2022/cars/haas.png"
 	},
 	{
 		"id": "AT",
 		"name": "Alpha Tauri",
 		"image-name": "alpha-tauri",
-		"color": "#5E8FAA"
+		"color": "#5E8FAA",
+		"location": "images/2022/cars/alpha-tauri.png"
 	},
 	{
 		"id": "AM",
 		"name": "Aston Martin",
 		"image-name": "aston-martin",
-		"color": "#358C75"
+		"color": "#358C75",
+		"location": "images/2022/cars/aston-martin.png"
 	},
 	{
 		"id": "WIL",
 		"name": "Williams",
 		"image-name": "williams",
-		"color": "#37BEDD"
+		"color": "#37BEDD",
+		"location": "images/2022/cars/williams.png"
 	}
 ]
