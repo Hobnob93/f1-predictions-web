@@ -15,7 +15,7 @@ namespace F1Predictions.Components.Response
         public string? TeamId { get; set; }
 
         [Parameter]
-        public bool Breathe { get; set; }
+        public bool Breathe { get; set; } = true;
 
         private string Classes => new CssBuilder()
             .AddClass("competitor")
