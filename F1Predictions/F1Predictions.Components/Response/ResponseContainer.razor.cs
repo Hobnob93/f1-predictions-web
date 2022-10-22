@@ -15,11 +15,10 @@ namespace F1Predictions.Components.Response
 
         private string Classes => new CssBuilder()
             .AddClass("d-flex")
-            .AddClass("flex-row")
             .AddClass("z-10")
-            .AddClass("justify-start", when: !IsRightAligned)
+            .AddClass("flex-row", when: !IsRightAligned)
+            .AddClass("flex-row-reverse", when: IsRightAligned)
             .AddClass("ml-n11", when: !IsRightAligned)
-            .AddClass("justify-end", when: IsRightAligned)
             .AddClass("mr-n11", when: IsRightAligned)
             .AddClass(Class, when: Class is not null)
             .Build();
