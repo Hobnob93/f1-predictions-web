@@ -15,6 +15,7 @@ namespace F1Predictions.Pages
         {
             await base.OnAfterRenderAsync(firstRender);
 
+            await DataInitializer.InitializeCompetitorsAsync();
             await DataInitializer.InitializeTeamsAsync();
 
             NavManager.NavigateTo("/results");

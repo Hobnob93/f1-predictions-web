@@ -2,6 +2,7 @@
 {
     public interface IDataServicesInitializer
     {
+        Task InitializeCompetitorsAsync();
         Task InitializeTeamsAsync();
     }
 }

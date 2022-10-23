@@ -15,6 +15,7 @@ builder.Services.Configure<ApiEndpointConfig>(config.GetSection(ApiEndpointConfi
 
 builder.Services.AddTransient<IWebApiRequest, WebApiRequest>();
 
+builder.Services.AddScoped<ICompetitorsDataService, CompetitorsDataService>();
 builder.Services.AddScoped<ITeamsDataService, TeamsDataService>();
 builder.Services.AddScoped<IDataServicesInitializer, DataServicesInitializer>();
 
