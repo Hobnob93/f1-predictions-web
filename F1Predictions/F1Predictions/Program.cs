@@ -15,6 +15,8 @@ builder.Services.Configure<ApiEndpointConfig>(config.GetSection(ApiEndpointConfi
 
 builder.Services.AddTransient<IWebApiRequest, WebApiRequest>();
 
+builder.Services.AddScoped<ITeamsDataService, TeamsDataService>();
+
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddMudServices();
 
