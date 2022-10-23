@@ -11,47 +11,17 @@
 
         <MudPaper id="question-container" Class="pa-4 d-flex flex-column justify-start gap-8" Elevation="0">
             <MudChip id="question-chip" Class="mt-n4">Welcome, everyone! Another season has gone, and with that comes another conclusion to our predictions! I hope you're ready to laugh at your younger self for making such foolish predictions. Good luck!</MudChip>
+
             <MudGrid Spacing="1">
-                <ResponseContainer Index="0">
-                    <Competitor Initials="KH" TeamId="rbr" />
-                    <Car TeamId="rbr" />
-                </ResponseContainer>
-                <ResponseContainer Index="1">
-                    <Competitor Initials="SH" TeamId="fer" />
-                    <Car TeamId="fer" />
-                </ResponseContainer>
-                <ResponseContainer Index="2">
-                    <Competitor Initials="HI" TeamId="mer" />
-                    <Car TeamId="mer" />
-                </ResponseContainer>
-                <ResponseContainer Index="3">
-                    <Competitor Initials="KC" TeamId="alp" />
-                    <Car TeamId="alp" />
-                </ResponseContainer>
-                <ResponseContainer Index="4">
-                    <Competitor Initials="TW" TeamId="mcl" />
-                    <Car TeamId="mcl" />
-                </ResponseContainer>
-                <ResponseContainer Index="5">
-                    <Competitor Initials="GH" TeamId="ar" />
-                    <Car TeamId="ar" />
-                </ResponseContainer>
-                <ResponseContainer Index="6">
-                    <Competitor Initials="MG" TeamId="haa" />
-                    <Car TeamId="haa" />
-                </ResponseContainer>
-                <ResponseContainer Index="7">
-                    <Competitor Initials="CB" TeamId="at" />
-                    <Car TeamId="at" />
-                </ResponseContainer>
-                <ResponseContainer Index="8">
-                    <Competitor Initials="MH" TeamId="am" />
-                    <Car TeamId="am" />
-                </ResponseContainer>
-                <ResponseContainer Index="9">
-                    <Competitor Initials="KB" TeamId="wil" />
-                    <Car TeamId="wil" />
-                </ResponseContainer>
+                @for (var i = 0; i < CompetitorsService.Data.Count; i++)
+                {
+                    var competitor = CompetitorsService.Data[i];
+
+                    <ResponseContainer Index="@i">
+                        <Competitor Initials="@competitor.Id" TeamId="@competitor.LiveryId.ToLower()"/>
+                        <Car TeamId="@competitor.LiveryId" />
+                    </ResponseContainer>
+                }
             </MudGrid>
 
             <MudPaper Class="pa-5" Elevation="0">
