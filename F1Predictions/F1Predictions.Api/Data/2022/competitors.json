@@ -3,60 +3,70 @@
     "id": "KH",
     "name": "Kyle",
     "nickname": "Hobnob",
+    "color": "#28e0d4",
     "liveryId": "MCL"
   },
   {
     "id": "SH",
     "name": "Samantha",
     "nickname": "Sammy",
+    "color": "#ffc2fa",
     "liveryId": "RBR"
   },
   {
     "id": "HI",
     "name": "Sam",
     "nickname": "Higgy",
+    "color": "#000000",
     "liveryId": "ALP"
   },
   {
     "id": "KC",
     "name": "Keith",
     "nickname": "Bubbles",
+    "color": "#4f34eb",
     "liveryId": "AR"
   },
   {
     "id": "TW",
     "name": "Tiegan",
     "nickname": "Tigs",
+    "color": "#34c6eb",
     "liveryId": "MCL"
   },
   {
     "id": "GH",
     "name": "Gareth",
     "nickname": "Gdog",
+    "color": "#000000",
     "liveryId": "AR"
   },
   {
     "id": "MG",
     "name": "Mike",
     "nickname": "Ginge",
+    "color": "#f27216",
     "liveryId": "MCL"
   },
   {
     "id": "CB",
     "name": "Courtney",
     "nickname": "Courtney",
+    "color": "#000000",
     "liveryId": "MER"
   },
   {
     "id": "KB",
     "name": "Katie",
     "nickname": "Haassoulders Kneesandtoes",
+    "color": "#c163ff",
     "liveryId": "AM"
   },
   {
     "id": "MH",
     "name": "Michael",
     "nickname": "8 times world champ",
+    "color": "#000000",
     "liveryId": "MCL"
   }
 ]

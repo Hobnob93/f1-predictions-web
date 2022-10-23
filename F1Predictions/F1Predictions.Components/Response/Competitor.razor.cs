@@ -1,4 +1,5 @@
 ﻿using BlazorComponentUtilities;
+using F1Predictions.Core.Interfaces;
 using Microsoft.AspNetCore.Components;
 
 namespace F1Predictions.Components.Response
@@ -8,11 +9,11 @@ namespace F1Predictions.Components.Response
         [Parameter, EditorRequired]
         public string Initials { get; set; } = string.Empty;
 
-        [Parameter]
-        public string Name { get; set; } = string.Empty;
+        [Parameter, EditorRequired]
+        public string Color { get; set; } = string.Empty;
 
         [Parameter]
-        public string? TeamId { get; set; }
+        public string Name { get; set; } = string.Empty;
 
         [Parameter]
         public bool Breathe { get; set; } = true;
@@ -20,12 +21,14 @@ namespace F1Predictions.Components.Response
         private string Classes => new CssBuilder()
             .AddClass("competitor")
             .AddClass("nameplate")
-            .AddClass(TeamId, when: TeamId is not null)
-            .AddClass($"{TeamId}-border", when: TeamId is not null)
-            .AddClass("null-team", when: TeamId is null)
-            .AddClass("null-team-border", when: TeamId is null)
             .AddClass(Class, when: Class is not null)
             .AddClass("breathe", when: Breathe)
             .Build();
+
+        private string ColorStyles => new StyleBuilder()
+            .AddStyle("color", Color)
+            .Build();
+
+        private string Styles => $"{Style} {ColorStyles}";
     }
 }

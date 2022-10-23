@@ -18,7 +18,7 @@
                     var competitor = CompetitorsService.Data[i];
 
                     <ResponseContainer Index="@i">
-                        <Competitor Initials="@competitor.Id" TeamId="@competitor.LiveryId.ToLower()"/>
+                        <Competitor Initials="@competitor.Id" Color="@competitor.Color"/>
                         <Car TeamId="@competitor.LiveryId" />
                     </ResponseContainer>
                 }
