@@ -1,5 +1,7 @@
 using F1Predictions;
 using F1Predictions.Core.Config;
+using F1Predictions.Core.Interfaces;
+using F1Predictions.Core.Services;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using MudBlazor.Services;
@@ -11,7 +13,11 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 var config = builder.Configuration;
 builder.Services.Configure<ApiEndpointConfig>(config.GetSection(ApiEndpointConfig.Section));
 
+builder.Services.AddTransient<IWebApiRequest, WebApiRequest>();
+
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddMudServices();
+
+builder.Services.AddHttpClient();
 
 await builder.Build().RunAsync();
