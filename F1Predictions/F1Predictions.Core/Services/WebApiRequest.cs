@@ -42,6 +42,7 @@ namespace F1Predictions.Core.Services
         private string GetEndpoint(ApiEndpoint endpoint) =>
             endpoint switch
             {
+                ApiEndpoint.Competitors => _config.Competitors,
                 ApiEndpoint.Teams => _config.Teams,
                 _ => throw new InvalidOperationException($"The endpoint {endpoint} has not been defined.")
             };

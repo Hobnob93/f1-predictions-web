@@ -2,6 +2,7 @@
 {
     public enum ApiEndpoint
     {
+        Competitors,
         Teams
     }
 }
