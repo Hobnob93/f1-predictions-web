@@ -6,6 +6,6 @@
 
         T FindItem(string id);
 
-        Task Initialize();
+        Task InitializeAsync();
     }
 }

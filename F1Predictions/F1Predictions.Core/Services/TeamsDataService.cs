@@ -20,7 +20,7 @@ namespace F1Predictions.Core.Services
             return Data.Single(d => string.Equals(d.Id, id, StringComparison.OrdinalIgnoreCase));
         }
 
-        public async Task Initialize()
+        public async Task InitializeAsync()
         {
             Data = (await _apiWebRequest.GetAsync<IEnumerable<Team>>(ApiEndpoint.Teams))
                 .ToList();
