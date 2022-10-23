@@ -3,7 +3,7 @@
     "id": "KH",
     "name": "Kyle",
     "nickname": "Hobnob",
-    "liveryId": "AT"
+    "liveryId": "MCL"
   },
   {
     "id": "SH",
@@ -33,30 +33,30 @@
     "id": "GH",
     "name": "Gareth",
     "nickname": "Gdog",
-    "liveryId": "FER"
+    "liveryId": "AR"
   },
   {
     "id": "MG",
     "name": "Mike",
     "nickname": "Ginge",
-    "liveryId": "AM"
+    "liveryId": "MCL"
   },
   {
     "id": "CB",
     "name": "Courtney",
     "nickname": "Courtney",
-    "liveryId": "WIL"
+    "liveryId": "MER"
   },
   {
     "id": "KB",
     "name": "Katie",
     "nickname": "Haassoulders Kneesandtoes",
-    "liveryId": "HAA"
+    "liveryId": "AM"
   },
   {
     "id": "MH",
     "name": "Michael",
     "nickname": "8 times world champ",
-    "liveryId": "MER"
+    "liveryId": "MCL"
   }
 ]

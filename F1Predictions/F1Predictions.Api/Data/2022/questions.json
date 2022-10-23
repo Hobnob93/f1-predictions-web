@@ -1,20 +1,5 @@
 [
   {
-    "id": "0-A",
-    "question": "Which is your favourite livery?",
-    "scoring": "NA",
-    "khResponse": "MCL",
-    "hiResponse": "ALP",
-    "shResponse": "RBR",
-    "kcResponse": "AR",
-    "twResponse": "MCL",
-    "ghResponse": "AR",
-    "mgResponse": "MCL",
-    "kbResponse": "AM",
-    "cbResponse": "MER",
-    "mhResponse": "MCL"
-  },
-  {
     "id": "1-A",
     "question": "Who will win Constructor's Championship?",
     "scoring": "GP",
