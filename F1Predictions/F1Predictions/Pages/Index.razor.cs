@@ -17,7 +17,7 @@ namespace F1Predictions.Pages
 
             await DataInitializer.InitializeTeamsAsync();
 
-            NavManager.NavigateTo("/result");
+            NavManager.NavigateTo("/results");
         }
     }
 }
