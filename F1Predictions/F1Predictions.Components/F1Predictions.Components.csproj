@@ -17,4 +17,8 @@
     <PackageReference Include="MudBlazor" Version="6.0.16" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\F1Predictions.Core\F1Predictions.Core.csproj" />
+  </ItemGroup>
+
 </Project>
