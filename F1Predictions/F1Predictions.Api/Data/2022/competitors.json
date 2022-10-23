@@ -4,6 +4,7 @@
     "name": "Kyle",
     "nickname": "Hobnob",
     "color": "#28e0d4",
+    "useDarkText": true,
     "liveryId": "MCL"
   },
   {
@@ -11,6 +12,7 @@
     "name": "Samantha",
     "nickname": "Sammy",
     "color": "#ffc2fa",
+    "useDarkText": true,
     "liveryId": "RBR"
   },
   {
@@ -32,6 +34,7 @@
     "name": "Tiegan",
     "nickname": "Tigs",
     "color": "#34c6eb",
+    "useDarkText": true,
     "liveryId": "MCL"
   },
   {
@@ -46,6 +49,7 @@
     "name": "Mike",
     "nickname": "Ginge",
     "color": "#f27216",
+    "useDarkText": true,
     "liveryId": "MCL"
   },
   {
@@ -60,6 +64,7 @@
     "name": "Katie",
     "nickname": "Haassoulders Kneesandtoes",
     "color": "#c163ff",
+    "useDarkText": true,
     "liveryId": "AM"
   },
   {
