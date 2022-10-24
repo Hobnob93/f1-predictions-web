@@ -19,6 +19,7 @@ builder.Services.AddScoped<ICompetitorsDataService, CompetitorsDataService>();
 builder.Services.AddScoped<ITeamsDataService, TeamsDataService>();
 builder.Services.AddScoped<IQuestionsDataService, QuestionsDataService>();
 builder.Services.AddScoped<IDataServicesInitializer, DataServicesInitializer>();
+builder.Services.AddScoped<IAnswerService, AnswerService>();
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddMudServices();
