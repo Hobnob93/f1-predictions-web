@@ -27,7 +27,7 @@ namespace F1Predictions.Core.Services
                 endpoint = string.Format(endpoint, parameters);
 
             var request = new HttpRequestMessage(HttpMethod.Get, $"{_config.BaseUrl}{endpoint}");
-            var  = await client.SendAsync(request);
+            var response = await client.SendAsync(request);
 
             var options = new JsonSerializerOptions
             {
@@ -35,8 +35,8 @@ namespace F1Predictions.Core.Services
             };
 
             // TODO: check status code
-            using var Stream = await .Content.ReadAsStreamAsync();
-            return await JsonSerializer.DeserializeAsync<T>(Stream, options) ?? throw new InvalidCastException("Could not deserialize  stream.");
+            using var Stream = await response.Content.ReadAsStreamAsync();
+            return await JsonSerializer.DeserializeAsync<T>(Stream, options) ?? throw new InvalidCastException("Could not deserialize response stream.");
         }
 
         private string GetEndpoint(ApiEndpoint endpoint) =>
@@ -44,6 +44,7 @@ namespace F1Predictions.Core.Services
             {
                 ApiEndpoint.Competitors => _config.Competitors,
                 ApiEndpoint.Teams => _config.Teams,
+                ApiEndpoint.Questions => _config.Questions,
                 _ => throw new InvalidOperationException($"The endpoint {endpoint} has not been defined.")
             };
     }

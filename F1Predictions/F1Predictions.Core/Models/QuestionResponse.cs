@@ -5,15 +5,15 @@
         public string Id { get; set; } = string.Empty;
         public string Question { get; set; } = string.Empty;
         public string Scoring { get; set; } = string.Empty;
-        public string KH { get; set; } = string.Empty;
-        public string HI { get; set; } = string.Empty;
-        public string SH { get; set; } = string.Empty;
-        public string KC { get; set; } = string.Empty;
-        public string TW { get; set; } = string.Empty;
-        public string GH { get; set; } = string.Empty;
-        public string MG { get; set; } = string.Empty;
-        public string KB { get; set; } = string.Empty;
-        public string CB { get; set; } = string.Empty;
-        public string MH { get; set; } = string.Empty;
+        public object KH { get; set; } = default!;
+        public object HI { get; set; } = default!;
+        public object SH { get; set; } = default!;
+        public object KC { get; set; } = default!;
+        public object TW { get; set; } = default!;
+        public object GH { get; set; } = default!;
+        public object MG { get; set; } = default!;
+        public object KB { get; set; } = default!;
+        public object CB { get; set; } = default!;
+        public object MH { get; set; } = default!;
     }
 }
