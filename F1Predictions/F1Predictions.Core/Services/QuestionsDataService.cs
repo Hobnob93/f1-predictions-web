@@ -9,6 +9,11 @@ namespace F1Predictions.Core.Services
         private readonly IWebApiRequest _apiWebRequest;
 
         public List<QuestionResponse> Data { get; private set; } = new();
+        public QuestionResponse? CurrentQuestion { get; private set; }
+
+        public event Func<Task>? StateChanged;
+
+        private int _currentIndex;
 
         public QuestionsDataService(IWebApiRequest apiWebRequest)
         {
@@ -24,6 +29,39 @@ namespace F1Predictions.Core.Services
         {
             Data = (await _apiWebRequest.GetAsync<IEnumerable<QuestionResponse>>(ApiEndpoint.Questions))
                 .ToList();
+
+            _currentIndex = 0;
+            await UpdateCurrentQuestion(notify: false);
+        }
+
+        public bool CanGoForward()
+        {
+            return _currentIndex < Data.Count - 1;
+        }
+
+        public bool CanGoBack()
+        {
+            return _currentIndex > 0;
+        }
+
+        public async Task Next()
+        {
+            _currentIndex--;
+            await UpdateCurrentQuestion();
+        }
+
+        public async Task Previous()
+        {
+            _currentIndex++;
+            await UpdateCurrentQuestion();
+        }
+
+        private async Task UpdateCurrentQuestion(bool notify = true)
+        {
+            CurrentQuestion = Data[_currentIndex];
+
+            if (notify && StateChanged is not null)
+                await StateChanged.Invoke();
         }
     }
 }
