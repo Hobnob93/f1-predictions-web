@@ -23,6 +23,7 @@ namespace F1Predictions.Core.Services
         public async Task InitializeAsync()
         {
             Data = (await _apiWebRequest.GetAsync<IEnumerable<Team>>(ApiEndpoint.Teams))
+                .OrderBy(t => t.Name)
                 .ToList();
         }
     }

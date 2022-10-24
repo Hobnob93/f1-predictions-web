@@ -9,7 +9,7 @@
     <MudContainer id="core-container" MaxWidth="MaxWidth.ExtraExtraLarge">
         <TitleBar />
 
-        <MudPaper id="question-container" Class="pa-4 d-flex flex-column justify-start gap-8" Elevation="0">
+        <MudPaper id="question-container" Class="pa-4 d-flex flex-column justify-start gap-4" Elevation="0">
             <MudChip id="question-chip" Class="mt-n4">Welcome, everyone! Another season has gone, and with that comes another conclusion to our predictions! I hope you're ready to laugh at your younger self for making such foolish predictions. Good luck!</MudChip>
 
             <MudGrid Spacing="1">
@@ -25,8 +25,9 @@
                 }
             </MudGrid>
 
-            <MudPaper Class="pa-5" Elevation="0">
-
+            <MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
+                <MudText Typo="Typo.h3">Favourite Liveries</MudText>
+                <MudChart ChartType="ChartType.Donut" LegendPosition="Position.End" Width="300px" Height="300px" InputLabels="@FavouriteLabels" InputData="@FavouriteData" ChartOptions="@ChartOptions" />
             </MudPaper>
         </MudPaper>
     </MudContainer>

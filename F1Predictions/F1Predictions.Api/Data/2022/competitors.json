@@ -4,7 +4,6 @@
     "name": "Kyle",
     "nickname": "Hobnob",
     "color": "#28e0d4",
-    "useDarkText": true,
     "liveryId": "MCL"
   },
   {
@@ -12,14 +11,13 @@
     "name": "Samantha",
     "nickname": "Sammy",
     "color": "#ffc2fa",
-    "useDarkText": true,
     "liveryId": "RBR"
   },
   {
     "id": "HI",
     "name": "Sam",
     "nickname": "Higgy",
-    "color": "#000000",
+    "color": "#13c219",
     "liveryId": "ALP"
   },
   {
@@ -27,6 +25,7 @@
     "name": "Keith",
     "nickname": "Bubbles",
     "color": "#4f34eb",
+    "useDarkText": false,
     "liveryId": "AR"
   },
   {
@@ -34,14 +33,14 @@
     "name": "Tiegan",
     "nickname": "Tigs",
     "color": "#34c6eb",
-    "useDarkText": true,
     "liveryId": "MCL"
   },
   {
     "id": "GH",
     "name": "Gareth",
     "nickname": "Gdog",
-    "color": "#000000",
+    "color": "#8634eb",
+    "useDarkText": false,
     "liveryId": "AR"
   },
   {
@@ -49,14 +48,13 @@
     "name": "Mike",
     "nickname": "Ginge",
     "color": "#f27216",
-    "useDarkText": true,
     "liveryId": "MCL"
   },
   {
     "id": "CB",
     "name": "Courtney",
     "nickname": "Courtney",
-    "color": "#000000",
+    "color": "#ffffff",
     "liveryId": "MER"
   },
   {
@@ -64,14 +62,13 @@
     "name": "Katie",
     "nickname": "Haassoulders Kneesandtoes",
     "color": "#c163ff",
-    "useDarkText": true,
     "liveryId": "AM"
   },
   {
     "id": "MH",
     "name": "Michael",
     "nickname": "8 times world champ",
-    "color": "#000000",
+    "color": "#ffffff",
     "liveryId": "MCL"
   }
 ]

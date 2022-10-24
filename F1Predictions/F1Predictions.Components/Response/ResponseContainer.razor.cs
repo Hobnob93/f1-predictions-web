@@ -17,7 +17,7 @@ namespace F1Predictions.Components.Response
             .AddClass("d-flex")
             .AddClass("z-10")
             .AddClass("align-center")
-            .AddClass("mb-4")
+            .AddClass("mb-2")
             .AddClass("gap-5")
             .AddClass("mr-2", when: !IsRightAligned)
             .AddClass("ml-2", when: IsRightAligned)
