@@ -27,7 +27,7 @@ namespace F1Predictions.Core.Services
                 endpoint = string.Format(endpoint, parameters);
 
             var request = new HttpRequestMessage(HttpMethod.Get, $"{_config.BaseUrl}{endpoint}");
-            var response = await client.SendAsync(request);
+            var  = await client.SendAsync(request);
 
             var options = new JsonSerializerOptions
             {
@@ -35,8 +35,8 @@ namespace F1Predictions.Core.Services
             };
 
             // TODO: check status code
-            using var responseStream = await response.Content.ReadAsStreamAsync();
-            return await JsonSerializer.DeserializeAsync<T>(responseStream, options) ?? throw new InvalidCastException("Could not deserialize response stream.");
+            using var Stream = await .Content.ReadAsStreamAsync();
+            return await JsonSerializer.DeserializeAsync<T>(Stream, options) ?? throw new InvalidCastException("Could not deserialize  stream.");
         }
 
         private string GetEndpoint(ApiEndpoint endpoint) =>
