@@ -13,9 +13,6 @@ namespace F1Predictions.Pages
         [Inject]
         public ITeamsDataService TeamsService { get; set; } = default!;
 
-        public string[] FavouriteLabels => FavouriteLiveriesData.Select(d => d.Name).ToArray();
-        public double[] FavouriteData => FavouriteLiveriesData.Select(d => d.Value).ToArray();
-
         public List<ChartDataPoint> FavouriteLiveriesData { get; private set; } = new();
         public ChartOptions ChartOptions { get; private set; } = new();
 
