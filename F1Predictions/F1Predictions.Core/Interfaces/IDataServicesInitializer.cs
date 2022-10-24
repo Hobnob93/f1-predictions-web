@@ -4,5 +4,6 @@
     {
         Task InitializeCompetitorsAsync();
         Task InitializeTeamsAsync();
+        Task InitializeQuestionsAsync();
     }
 }
