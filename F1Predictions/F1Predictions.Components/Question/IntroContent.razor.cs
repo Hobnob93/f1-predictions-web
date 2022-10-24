@@ -13,6 +13,9 @@ namespace F1Predictions.Components.Question
         [Inject]
         public ITeamsDataService TeamsService { get; set; } = default!;
 
+        [Inject]
+        public IAnswerService AnswerService { get; set; } = default!;
+
         public List<ChartDataPoint> FavouriteLiveriesData { get; private set; } = new();
         public ChartOptions ChartOptions { get; private set; } = new();
 
@@ -25,7 +28,7 @@ namespace F1Predictions.Components.Question
 
         private void SetFavouriteLiveries()
         {
-            var liveryIds = CompetitorsService.Data.Select(d => d.LiveryId);
+            var liveryIds = CompetitorsService.Data.Select(d => AnswerService.GetCompetitorAnswer<string>(d.Id));
             var liveryNames = liveryIds.Select(id => TeamsService.FindItem(id).Name).ToList();
 
             ChartOptions.ChartPalette = TeamsService.Data.Select(t => t.Color).ToArray();
