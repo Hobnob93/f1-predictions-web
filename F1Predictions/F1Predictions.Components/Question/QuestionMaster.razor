@@ -2,6 +2,8 @@
     <TitleBar />
 
     <MudPaper id="question-container" Class="pa-4 d-flex flex-column justify-start gap-4" Elevation="0">
+        <QuestionText id="question-chip" Text="@(QuestionsService.CurrentQuestion!.Question)" />
+
         <DynamicComponent Type="@GetCurrentQuestionType()" />
     </MudPaper>
 </MudContainer>

@@ -2,6 +2,6 @@
 {
     public interface IAnswerService
     {
-        T GetCompetitorAnswer<T>(string id);
+        string GetCompetitorAnswerRaw(string id);
     }
 }

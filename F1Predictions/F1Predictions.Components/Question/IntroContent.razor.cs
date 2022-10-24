@@ -28,7 +28,7 @@ namespace F1Predictions.Components.Question
 
         private void SetFavouriteLiveries()
         {
-            var liveryIds = CompetitorsService.Data.Select(d => AnswerService.GetCompetitorAnswer<string>(d.Id));
+            var liveryIds = CompetitorsService.Data.Select(d => AnswerService.GetCompetitorAnswerRaw(d.Id));
             var liveryNames = liveryIds.Select(id => TeamsService.FindItem(id).Name).ToList();
 
             ChartOptions.ChartPalette = TeamsService.Data.Select(t => t.Color).ToArray();
