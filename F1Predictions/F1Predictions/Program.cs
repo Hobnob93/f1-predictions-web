@@ -17,6 +17,7 @@ builder.Services.AddTransient<IWebApiRequest, WebApiRequest>();
 
 builder.Services.AddScoped<ICompetitorsDataService, CompetitorsDataService>();
 builder.Services.AddScoped<ITeamsDataService, TeamsDataService>();
+builder.Services.AddScoped<IQuestionsDataService, QuestionsDataService>();
 builder.Services.AddScoped<IDataServicesInitializer, DataServicesInitializer>();
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
