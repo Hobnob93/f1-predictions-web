@@ -8,9 +8,6 @@ namespace F1Predictions.Components.Question
     public partial class IntroContent
     {
         [Inject]
-        public ICompetitorsDataService CompetitorsService { get; set; } = default!;
-
-        [Inject]
         public ITeamsDataService TeamsService { get; set; } = default!;
 
         [Inject]
@@ -28,7 +25,7 @@ namespace F1Predictions.Components.Question
 
         private void SetFavouriteLiveries()
         {
-            var liveryIds = CompetitorsService.Data.Select(d => AnswerService.GetCompetitorAnswerRaw(d.Id));
+            var liveryIds = AnswerService.GetAnswersRaw();
             var liveryNames = liveryIds.Select(id => TeamsService.FindItem(id).Name).ToList();
 
             ChartOptions.ChartPalette = TeamsService.Data.Select(t => t.Color).ToArray();

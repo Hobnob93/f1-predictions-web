@@ -2,6 +2,7 @@
 {
     public interface IAnswerService
     {
+        List<string> GetAnswersRaw();
         string GetCompetitorAnswerRaw(string id);
     }
 }
