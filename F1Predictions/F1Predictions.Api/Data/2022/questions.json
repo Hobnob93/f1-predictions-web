@@ -17,7 +17,7 @@
   {
     "id": "1-A",
     "question": "Who will win the Constructor's Championship?",
-    "scoring": "GP",
+    "scoring": "GP-TEAM",
     "kh": "FER",
     "hi": "FER",
     "sh": "RBR",
@@ -47,7 +47,7 @@
   {
     "id": "1-C",
     "question": "Which team will come FIFTH in the Constructor's Championship?",
-    "scoring": "GP",
+    "scoring": "GP-TEAM",
     "kh": "WIL",
     "hi": "ALP",
     "sh": "AT",
@@ -62,7 +62,7 @@
   {
     "id": "1-D",
     "question": "Which team will come LAST in the Constructor's Championship?",
-    "scoring": "GP",
+    "scoring": "GP-TEAM",
     "kh": "HAA",
     "hi": "AT",
     "sh": "HAA",
@@ -77,7 +77,7 @@
   {
     "id": "1-E",
     "question": "Who will WIN the Driver's Championship?",
-    "scoring": "GP",
+    "scoring": "GP-DRVR",
     "kh": "LEC",
     "hi": "HAM",
     "sh": "VER",
@@ -107,7 +107,7 @@
   {
     "id": "1-G",
     "question": "Who will come TENTH in the Driver's Championship?",
-    "scoring": "GP",
+    "scoring": "GP-DRVR",
     "kh": "ALB",
     "hi": "OCO",
     "sh": "ALO",
@@ -122,7 +122,7 @@
   {
     "id": "1-H",
     "question": "Who will come LAST in the Driver's Championship?",
-    "scoring": "GP",
+    "scoring": "GP-DRVR",
     "kh": "ZHO",
     "hi": "ZHO",
     "sh": "ZHO",
@@ -137,7 +137,7 @@
   {
     "id": "1-I",
     "question": "Which team will have the highest repair cost, and WIN the Destructors Championship?",
-    "scoring": "GP",
+    "scoring": "GP-DRVR",
     "kh": "AT",
     "hi": "RBR",
     "sh": "AM",
@@ -152,7 +152,7 @@
   {
     "id": "1-J",
     "question": "Which team will have the lowest repair cost, and come LAST in the Destructors Championship?",
-    "scoring": "GP",
+    "scoring": "GP-TEAM",
     "kh": "MER",
     "hi": "WIL",
     "sh": "MER",
@@ -167,7 +167,7 @@
   {
     "id": "1-K",
     "question": "Which driver will cause the most cost in repairs, and WIN the Destructors Championship?",
-    "scoring": "GP",
+    "scoring": "GP-DRVR",
     "kh": "TSU",
     "hi": "VER",
     "sh": "STR",
@@ -182,7 +182,7 @@
   {
     "id": "1-L",
     "question": "Which driver will cause the least in repair cost, and come LAST in the Destructors Championship?",
-    "scoring": "GP",
+    "scoring": "GP-DRVR",
     "kh": "HAM",
     "hi": "VET",
     "sh": "HAM",
@@ -197,7 +197,7 @@
   {
     "id": "2-A",
     "question": "Which team will have the MOST podiums?",
-    "scoring": "GP",
+    "scoring": "GP-TEAM",
     "kh": "MER",
     "hi": "FER",
     "sh": "MER",
@@ -212,7 +212,7 @@
   {
     "id": "2-B",
     "question": "Which team will have the FASTEST pitstop?",
-    "scoring": "GP",
+    "scoring": "GP-TEAM",
     "kh": "RBR",
     "hi": "RBR",
     "sh": "RBR",
@@ -227,7 +227,7 @@
   {
     "id": "2-C",
     "question": "Which team will have the MOST DNFs? (specific to Sunday races)",
-    "scoring": "GP",
+    "scoring": "GP-TEAM",
     "kh": "MCL",
     "hi": "MCL",
     "sh": "ALP",
@@ -257,7 +257,7 @@
   {
     "id": "2-E",
     "question": "Which team will have the FIRST mechanical failure in the season during a RACE?",
-    "scoring": "GP",
+    "scoring": "GP-TEAM",
     "kh": "MCL",
     "hi": "AR",
     "sh": "AM",
@@ -272,7 +272,7 @@
   {
     "id": "2-F",
     "question": "Which team will have the LONGEST pitstop in the first race of the season?",
-    "scoring": "GP",
+    "scoring": "GP-TEAM",
     "kh": "FER",
     "hi": "FER",
     "sh": "HAA",
@@ -317,7 +317,7 @@
   {
     "id": "2-G",
     "question": "Which team will be the biggest winner compared to 2021?",
-    "scoring": "GP",
+    "scoring": "GP-TEAM",
     "kh": "WIL",
     "hi": "WIL",
     "sh": "MCL",
@@ -332,7 +332,7 @@
   {
     "id": "3-A",
     "question": "Who will have the most laps led throughout the season?",
-    "scoring": "GP",
+    "scoring": "GP-DRVR",
     "kh": "LEC",
     "hi": "HAM",
     "sh": "VER",
@@ -469,7 +469,7 @@
   {
     "id": "3-J",
     "question": "Who will be the biggest loser compared to 2021?",
-    "scoring": "GP",
+    "scoring": "GP-DRVR",
     "star": "CB",
     "kh": "BOT",
     "hi": "BOT",
@@ -500,7 +500,7 @@
   {
     "id": "4-A",
     "question": "Which team will score the most points at the Baku circuit?",
-    "scoring": "GP",
+    "scoring": "GP-TEAM",
     "kh": "FER",
     "hi": "RBR",
     "sh": "RBR",
@@ -575,7 +575,7 @@
   {
     "id": "4-F",
     "question": "Which race will be voted the fan favourite?",
-    "scoring": "GP",
+    "scoring": "GP-TRAK",
     "kh": "MZA",
     "hi": "SPA",
     "sh": "MZA",

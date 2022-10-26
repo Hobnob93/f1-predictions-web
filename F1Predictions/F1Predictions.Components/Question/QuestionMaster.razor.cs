@@ -26,9 +26,10 @@ namespace F1Predictions.Components.Question
                 throw new InvalidOperationException("The current question is null!");
 
             var scoringType = QuestionsService.CurrentQuestion.Scoring;
-            return scoringType switch
+            return scoringType.ToLower() switch
             {
-                "INTRO" => typeof(IntroContent),
+                "intro" => typeof(IntroContent),
+                "gp-team" => typeof(GPTeamContent),
                 _ => throw new InvalidOperationException($"The question type {scoringType} is not recognised.")
             };
         }
