@@ -75,6 +75,15 @@
     width: auto;
 }
 
+header#title-bar {
+    background-color: #21222bff !important;
+    max-width: calc(100% - 2px);
+}
+
+header#title-bar > .mud-toolbar-appbar {
+    padding-right: 0 !important;
+}
+
 @keyframes breathe {
     0% {
         box-shadow: 0 0 8px, inset 0 0 8px;
