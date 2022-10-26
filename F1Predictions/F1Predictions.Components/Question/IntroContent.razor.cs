@@ -26,14 +26,19 @@ namespace F1Predictions.Components.Question
         private void SetFavouriteLiveries()
         {
             var liveryIds = AnswerService.GetAnswersRaw();
-            var liveryNames = liveryIds.Select(id => TeamsService.FindItem(id).Name).ToList();
+            var teamsFromLiveries = liveryIds
+                .Distinct()
+                .Select(id => TeamsService.FindItem(id))
+                .ToList();
 
-            ChartOptions.ChartPalette = TeamsService.Data.Select(t => t.Color).ToArray();
+            ChartOptions.ChartPalette = teamsFromLiveries
+                .Select(t => t.Color)
+                .ToArray();
 
-            FavouriteLiveriesData = TeamsService.Data.Select(t => new ChartDataPoint
+            FavouriteLiveriesData = teamsFromLiveries.Select(t => new ChartDataPoint
             {
                 Name = t.Name,
-                Value = liveryNames.Count(ln => ln == t.Name)
+                Value = liveryIds.Count(id => id == t.Id)
             }).ToList();
         }
     }
