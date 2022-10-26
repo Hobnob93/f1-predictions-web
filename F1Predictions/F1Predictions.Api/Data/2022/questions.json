@@ -934,7 +934,7 @@
     "mh": "MAG,MAG"
   },
   {
-    "id": "7-1",
+    "id": "7-A",
     "question": "Constructor Championship Order",
     "scoring": "ORDER",
     "kh": "FER,MER,RBR,MCL,WIL,AT,AM,ALP,HAA,AR",
@@ -949,7 +949,7 @@
     "mh": "MER,RBR,FER,MCL,AM,WIL,AT,AR,ALP,HAA"
   },
   {
-    "id": "7-2",
+    "id": "7-B",
     "question": "Driver Championship Order",
     "scoring": "ORDER",
     "star": "TW",

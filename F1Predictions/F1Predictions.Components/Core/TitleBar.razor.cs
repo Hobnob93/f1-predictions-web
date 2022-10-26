@@ -1,5 +1,6 @@
 ﻿using F1Predictions.Core.Interfaces;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web;
 
 namespace F1Predictions.Components.Core
 {
@@ -20,9 +21,41 @@ namespace F1Predictions.Components.Core
             await InvokeAsync(StateHasChanged);
         }
 
+        private async Task OnForwardClicked(MouseEventArgs e)
+        {
+            if (QuestionsService.CanGoForward())
+                await QuestionsService.Next();
+        }
+
+        private async Task OnBackClicked(MouseEventArgs e)
+        {
+            if (QuestionsService.CanGoBack())
+                await QuestionsService.Previous();
+        }
+
         public void Dispose()
         {
             QuestionsService.StateChanged -= OnQuestionChangedAsync;
+        }
+
+        private string GetTitle()
+        {
+            var questionResponse = QuestionsService.CurrentQuestion;
+            var firstCharId = questionResponse?.Id.First();
+
+            return firstCharId switch
+            {
+                '0' => "Competitors",
+                '1' => "Championship Predictions",
+                '2' => "Team Predictions",
+                '3' => "Driver Predictions",
+                '4' => "Race Weekend Predictions",
+                '5' => "Event Predictions",
+                '6' => "Head to Heads",
+                '7' => "Championship Order",
+                '8' => "Best Predictor...",
+                _ => string.Empty
+            };
         }
     }
 }

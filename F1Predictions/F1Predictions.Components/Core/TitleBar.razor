@@ -1,6 +1,7 @@
 ﻿<MudAppBar id="title-bar" Elevation="0" Fixed="false" Dense="true" Color="Color.Info">
-    <MudText Typo="Typo.h5">Competitors</MudText>
+    <MudText Typo="Typo.h5">@GetTitle()</MudText>
     <MudSpacer />
-    <MudIconButton id="btn-back" Color="Color.Primary" Icon="@Icons.Material.Filled.ArrowCircleLeft" Size="Size.Large" Disabled="@(!QuestionsService.CanGoBack())" />
-    <MudIconButton id="btn-next" Color="Color.Primary" Icon="@Icons.Material.Filled.ArrowCircleRight" Size="Size.Large" Disabled="@(!QuestionsService.CanGoForward())" />
+    <MudText Typo="Typo.subtitle2" Class="me-4 mt-1" Color="Color.Primary">@QuestionsService.CurrentQuestion?.Id</MudText>
+    <MudIconButton id="btn-back" Color="Color.Primary" Icon="@Icons.Material.Filled.ArrowCircleLeft" Size="Size.Large" Disabled="@(!QuestionsService.CanGoBack())" OnClick="OnBackClicked" />
+    <MudIconButton id="btn-next" Color="Color.Primary" Icon="@Icons.Material.Filled.ArrowCircleRight" Size="Size.Large" Disabled="@(!QuestionsService.CanGoForward())" OnClick="OnForwardClicked" />
 </MudAppBar>

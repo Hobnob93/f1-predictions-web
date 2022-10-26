@@ -46,13 +46,13 @@ namespace F1Predictions.Core.Services
 
         public async Task Next()
         {
-            _currentIndex--;
+            _currentIndex++;
             await UpdateCurrentQuestion();
         }
 
         public async Task Previous()
         {
-            _currentIndex++;
+            _currentIndex--;
             await UpdateCurrentQuestion();
         }
 
