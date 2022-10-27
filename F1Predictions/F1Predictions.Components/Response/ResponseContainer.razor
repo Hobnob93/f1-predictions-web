@@ -1,7 +1,9 @@
 ﻿@inherits BaseComponent
 
 <MudItem xs="6">
-    <MudPaper Class="@Classes" Style="@Style" UserAttributes="@UserAttributes" Elevation="0">
-        @ChildContent
+    <MudPaper Class="@OuterClasses" Style="@Style" UserAttributes="@UserAttributes" Elevation="0">
+        <MudPaper Class="@InnerClasses" Style="@InnerStyle">
+            @ChildContent
+        </MudPaper>
     </MudPaper>
 </MudItem>

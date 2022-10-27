@@ -1,7 +1,7 @@
 ﻿<CompetitorResponses>
     <CompetitorTemplate Context="competitor">
-        <Text Content="@($"{competitor.Name} A.K.A. '{competitor.Nickname}'")" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
         <Car TeamId="@(AnswerService.GetCompetitorAnswerRaw(competitor.Id))" />
+        <Text Content="@($"{competitor.Name} A.K.A. '{competitor.Nickname}'")" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
     </CompetitorTemplate>
 </CompetitorResponses>
 

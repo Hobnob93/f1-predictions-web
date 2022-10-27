@@ -19,15 +19,13 @@ namespace F1Predictions.Components.Response
         public bool Breathe { get; set; } = true;
 
         private string Classes => new CssBuilder()
-            .AddClass("competitor")
-            .AddClass("nameplate")
             .AddClass("mt-0")
             .AddClass(Class, when: Class is not null)
-            .AddClass("breathe", when: Breathe)
             .Build();
 
         private string ColorStyles => new StyleBuilder()
             .AddStyle("color", Color)
+            .AddStyle("background-color", "transparent")
             .Build();
 
         private string Styles => $"{Style} {ColorStyles}";
