@@ -2,7 +2,7 @@
 
 <MudItem xs="6">
     <MudPaper Class="@OuterClasses" Style="@Style" UserAttributes="@UserAttributes" Elevation="0">
-        <MudPaper Class="@InnerClasses" Style="@InnerStyle">
+        <MudPaper Class="@InnerClasses" Style="@InnerStyle" @onclick="() => IsShowingContent = true">
             @ChildContent
         </MudPaper>
     </MudPaper>

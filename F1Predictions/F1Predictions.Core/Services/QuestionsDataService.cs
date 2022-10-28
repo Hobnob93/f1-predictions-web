@@ -11,6 +11,7 @@ namespace F1Predictions.Core.Services
         public List<QuestionResponse> Data { get; private set; } = new();
         public QuestionResponse? CurrentQuestion { get; private set; }
 
+        public event Func<Task>? StateChanging;
         public event Func<Task>? StateChanged;
 
         private int _currentIndex;
@@ -58,6 +59,12 @@ namespace F1Predictions.Core.Services
 
         private async Task UpdateCurrentQuestion(bool notify = true)
         {
+            if (notify && StateChanging is not null)
+            {
+                await StateChanging.Invoke();
+                await Task.Delay(1000);
+            }
+
             CurrentQuestion = Data[_currentIndex];
 
             if (notify && StateChanged is not null)

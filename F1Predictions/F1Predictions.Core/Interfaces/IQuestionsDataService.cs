@@ -6,6 +6,7 @@ namespace F1Predictions.Core.Interfaces
     {
         QuestionResponse? CurrentQuestion { get; }
 
+        event Func<Task>? StateChanging;
         event Func<Task>? StateChanged;
 
         bool CanGoForward();

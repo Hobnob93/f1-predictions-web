@@ -59,12 +59,22 @@
 .competitor {
     background-color: #050705ff;
     border: 2px solid;
-    box-shadow: 0 0 10px, inset 0 0 10px;
-    width: fit-content;
+    box-shadow: 0 0 0em, inset 0 0 0em;
+    overflow: hidden;
+    max-width: 60px;
+    transition: max-width .5s ease-in 0s
+}
+
+.show-content {
+    max-width: 100%;
+}
+
+.nameplate.competitor:not(.show-content):hover {
+    cursor: pointer;
 }
 
 .breathe {
-    animation: breathe 1.5s alternate 1.5s infinite;
+    animation: breathe 2.5s alternate 0s infinite;
 }
 
 .mud-image.car {
@@ -83,10 +93,10 @@ header#title-bar > .mud-toolbar-appbar {
 
 @keyframes breathe {
     0% {
-        box-shadow: 0 0 5px, inset 0 0 5px;
+        box-shadow: 0 0 0em, inset 0 0 0em;
     }
 
     100% {
-        box-shadow: 0 0 10px, inset 0 0 10px;
+        box-shadow: 0 0 1em, inset 0 0 1em;
     }
 }

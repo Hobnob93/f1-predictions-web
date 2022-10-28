@@ -24,13 +24,17 @@ namespace F1Predictions.Components.Core
         private async Task OnForwardClicked(MouseEventArgs e)
         {
             if (QuestionsService.CanGoForward())
+            {
                 await QuestionsService.Next();
+            }
         }
 
         private async Task OnBackClicked(MouseEventArgs e)
         {
             if (QuestionsService.CanGoBack())
+            {
                 await QuestionsService.Previous();
+            }
         }
 
         public void Dispose()

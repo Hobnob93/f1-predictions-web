@@ -1,10 +1,14 @@
 ﻿using BlazorComponentUtilities;
+using F1Predictions.Core.Interfaces;
 using Microsoft.AspNetCore.Components;
 
 namespace F1Predictions.Components.Response
 {
-    public partial class ResponseContainer : BaseComponent
+    public partial class ResponseContainer : BaseComponent, IDisposable
     {
+        [Inject]
+        private IQuestionsDataService QuestionsService { get; set; } = default!;
+
         [Parameter, EditorRequired]
         public RenderFragment ChildContent { get; set; } = default!;
 
@@ -12,9 +16,29 @@ namespace F1Predictions.Components.Response
         public int Index { get; set; }
 
         [Parameter, EditorRequired]
-        public string Color { get; set; }
+        public string Color { get; set; } = default!;
 
         private bool IsRightAligned => Index % 2 == 1;
+        private bool IsShowingContent;
+
+        protected override void OnInitialized()
+        {
+            QuestionsService.StateChanging += OnQuestionChanging;
+
+            base.OnInitialized();
+        }
+
+        private async Task OnQuestionChanging()
+        {
+            IsShowingContent = false;
+
+            await InvokeAsync(StateHasChanged);
+        }
+
+        public void Dispose()
+        {
+            QuestionsService.StateChanging -= OnQuestionChanging;
+        }
 
         private string OuterClasses => new CssBuilder()
             .AddClass("d-flex")
@@ -41,6 +65,7 @@ namespace F1Predictions.Components.Response
             .AddClass("ps-2", when: IsRightAligned)
             .AddClass("flex-row", when: !IsRightAligned)
             .AddClass("flex-row-reverse", when: IsRightAligned)
+            .AddClass("show-content", when: IsShowingContent)
             .Build();
 
         private string InnerStyle => new StyleBuilder()
