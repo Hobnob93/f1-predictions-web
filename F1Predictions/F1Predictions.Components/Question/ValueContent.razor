@@ -1,0 +1,12 @@
+﻿<CompetitorResponses>
+    <CompetitorTemplate Context="competitor">
+        @{
+            var response = GetCompetitorAnswer(competitor.Id);
+        }
+        <Text Content="@response" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
+    </CompetitorTemplate>
+</CompetitorResponses>
+
+<MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
+    <PieChart Title="Responses" Data="@ResponsesData" />
+</MudPaper>
