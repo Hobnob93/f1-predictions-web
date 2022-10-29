@@ -53,7 +53,7 @@
 }
 
 .nameplate {
-    border-radius: 15px;
+    border-radius: 35px;
 }
 
 .competitor {
@@ -61,7 +61,7 @@
     border: 2px solid;
     box-shadow: 0 0 0em, inset 0 0 0em;
     overflow: hidden;
-    max-width: 60px;
+    max-width: 74px;
     transition: max-width .5s ease-in 0s
 }
 
@@ -77,9 +77,19 @@
     animation: breathe 2.5s alternate 0s infinite;
 }
 
+.mud-avatar.mud-avatar-large.mud-avatar-text {
+    width:70px;
+    height: 70px;
+    font-size: 2.2rem;
+}
+
 .mud-image.car {
-    height: 50px;
+    height: 65px;
     width: auto;
+}
+
+.mud-chart-pie {
+    margin-inline-end: 20px !important;
 }
 
 header#title-bar {

@@ -47,7 +47,8 @@
     "id": "CB",
     "name": "Courtney",
     "nickname": "Courtney",
-    "color": "#ffffff"
+    "color": "#1002ce",
+    "useDarkText": false
   },
   {
     "id": "KB",

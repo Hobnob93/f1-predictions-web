@@ -14,7 +14,7 @@ namespace F1Predictions.Components.Response
         public RenderFragment<CompetitorData> CompetitorTemplate { get; set; } = default!;
 
         public string Classes => new CssBuilder()
-            .AddClass("mt-4")
+            .AddClass("mt-1")
             .AddClass(Class, when: Class is not null)
             .Build();
     }

@@ -15,7 +15,8 @@ namespace F1Predictions.Components.Response
         public bool UseDarkText { get; set; }
 
         public string ColorStyles => new StyleBuilder()
-            .AddStyle("font-weight", "600")
+            .AddStyle("font-size", "1.1rem")
+            .AddStyle("font-weight", "500")
             .AddStyle("max-width", "none")
             .AddStyle("color", "#1a2030", when: UseDarkText)
             .AddStyle("color", "#f7efdf", when: !UseDarkText)
