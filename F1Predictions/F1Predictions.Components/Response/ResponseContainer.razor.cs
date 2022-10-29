@@ -58,6 +58,7 @@ namespace F1Predictions.Components.Response
             .AddClass("competitor")
             .AddClass("nameplate")
             .AddClass("breathe")
+            .AddClass("gap-3")
             .AddClass("pe-2", when: !IsRightAligned)
             .AddClass("ps-2", when: IsRightAligned)
             .AddClass("flex-row", when: !IsRightAligned)

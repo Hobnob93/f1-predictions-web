@@ -1,9 +1,13 @@
 ﻿<CompetitorResponses>
     <CompetitorTemplate Context="competitor">
-        <Text Content="@(GetCompetitorAnswer(competitor.Id))" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
+        @{
+            var response = GetCompetitorAnswer(competitor.Id);
+        }
+        <Team TeamId="@response.Id" />
+        <Text Content="@response.Name" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
     </CompetitorTemplate>
 </CompetitorResponses>
 
 <MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
-    <PieChart Title="Answers" Data="@AnswersData" Options="@ChartOptions" />
+    <PieChart Title="Responses" Data="@ResponsesData" Options="@ChartOptions" />
 </MudPaper>

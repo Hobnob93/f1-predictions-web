@@ -1,5 +1,4 @@
 ﻿using BlazorComponentUtilities;
-using F1Predictions.Core.Interfaces;
 using Microsoft.AspNetCore.Components;
 
 namespace F1Predictions.Components.Response
@@ -20,6 +19,7 @@ namespace F1Predictions.Components.Response
 
         private string Classes => new CssBuilder()
             .AddClass("mt-0")
+            .AddClass("competitor-avatar")
             .AddClass(Class, when: Class is not null)
             .Build();
 

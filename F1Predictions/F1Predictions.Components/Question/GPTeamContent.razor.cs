@@ -13,17 +13,17 @@ namespace F1Predictions.Components.Question
         [Inject]
         public IAnswerService AnswerService { get; set; } = default!;
 
-        public List<ChartDataPoint> AnswersData { get; private set; } = new();
+        public List<ChartDataPoint> ResponsesData { get; private set; } = new();
         public ChartOptions ChartOptions { get; private set; } = new();
 
         protected override void OnInitialized()
         {
-            SetFavouriteLiveries();
+            SetResponses();
 
             base.OnInitialized();
         }
 
-        private void SetFavouriteLiveries()
+        private void SetResponses()
         {
             var teamIds = AnswerService.GetAnswersRaw();
             var teams = teamIds
@@ -35,18 +35,19 @@ namespace F1Predictions.Components.Question
                 .Select(t => t.Color)
                 .ToArray();
 
-            AnswersData = teams.Select(t => new ChartDataPoint
+            ResponsesData = teams.Select(t => new ChartDataPoint
             {
                 Name = t.Name,
                 Value = teamIds.Count(id => id == t.Id)
             }).ToList();
         }
 
-        private string GetCompetitorAnswer(string competitorId)
+        private (string Id, string Name) GetCompetitorAnswer(string competitorId)
         {
-            var answer = AnswerService.GetCompetitorAnswerRaw(competitorId);
+            var answerId = AnswerService.GetCompetitorAnswerRaw(competitorId);
+            var answer = TeamsService.Data.Single(t => t.Id == answerId).Name;
 
-            return TeamsService.Data.Single(t => t.Id == answer).Name;
+            return (answerId, answer);
         }
     }
 }

@@ -16,7 +16,7 @@ namespace F1Predictions.Components.Response
 
         private string ImageSource => string.Format(ImageSourceFormat, TeamsService.FindItem(TeamId).ImageName);
 
-        public string Classes => new CssBuilder()
+        private string Classes => new CssBuilder()
             .AddClass("car")
             .AddClass(Class, when: Class is not null)
             .Build();
