@@ -40,6 +40,13 @@ namespace F1Predictions.Components.Response
             QuestionsService.StateChanging -= OnQuestionChanging;
         }
 
+        private void OnClick()
+        {
+            IsShowingContent = true;
+
+            QuestionsService.SetShowingQuestionContent();
+        }
+
         private string OuterClasses => new CssBuilder()
             .AddClass("d-flex")
             .AddClass("z-10")
