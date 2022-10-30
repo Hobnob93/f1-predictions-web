@@ -5,7 +5,7 @@ using MudBlazor;
 
 namespace F1Predictions.Components.Question
 {
-    public partial class GPTeamContent
+    public partial class GPTeamContent : IRefreshable
     {
         [Inject]
         public ITeamsDataService TeamsService { get; set; } = default!;
@@ -13,14 +13,12 @@ namespace F1Predictions.Components.Question
         [Inject]
         public IAnswerService AnswerService { get; set; } = default!;
 
-        public List<ChartDataPoint> ResponsesData { get; private set; } = new();
+        public List<ChartDataPoint> ResponseData { get; private set; } = new();
         public ChartOptions ChartOptions { get; private set; } = new();
 
         protected override void OnInitialized()
         {
             SetResponses();
-
-            base.OnInitialized();
         }
 
         private void SetResponses()
@@ -35,7 +33,7 @@ namespace F1Predictions.Components.Question
                 .Select(t => t.Color)
                 .ToArray();
 
-            ResponsesData = teams.Select(t => new ChartDataPoint
+            ResponseData = teams.Select(t => new ChartDataPoint
             {
                 Name = t.Name,
                 Value = teamIds.Count(id => id == t.Id)
@@ -48,6 +46,13 @@ namespace F1Predictions.Components.Question
             var answer = TeamsService.Data.Single(t => t.Id == answerId).Name;
 
             return (answerId, answer);
+        }
+
+        public async Task Refresh()
+        {
+            SetResponses();
+
+            await InvokeAsync(StateHasChanged);
         }
     }
 }

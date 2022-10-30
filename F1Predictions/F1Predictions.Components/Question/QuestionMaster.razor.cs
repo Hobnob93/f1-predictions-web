@@ -8,25 +8,36 @@ namespace F1Predictions.Components.Question
         [Inject]
         public IQuestionsDataService QuestionsService { get; set; } = default!;
 
+        private DynamicComponent? ComponentRef { get; set; } = default!;
+
+        private Type QuestionType { get; set; } = typeof(IntroContent);
+
         protected override void OnInitialized()
         {
             QuestionsService.StateChanged += QuestionChanged;
-
-            base.OnInitialized();
         }
 
         private async Task QuestionChanged()
         {
+            SetCurrentQuestionType();
+
             await InvokeAsync(StateHasChanged);
+
+            var component = ComponentRef?.Instance as IRefreshable;
+
+            if (component is not null)
+                await component.Refresh();
+            else
+                Console.WriteLine("Not refreshable");
         }
 
-        private Type GetCurrentQuestionType()
+        private void SetCurrentQuestionType()
         {
             if (QuestionsService.CurrentQuestion is null)
                 throw new InvalidOperationException("The current question is null!");
 
             var scoringType = QuestionsService.CurrentQuestion.Scoring;
-            return scoringType.ToLower() switch
+            QuestionType = scoringType.ToLower() switch
             {
                 "intro" => typeof(IntroContent),
                 "gp-team" => typeof(GPTeamContent),

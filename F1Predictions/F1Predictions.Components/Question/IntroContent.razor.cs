@@ -5,7 +5,7 @@ using MudBlazor;
 
 namespace F1Predictions.Components.Question
 {
-    public partial class IntroContent
+    public partial class IntroContent : IRefreshable
     {
         [Inject]
         public ITeamsDataService TeamsService { get; set; } = default!;
@@ -19,8 +19,6 @@ namespace F1Predictions.Components.Question
         protected override void OnInitialized()
         {
             SetFavouriteLiveries();
-
-            base.OnInitialized();
         }
 
         private void SetFavouriteLiveries()
@@ -40,6 +38,15 @@ namespace F1Predictions.Components.Question
                 Name = t.Name,
                 Value = liveryIds.Count(id => id == t.Id)
             }).ToList();
+        }
+
+        public async Task Refresh()
+        {
+            SetFavouriteLiveries();
+
+            Console.WriteLine("Refresh");
+
+            await InvokeAsync(StateHasChanged);
         }
     }
 }

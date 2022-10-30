@@ -5,7 +5,7 @@ using MudBlazor;
 
 namespace F1Predictions.Components.Question
 {
-    public partial class ValueContent
+    public partial class ValueContent : IRefreshable
     {
         [Inject]
         public IAnswerService AnswerService { get; set; } = default!;
@@ -15,8 +15,6 @@ namespace F1Predictions.Components.Question
         protected override void OnInitialized()
         {
             SetResponses();
-
-            base.OnInitialized();
         }
 
         private void SetResponses()
@@ -38,6 +36,13 @@ namespace F1Predictions.Components.Question
         private string GetCompetitorAnswer(string competitorId)
         {
             return AnswerService.GetCompetitorAnswerRaw(competitorId);
+        }
+
+        public async Task Refresh()
+        {
+            SetResponses();
+
+            await InvokeAsync(StateHasChanged);
         }
     }
 }

@@ -40,7 +40,7 @@ namespace F1Predictions.Core.Services
 
             var property = type.GetProperty(id) ?? throw new InvalidOperationException($"Could not find property '{id}'");
             var result = property.GetValue(currentQuestion, null) ?? throw new InvalidOperationException("Retrived answer value is null");
-            Console.WriteLine($"{result} : {result.GetType()}");
+
             return (string)result;
         }
     }
