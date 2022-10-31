@@ -5,20 +5,12 @@ using MudBlazor;
 
 namespace F1Predictions.Components.Question
 {
-    public partial class ValueContent : IRefreshable
+    public partial class ValueContent : QuestionContent
     {
-        [Inject]
-        public IAnswerService AnswerService { get; set; } = default!;
-
-        public List<ChartDataPoint> ResponsesData { get; private set; } = new();
-
-        protected override void OnInitialized()
+        protected override void SetResponses()
         {
-            SetResponses();
-        }
+            base.SetResponses();
 
-        private void SetResponses()
-        {
             var answers = AnswerService
                 .GetAnswersRaw()
                 .Select(a => int.Parse(a))
@@ -26,8 +18,9 @@ namespace F1Predictions.Components.Question
 
             var uniqueAnswers = answers.Distinct();
 
-            ResponsesData = uniqueAnswers.Select(ua => new ChartDataPoint
+            ResponseData = uniqueAnswers.Select(ua => new ChartDataPoint
             {
+                Id = ua.ToString(),
                 Name = ua.ToString(),
                 Value = answers.Count(a => ua == a)
             }).ToList();
@@ -36,13 +29,6 @@ namespace F1Predictions.Components.Question
         private string GetCompetitorAnswer(string competitorId)
         {
             return AnswerService.GetCompetitorAnswerRaw(competitorId);
-        }
-
-        public async Task Refresh()
-        {
-            SetResponses();
-
-            await InvokeAsync(StateHasChanged);
         }
     }
 }

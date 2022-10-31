@@ -5,24 +5,15 @@ using MudBlazor;
 
 namespace F1Predictions.Components.Question
 {
-    public partial class IntroContent : IRefreshable
+    public partial class IntroContent : QuestionContent
     {
         [Inject]
         public ITeamsDataService TeamsService { get; set; } = default!;
 
-        [Inject]
-        public IAnswerService AnswerService { get; set; } = default!;
-
-        public List<ChartDataPoint> FavouriteLiveriesData { get; private set; } = new();
-        public ChartOptions ChartOptions { get; private set; } = new();
-
-        protected override void OnInitialized()
+        protected override void SetResponses()
         {
-            SetFavouriteLiveries();
-        }
+            base.SetResponses();
 
-        private void SetFavouriteLiveries()
-        {
             var liveryIds = AnswerService.GetAnswersRaw();
             var teamsFromLiveries = liveryIds
                 .Distinct()
@@ -33,20 +24,12 @@ namespace F1Predictions.Components.Question
                 .Select(t => t.Color)
                 .ToArray();
 
-            FavouriteLiveriesData = teamsFromLiveries.Select(t => new ChartDataPoint
+            ResponseData = teamsFromLiveries.Select(t => new ChartDataPoint
             {
+                Id = t.Id,
                 Name = t.Name,
                 Value = liveryIds.Count(id => id == t.Id)
             }).ToList();
-        }
-
-        public async Task Refresh()
-        {
-            SetFavouriteLiveries();
-
-            Console.WriteLine("Refresh");
-
-            await InvokeAsync(StateHasChanged);
         }
     }
 }
