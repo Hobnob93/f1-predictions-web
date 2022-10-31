@@ -15,7 +15,6 @@ namespace F1Predictions.Core.Services
         public event Func<Task>? StateChanged;
 
         private int _currentIndex;
-        private bool _isShowingQuestionContent;
 
         public QuestionsDataService(IWebApiRequest apiWebRequest)
         {
@@ -60,22 +59,16 @@ namespace F1Predictions.Core.Services
 
         private async Task UpdateCurrentQuestion(bool notify = true)
         {
-            if (notify && StateChanging is not null && _isShowingQuestionContent)
+            if (notify && StateChanging is not null)
             {
                 await StateChanging.Invoke();
                 await Task.Delay(750);
             }
 
-            _isShowingQuestionContent = false;
             CurrentQuestion = Data[_currentIndex];
 
             if (notify && StateChanged is not null)
                 await StateChanged.Invoke();
-        }
-
-        public void SetShowingQuestionContent()
-        {
-            _isShowingQuestionContent = true;
         }
     }
 }

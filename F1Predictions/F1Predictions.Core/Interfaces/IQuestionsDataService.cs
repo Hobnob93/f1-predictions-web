@@ -14,7 +14,5 @@ namespace F1Predictions.Core.Interfaces
 
         Task Next();
         Task Previous();
-
-        void SetShowingQuestionContent();
     }
 }

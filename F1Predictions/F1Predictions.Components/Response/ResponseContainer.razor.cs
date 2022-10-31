@@ -18,8 +18,13 @@ namespace F1Predictions.Components.Response
         [Parameter, EditorRequired]
         public string Color { get; set; } = default!;
 
+        [Parameter, EditorRequired]
+        public EventCallback OnClicked { get; set; }
+
+        [Parameter]
+        public bool IsShowingContent { get; set; }
+
         private bool IsRightAligned => Index % 2 == 1;
-        private bool IsShowingContent;
 
         protected override void OnInitialized()
         {
@@ -40,11 +45,9 @@ namespace F1Predictions.Components.Response
             QuestionsService.StateChanging -= OnQuestionChanging;
         }
 
-        private void OnClick()
+        private async Task OnClick()
         {
-            IsShowingContent = true;
-
-            QuestionsService.SetShowingQuestionContent();
+            await OnClicked.InvokeAsync();
         }
 
         private string OuterClasses => new CssBuilder()

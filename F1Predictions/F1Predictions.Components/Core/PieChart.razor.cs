@@ -15,6 +15,12 @@ namespace F1Predictions.Components.Core
         [Parameter]
         public ChartOptions Options { get; set; } = new();
 
+        [Parameter]
+        public int SelectedIndex { get; set; }
+
+        [Parameter]
+        public EventCallback<int> SelectedIndexChanged { get; set; }
+
         private string[] Labels => Data.Select(d => d.Name).ToArray();
         private double[] DataPoints => Data.Select(d => d.Value).ToArray();
     }

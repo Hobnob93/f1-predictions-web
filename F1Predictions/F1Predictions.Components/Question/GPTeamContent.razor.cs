@@ -5,24 +5,15 @@ using MudBlazor;
 
 namespace F1Predictions.Components.Question
 {
-    public partial class GPTeamContent : IRefreshable
+    public partial class GPTeamContent : QuestionContent
     {
         [Inject]
-        public ITeamsDataService TeamsService { get; set; } = default!;
+        private ITeamsDataService TeamsService { get; set; } = default!;
 
-        [Inject]
-        public IAnswerService AnswerService { get; set; } = default!;
-
-        public List<ChartDataPoint> ResponseData { get; private set; } = new();
-        public ChartOptions ChartOptions { get; private set; } = new();
-
-        protected override void OnInitialized()
+        protected override void SetResponses()
         {
-            SetResponses();
-        }
+            base.SetResponses();
 
-        private void SetResponses()
-        {
             var teamIds = AnswerService.GetAnswersRaw();
             var teams = teamIds
                 .Distinct()
@@ -35,6 +26,7 @@ namespace F1Predictions.Components.Question
 
             ResponseData = teams.Select(t => new ChartDataPoint
             {
+                Id = t.Id,
                 Name = t.Name,
                 Value = teamIds.Count(id => id == t.Id)
             }).ToList();
@@ -46,13 +38,6 @@ namespace F1Predictions.Components.Question
             var answer = TeamsService.Data.Single(t => t.Id == answerId).Name;
 
             return (answerId, answer);
-        }
-
-        public async Task Refresh()
-        {
-            SetResponses();
-
-            await InvokeAsync(StateHasChanged);
         }
     }
 }

@@ -27,8 +27,6 @@ namespace F1Predictions.Components.Question
 
             if (component is not null)
                 await component.Refresh();
-            else
-                Console.WriteLine("Not refreshable");
         }
 
         private void SetCurrentQuestionType()
