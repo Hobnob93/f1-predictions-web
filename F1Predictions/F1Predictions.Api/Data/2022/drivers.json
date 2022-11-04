@@ -1,122 +1,122 @@
 [
   {
     "id": "VER",
-    "first-name": "Max",
-    "surname": "Verstappen",
+    "firstName": "Max",
+    "lastName": "Verstappen",
     "team-id": "RBR"
   },
   {
     "id": "PER",
-    "first-name": "Sergio",
-    "surname": "Perez",
+    "firstName": "Sergio",
+    "lastName": "Perez",
     "team-id": "RBR"
   },
   {
     "id": "SAI",
-    "first-name": "Carlos",
-    "surname": "Sainz",
+    "firstName": "Carlos",
+    "lastName": "Sainz",
     "team-id": "FER"
   },
   {
     "id": "LEC",
-    "first-name": "Charles",
-    "surname": "Leclerc",
+    "firstName": "Charles",
+    "lastName": "Leclerc",
     "team-id": "FER"
   },
   {
     "id": "HAM",
-    "first-name": "Lewis",
-    "surname": "Hamilton",
+    "firstName": "Lewis",
+    "lastName": "Hamilton",
     "team-id": "MER"
   },
   {
     "id": "RUS",
-    "first-name": "George",
-    "surname": "Russell",
+    "firstName": "George",
+    "lastName": "Russell",
     "team-id": "MER"
   },
   {
     "id": "OCO",
-    "first-name": "Esteban",
-    "surname": "Ocon",
+    "firstName": "Esteban",
+    "lastName": "Ocon",
     "team-id": "ALP"
   },
   {
     "id": "ALO",
-    "first-name": "Fernando",
-    "surname": "Alonso",
+    "firstName": "Fernando",
+    "lastName": "Alonso",
     "team-id": "ALP"
   },
   {
     "id": "NOR",
-    "first-name": "Lando",
-    "surname": "Norris",
+    "firstName": "Lando",
+    "lastName": "Norris",
     "team-id": "MCL"
   },
   {
     "id": "RIC",
-    "first-name": "Daniel",
-    "surname": "Ricciardo",
+    "firstName": "Daniel",
+    "lastName": "Ricciardo",
     "team-id": "MCL"
   },
   {
     "id": "ZHO",
-    "first-name": "Guanyu",
-    "surname": "Zhou",
+    "firstName": "Guanyu",
+    "lastName": "Zhou",
     "team-id": "AR"
   },
   {
     "id": "BOT",
-    "first-name": "Valtteri",
-    "surname": "Bottas",
+    "firstName": "Valtteri",
+    "lastName": "Bottas",
     "team-id": "AR"
   },
   {
     "id": "MSC",
-    "first-name": "Mick",
-    "surname": "Schumacher",
+    "firstName": "Mick",
+    "lastName": "Schumacher",
     "team-id": "HAA"
   },
   {
     "id": "MAG",
-    "first-name": "Kevin",
-    "surname": "Magnussen",
+    "firstName": "Kevin",
+    "lastName": "Magnussen",
     "team-id": "HAA"
   },
   {
     "id": "TSU",
-    "first-name": "Yuki",
-    "surname": "Tsunoda",
+    "firstName": "Yuki",
+    "lastName": "Tsunoda",
     "team-id": "AT"
   },
   {
     "id": "GAS",
-    "first-name": "Pierre",
-    "surname": "Gasly",
+    "firstName": "Pierre",
+    "lastName": "Gasly",
     "team-id": "AT"
   },
   {
     "id": "VET",
-    "first-name": "Sebastian",
-    "surname": "Vettel",
+    "firstName": "Sebastian",
+    "lastName": "Vettel",
     "team-id": "AM"
   },
   {
     "id": "STR",
-    "first-name": "Lance",
-    "surname": "Stroll",
+    "firstName": "Lance",
+    "lastName": "Stroll",
     "team-id": "AM"
   },
   {
     "id": "LAT",
-    "first-name": "Nicholas",
-    "surname": "Latifi",
+    "firstName": "Nicholas",
+    "lastName": "Latifi",
     "team-id": "WIL"
   },
   {
     "id": "ALB",
-    "first-name": "Alex",
-    "surname": "Albon",
+    "firstName": "Alex",
+    "lastName": "Albon",
     "team-id": "WIL"
   }
 ]
