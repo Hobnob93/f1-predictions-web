@@ -3,120 +3,140 @@
     "id": "VER",
     "firstName": "Max",
     "lastName": "Verstappen",
+    "color": "#3671C6",
     "team-id": "RBR"
   },
   {
     "id": "PER",
     "firstName": "Sergio",
     "lastName": "Perez",
+    "color": "#5893E8",
     "team-id": "RBR"
   },
   {
     "id": "SAI",
     "firstName": "Carlos",
     "lastName": "Sainz",
+    "color": "#1C3758",
     "team-id": "FER"
   },
   {
     "id": "LEC",
     "firstName": "Charles",
     "lastName": "Leclerc",
+    "color": "#F91536",
     "team-id": "FER"
   },
   {
     "id": "HAM",
     "firstName": "Lewis",
     "lastName": "Hamilton",
+    "color": "#6CD3BF",
     "team-id": "MER"
   },
   {
     "id": "RUS",
     "firstName": "George",
     "lastName": "Russell",
+    "color": "#8EF5E1",
     "team-id": "MER"
   },
   {
     "id": "OCO",
     "firstName": "Esteban",
     "lastName": "Ocon",
+    "color": "#2293D1",
     "team-id": "ALP"
   },
   {
     "id": "ALO",
     "firstName": "Fernando",
     "lastName": "Alonso",
+    "color": "#44B5F3",
     "team-id": "ALP"
   },
   {
     "id": "NOR",
     "firstName": "Lando",
     "lastName": "Norris",
+    "color": "#F58020",
     "team-id": "MCL"
   },
   {
     "id": "RIC",
     "firstName": "Daniel",
     "lastName": "Ricciardo",
+    "color": "#F7A242",
     "team-id": "MCL"
   },
   {
     "id": "ZHO",
     "firstName": "Guanyu",
     "lastName": "Zhou",
+    "color": "#EB4F6D",
     "team-id": "AR"
   },
   {
     "id": "BOT",
     "firstName": "Valtteri",
     "lastName": "Bottas",
+    "color": "#C92D4B",
     "team-id": "AR"
   },
   {
     "id": "MSC",
     "firstName": "Mick",
     "lastName": "Schumacher",
+    "color": "#D8DCDF",
     "team-id": "HAA"
   },
   {
     "id": "MAG",
     "firstName": "Kevin",
     "lastName": "Magnussen",
+    "color": "#B6BABD",
     "team-id": "HAA"
   },
   {
     "id": "TSU",
     "firstName": "Yuki",
     "lastName": "Tsunoda",
+    "color": "#80B1CC",
     "team-id": "AT"
   },
   {
     "id": "GAS",
     "firstName": "Pierre",
     "lastName": "Gasly",
+    "color": "#5E8FAA",
     "team-id": "AT"
   },
   {
     "id": "VET",
     "firstName": "Sebastian",
     "lastName": "Vettel",
+    "color": "#358C75",
     "team-id": "AM"
   },
   {
     "id": "STR",
     "firstName": "Lance",
     "lastName": "Stroll",
+    "color": "#57AE97",
     "team-id": "AM"
   },
   {
     "id": "LAT",
     "firstName": "Nicholas",
     "lastName": "Latifi",
+    "color": "#59E0FF",
     "team-id": "WIL"
   },
   {
     "id": "ALB",
     "firstName": "Alex",
     "lastName": "Albon",
+    "color": "#37BEDD",
     "team-id": "WIL"
   }
 ]
