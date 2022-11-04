@@ -1,0 +1,15 @@
+﻿@inherits QuestionContent
+
+<CompetitorResponses>
+    <CompetitorTemplate Context="competitor">
+        @{
+            var response = GetCompetitorAnswer(competitor.Id);
+        }
+        <Team TeamId="@response.Id" />
+        <Text Content="@response.Name" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
+    </CompetitorTemplate>
+</CompetitorResponses>
+
+<MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
+    <PieChart Title="Responses" Data="@ResponseData" Options="@ChartOptions" SelectedIndex="@_selectedChartIndex" SelectedIndexChanged="@OnSelectedChartIndex" />
+</MudPaper>

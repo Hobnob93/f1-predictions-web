@@ -39,6 +39,7 @@ namespace F1Predictions.Components.Question
             {
                 "intro" => typeof(IntroContent),
                 "gp-team" => typeof(GPTeamContent),
+                "gp-drvr" => typeof(GPDriverContent),
                 "val" => typeof(ValueContent),
                 _ => throw new InvalidOperationException($"The question type {scoringType} is not recognised.")
             };
