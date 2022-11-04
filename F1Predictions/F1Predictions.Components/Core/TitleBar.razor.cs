@@ -1,4 +1,5 @@
-﻿using F1Predictions.Core.Interfaces;
+﻿using F1Predictions.Components.Dialogs;
+using F1Predictions.Core.Interfaces;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using MudBlazor;
