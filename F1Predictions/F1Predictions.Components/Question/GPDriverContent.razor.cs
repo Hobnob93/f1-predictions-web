@@ -14,21 +14,21 @@ namespace F1Predictions.Components.Question
         {
             base.SetResponses();
 
-            var teamIds = AnswerService.GetAnswersRaw();
-            var teams = teamIds
+            var driverIds = AnswerService.GetAnswersRaw();
+            var drivers = driverIds
                 .Distinct()
                 .Select(id => DriversService.FindItem(id))
                 .ToList();
 
-            ChartOptions.ChartPalette = teams
+            ChartOptions.ChartPalette = drivers
                 .Select(t => t.Color)
                 .ToArray();
 
-            ResponseData = teams.Select(t => new ChartDataPoint
+            ResponseData = drivers.Select(t => new ChartDataPoint
             {
                 Id = t.Id,
                 Name = t.LastName,
-                Value = teamIds.Count(id => id == t.Id)
+                Value = driverIds.Count(id => id == t.Id)
             }).ToList();
         }
 

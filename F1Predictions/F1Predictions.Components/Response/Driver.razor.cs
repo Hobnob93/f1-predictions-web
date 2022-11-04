@@ -19,7 +19,9 @@ namespace F1Predictions.Components.Response
         private string DriverColor => TargetDriver.Color;
 
         private string Classes => new CssBuilder()
-            .AddClass("team")
+            .AddClass("ms-2")
+            .AddClass("me-2")
+            .AddClass("driver")
             .AddClass("breathe")
             .AddClass(Class, when: Class is not null)
             .Build();

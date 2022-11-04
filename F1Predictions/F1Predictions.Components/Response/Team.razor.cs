@@ -19,6 +19,8 @@ namespace F1Predictions.Components.Response
         private string TeamColor => TargetTeam.Color;
 
         private string Classes => new CssBuilder()
+            .AddClass("ms-2")
+            .AddClass("me-2")
             .AddClass("team")
             .AddClass("breathe")
             .AddClass(Class, when: Class is not null)
