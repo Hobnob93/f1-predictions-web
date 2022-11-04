@@ -44,6 +44,7 @@ namespace F1Predictions.Core.Services
             {
                 ApiEndpoint.Competitors => _config.Competitors,
                 ApiEndpoint.Teams => _config.Teams,
+                ApiEndpoint.Drivers => _config.Drivers,
                 ApiEndpoint.Questions => _config.Questions,
                 _ => throw new InvalidOperationException($"The endpoint {endpoint} has not been defined.")
             };
