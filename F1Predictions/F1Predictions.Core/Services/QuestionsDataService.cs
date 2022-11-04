@@ -9,6 +9,7 @@ namespace F1Predictions.Core.Services
         private readonly IWebApiRequest _apiWebRequest;
 
         public List<QuestionResponse> Data { get; private set; } = new();
+        public List<IGrouping<char, QuestionResponse>> QuestionGroups { get; private set; } = new();
         public QuestionResponse? CurrentQuestion { get; private set; }
 
         public event Func<Task>? StateChanging;
@@ -29,6 +30,9 @@ namespace F1Predictions.Core.Services
         public async Task InitializeAsync()
         {
             Data = (await FetchFromApi(_apiWebRequest, ApiEndpoint.Questions))
+                .ToList();
+
+            QuestionGroups = Data.GroupBy(d => d.Id.First())
                 .ToList();
 
             _currentIndex = 0;
@@ -57,9 +61,9 @@ namespace F1Predictions.Core.Services
             await UpdateCurrentQuestion();
         }
 
-        public async Task GoTo(int index)
+        public async Task GoTo(QuestionResponse question)
         {
-            _currentIndex = index;
+            _currentIndex = Data.FindIndex(q => q.Id == question.Id);
             await UpdateCurrentQuestion();
         }
 
