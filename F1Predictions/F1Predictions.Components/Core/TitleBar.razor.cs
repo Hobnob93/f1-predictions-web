@@ -1,6 +1,7 @@
 ﻿using F1Predictions.Core.Interfaces;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using MudBlazor;
 
 namespace F1Predictions.Components.Core
 {
@@ -8,6 +9,9 @@ namespace F1Predictions.Components.Core
     {
         [Inject]
         private IQuestionsDataService QuestionsService { get; set; } = default!;
+
+        [Inject]
+        private IDialogService DialogService { get; set; } = default!;
 
         protected override async Task OnInitializedAsync()
         {
@@ -35,6 +39,11 @@ namespace F1Predictions.Components.Core
             {
                 await QuestionsService.Previous();
             }
+        }
+
+        private void OnQuestionIdClicked(MouseEventArgs e)
+        {
+            DialogService.Show<QuestionSelectorDialog>("Select Target Question");
         }
 
         public void Dispose()

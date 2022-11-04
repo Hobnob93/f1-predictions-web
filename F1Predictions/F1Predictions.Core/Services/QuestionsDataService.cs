@@ -57,6 +57,12 @@ namespace F1Predictions.Core.Services
             await UpdateCurrentQuestion();
         }
 
+        public async Task GoTo(int index)
+        {
+            _currentIndex = index;
+            await UpdateCurrentQuestion();
+        }
+
         private async Task UpdateCurrentQuestion(bool notify = true)
         {
             if (notify && StateChanging is not null)
