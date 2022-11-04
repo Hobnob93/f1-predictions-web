@@ -19,5 +19,12 @@ namespace F1Predictions.Components.Dialogs
         {
             Dialog.Cancel();
         }
+
+        private async Task OnQuestionSelected(QuestionResponse question)
+        {
+            Dialog.Cancel();
+
+            await QuestionsService.GoTo(question);
+        }
     }
 }

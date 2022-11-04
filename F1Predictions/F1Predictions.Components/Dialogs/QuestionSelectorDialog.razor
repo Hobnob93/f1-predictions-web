@@ -7,7 +7,7 @@
                     @foreach (var question in group)
                     {
                         <MudPaper Elevation="0" Width="60px" Height="60px">
-                            <MudButton Variant="Variant.Text" Class="me-4 mt-1" Color="Color.Primary">@question.Id</MudButton>
+                            <MudButton Variant="Variant.Text" Class="me-4 mt-1" Color="Color.Primary" OnClick="(e) => OnQuestionSelected(question)">@question.Id</MudButton>
                         </MudPaper>
                     }
                 </MudPaper>
