@@ -137,7 +137,7 @@
   {
     "id": "1-I",
     "question": "Which team will have the highest repair cost, and WIN the Destructors Championship?",
-    "scoring": "GP-DRVR",
+    "scoring": "GP-TEAM",
     "kh": "AT",
     "hi": "RBR",
     "sh": "AM",
@@ -196,7 +196,7 @@
   },
   {
     "id": "2-A",
-    "question": "Which team will have the MOST podiums?",
+    "question": "Which team will have the MOST podiums over the season?",
     "scoring": "GP-TEAM",
     "kh": "MER",
     "hi": "FER",
@@ -211,7 +211,7 @@
   },
   {
     "id": "2-B",
-    "question": "Which team will have the FASTEST pitstop?",
+    "question": "Which team will have the FASTEST pitstop in the first race?",
     "scoring": "GP-TEAM",
     "kh": "RBR",
     "hi": "RBR",
