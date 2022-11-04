@@ -8,7 +8,7 @@ namespace F1Predictions.Components.Question
     public partial class GPDriverContent : QuestionContent
     {
         [Inject]
-        private ITeamsDataService TeamsService { get; set; } = default!;
+        private IDriversDataService DriversService { get; set; } = default!;
 
         protected override void SetResponses()
         {
@@ -17,7 +17,7 @@ namespace F1Predictions.Components.Question
             var teamIds = AnswerService.GetAnswersRaw();
             var teams = teamIds
                 .Distinct()
-                .Select(id => TeamsService.FindItem(id))
+                .Select(id => DriversService.FindItem(id))
                 .ToList();
 
             ChartOptions.ChartPalette = teams
@@ -27,7 +27,7 @@ namespace F1Predictions.Components.Question
             ResponseData = teams.Select(t => new ChartDataPoint
             {
                 Id = t.Id,
-                Name = t.Name,
+                Name = t.LastName,
                 Value = teamIds.Count(id => id == t.Id)
             }).ToList();
         }
@@ -35,7 +35,7 @@ namespace F1Predictions.Components.Question
         private (string Id, string Name) GetCompetitorAnswer(string competitorId)
         {
             var answerId = AnswerService.GetCompetitorAnswerRaw(competitorId);
-            var answer = TeamsService.Data.Single(t => t.Id == answerId).Name;
+            var answer = DriversService.Data.Single(t => t.Id == answerId).LastName;
 
             return (answerId, answer);
         }
