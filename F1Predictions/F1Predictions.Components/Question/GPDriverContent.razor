@@ -5,7 +5,7 @@
         @{
             var response = GetCompetitorAnswer(competitor.Id);
         }
-        <Team TeamId="@response.Id" />
+        <Driver DriverId="@response.Id" />
         <Text Content="@response.Name" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
     </CompetitorTemplate>
 </CompetitorResponses>
