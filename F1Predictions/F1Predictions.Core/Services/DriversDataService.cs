@@ -4,7 +4,7 @@ using F1Predictions.Core.Models;
 
 namespace F1Predictions.Core.Services
 {
-    public class DriversDataService : IDriversDataService
+    public class DriversDataService : BaseDataService<Driver>, IDriversDataService
     {
         private readonly IWebApiRequest _apiWebRequest;
 
@@ -17,12 +17,12 @@ namespace F1Predictions.Core.Services
 
         public Driver FindItem(string id)
         {
-            return Data.Single(d => string.Equals(d.Id, id, StringComparison.OrdinalIgnoreCase));
+            return FindItem(Data, id);
         }
 
         public async Task InitializeAsync()
         {
-            Data = (await _apiWebRequest.GetAsync<IEnumerable<Driver>>(ApiEndpoint.Drivers))
+            Data = (await FetchFromApi(_apiWebRequest, ApiEndpoint.Drivers))
                 .OrderBy(t => t.Id)
                 .ToList();
         }

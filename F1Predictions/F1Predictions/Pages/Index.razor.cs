@@ -18,6 +18,7 @@ namespace F1Predictions.Pages
             await DataInitializer.InitializeCompetitorsAsync();
             await DataInitializer.InitializeTeamsAsync();
             await DataInitializer.InitializeQuestionsAsync();
+            await DataInitializer.InitializeDriversAsync();
 
             NavManager.NavigateTo("/results");
         }

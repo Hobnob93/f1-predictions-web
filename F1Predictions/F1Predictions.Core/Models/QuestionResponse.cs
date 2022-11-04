@@ -1,8 +1,7 @@
 ﻿namespace F1Predictions.Core.Models
 {
-    public class QuestionResponse
+    public class QuestionResponse : DataItem
     {
-        public string Id { get; set; } = string.Empty;
         public string Question { get; set; } = string.Empty;
         public string Scoring { get; set; } = string.Empty;
         public string KH { get; set; } = string.Empty;

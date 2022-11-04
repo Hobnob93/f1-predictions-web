@@ -4,7 +4,7 @@ using F1Predictions.Core.Models;
 
 namespace F1Predictions.Core.Services
 {
-    public class QuestionsDataService : IQuestionsDataService
+    public class QuestionsDataService : BaseDataService<QuestionResponse>, IQuestionsDataService
     {
         private readonly IWebApiRequest _apiWebRequest;
 
@@ -23,12 +23,12 @@ namespace F1Predictions.Core.Services
 
         public QuestionResponse FindItem(string id)
         {
-            return Data.Single(d => string.Equals(d.Id, id, StringComparison.OrdinalIgnoreCase));
+            return FindItem(Data, id);
         }
 
         public async Task InitializeAsync()
         {
-            Data = (await _apiWebRequest.GetAsync<IEnumerable<QuestionResponse>>(ApiEndpoint.Questions))
+            Data = (await FetchFromApi(_apiWebRequest, ApiEndpoint.Questions))
                 .ToList();
 
             _currentIndex = 0;

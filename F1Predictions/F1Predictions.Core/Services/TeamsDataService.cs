@@ -4,7 +4,7 @@ using F1Predictions.Core.Models;
 
 namespace F1Predictions.Core.Services
 {
-    public class TeamsDataService : ITeamsDataService
+    public class TeamsDataService : BaseDataService<Team>, ITeamsDataService
     {
         private readonly IWebApiRequest _apiWebRequest;
 
@@ -17,12 +17,12 @@ namespace F1Predictions.Core.Services
 
         public Team FindItem(string id)
         {
-            return Data.Single(d => string.Equals(d.Id, id, StringComparison.OrdinalIgnoreCase));
+            return FindItem(Data, id);
         }
 
         public async Task InitializeAsync()
         {
-            Data = (await _apiWebRequest.GetAsync<IEnumerable<Team>>(ApiEndpoint.Teams))
+            Data = (await FetchFromApi(_apiWebRequest, ApiEndpoint.Teams))
                 .OrderBy(t => t.Name)
                 .ToList();
         }
