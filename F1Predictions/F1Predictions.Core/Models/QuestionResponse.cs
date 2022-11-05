@@ -6,7 +6,7 @@ namespace F1Predictions.Core.Models
     {
         public string Question { get; set; } = string.Empty;
         public QuestionType Type { get; set; } = QuestionType.None;
-        public string Scoring { get; set; } = string.Empty;
+        public ScoringType Scoring { get; set; } = ScoringType.None;
         public string KH { get; set; } = string.Empty;
         public string HI { get; set; } = string.Empty;
         public string SH { get; set; } = string.Empty;
