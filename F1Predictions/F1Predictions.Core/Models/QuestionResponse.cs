@@ -1,9 +1,11 @@
-﻿namespace F1Predictions.Core.Models
+﻿using F1Predictions.Core.Enum;
+
+namespace F1Predictions.Core.Models
 {
     public class QuestionResponse : DataItem
     {
         public string Question { get; set; } = string.Empty;
-        public string Type { get; set; } = string.Empty;
+        public QuestionType Type { get; set; } = QuestionType.None;
         public string Scoring { get; set; } = string.Empty;
         public string KH { get; set; } = string.Empty;
         public string HI { get; set; } = string.Empty;
