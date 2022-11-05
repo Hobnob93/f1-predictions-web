@@ -3,6 +3,7 @@
     public class QuestionResponse : DataItem
     {
         public string Question { get; set; } = string.Empty;
+        public string Type { get; set; } = string.Empty;
         public string Scoring { get; set; } = string.Empty;
         public string KH { get; set; } = string.Empty;
         public string HI { get; set; } = string.Empty;
