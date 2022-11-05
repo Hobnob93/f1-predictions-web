@@ -1,4 +1,5 @@
-﻿using F1Predictions.Core.Interfaces;
+﻿using F1Predictions.Core.Enums;
+using F1Predictions.Core.Interfaces;
 using Microsoft.AspNetCore.Components;
 
 namespace F1Predictions.Components.Question
@@ -34,14 +35,14 @@ namespace F1Predictions.Components.Question
             if (QuestionsService.CurrentQuestion is null)
                 throw new InvalidOperationException("The current question is null!");
 
-            var scoringType = QuestionsService.CurrentQuestion.Scoring;
-            QuestionType = scoringType.ToLower() switch
+            var questionType = QuestionsService.CurrentQuestion.Type;
+            QuestionType = questionType switch
             {
-                "intro" => typeof(IntroContent),
-                "gp-team" => typeof(GPTeamContent),
-                "gp-drvr" => typeof(GPDriverContent),
-                "val" => typeof(ValueContent),
-                _ => throw new InvalidOperationException($"The question type {scoringType} is not recognised.")
+                F1Predictions.Core.Enums.QuestionType.Intro => typeof(IntroContent),
+                F1Predictions.Core.Enums.QuestionType.SingleTeam => typeof(GPTeamContent),
+                F1Predictions.Core.Enums.QuestionType.SingleDriver => typeof(GPDriverContent),
+                F1Predictions.Core.Enums.QuestionType.Value => typeof(ValueContent),
+                _ => throw new InvalidOperationException($"The question type {questionType} is not recognised.")
             };
         }
 

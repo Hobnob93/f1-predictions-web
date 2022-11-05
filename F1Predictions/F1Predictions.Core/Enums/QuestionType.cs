@@ -1,4 +1,4 @@
-﻿namespace F1Predictions.Core.Enum
+﻿namespace F1Predictions.Core.Enums
 {
     public enum QuestionType
     {
@@ -7,6 +7,7 @@
         SingleTeam,
         Value,
         SingleDriver,
+        SingleTrack,
         MultiTeam,
         MultiTrack,
         MultiDriver,

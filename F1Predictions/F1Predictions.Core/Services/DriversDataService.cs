@@ -1,4 +1,4 @@
-﻿using F1Predictions.Core.Enum;
+﻿using F1Predictions.Core.Enums;
 using F1Predictions.Core.Interfaces;
 using F1Predictions.Core.Models;
 

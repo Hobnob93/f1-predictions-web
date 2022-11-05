@@ -1,4 +1,4 @@
-﻿namespace F1Predictions.Core.Enum
+﻿namespace F1Predictions.Core.Enums
 {
     public enum ApiEndpoint
     {

@@ -1,5 +1,6 @@
 ﻿using F1Predictions.Api.Interfaces;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace F1Predictions.Api.Services
 {
@@ -11,7 +12,11 @@ namespace F1Predictions.Api.Services
 
             return await JsonSerializer.DeserializeAsync<T>(openStream, new JsonSerializerOptions
             {
-                PropertyNameCaseInsensitive = true
+                PropertyNameCaseInsensitive = true,
+                Converters =
+                {
+                    new JsonStringEnumConverter()
+                }
             }) ?? throw new InvalidOperationException("Failed to parse json into target instance!");
         }
     }

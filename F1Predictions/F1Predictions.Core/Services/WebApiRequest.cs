@@ -1,5 +1,5 @@
 ﻿using F1Predictions.Core.Config;
-using F1Predictions.Core.Enum;
+using F1Predictions.Core.Enums;
 using F1Predictions.Core.Interfaces;
 using Microsoft.Extensions.Options;
 using System.Net.Http;
