@@ -2,7 +2,8 @@
   {
     "id": "0-A",
     "question": "Introduction, and everyone's favourite liveries!",
-    "scoring": "INTRO",
+    "type": "Intro",
+    "scoring": "None",
     "kh": "MCL",
     "hi": "ALP",
     "sh": "RBR",
@@ -17,7 +18,8 @@
   {
     "id": "1-A",
     "question": "Who will win the Constructor's Championship?",
-    "scoring": "GP-TEAM",
+    "type": "SingleTeam",
+    "scoring": "Leaderboard",
     "kh": "FER",
     "hi": "FER",
     "sh": "RBR",
@@ -32,7 +34,8 @@
   {
     "id": "1-B",
     "question": "What will the percentage of points difference be between first and second place in the Constructor's Championship?",
-    "scoring": "VAL",
+    "type": "Value",
+    "scoring": "Value",
     "kh": "8",
     "hi": "15",
     "sh": "5",
@@ -47,7 +50,8 @@
   {
     "id": "1-C",
     "question": "Which team will come FIFTH in the Constructor's Championship?",
-    "scoring": "GP-TEAM",
+    "type": "SingleTeam",
+    "scoring": "Leaderboard",
     "kh": "WIL",
     "hi": "ALP",
     "sh": "AT",
@@ -62,7 +66,8 @@
   {
     "id": "1-D",
     "question": "Which team will come LAST in the Constructor's Championship?",
-    "scoring": "GP-TEAM",
+    "type": "SingleTeam",
+    "scoring": "Leaderboard",
     "kh": "HAA",
     "hi": "AT",
     "sh": "HAA",
@@ -77,7 +82,8 @@
   {
     "id": "1-E",
     "question": "Who will WIN the Driver's Championship?",
-    "scoring": "GP-DRVR",
+    "type": "SingleDriver",
+    "scoring": "Leaderboard",
     "kh": "LEC",
     "hi": "HAM",
     "sh": "VER",
@@ -92,7 +98,8 @@
   {
     "id": "1-F",
     "question": "What will the percentage of points difference be between first and second place in the Driver's Championship?",
-    "scoring": "VAL",
+    "type": "Value",
+    "scoring": "Value",
     "kh": "5",
     "hi": "10",
     "sh": "5",
@@ -107,7 +114,8 @@
   {
     "id": "1-G",
     "question": "Who will come TENTH in the Driver's Championship?",
-    "scoring": "GP-DRVR",
+    "type": "SingleDriver",
+    "scoring": "Leaderboard",
     "kh": "ALB",
     "hi": "OCO",
     "sh": "ALO",
@@ -122,7 +130,8 @@
   {
     "id": "1-H",
     "question": "Who will come LAST in the Driver's Championship?",
-    "scoring": "GP-DRVR",
+    "type": "SingleDriver",
+    "scoring": "Leaderboard",
     "kh": "ZHO",
     "hi": "ZHO",
     "sh": "ZHO",
@@ -137,7 +146,8 @@
   {
     "id": "1-I",
     "question": "Which team will have the highest repair cost, and WIN the Destructors Championship?",
-    "scoring": "GP-TEAM",
+    "type": "SingleTeam",
+    "scoring": "Leaderboard",
     "kh": "AT",
     "hi": "RBR",
     "sh": "AM",
@@ -152,7 +162,8 @@
   {
     "id": "1-J",
     "question": "Which team will have the lowest repair cost, and come LAST in the Destructors Championship?",
-    "scoring": "GP-TEAM",
+    "type": "SingleTeam",
+    "scoring": "Leaderboard",
     "kh": "MER",
     "hi": "WIL",
     "sh": "MER",
@@ -167,7 +178,8 @@
   {
     "id": "1-K",
     "question": "Which driver will cause the most cost in repairs, and WIN the Destructors Championship?",
-    "scoring": "GP-DRVR",
+    "type": "SingleDriver",
+    "scoring": "Leaderboard",
     "kh": "TSU",
     "hi": "VER",
     "sh": "STR",
@@ -182,7 +194,8 @@
   {
     "id": "1-L",
     "question": "Which driver will cause the least in repair cost, and come LAST in the Destructors Championship?",
-    "scoring": "GP-DRVR",
+    "type": "SingleDriver",
+    "scoring": "Leaderboard",
     "kh": "HAM",
     "hi": "VET",
     "sh": "HAM",
@@ -197,7 +210,8 @@
   {
     "id": "2-A",
     "question": "Which team will have the MOST podiums over the season?",
-    "scoring": "GP-TEAM",
+    "type": "SingleTeam",
+    "scoring": "Leaderboard",
     "kh": "MER",
     "hi": "FER",
     "sh": "MER",
@@ -212,7 +226,8 @@
   {
     "id": "2-B",
     "question": "Which team will have the FASTEST pitstop in the first race?",
-    "scoring": "GP-TEAM",
+    "type": "SingleTeam",
+    "scoring": "Leaderboard",
     "kh": "RBR",
     "hi": "RBR",
     "sh": "RBR",
@@ -227,7 +242,8 @@
   {
     "id": "2-C",
     "question": "Which team will have the MOST DNFs? (specific to Sunday races)",
-    "scoring": "GP-TEAM",
+    "type": "SingleTeam",
+    "scoring": "Leaderboard",
     "kh": "MCL",
     "hi": "MCL",
     "sh": "ALP",
@@ -242,7 +258,8 @@
   {
     "id": "2-D",
     "question": "Chose TWO teams - every time one of their drivers make it to Q2, you LOSE 1 point",
-    "scoring": "MISC-1",
+    "type": "MultiTeam",
+    "scoring": "Q2Drivers",
     "kh": "AR,HAA",
     "hi": "AR,HAA",
     "sh": "HAA,WIL",
@@ -257,7 +274,8 @@
   {
     "id": "2-E",
     "question": "Which team will have the FIRST mechanical failure in the season during a RACE?",
-    "scoring": "GP-TEAM",
+    "type": "SingleTeam",
+    "scoring": "Leaderboard",
     "kh": "MCL",
     "hi": "AR",
     "sh": "AM",
@@ -272,7 +290,8 @@
   {
     "id": "2-F",
     "question": "Which team will have the LONGEST pitstop in the first race of the season?",
-    "scoring": "GP-TEAM",
+    "type": "SingleTeam",
+    "scoring": "Leaderboard",
     "kh": "FER",
     "hi": "FER",
     "sh": "HAA",
@@ -287,7 +306,8 @@
   {
     "id": "2-G",
     "question": "Pick THREE races of the season YOU think the AlphaTauri drivers will do the BEST at.",
-    "scoring": "MISC-2",
+    "type": "MultiTrack",
+    "scoring": "TeamAtTrack",
     "kh": "BAH,BAK,MZA",
     "hi": "MIA,MZA,RUS",
     "sh": "EMR,MIA,BAK",
@@ -302,7 +322,8 @@
   {
     "id": "2-H",
     "question": "Pick a team - every time one of their drivers finishes 16th OR LOWER, you score points.",
-    "scoring": "MISC-3",
+    "type": "SingleTeam",
+    "scoring": "TeamLower15th",
     "kh": "AR",
     "hi": "AR",
     "sh": "WIL",
@@ -317,7 +338,8 @@
   {
     "id": "2-G",
     "question": "Which team will be the biggest winner compared to 2021?",
-    "scoring": "GP-TEAM",
+    "type": "SingleTeam",
+    "scoring": "Leaderboard",
     "kh": "WIL",
     "hi": "WIL",
     "sh": "MCL",
@@ -332,7 +354,8 @@
   {
     "id": "3-A",
     "question": "Who will have the most laps led throughout the season?",
-    "scoring": "GP-DRVR",
+    "type": "SingleDriver",
+    "scoring": "Leaderboard",
     "kh": "LEC",
     "hi": "HAM",
     "sh": "VER",
@@ -347,7 +370,8 @@
   {
     "id": "3-B",
     "question": "Which drivers will receive the \"Driver of the Day\" award?",
-    "scoring": "MISC-4",
+    "type": "MultiDriver",
+    "scoring": "DriverOfTheDay",
     "star": "MH",
     "kh": "GAS,HAM,LEC,NOR,RUS,SAI,VER,VET",
     "hi": "HAM,LEC,NOR,RIC,RUS,SAI,VER,VET",
@@ -363,7 +387,8 @@
   {
     "id": "3-C",
     "question": "Select ONE track for Sainz, Stroll, Tsunoda, Alonso, and Bottas.",
-    "scoring": "MISC-5",
+    "type": "MultiDriverTrack",
+    "scoring": "MultiDriverOnTrack",
     "kh": "SAI-NED,STR-CAN,TSU-BAH,ALO-BAR,BOT-SPA",
     "hi": "SAI-MZA,STR-CAN,TSU-JPN,ALO-BAR,BOT-RUS",
     "sh": "SAI-MON,STR-MIA,TSU-EMR,ALO-AUS,BOT-SAA",
@@ -378,7 +403,8 @@
   {
     "id": "3-D",
     "question": "Pick THREE drivers who will come the \"best of the rest\" the most.",
-    "scoring": "MISC-6",
+    "type": "MultiDriver",
+    "scoring": "DriverBestOfTheRest",
     "kh": "GAS,PER,SAI",
     "hi": "GAS,NOR,VER",
     "sh": "GAS,NOR,RUS",
@@ -393,7 +419,8 @@
   {
     "id": "3-E",
     "question": "Who are going to be the Q2 specialists?",
-    "scoring": "MISC-7",
+    "type": "MultiDriver",
+    "scoring": "Q2DriverSpecialists",
     "kh": "ALB,ALO,TSU,VET",
     "hi": "ALB,ALO,STR,TSU",
     "sh": "ALB,MAG,MSC,TSU",
@@ -408,7 +435,8 @@
   {
     "id": "3-F",
     "question": "Pick all the drivers you think will make the podium.",
-    "scoring": "MISC-8",
+    "type": "MultiDriver",
+    "scoring": "Podium",
     "kh": "GAS,HAM,LEC,NOR,PER,RIC,RUS,SAI,VER",
     "hi": "GAS,HAM,LEC,NOR,RIC,RUS,SAI,VER,VET",
     "sh": "GAS,HAM,LEC,NOR,PER,RIC,RUS,SAI,VER",
@@ -423,7 +451,8 @@
   {
     "id": "3-G",
     "question": "Which driver will get the most grid penalties?",
-    "scoring": "MISC-9",
+    "type": "SingleDriver",
+    "scoring": "Leaderboard",
     "kh": "RIC",
     "hi": "ZHO",
     "sh": "MAG",
@@ -438,7 +467,8 @@
   {
     "id": "3-H",
     "question": "Which drivers will be the most mischievous and get the most license point penalties?",
-    "scoring": "MISC-10",
+    "type": "MultiDriver",
+    "scoring": "MostLicensePoints",
     "kh": "LEC,MAG",
     "hi": "VER,ZHO",
     "sh": "STR,TSU",
@@ -453,7 +483,8 @@
   {
     "id": "3-I",
     "question": "Select the drivers who you think will NOT be on the grid in 2023.",
-    "scoring": "MISC-11",
+    "type": "MultiDriver",
+    "scoring": "NotOn2023Grid",
     "star": "MG",
     "kh": "ALO,MAG,TSU,ZHO",
     "hi": "HAM,VET,ZHO",
@@ -469,7 +500,8 @@
   {
     "id": "3-J",
     "question": "Who will be the biggest loser compared to 2021?",
-    "scoring": "GP-DRVR",
+    "type": "SingleDriver",
+    "scoring": "Leaderboard",
     "star": "CB",
     "kh": "BOT",
     "hi": "BOT",
@@ -485,7 +517,8 @@
   {
     "id": "3-K",
     "question": "Pick THREE races of the season YOU think Leclerc will perform the BEST at.",
-    "scoring": "MISC-12",
+    "type": "MultiTrack",
+    "scoring": "DriverAtTrack",
     "kh": "BAK,NED,MZA",
     "hi": "MON,SPA,MZA",
     "sh": "EMR,BAR,CTA",
@@ -500,7 +533,8 @@
   {
     "id": "4-A",
     "question": "Which team will score the most points at the Baku circuit?",
-    "scoring": "GP-TEAM",
+    "type": "SingleTeam",
+    "scoring": "Leaderboard",
     "kh": "FER",
     "hi": "RBR",
     "sh": "RBR",
@@ -515,7 +549,8 @@
   {
     "id": "4-B",
     "question": "How many safety cars will there be during the Sunday races?",
-    "scoring": "VAL",
+    "type": "Value",
+    "scoring": "Value",
     "kh": "15",
     "hi": "15",
     "sh": "20",
@@ -530,7 +565,8 @@
   {
     "id": "4-C",
     "question": "How many Virtual Safety Cars (VSCs) will there be during the Sunday races?",
-    "scoring": "VAL",
+    "type": "Value",
+    "scoring": "Value",
     "kh": "10",
     "hi": "5",
     "sh": "9",
@@ -545,7 +581,8 @@
   {
     "id": "4-D",
     "question": "How many Red Flags will there be during the Sunday races?",
-    "scoring": "VAL",
+    "type": "Value",
+    "scoring": "Value",
     "kh": "4",
     "hi": "5",
     "sh": "8",
@@ -560,7 +597,8 @@
   {
     "id": "4-E",
     "question": "How many wet sessions will there be?",
-    "scoring": "VAL",
+    "type": "Value",
+    "scoring": "Value",
     "kh": "20",
     "hi": "15",
     "sh": "15",
@@ -575,7 +613,8 @@
   {
     "id": "4-F",
     "question": "Which race will be voted the fan favourite?",
-    "scoring": "GP-TRAK",
+    "type": "SingleTrack",
+    "scoring": "Leaderboard",
     "kh": "MZA",
     "hi": "SPA",
     "sh": "MZA",
@@ -590,7 +629,8 @@
   {
     "id": "4-G",
     "question": "Pick THREE drivers you think will perform the best at the MIAMI circuit.",
-    "scoring": "MISC-13",
+    "type": "MultiTrack",
+    "scoring": "DriversAtMiami",
     "kh": "HAM,LEC,VER",
     "hi": "HAM,PER,RUS",
     "sh": "HAM,RUS,VER",
@@ -605,7 +645,8 @@
   {
     "id": "4-H",
     "question": "Pick FOUR tracks you think there will be the MOST DNFs during the race.",
-    "scoring": "MISC-13",
+    "type": "MultiTrack",
+    "scoring": "DnfsAtTracks",
     "kh": "BAH,SAA,EMR,MON",
     "hi": "SAA,BAK,JPN,YMC",
     "sh": "BAH,MIA,MON,SIN",
@@ -620,7 +661,8 @@
   {
     "id": "5-A",
     "question": "All teams will score points.",
-    "scoring": "BOOL",
+    "type": "Bool",
+    "scoring": "Bool",
     "kh": "true",
     "hi": "true",
     "sh": "true",
@@ -635,7 +677,8 @@
   {
     "id": "5-B",
     "question": "Russell outscores Perez.",
-    "scoring": "BOOL",
+    "type": "Bool",
+    "scoring": "Bool",
     "kh": "true",
     "hi": "true",
     "sh": "true",
@@ -650,7 +693,8 @@
   {
     "id": "5-C",
     "question": "The winning constructor takes 10 or fewer race wins.",
-    "scoring": "BOOL",
+    "type": "Bool",
+    "scoring": "Bool",
     "kh": "true",
     "hi": "true",
     "sh": "false",
@@ -665,7 +709,8 @@
   {
     "id": "5-D",
     "question": "Team in 10th place after Race 10 will still be 10th by the end of the season.",
-    "scoring": "BOOL",
+    "type": "Bool",
+    "scoring": "Bool",
     "kh": "true",
     "hi": "false",
     "sh": "false",
@@ -680,7 +725,8 @@
   {
     "id": "5-E",
     "question": "The Formula 2 Driver Champion gets a 2023 seat.",
-    "scoring": "BOOL",
+    "type": "Bool",
+    "scoring": "Bool",
     "kh": "true",
     "hi": "false",
     "sh": "false",
@@ -695,7 +741,8 @@
   {
     "id": "5-F",
     "question": "Select all the bold predictions you think will come true!",
-    "scoring": "BOOL-LIST",
+    "type": "MultiBool",
+    "scoring": "MultiBool",
     "kh": "0,3,4,7,8,11,12",
     "hi": "0,3,4,8,9",
     "sh": "4,9,10,11,12",
@@ -710,7 +757,8 @@
   {
     "id": "6-A",
     "question": "Mercedes vs Red Bull",
-    "scoring": "VS",
+    "type": "Versus",
+    "scoring": "Versus",
     "kh": "MER",
     "hi": "MER",
     "sh": "MER",
@@ -725,7 +773,8 @@
   {
     "id": "6-B",
     "question": "Ferrari vs McLaren",
-    "scoring": "VS",
+    "type": "Versus",
+    "scoring": "Versus",
     "kh": "FER",
     "hi": "FER",
     "sh": "MCL",
@@ -740,7 +789,8 @@
   {
     "id": "6-C",
     "question": "Alpine vs AlphaTauri",
-    "scoring": "VS",
+    "type": "Versus",
+    "scoring": "Versus",
     "kh": "AT",
     "hi": "ALP",
     "sh": "AT",
@@ -755,7 +805,8 @@
   {
     "id": "6-D",
     "question": "Aston Martin vs Williams",
-    "scoring": "VS",
+    "type": "Versus",
+    "scoring": "Versus",
     "kh": "WIL",
     "hi": "WIL",
     "sh": "AM",
@@ -770,7 +821,8 @@
   {
     "id": "6-E",
     "question": "Alfa Romeo vs Haas",
-    "scoring": "VS",
+    "type": "Versus",
+    "scoring": "Versus",
     "kh": "HAA",
     "hi": "HAA",
     "sh": "AR",
@@ -785,7 +837,8 @@
   {
     "id": "6-F",
     "question": "Mercedes Drivers Head to Head",
-    "scoring": "H2H",
+    "type": "HeadToHead",
+    "scoring": "HeadToHead",
     "kh": "RUS,HAM",
     "hi": "HAM,HAM",
     "sh": "HAM,HAM",
@@ -800,7 +853,8 @@
   {
     "id": "6-G",
     "question": "Red Bull Drivers Head to Head",
-    "scoring": "H2H",
+    "type": "HeadToHead",
+    "scoring": "HeadToHead",
     "kh": "VER,VER",
     "hi": "VER,VER",
     "sh": "VER,VER",
@@ -815,7 +869,8 @@
   {
     "id": "6-H",
     "question": "Ferrari Drivers Head to Head",
-    "scoring": "H2H",
+    "type": "HeadToHead",
+    "scoring": "HeadToHead",
     "kh": "LEC,SAI",
     "hi": "SAI,SAI",
     "sh": "LEC,SAI",
@@ -830,7 +885,8 @@
   {
     "id": "6-I",
     "question": "McLaren Drivers Head to Head",
-    "scoring": "H2H",
+    "type": "HeadToHead",
+    "scoring": "HeadToHead",
     "star": "MG",
     "kh": "NOR,NOR",
     "hi": "NOR,NOR",
@@ -846,7 +902,8 @@
   {
     "id": "6-J",
     "question": "Alpine Drivers Head to Head",
-    "scoring": "H2H",
+    "type": "HeadToHead",
+    "scoring": "HeadToHead",
     "kh": "OCO,ALO",
     "hi": "ALO,ALO",
     "sh": "ALO,ALO",
@@ -861,7 +918,8 @@
   {
     "id": "6-K",
     "question": "AlphaTauri Drivers Head to Head",
-    "scoring": "H2H",
+    "type": "HeadToHead",
+    "scoring": "HeadToHead",
     "kh": "GAS,GAS",
     "hi": "GAS,GAS",
     "sh": "GAS,GAS",
@@ -876,7 +934,8 @@
   {
     "id": "6-L",
     "question": "Aston Martin Drivers Head to Head",
-    "scoring": "H2H",
+    "type": "HeadToHead",
+    "scoring": "HeadToHead",
     "kh": "VET,VET",
     "hi": "STR,VET",
     "sh": "VET,VET",
@@ -891,7 +950,8 @@
   {
     "id": "6-M",
     "question": "Alfa Romeo Drivers Head to Head",
-    "scoring": "H2H",
+    "type": "HeadToHead",
+    "scoring": "HeadToHead",
     "kh": "BOT,BOT",
     "hi": "BOT,BOT",
     "sh": "BOT,BOT",
@@ -906,7 +966,8 @@
   {
     "id": "6-N",
     "question": "Williams Drivers Head to Head",
-    "scoring": "H2H",
+    "type": "HeadToHead",
+    "scoring": "HeadToHead",
     "kh": "ALB,ALB",
     "hi": "ALB,ALB",
     "sh": "ALB,ALB",
@@ -921,7 +982,8 @@
   {
     "id": "6-O",
     "question": "Haas Drivers Head to Head",
-    "scoring": "H2H",
+    "type": "HeadToHead",
+    "scoring": "HeadToHead",
     "kh": "MSC,MAG",
     "hi": "MAG,MAG",
     "sh": "MAG,MSC",
@@ -936,7 +998,8 @@
   {
     "id": "7-A",
     "question": "Constructor Championship Order",
-    "scoring": "ORDER",
+    "type": "ChampOrder",
+    "scoring": "TeamChampOrder",
     "kh": "FER,MER,RBR,MCL,WIL,AT,AM,ALP,HAA,AR",
     "hi": "FER,MER,RBR,MCL,ALP,AT,AM,WIL,AR,HAA",
     "sh": "RBR,MER,MCL,FER,AT,ALP,AM,AR,WIL,HAA",
@@ -951,7 +1014,8 @@
   {
     "id": "7-B",
     "question": "Driver Championship Order",
-    "scoring": "ORDER",
+    "type": "ChampOrder",
+    "scoring": "DriverChampOrder",
     "star": "TW",
     "kh": "LEC,HAM,VER,SAI,RUS,NOR,PER,GAS,RIC,ALB,ALO,VET,TSU,OCO,STR,LAT,BOT,MSC,MAG,ZHO",
     "hi": "HAM,SAI,VER,LEC,RUS,NOR,PER,GAS,RIC,OCO,ALO,TSU,VET,ALB,STR,BOT,LAT,MAG,MSC,ZHO",
