@@ -5,7 +5,7 @@ using MudBlazor;
 
 namespace F1Predictions.Components.Question
 {
-    public partial class GPDriverContent : QuestionContent
+    public partial class SingleDriverContent : QuestionContent
     {
         [Inject]
         private IDriversDataService DriversService { get; set; } = default!;

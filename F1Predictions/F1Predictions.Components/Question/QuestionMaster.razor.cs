@@ -39,9 +39,10 @@ namespace F1Predictions.Components.Question
             QuestionType = questionType switch
             {
                 F1Predictions.Core.Enums.QuestionType.Intro => typeof(IntroContent),
-                F1Predictions.Core.Enums.QuestionType.SingleTeam => typeof(GPTeamContent),
-                F1Predictions.Core.Enums.QuestionType.SingleDriver => typeof(GPDriverContent),
+                F1Predictions.Core.Enums.QuestionType.SingleTeam => typeof(SingleTeamContent),
+                F1Predictions.Core.Enums.QuestionType.SingleDriver => typeof(SingleDriverContent),
                 F1Predictions.Core.Enums.QuestionType.Value => typeof(ValueContent),
+                F1Predictions.Core.Enums.QuestionType.MultiTeam => typeof(MultiTeamContent),
                 _ => throw new InvalidOperationException($"The question type {questionType} is not recognised.")
             };
         }
