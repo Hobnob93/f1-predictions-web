@@ -43,6 +43,7 @@ namespace F1Predictions.Components.Question
                 F1Predictions.Core.Enums.QuestionType.SingleDriver => typeof(SingleDriverContent),
                 F1Predictions.Core.Enums.QuestionType.Value => typeof(ValueContent),
                 F1Predictions.Core.Enums.QuestionType.MultiTeam => typeof(MultiTeamContent),
+                F1Predictions.Core.Enums.QuestionType.MultiDriver => typeof(MultiDriverContent),
                 _ => throw new InvalidOperationException($"The question type {questionType} is not recognised.")
             };
         }
