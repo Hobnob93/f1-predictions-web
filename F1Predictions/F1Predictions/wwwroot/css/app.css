@@ -91,18 +91,12 @@
 .mud-image.team {
     height: 65px;
     width: auto;
-    border-radius: 2em;
-    border-width: 3px;
-    border-style: solid;
     transform: scale(1.25);
 }
 
 .mud-image.driver {
     height: 65px;
     width: auto;
-    border-radius: 2em;
-    border-width: 3px;
-    border-style: solid;
     transform: scale(1.25);
 }
 

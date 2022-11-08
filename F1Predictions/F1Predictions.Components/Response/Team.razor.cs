@@ -22,7 +22,6 @@ namespace F1Predictions.Components.Response
             .AddClass("ms-2")
             .AddClass("me-2")
             .AddClass("team")
-            .AddClass("breathe")
             .AddClass(Class, when: Class is not null)
             .Build();
 

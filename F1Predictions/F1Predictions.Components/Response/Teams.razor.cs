@@ -14,8 +14,8 @@ namespace F1Predictions.Components.Response
 
         private string ChildClass => new CssBuilder()
             .AddClass("me-n0", when: TeamIds.Count <= 5)
-            .AddClass("me-n5", when: TeamIds.Count < 10 && TeamIds.Count > 5)
-            .AddClass("me-n10", when: TeamIds.Count >= 10)
+            .AddClass($"me-n{TeamIds.Count - 6}", when: TeamIds.Count <= 15 && TeamIds.Count > 5)
+            .AddClass("me-n10", when: TeamIds.Count > 15)
             .Build();
 
         private string ContainerStyle => new StyleBuilder()
