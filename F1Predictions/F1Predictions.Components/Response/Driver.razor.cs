@@ -16,7 +16,6 @@ namespace F1Predictions.Components.Response
 
         private F1Predictions.Core.Models.Driver TargetDriver => DriversService.FindItem(DriverId);
         private string ImageSource => string.Format(ImageSourceFormat, TargetDriver.ImageName);
-        private string DriverColor => TargetDriver.Color;
 
         private string Classes => new CssBuilder()
             .AddClass("ms-2")
@@ -24,12 +23,5 @@ namespace F1Predictions.Components.Response
             .AddClass("driver")
             .AddClass(Class, when: Class is not null)
             .Build();
-
-        private string ColorStyles => new StyleBuilder()
-            .AddStyle("border-color", DriverColor)
-            .AddStyle("color", DriverColor)
-            .Build();
-
-        private string Styles => $"{ColorStyles} {Style}";
     }
 }

@@ -16,7 +16,6 @@ namespace F1Predictions.Components.Response
 
         private F1Predictions.Core.Models.Team TargetTeam => TeamsService.FindItem(TeamId);
         private string ImageSource => string.Format(ImageSourceFormat, TargetTeam.ImageName);
-        private string TeamColor => TargetTeam.Color;
 
         private string Classes => new CssBuilder()
             .AddClass("ms-2")
@@ -24,12 +23,5 @@ namespace F1Predictions.Components.Response
             .AddClass("team")
             .AddClass(Class, when: Class is not null)
             .Build();
-
-        private string ColorStyles => new StyleBuilder()
-            .AddStyle("border-color", TeamColor)
-            .AddStyle("color", TeamColor)
-            .Build();
-
-        private string Styles => $"{ColorStyles} {Style}";
     }
 }
