@@ -4,7 +4,7 @@ using MudBlazor;
 
 namespace F1Predictions.Components.Core
 {
-    public partial class PieChart : BaseComponent
+    public partial class PieChartOld : BaseComponent
     {
         [Parameter, EditorRequired]
         public string Title { get; set; } = string.Empty;
