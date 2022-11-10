@@ -10,8 +10,19 @@ namespace F1Predictions.Components.Core
         public string Title { get; set; } = string.Empty;
 
         [Parameter, EditorRequired]
-        public IEnumerable<ChartDataPoint> Data { get; set; } = default!;
+        public List<ChartDataPoint> Data { get; set; } = default!;
+
+        [Parameter, EditorRequired]
+        public EventCallback<ChartDataPoint> SelectionCallback { get; set; }
 
         private ApexChart<ChartDataPoint>? Chart;
+
+        private async Task OnChartItemSelected(SelectedData<ChartDataPoint> selectedData)
+        {
+            var index = selectedData.DataPointIndex;
+            var item = Data[index];
+
+            await SelectionCallback.InvokeAsync(item);
+        }
     }
 }

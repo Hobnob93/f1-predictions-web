@@ -9,8 +9,6 @@ namespace F1Predictions.Components.Question
     {
         protected override void SetResponses()
         {
-            base.SetResponses();
-
             var answers = AnswerService
                 .GetAnswersRaw()
                 .Select(a => int.Parse(a))

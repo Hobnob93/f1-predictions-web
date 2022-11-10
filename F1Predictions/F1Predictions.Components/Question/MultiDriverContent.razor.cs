@@ -12,8 +12,6 @@ namespace F1Predictions.Components.Question
 
         protected override void SetResponses()
         {
-            base.SetResponses();
-
             var driverIds = AnswerService.GetAnswersRaw()
                 .SelectMany(a => a.Split(","));
 

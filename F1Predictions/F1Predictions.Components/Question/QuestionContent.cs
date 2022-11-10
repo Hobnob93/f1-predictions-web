@@ -5,7 +5,7 @@ using MudBlazor;
 
 namespace F1Predictions.Components.Question
 {
-    public class QuestionContent : ComponentBase, IRefreshable
+    public abstract class QuestionContent : ComponentBase, IRefreshable
     {
         [Inject]
         protected ICompetitorsDataService CompetitorsService { get; set; } = default!;
@@ -16,16 +16,11 @@ namespace F1Predictions.Components.Question
         public List<ChartDataPoint> ResponseData { get; protected set; } = new();
         public ChartOptions ChartOptions { get; protected set; } = new();
 
-        protected int _selectedChartIndex;
+        protected abstract void SetResponses();
 
         protected override void OnInitialized()
         {
             SetResponses();
-        }
-
-        protected virtual void SetResponses()
-        {
-            _selectedChartIndex = -1;
         }
 
         public async Task Refresh()
@@ -35,15 +30,9 @@ namespace F1Predictions.Components.Question
             await InvokeAsync(StateHasChanged);
         }
 
-        protected async Task OnSelectedChartIndex(int index)
+        protected async Task OnSelectedChartDataPoint(ChartDataPoint dataPoint)
         {
-            _selectedChartIndex = index;
-            if (_selectedChartIndex == -1)
-                return;
-
-            var responseData = ResponseData[_selectedChartIndex];
-
-            await CompetitorsService.ShowAllWithAnswer(responseData.Id, AnswerService);
+            await CompetitorsService.ShowAllWithAnswer(dataPoint.Id, AnswerService);
         }
     }
 }
