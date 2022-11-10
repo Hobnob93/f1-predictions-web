@@ -26,6 +26,7 @@ namespace F1Predictions.Components.Question
             {
                 Id = t.Id,
                 Name = t.Name,
+                Color = t.Color,
                 Value = liveryIds.Count(id => id == t.Id)
             }).ToList();
         }

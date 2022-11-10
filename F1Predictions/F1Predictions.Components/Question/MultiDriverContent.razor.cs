@@ -28,6 +28,7 @@ namespace F1Predictions.Components.Question
             {
                 Id = t.Id,
                 Name = t.LastName,
+                Color = t.Color,
                 Value = driverIds.Count(id => id == t.Id)
             }).ToList();
         }

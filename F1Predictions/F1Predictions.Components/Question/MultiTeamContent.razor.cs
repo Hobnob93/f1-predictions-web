@@ -28,6 +28,7 @@ namespace F1Predictions.Components.Question
             {
                 Id = t.Id,
                 Name = t.Name,
+                Color = t.Color,
                 Value = teamIds.Count(id => id == t.Id)
             }).ToList();
         }

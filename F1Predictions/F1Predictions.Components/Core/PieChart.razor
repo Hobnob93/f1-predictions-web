@@ -1,6 +1,6 @@
 ﻿@inherits BaseComponent
 
-<ApexChart TItem="ChartDataPoint" Title="@Title" @ref="Chart" OnDataPointSelection="OnChartItemSelected">
+<ApexChart TItem="ChartDataPoint" Title="@Title" @ref="Chart" OnDataPointSelection="OnChartItemSelected" Options="@Options">
     <ApexPointSeries TItem="ChartDataPoint" Items="@Data" Name="Count" SeriesType="SeriesType.Pie"
-        XValue="@(e => e.Name)" YValue="@(e => e.Value)" />
+        XValue="@(e => e.Name)" YValue="@(e => e.Value)" PointColor="(e => e.Color)" />
 </ApexChart>
