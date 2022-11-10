@@ -20,19 +20,14 @@ namespace F1Predictions.Components.Core
 
         protected override void OnInitialized()
         {
-            Options.Title = new Title
-            {
-                Style = new TitleStyle
-                {
-                    Color = "#CFCFCF"
-                }
-            };
-
             Options.Legend = new Legend
             {
+                FontSize = "14px",
+                FontWeight = "bold",
+                Position = LegendPosition.Right,
                 Labels = new LegendLabels
                 {
-                    Colors = new Color("#CFCFCF")
+                    Colors = new Color("#9D9D9D")
                 }
             };
         }

@@ -1,6 +1,7 @@
 ﻿@inherits BaseComponent
 
-<ApexChart TItem="ChartDataPoint" Title="@Title" @ref="Chart" OnDataPointSelection="OnChartItemSelected" Options="@Options">
+<MudText Class="mb-3" Typo="Typo.h4">@Title</MudText>
+<ApexChart TItem="ChartDataPoint" @ref="Chart" OnDataPointSelection="OnChartItemSelected" Options="@Options" Width="500">
     <ApexPointSeries TItem="ChartDataPoint" Items="@Data" Name="Count" SeriesType="SeriesType.Pie"
         XValue="@(e => e.Name)" YValue="@(e => e.Value)" PointColor="(e => e.Color)" />
 </ApexChart>
