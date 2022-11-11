@@ -113,6 +113,16 @@ header#title-bar > .mud-toolbar-appbar {
     padding-right: 0 !important;
 }
 
+.apexcharts-toolbar {
+    display: none !important;
+}
+
+.apexcharts-yaxis-label, .apexcharts-xaxis-label {
+    fill: #9D9D9D;
+    font-weight: bold;
+    font-size: 14px;
+}
+
 @keyframes breathe {
     0% {
         box-shadow: 0 0 0em, inset 0 0 0em;

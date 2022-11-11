@@ -1,12 +1,14 @@
 ﻿using F1Predictions.Core.Interfaces;
 using F1Predictions.Core.Models;
 using Microsoft.AspNetCore.Components;
-using MudBlazor;
 
 namespace F1Predictions.Components.Question
 {
     public partial class ValueContent : QuestionContent
     {
+        [Inject]
+        private ITeamsDataService TeamsService { get; set; } = default!;
+
         protected override void SetResponses()
         {
             var answers = AnswerService
@@ -16,10 +18,17 @@ namespace F1Predictions.Components.Question
 
             var uniqueAnswers = answers.Distinct();
 
-            ResponseData = uniqueAnswers.Select(ua => new ChartDataPoint
+            var random = new Random();
+            var colors = TeamsService.Data.Select(d => d.Color)
+                .OrderBy(d => random.Next())
+                .ToList();
+
+            ResponseData = uniqueAnswers.Select((ua, i) => new ChartDataPoint
             {
+                Index = i,
                 Id = ua.ToString(),
                 Name = ua.ToString(),
+                Color = colors[i],
                 Value = answers.Count(a => ua == a)
             }).ToList();
         }
