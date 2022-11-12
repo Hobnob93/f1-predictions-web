@@ -17,6 +17,9 @@ namespace F1Predictions.Components.Response
         [Parameter]
         public bool Breathe { get; set; } = true;
 
+        [Parameter]
+        public string? StarredNote { get; set; }
+
         private string Classes => new CssBuilder()
             .AddClass("mt-0")
             .AddClass("competitor-avatar")

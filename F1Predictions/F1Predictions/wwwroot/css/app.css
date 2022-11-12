@@ -100,8 +100,17 @@
     transform: scale(1.25);
 }
 
-.mud-chart-pie {
-    margin-inline-end: 20px !important;
+.mud-badge.mud-badge-dot {
+    height: 12px;
+    width: 12px;
+}
+
+.mud-badge.mud-badge-top.right.mud-badge-overlap {
+    inset: auto calc(100% - 20px) calc(100% - 20px) auto;
+}
+
+.mud-popover-open {
+    font-size: 20px;
 }
 
 header#title-bar {

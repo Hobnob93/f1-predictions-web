@@ -1,4 +1,6 @@
 ﻿using F1Predictions.Core.Interfaces;
+using F1Predictions.Core.Models;
+using System.Net;
 
 namespace F1Predictions.Core.Services
 {
@@ -13,7 +15,7 @@ namespace F1Predictions.Core.Services
 
         public List<string> GetAnswersRaw()
         {
-            var currentQuestion = _questionsService.CurrentQuestion ?? throw new InvalidOperationException("Current question is null!");
+            var currentQuestion = GetQuestionResponse();
             var type = currentQuestion.GetType();
 
             var result = new List<string>();
@@ -35,13 +37,18 @@ namespace F1Predictions.Core.Services
 
         public string GetCompetitorAnswerRaw(string id)
         {
-            var currentQuestion = _questionsService.CurrentQuestion ?? throw new InvalidOperationException("Current question is null!");
+            var currentQuestion = GetQuestionResponse();
             var type = currentQuestion.GetType();
 
             var property = type.GetProperty(id) ?? throw new InvalidOperationException($"Could not find property '{id}'");
             var result = property.GetValue(currentQuestion, null) ?? throw new InvalidOperationException("Retrived answer value is null");
 
             return (string)result;
+        }
+
+        private QuestionResponse GetQuestionResponse()
+        {
+            return _questionsService.CurrentQuestion ?? throw new InvalidOperationException("Current question is null!");
         }
     }
 }

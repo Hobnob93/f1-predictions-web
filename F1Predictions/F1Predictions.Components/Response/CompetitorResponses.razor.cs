@@ -38,6 +38,15 @@ namespace F1Predictions.Components.Response
             await CompetitorsService.ShowCompetitor(competitorId);
         }
 
+        private string? CompetitorHasNote(string competitorId)
+        {
+            var stars = QuestionsService.CurrentQuestion?.Stars;
+            if (stars is null || stars.Count == 0)
+                return null;
+
+            return stars.SingleOrDefault(s => s.Target == competitorId)?.Reason;
+        }
+
         public void Dispose()
         {
             QuestionsService.StateChanging -= OnQuestionAboutToChange;
