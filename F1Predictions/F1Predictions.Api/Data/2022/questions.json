@@ -36,6 +36,12 @@
     "question": "What will the percentage of points difference be between first and second place in the Constructor's Championship?",
     "type": "Value",
     "scoring": "Value",
+    "stars": [
+      {
+        "target": "KC",
+        "reason": "Believed in the new regs!"
+      }
+    ],
     "kh": "8",
     "hi": "15",
     "sh": "5",
@@ -52,6 +58,12 @@
     "question": "Which team will come FIFTH in the Constructor's Championship?",
     "type": "SingleTeam",
     "scoring": "Leaderboard",
+    "stars": [
+      {
+        "target": "KH",
+        "reason": "Misplaced faith!"
+      }
+    ],
     "kh": "WIL",
     "hi": "ALP",
     "sh": "AT",
@@ -68,6 +80,12 @@
     "question": "Which team will come LAST in the Constructor's Championship?",
     "type": "SingleTeam",
     "scoring": "Leaderboard",
+    "stars": [
+      {
+        "target": "CB",
+        "reason": "Do you have regrets?"
+      }
+    ],
     "kh": "HAA",
     "hi": "AT",
     "sh": "HAA",
@@ -116,6 +134,12 @@
     "question": "Who will come TENTH in the Driver's Championship?",
     "type": "SingleDriver",
     "scoring": "Leaderboard",
+    "stars": [
+      {
+        "target": "KH",
+        "reason": "Continued misplaced faith!"
+      }
+    ],
     "kh": "ALB",
     "hi": "OCO",
     "sh": "ALO",
@@ -228,6 +252,12 @@
     "question": "Which team will have the FASTEST pitstop in the first race?",
     "type": "SingleTeam",
     "scoring": "Leaderboard",
+    "stars": [
+      {
+        "target": "KB",
+        "reason": "Unwavering support"
+      }
+    ],
     "kh": "RBR",
     "hi": "RBR",
     "sh": "RBR",
@@ -305,7 +335,7 @@
   },
   {
     "id": "2-G",
-    "question": "Pick THREE races of the season YOU think the AlphaTauri drivers will do the BEST at.",
+    "question": "Pick THREE races of the season YOU think the Alpha Tauri drivers will do the BEST at.",
     "type": "MultiTrack",
     "scoring": "TeamAtTrack",
     "kh": "BAH,BAK,MZA",
@@ -372,7 +402,20 @@
     "question": "Which drivers will receive the \"Driver of the Day\" award?",
     "type": "MultiDriver",
     "scoring": "DriverOfTheDay",
-    "star": "MH",
+    "stars": [
+      {
+        "target": "MH",
+        "reason": "Assignment misunderstood?"
+      },
+      {
+        "target": "MG",
+        "reason": "British bias confirmed"
+      },
+      {
+        "target": "SH",
+        "reason": "How come you didn't pick everyone?"
+      }
+    ],
     "kh": "GAS,HAM,LEC,NOR,RUS,SAI,VER,VET",
     "hi": "HAM,LEC,NOR,RIC,RUS,SAI,VER,VET",
     "sh": "ALB,ALO,GAS,HAM,LEC,NOR,OCO,PER,RIC,RUS,MSC,VER,VET",
@@ -485,7 +528,6 @@
     "question": "Select the drivers who you think will NOT be on the grid in 2023.",
     "type": "MultiDriver",
     "scoring": "NotOn2023Grid",
-    "star": "MG",
     "kh": "ALO,MAG,TSU,ZHO",
     "hi": "HAM,VET,ZHO",
     "sh": "LAT,MAG",
@@ -502,7 +544,12 @@
     "question": "Who will be the biggest loser compared to 2021?",
     "type": "SingleDriver",
     "scoring": "Leaderboard",
-    "star": "CB",
+    "stars": [
+      {
+        "target": "CB",
+        "reason": "Error 404: Bottas not found"
+      }
+    ],
     "kh": "BOT",
     "hi": "BOT",
     "sh": "BOT",
@@ -629,7 +676,7 @@
   {
     "id": "4-G",
     "question": "Pick THREE drivers you think will perform the best at the MIAMI circuit.",
-    "type": "MultiTrack",
+    "type": "MultiDriver",
     "scoring": "DriversAtTrack",
     "kh": "HAM,LEC,VER",
     "hi": "HAM,PER,RUS",
@@ -887,7 +934,12 @@
     "question": "McLaren Drivers Head to Head",
     "type": "HeadToHead",
     "scoring": "HeadToHead",
-    "star": "MG",
+    "stars": [
+      {
+        "target": "MG",
+        "reason": "Ricciardo strikes again!"
+      }
+    ],
     "kh": "NOR,NOR",
     "hi": "NOR,NOR",
     "sh": "NOR,NOR",
@@ -1000,6 +1052,12 @@
     "question": "Constructor Championship Order",
     "type": "ChampOrder",
     "scoring": "TeamChampOrder",
+    "stars": [
+      {
+        "target": "KH",
+        "reason": "That continued Williams faith..."
+      }
+    ],
     "kh": "FER,MER,RBR,MCL,WIL,AT,AM,ALP,HAA,AR",
     "hi": "FER,MER,RBR,MCL,ALP,AT,AM,WIL,AR,HAA",
     "sh": "RBR,MER,MCL,FER,AT,ALP,AM,AR,WIL,HAA",
@@ -1016,7 +1074,12 @@
     "question": "Driver Championship Order",
     "type": "ChampOrder",
     "scoring": "DriverChampOrder",
-    "star": "TW",
+    "stars": [
+      {
+        "target": "TW",
+        "reason": "Your position for Albon upsets me"
+      }
+    ],
     "kh": "LEC,HAM,VER,SAI,RUS,NOR,PER,GAS,RIC,ALB,ALO,VET,TSU,OCO,STR,LAT,BOT,MSC,MAG,ZHO",
     "hi": "HAM,SAI,VER,LEC,RUS,NOR,PER,GAS,RIC,OCO,ALO,TSU,VET,ALB,STR,BOT,LAT,MAG,MSC,ZHO",
     "sh": "VER,HAM,RUS,PER,SAI,NOR,RIC,LEC,GAS,ALO,BOT,VET,OCO,TSU,ALB,STR,MAG,MSC,LAT,ZHO",

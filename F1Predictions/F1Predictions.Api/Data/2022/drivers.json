@@ -126,6 +126,13 @@
     "team-id": "AM"
   },
   {
+    "id": "HUL",
+    "firstName": "Nico",
+    "lastName": "Hulkenburg",
+    "color": "#358C75",
+    "team-id": "AM"
+  }
+  {
     "id": "LAT",
     "firstName": "Nicholas",
     "lastName": "Latifi",
@@ -137,6 +144,13 @@
     "firstName": "Alex",
     "lastName": "Albon",
     "color": "#37BEDD",
+    "team-id": "WIL"
+  },
+  {
+    "id": "DEV",
+    "firstName": "Nyck",
+    "lastName": "De Vries",
+    "color": "#159CBB",
     "team-id": "WIL"
   }
 ]
