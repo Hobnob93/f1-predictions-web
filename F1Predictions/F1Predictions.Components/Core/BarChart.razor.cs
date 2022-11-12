@@ -30,6 +30,15 @@ namespace F1Predictions.Components.Core
             };
         }
 
+        protected override async Task OnParametersSetAsync()
+        {
+            if (Chart is not null)
+            {
+                await Chart.UpdateSeriesAsync();
+                await Chart.RenderAsync();
+            }
+        }
+
         private async Task OnChartItemSelected(SelectedData<ChartDataPoint> selectedData)
         {
             var index = selectedData.DataPointIndex;

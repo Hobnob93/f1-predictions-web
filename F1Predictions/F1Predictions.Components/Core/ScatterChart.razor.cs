@@ -35,9 +35,9 @@ namespace F1Predictions.Components.Core
             {
                 Hover = new MarkersHover
                 {
-                    Size = 13
+                    Size = 11
                 },
-                Size = 10,
+                Size = 6.5,
             };
 
             Options.Tooltip = new Tooltip
@@ -48,6 +48,15 @@ namespace F1Predictions.Components.Core
                 },
                 Theme = "dark"
             };
+        }
+
+        protected override async Task OnParametersSetAsync()
+        {
+            if (Chart is not null)
+            {
+                await Chart.UpdateSeriesAsync();
+                await Chart.RenderAsync();
+            }
         }
 
         private async Task OnChartItemSelected(SelectedData<ChartDataPoint> selectedData)
