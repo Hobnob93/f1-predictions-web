@@ -18,6 +18,7 @@ builder.Services.AddTransient<IWebApiRequest, WebApiRequest>();
 builder.Services.AddScoped<ICompetitorsDataService, CompetitorsDataService>();
 builder.Services.AddScoped<ITeamsDataService, TeamsDataService>();
 builder.Services.AddScoped<IDriversDataService, DriversDataService>();
+builder.Services.AddScoped<ITracksDataService, TracksDataService>();
 builder.Services.AddScoped<IQuestionsDataService, QuestionsDataService>();
 builder.Services.AddScoped<IDataServicesInitializer, DataServicesInitializer>();
 builder.Services.AddScoped<IAnswerService, AnswerService>();

@@ -5,7 +5,7 @@
         @{
             var response = GetCompetitorAnswers(competitor.Id);
         }
-        <Tracks TrackIds="@response" />
+        <Tracks TrackIds="@response" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
     </CompetitorTemplate>
 </CompetitorResponses>
 
