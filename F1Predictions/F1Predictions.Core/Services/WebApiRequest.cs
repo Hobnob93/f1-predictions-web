@@ -2,7 +2,6 @@
 using F1Predictions.Core.Enums;
 using F1Predictions.Core.Interfaces;
 using Microsoft.Extensions.Options;
-using System.Net.Http;
 using System.Text.Json;
 
 namespace F1Predictions.Core.Services

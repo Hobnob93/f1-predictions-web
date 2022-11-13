@@ -1,0 +1,14 @@
+﻿@inherits QuestionContent
+
+<CompetitorResponses>
+    <CompetitorTemplate Context="competitor">
+        @{
+            var response = GetCompetitorAnswers(competitor.Id);
+        }
+        
+    </CompetitorTemplate>
+</CompetitorResponses>
+
+<MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
+    <BarChart Title="Responses" Data="@ResponseData" SelectionCallback="OnSelectedChartDataPoint" />
+</MudPaper>
