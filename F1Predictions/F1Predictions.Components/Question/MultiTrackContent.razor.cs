@@ -9,9 +9,6 @@ namespace F1Predictions.Components.Question
         [Inject]
         private ITracksDataService TracksService { get; set; } = default!;
 
-        [Inject]
-        private ITeamsDataService TeamsService { get; set; } = default!;
-
         protected override void SetResponses()
         {
             var trackIds = AnswerService.GetAnswersRaw()
@@ -22,16 +19,11 @@ namespace F1Predictions.Components.Question
                 .Select(id => TracksService.FindItem(id))
                 .ToList();
 
-            var random = new Random();
-            var colors = TeamsService.Data.Select(d => d.Color)
-                .OrderBy(d => random.Next())
-                .ToList();
-
-            ResponseData = tracks.Select((t, i) => new ChartDataPoint
+            ResponseData = tracks.Select(t => new ChartDataPoint
             {
                 Id = t.Id,
                 Name = t.Name,
-                Color = colors[i],
+                Color = t.Color,
                 Value = trackIds.Count(id => id == t.Id)
             }).ToList();
         }

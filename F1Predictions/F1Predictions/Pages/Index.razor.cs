@@ -19,8 +19,9 @@ namespace F1Predictions.Pages
             await DataInitializer.InitializeTeamsAsync();
             await DataInitializer.InitializeQuestionsAsync();
             await DataInitializer.InitializeDriversAsync();
+            await DataInitializer.InitializeTracksAsync();
 
-            NavManager.NavigateTo("/results");
+            NavManager.NavigateTo("./results");
         }
     }
 }

@@ -6,5 +6,6 @@
         Task InitializeTeamsAsync();
         Task InitializeQuestionsAsync();
         Task InitializeDriversAsync();
+        Task InitializeTracksAsync();
     }
 }

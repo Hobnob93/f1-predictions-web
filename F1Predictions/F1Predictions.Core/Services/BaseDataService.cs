@@ -14,6 +14,7 @@ namespace F1Predictions.Core.Services
             }
             catch (Exception ex)
             {
+                Console.WriteLine($"ID not found: {id}");
                 ex.Data.Add("ID to find", id);
 
                 throw;
