@@ -5,6 +5,7 @@
         Competitors,
         Drivers,
         Teams,
+        Tracks,
         Questions
     }
 }
