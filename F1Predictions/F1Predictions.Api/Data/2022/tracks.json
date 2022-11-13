@@ -2,116 +2,139 @@
   {
     "id": "BAH",
     "name": "Bahrain International",
-    "country": "Bahrain"
+    "country": "Bahrain",
+    "color": "#a31c24"
   },
   {
     "id": "SAA",
     "name": "Jeddah Corniche",
-    "country": "Saudi Arabia"
+    "country": "Saudi Arabia",
+    "color": "#006c35"
   },
   {
     "id": "AUS",
     "name": "Melbourne",
-    "country": "Australia"
+    "country": "Australia",
+    "color": "#525572"
   },
   {
     "id": "EMR",
     "name": "Emilia Romagna",
-    "country": "Italy"
+    "country": "Italy",
+    "color": "#44830d"
   },
   {
     "id": "MIA",
     "name": "Miami",
-    "country": "USA"
+    "country": "USA",
+    "color": "#020164"
   },
   {
     "id": "BAR",
     "name": "Barcelona",
-    "country": "Spain"
+    "country": "Spain",
+    "color": "#fabd00"
   },
   {
     "id": "MON",
     "name": "Circuit De Monaco",
-    "country": "Monaco"
+    "country": "Monaco",
+    "color": "#a4444c"
   },
   {
     "id": "BAK",
     "name": "Baku",
-    "country": "Azerbaijan"
+    "country": "Azerbaijan",
+    "color": "#00b9e5"
   },
   {
     "id": "CAN",
     "name": "Circuit Gilles-Villeneuve",
-    "country": "Canada"
+    "country": "Canada",
+    "color": "#fe0000"
   },
   {
     "id": "GBR",
     "name": "Silverstone",
-    "country": "Great Britain"
+    "country": "Great Britain",
+    "color": "#01237e"
   },
   {
     "id": "RBR",
     "name": "Red Bull Ring",
-    "country": "Austria"
+    "country": "Austria",
+    "color": "#c80f2e"
   },
   {
     "id": "CPR",
     "name": "Circuit Paul Ricard",
-    "country": "France"
+    "country": "France",
+    "color": "#0c2444"
   },
   {
     "id": "HUN",
     "name": "Hungaroring",
-    "country": "Hungary"
+    "country": "Hungary",
+    "color": "#436f4c"
   },
   {
     "id": "SPA",
     "name": "Circuit De Spa-Francorchamps",
-    "country": "Belgium"
+    "country": "Belgium",
+    "color": "#000000"
   },
   {
     "id": "NED",
     "name": "Zandvoort",
-    "country": "Netherlands"
+    "country": "Netherlands",
+    "color": "#1e448b"
   },
   {
     "id": "MZA",
     "name": "Monza",
-    "country": "Italy"
+    "country": "Italy",
+    "color": "#1d4803"
   },
   {
     "id": "RUS",
     "name": "<Russia Replacement>",
-    "country": "CANCELLED"
+    "country": "CANCELLED",
+    "color": "#FFFFFF"
   },
   {
     "id": "SIN",
     "name": "Marina Bay",
-    "country": "Singapore"
+    "country": "Singapore",
+    "color": "#d4435e"
   },
   {
     "id": "JPN",
     "name": "Suzuka",
-    "country": "Japan"
+    "country": "Japan",
+    "color": "#FF0000"
   },
   {
     "id": "CTA",
     "name": "Circuit of the Americas",
-    "country": "USA"
+    "country": "USA",
+    "color": "#020164"
   },
   {
     "id": "AHR",
     "name": "Autodromo Hermanos Rodriguez",
-    "country": "Mexico"
+    "country": "Mexico",
+    "color": "#006847"
   },
   {
     "id": "AJC",
     "name": "Autodromo Jose Carlos Pace",
-    "country": "Brazil"
+    "country": "Brazil",
+    "color": "#ffdf00"
   },
   {
     "id": "YMC",
     "name": "Yas Marina",
-    "country": "Abu Dhabi"
+    "country": "Abu Dhabi",
+    "color": "#04742c"
   }
 ]
