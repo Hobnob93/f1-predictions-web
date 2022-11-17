@@ -8,9 +8,9 @@
 
         @foreach (var response in responses)
         {
-            <div class="d-flex align-center driver-track">
-                <Driver Class="ms-n4" DriverId="@response.DriverId" />
-                <Track Class="ms-n12" TrackId="@response.TrackId" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
+            <div class="@GetDriverTrackContainerClasses(competitor.IsRightAligned)">
+                <Driver Class="@GetDriverClasses(competitor.IsRightAligned)" DriverId="@response.DriverId" />
+                <Track Class="@GetTrackClasses(competitor.IsRightAligned)" TrackId="@response.TrackId" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
             </div>
         }
     </CompetitorTemplate>

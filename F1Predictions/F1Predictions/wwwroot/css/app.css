@@ -132,6 +132,10 @@ header#title-bar > .mud-toolbar-appbar {
     font-size: 14px;
 }
 
+.me-n4-5 {
+    margin-inline-end: -18px !important;
+}
+
 @keyframes breathe {
     0% {
         box-shadow: 0 0 0em, inset 0 0 0em;
