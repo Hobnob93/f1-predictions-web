@@ -1,0 +1,21 @@
+﻿@inherits QuestionContent
+
+<CompetitorResponses>
+    <CompetitorTemplate Context="competitor">
+        @{
+            var responses = GetCompetitorAnswers(competitor.Id);
+        }
+
+        @foreach (var response in responses)
+        {
+            <div class="d-flex align-center driver-track">
+                <Driver Class="ms-n4" DriverId="@response.DriverId" />
+                <Track Class="ms-n12" TrackId="@response.TrackId" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
+            </div>
+        }
+    </CompetitorTemplate>
+</CompetitorResponses>
+
+<MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
+    
+</MudPaper>

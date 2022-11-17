@@ -13,7 +13,7 @@ namespace F1Predictions.Components.Response
         public RenderFragment ChildContent { get; set; } = default!;
 
         [Parameter, EditorRequired]
-        public int Index { get; set; }
+        public bool IsRightAligned { get; set; }
 
         [Parameter, EditorRequired]
         public string Color { get; set; } = default!;
@@ -23,8 +23,6 @@ namespace F1Predictions.Components.Response
 
         [Parameter]
         public bool IsShowingContent { get; set; }
-
-        private bool IsRightAligned => Index % 2 == 1;
 
         protected override void OnInitialized()
         {

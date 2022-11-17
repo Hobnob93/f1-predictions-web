@@ -22,7 +22,14 @@ namespace F1Predictions.Api.Controllers
         {
             try
             {
-                return await _jsonParser.ParseAsync<IEnumerable<Competitor>>("Data/2022/competitors");
+                var competitors = (await _jsonParser.ParseAsync<IEnumerable<Competitor>>("Data/2022/competitors"))
+                    .OrderBy(c => c.Id)
+                    .ToList();
+
+                for (var i = 0; i < competitors.Count; i++)
+                    competitors[i].Index = i;
+
+                return competitors;
             }
             catch (Exception ex)
             {

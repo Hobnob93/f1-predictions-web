@@ -1,12 +1,11 @@
 ﻿@inherits BaseComponent
 
 <MudGrid Spacing="2" Class="@Classes" Style="@Style" UserAttributes="@UserAttributes">
-    @for (var i = 0; i < CompetitorsService.Data.Count; i++)
+    @foreach (var competitor in CompetitorsService.Data)
     {
-        var competitor = CompetitorsService.Data[i];
         var starredNote = CompetitorHasNote(competitor.Id);
 
-        <ResponseContainer Index="@i" Color="@competitor.Color" OnClicked="async () => await OnResponseClicked(competitor.Id)" IsShowingContent="@competitor.IsShowingContent">
+        <ResponseContainer Color="@competitor.Color" IsRightAligned="@competitor.IsRightAligned" OnClicked="async () => await OnResponseClicked(competitor.Id)" IsShowingContent="@competitor.IsShowingContent">
             <Competitor Initials="@competitor.Id" Color="@competitor.Color" StarredNote="@starredNote" />
             @CompetitorTemplate(competitor)
         </ResponseContainer>
