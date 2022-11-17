@@ -60,7 +60,7 @@ namespace F1Predictions.Components.Question
         {
             return new CssBuilder()
                 .AddClass("ms-n4", when: !compIsRightAligned)
-                .AddClass("me-n4-5", when: compIsRightAligned)
+                .AddClass("me-n4", when: compIsRightAligned)
                 .Build();
         }
 
