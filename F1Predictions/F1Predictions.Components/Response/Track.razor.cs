@@ -1,6 +1,7 @@
 ﻿using BlazorComponentUtilities;
 using F1Predictions.Core.Interfaces;
 using Microsoft.AspNetCore.Components;
+using MudBlazor;
 
 namespace F1Predictions.Components.Response
 {
@@ -17,6 +18,9 @@ namespace F1Predictions.Components.Response
 
         [Parameter]
         public bool UseDarkText { get; set; }
+
+        [Parameter]
+        public Size Size { get; set; } = Size.Medium;
 
 
         private F1Predictions.Core.Models.Track TargetTrack => TracksService.FindItem(TrackId);

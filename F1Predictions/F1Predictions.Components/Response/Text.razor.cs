@@ -1,5 +1,6 @@
 ﻿using BlazorComponentUtilities;
 using Microsoft.AspNetCore.Components;
+using MudBlazor;
 
 namespace F1Predictions.Components.Response
 {
@@ -13,6 +14,9 @@ namespace F1Predictions.Components.Response
 
         [Parameter]
         public bool UseDarkText { get; set; }
+
+        [Parameter]
+        public Size Size { get; set; } = Size.Medium;
 
         public string ColorStyles => new StyleBuilder()
             .AddStyle("font-size", "1.1rem")

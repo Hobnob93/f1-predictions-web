@@ -10,12 +10,12 @@
         {
             <div class="@GetDriverTrackContainerClasses(competitor.IsRightAligned)">
                 <Driver Class="@GetDriverClasses(competitor.IsRightAligned)" DriverId="@response.DriverId" />
-                <Track Class="@GetTrackClasses(competitor.IsRightAligned)" TrackId="@response.TrackId" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
+                <Track Class="@GetTrackClasses(competitor.IsRightAligned)" TrackId="@response.TrackId" Size="Size.Small" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
             </div>
         }
     </CompetitorTemplate>
 </CompetitorResponses>
 
 <MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
-    
+    <BarChart Title="Responses" Data="@ResponseData" SelectionCallback="OnSelectedChartDataPoint" />
 </MudPaper>

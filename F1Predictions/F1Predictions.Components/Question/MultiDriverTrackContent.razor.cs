@@ -11,29 +11,26 @@ namespace F1Predictions.Components.Question
         private IDriversDataService DriversService { get; set; } = default!;
 
         [Inject]
-        private ITracksDataService TracksServicve { get; set; } = default!;
+        private ITracksDataService TracksService { get; set; } = default!;
 
         protected override void SetResponses()
         {
-            //var driverIds = AnswerService.GetAnswersRaw()
-            //    .SelectMany(a => a.Split(","));
-            //
-            //var drivers = driverIds
-            //    .Distinct()
-            //    .Select(id => DriversService.FindItem(id))
-            //    .ToList();
-            //
-            //ChartOptions.ChartPalette = drivers
-            //    .Select(t => t.Color)
-            //    .ToArray();
-            //
-            //ResponseData = drivers.Select(t => new ChartDataPoint
-            //{
-            //    Id = t.Id,
-            //    Name = t.LastName,
-            //    Color = t.Color,
-            //    Value = driverIds.Count(id => id == t.Id)
-            //}).ToList();
+            var trackIds = AnswerService.GetAnswersRaw()
+                .SelectMany(a => a.Split(","))
+                .Select(a => a.Split("-").Last());
+
+            var tracks = trackIds
+                .Distinct()
+                .Select(id => TracksService.FindItem(id))
+                .ToList();
+
+            ResponseData = tracks.Select(t => new ChartDataPoint
+            {
+                Id = t.Id,
+                Name = t.Name,
+                Color = t.Color,
+                Value = trackIds.Count(id => id == t.Id)
+            }).ToList();
         }
 
         private List<(string DriverId, string TrackId)> GetCompetitorAnswers(string competitorId)
@@ -52,7 +49,7 @@ namespace F1Predictions.Components.Question
                 .AddClass("d-flex")
                 .AddClass("flex-row", when: !compIsRightAligned)
                 .AddClass("flex-row-reverse", when: compIsRightAligned)
-                .AddClass("align-center")
+                .AddClass("align-end")
                 .Build();
         }
 
