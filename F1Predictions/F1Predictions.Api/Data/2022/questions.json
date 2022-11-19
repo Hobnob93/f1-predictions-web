@@ -708,7 +708,7 @@
   {
     "id": "5-A",
     "question": "All teams will score points.",
-    "type": "Bool",
+    "type": "SingleBool",
     "scoring": "Bool",
     "kh": "true",
     "hi": "true",
@@ -724,7 +724,7 @@
   {
     "id": "5-B",
     "question": "Russell outscores Perez.",
-    "type": "Bool",
+    "type": "SingleBool",
     "scoring": "Bool",
     "kh": "true",
     "hi": "true",
@@ -740,7 +740,7 @@
   {
     "id": "5-C",
     "question": "The winning constructor takes 10 or fewer race wins.",
-    "type": "Bool",
+    "type": "SingleBool",
     "scoring": "Bool",
     "kh": "true",
     "hi": "true",
@@ -756,7 +756,7 @@
   {
     "id": "5-D",
     "question": "Team in 10th place after Race 10 will still be 10th by the end of the season.",
-    "type": "Bool",
+    "type": "SingleBool",
     "scoring": "Bool",
     "kh": "true",
     "hi": "false",
@@ -772,7 +772,7 @@
   {
     "id": "5-E",
     "question": "The Formula 2 Driver Champion gets a 2023 seat.",
-    "type": "Bool",
+    "type": "SingleBool",
     "scoring": "Bool",
     "kh": "true",
     "hi": "false",

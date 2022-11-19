@@ -1,0 +1,14 @@
+﻿@inherits BaseComponent
+
+@if (State is true)
+{
+    <MudAvatar Color="MudBlazor.Color.Success" Variant="Variant.Filled">
+        <MudIcon Color="MudBlazor.Color.Dark" Icon="@Icons.Filled.Check" Size="Size.Large" />
+    </MudAvatar>
+}
+else
+{
+    <MudAvatar Color="MudBlazor.Color.Secondary" Variant="Variant.Filled">
+        <MudIcon Color="MudBlazor.Color.Dark" Icon="@Icons.Filled.Check" Size="Size.Large" />
+    </MudAvatar>
+}
