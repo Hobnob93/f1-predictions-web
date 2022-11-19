@@ -18,10 +18,6 @@ namespace F1Predictions.Components.Question
                 .Select(id => TeamsService.FindItem(id))
                 .ToList();
 
-            ChartOptions.ChartPalette = teams
-                .Select(t => t.Color)
-                .ToArray();
-
             ResponseData = teams.Select(t => new ChartDataPoint
             {
                 Id = t.Id,

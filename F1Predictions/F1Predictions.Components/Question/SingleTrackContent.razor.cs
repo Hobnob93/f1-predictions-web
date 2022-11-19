@@ -13,7 +13,6 @@ namespace F1Predictions.Components.Question
         protected override void SetResponses()
         {
             var trackIds = AnswerService.GetAnswersRaw();
-
             var tracks = trackIds
                 .Distinct()
                 .Select(id => TracksService.FindItem(id))

@@ -20,10 +20,6 @@ namespace F1Predictions.Components.Question
                 .Select(id => DriversService.FindItem(id))
                 .ToList();
 
-            ChartOptions.ChartPalette = drivers
-                .Select(t => t.Color)
-                .ToArray();
-
             ResponseData = drivers.Select(t => new ChartDataPoint
             {
                 Id = t.Id,

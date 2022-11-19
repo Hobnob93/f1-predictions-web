@@ -14,7 +14,6 @@ namespace F1Predictions.Components.Question
         protected IAnswerService AnswerService { get; set; } = default!;
 
         public List<ChartDataPoint> ResponseData { get; protected set; } = new();
-        public ChartOptions ChartOptions { get; protected set; } = new();
 
         protected abstract void SetResponses();
 
