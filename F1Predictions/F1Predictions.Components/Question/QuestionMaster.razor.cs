@@ -42,6 +42,7 @@ namespace F1Predictions.Components.Question
                 F1Predictions.Core.Enums.QuestionType.SingleTeam => typeof(SingleTeamContent),
                 F1Predictions.Core.Enums.QuestionType.SingleDriver => typeof(SingleDriverContent),
                 F1Predictions.Core.Enums.QuestionType.SingleTrack => typeof(SingleTrackContent),
+                F1Predictions.Core.Enums.QuestionType.SingleBool => typeof(SingleBooleanContent),
                 F1Predictions.Core.Enums.QuestionType.Value => typeof(ValueContent),
                 F1Predictions.Core.Enums.QuestionType.MultiTeam => typeof(MultiTeamContent),
                 F1Predictions.Core.Enums.QuestionType.MultiDriver => typeof(MultiDriverContent),

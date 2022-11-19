@@ -1,0 +1,14 @@
+﻿@inherits QuestionContent
+
+<CompetitorResponses>
+    <CompetitorTemplate Context="competitor">
+        @{
+            var response = GetCompetitorAnswer(competitor.Id);
+        }
+        <Boolean State="@response" />
+    </CompetitorTemplate>
+</CompetitorResponses>
+
+<MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
+    <PieChart Title="Responses" Data="@ResponseData" SelectionCallback="OnSelectedChartDataPoint" @ref="RefreshableChart" />
+</MudPaper>
