@@ -10,5 +10,5 @@
 </CompetitorResponses>
 
 <MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
-    <BarChart Title="Responses" Data="@ResponseData" SelectionCallback="OnSelectedChartDataPoint" />
+    <BarChart Title="Responses" Data="@ResponseData" SelectionCallback="OnSelectedChartDataPoint" @ref="RefreshableChart" />
 </MudPaper>

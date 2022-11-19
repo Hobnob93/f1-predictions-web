@@ -13,6 +13,7 @@ namespace F1Predictions.Components.Question
         [Inject]
         protected IAnswerService AnswerService { get; set; } = default!;
 
+        public IRefreshable? RefreshableChart { get; set; }
         public List<ChartDataPoint> ResponseData { get; protected set; } = new();
 
         protected abstract void SetResponses();
@@ -27,6 +28,9 @@ namespace F1Predictions.Components.Question
             SetResponses();
 
             await InvokeAsync(StateHasChanged);
+
+            if (RefreshableChart is not null)
+                await RefreshableChart.Refresh();
         }
 
         protected async Task OnSelectedChartDataPoint(ChartDataPoint dataPoint)

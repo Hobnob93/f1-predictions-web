@@ -1,10 +1,11 @@
 ﻿using ApexCharts;
+using F1Predictions.Core.Interfaces;
 using F1Predictions.Core.Models;
 using Microsoft.AspNetCore.Components;
 
 namespace F1Predictions.Components.Core
 {
-    public partial class PieChart : BaseComponent
+    public partial class PieChart : BaseComponent, IRefreshable
     {
         [Parameter, EditorRequired]
         public string Title { get; set; } = string.Empty;
@@ -32,7 +33,7 @@ namespace F1Predictions.Components.Core
             };
         }
 
-        protected override async Task OnParametersSetAsync()
+        public async Task Refresh()
         {
             if (Chart is not null)
             {
@@ -45,7 +46,7 @@ namespace F1Predictions.Components.Core
         {
             var index = selectedData.DataPointIndex;
             var item = Data[index];
-
+            
             await SelectionCallback.InvokeAsync(item);
         }
     }
