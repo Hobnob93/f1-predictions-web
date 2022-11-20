@@ -3,9 +3,9 @@
 <CompetitorResponses>
     <CompetitorTemplate Context="competitor">
         @{
-            var response = GetCompetitorAnswerId(competitor.Id);
+            var response = Responses.GetResponseForComp(competitor.Id);
         }
-        <Track TrackId="@response" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
+        <Track TrackId="@response.Id" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
     </CompetitorTemplate>
 </CompetitorResponses>
 

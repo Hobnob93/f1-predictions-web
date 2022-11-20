@@ -8,28 +8,23 @@ namespace F1Predictions.Components.Question
     public partial class SingleTrackContent : QuestionContent
     {
         [Inject]
-        private ITracksDataService TracksService { get; set; } = default!;
+        private ICompResponses<Track> Responses { get; set; } = default!;
 
         protected override void SetResponses()
         {
-            var trackIds = AnswerService.GetAllRawResponses();
-            var tracks = trackIds
-                .Distinct()
-                .Select(id => TracksService.FindItem(id))
+            var tracks = Responses.GetAllResponses();
+            var uniqueTracks = tracks
+                .GroupBy(t => t.Id)
+                .Select(g => g.First())
                 .ToList();
 
-            ResponseData = tracks.Select(t => new ChartDataPoint
+            ResponseData = uniqueTracks.Select(ut => new ChartDataPoint
             {
-                Id = t.Id,
-                Name = t.Name,
-                Color = t.Color,
-                Value = trackIds.Count(id => id == t.Id)
+                Id = ut.Id,
+                Name = ut.Name,
+                Color = ut.Color,
+                Value = tracks.Count(t => t.Id == ut.Id)
             }).ToList();
-        }
-
-        private string GetCompetitorAnswerId(string competitorId)
-        {
-            return AnswerService.GetRawResponseForComp(competitorId);
         }
     }
 }
