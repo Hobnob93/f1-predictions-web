@@ -27,6 +27,7 @@ builder.Services.AddScoped<IRawCompResponses, RawCompResponses>();
 builder.Services.AddScoped<ICompResponses<Driver>, DriverCompResponses>();
 builder.Services.AddScoped<ICompResponses<Team>, TeamCompResponses>();
 builder.Services.AddScoped<ICompResponses<Track>, TrackCompResponses>();
+builder.Services.AddScoped<IMultiCompResponses<DriverTrack>, DriverTrackCompResponses>();
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddMudServices();

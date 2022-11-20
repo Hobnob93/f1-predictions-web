@@ -3,14 +3,14 @@
 <CompetitorResponses>
     <CompetitorTemplate Context="competitor">
         @{
-            var responses = GetCompetitorAnswers(competitor.Id);
+            var responses = Responses.GetResponseForComp(competitor.Id);
         }
 
         @foreach (var response in responses)
         {
             <div class="@GetDriverTrackContainerClasses(competitor.IsRightAligned)">
-                <Driver Class="@GetDriverClasses(competitor.IsRightAligned)" DriverId="@response.DriverId" />
-                <Track Class="@GetTrackClasses(competitor.IsRightAligned)" TrackId="@response.TrackId" Size="Size.Small" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
+                <Driver Class="@GetDriverClasses(competitor.IsRightAligned)" DriverId="@response.Driver.Id" />
+                <Track Class="@GetTrackClasses(competitor.IsRightAligned)" TrackId="@response.Track.Id" Size="Size.Small" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
             </div>
         }
     </CompetitorTemplate>

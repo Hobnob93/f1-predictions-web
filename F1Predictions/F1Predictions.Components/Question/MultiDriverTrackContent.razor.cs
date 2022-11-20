@@ -8,39 +8,26 @@ namespace F1Predictions.Components.Question
     public partial class MultiDriverTrackContent : QuestionContent
     {
         [Inject]
-        private IDriversDataService DriversService { get; set; } = default!;
-
-        [Inject]
-        private ITracksDataService TracksService { get; set; } = default!;
+        private IMultiCompResponses<DriverTrack> Responses { get; set; } = default!;
 
         protected override void SetResponses()
         {
-            var trackIds = AnswerService.GetAllRawResponses()
-                .SelectMany(a => a.Split(","))
-                .Select(a => a.Split("-").Last());
-
-            var tracks = trackIds
-                .Distinct()
-                .Select(id => TracksService.FindItem(id))
+            var tracks = Responses.GetAllResponses()
+                .SelectMany(r => r.Select(rr => rr.Track))
                 .ToList();
 
-            ResponseData = tracks.Select(t => new ChartDataPoint
+            var uniqueTracks = tracks
+                .GroupBy(t => t.Id)
+                .Select(g => g.First())
+                .ToList();
+
+            ResponseData = uniqueTracks.Select(ut => new ChartDataPoint
             {
-                Id = t.Id,
-                Name = t.Name,
-                Color = t.Color,
-                Value = trackIds.Count(id => id == t.Id)
+                Id = ut.Id,
+                Name = ut.Name,
+                Color = ut.Color,
+                Value = tracks.Count(t => t.Id == ut.Id)
             }).ToList();
-        }
-
-        private List<(string DriverId, string TrackId)> GetCompetitorAnswers(string competitorId)
-        {
-            var answerIds = AnswerService.GetRawResponseForComp(competitorId)
-                .Split(",")
-                .Select(s => (s.Split("-").First(), s.Split("-").Last()))
-                .ToList();
-
-            return answerIds;
         }
 
         private string GetDriverTrackContainerClasses(bool compIsRightAligned)
