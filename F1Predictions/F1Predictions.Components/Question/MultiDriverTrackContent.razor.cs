@@ -15,7 +15,7 @@ namespace F1Predictions.Components.Question
 
         protected override void SetResponses()
         {
-            var trackIds = AnswerService.GetAnswersRaw()
+            var trackIds = AnswerService.GetAllRawResponses()
                 .SelectMany(a => a.Split(","))
                 .Select(a => a.Split("-").Last());
 
@@ -35,7 +35,7 @@ namespace F1Predictions.Components.Question
 
         private List<(string DriverId, string TrackId)> GetCompetitorAnswers(string competitorId)
         {
-            var answerIds = AnswerService.GetCompetitorAnswerRaw(competitorId)
+            var answerIds = AnswerService.GetRawResponseForComp(competitorId)
                 .Split(",")
                 .Select(s => (s.Split("-").First(), s.Split("-").Last()))
                 .ToList();

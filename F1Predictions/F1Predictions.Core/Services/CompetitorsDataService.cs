@@ -39,11 +39,11 @@ namespace F1Predictions.Core.Services
             await NotifyShowingStateChanged();
         }
 
-        public async Task ShowAllWithAnswer(string answerId, IAnswerService answerService)
+        public async Task ShowAllWithAnswer(string answerId, IRawCompResponses answerService)
         {
             foreach (var d in Data)
             {
-                var answer = answerService.GetCompetitorAnswerRaw(d.Id);
+                var answer = answerService.GetRawResponseForComp(d.Id);
                 if (string.Equals(answer, answerId))
                 {
                     d.IsShowingContent = true;

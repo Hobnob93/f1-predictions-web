@@ -1,7 +1,6 @@
 ﻿using F1Predictions.Core.Interfaces;
 using F1Predictions.Core.Models;
 using Microsoft.AspNetCore.Components;
-using MudBlazor;
 
 namespace F1Predictions.Components.Question
 {
@@ -11,7 +10,7 @@ namespace F1Predictions.Components.Question
         protected ICompetitorsDataService CompetitorsService { get; set; } = default!;
 
         [Inject]
-        protected IAnswerService AnswerService { get; set; } = default!;
+        protected IRawCompResponses AnswerService { get; set; } = default!;
 
         public IRefreshable? RefreshableChart { get; set; }
         public List<ChartDataPoint> ResponseData { get; protected set; } = new();

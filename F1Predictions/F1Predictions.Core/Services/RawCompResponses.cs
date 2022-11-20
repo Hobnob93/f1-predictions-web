@@ -1,19 +1,18 @@
 ﻿using F1Predictions.Core.Interfaces;
 using F1Predictions.Core.Models;
-using System.Net;
 
 namespace F1Predictions.Core.Services
 {
-    public class AnswerService : IAnswerService
+    public class RawCompResponses : IRawCompResponses
     {
         private readonly IQuestionsDataService _questionsService;
 
-        public AnswerService(IQuestionsDataService questionsService)
+        public RawCompResponses(IQuestionsDataService questionsService)
         {
             _questionsService = questionsService;
         }
 
-        public List<string> GetAnswersRaw()
+        public List<string> GetAllRawResponses()
         {
             var currentQuestion = GetQuestionResponse();
             var type = currentQuestion.GetType();
@@ -35,7 +34,7 @@ namespace F1Predictions.Core.Services
             return result;
         }
 
-        public string GetCompetitorAnswerRaw(string id)
+        public string GetRawResponseForComp(string id)
         {
             var currentQuestion = GetQuestionResponse();
             var type = currentQuestion.GetType();

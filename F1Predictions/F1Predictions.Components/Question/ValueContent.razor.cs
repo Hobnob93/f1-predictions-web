@@ -12,7 +12,7 @@ namespace F1Predictions.Components.Question
         protected override void SetResponses()
         {
             var answers = AnswerService
-                .GetAnswersRaw()
+                .GetAllRawResponses()
                 .Select(a => int.Parse(a))
                 .OrderBy(a => a);
 
@@ -35,7 +35,7 @@ namespace F1Predictions.Components.Question
 
         private string GetCompetitorAnswer(string competitorId)
         {
-            return AnswerService.GetCompetitorAnswerRaw(competitorId);
+            return AnswerService.GetRawResponseForComp(competitorId);
         }
     }
 }

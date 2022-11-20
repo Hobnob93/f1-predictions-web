@@ -12,7 +12,7 @@ namespace F1Predictions.Components.Question
 
         protected override void SetResponses()
         {
-            var driverIds = AnswerService.GetAnswersRaw()
+            var driverIds = AnswerService.GetAllRawResponses()
                 .SelectMany(a => a.Split(","));
 
             var drivers = driverIds
@@ -31,7 +31,7 @@ namespace F1Predictions.Components.Question
 
         private List<string> GetCompetitorAnswers(string competitorId)
         {
-            var answerIds = AnswerService.GetCompetitorAnswerRaw(competitorId)
+            var answerIds = AnswerService.GetRawResponseForComp(competitorId)
                 .Split(",")
                 .ToList();
 

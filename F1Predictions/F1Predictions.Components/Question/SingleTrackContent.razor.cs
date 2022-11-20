@@ -12,7 +12,7 @@ namespace F1Predictions.Components.Question
 
         protected override void SetResponses()
         {
-            var trackIds = AnswerService.GetAnswersRaw();
+            var trackIds = AnswerService.GetAllRawResponses();
             var tracks = trackIds
                 .Distinct()
                 .Select(id => TracksService.FindItem(id))
@@ -29,7 +29,7 @@ namespace F1Predictions.Components.Question
 
         private string GetCompetitorAnswerId(string competitorId)
         {
-            return AnswerService.GetCompetitorAnswerRaw(competitorId);
+            return AnswerService.GetRawResponseForComp(competitorId);
         }
     }
 }

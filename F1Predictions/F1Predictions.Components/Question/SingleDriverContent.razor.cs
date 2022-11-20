@@ -8,31 +8,23 @@ namespace F1Predictions.Components.Question
     public partial class SingleDriverContent : QuestionContent
     {
         [Inject]
-        private IDriversDataService DriversService { get; set; } = default!;
+        private ICompResponses<Driver> Responses { get; set; } = default!;
 
         protected override void SetResponses()
         {
-            var driverIds = AnswerService.GetAnswersRaw();
-            var drivers = driverIds
-                .Distinct()
-                .Select(id => DriversService.FindItem(id))
+            var drivers = Responses.GetAllResponses();
+            var uniqueDrivers = drivers
+                .GroupBy(d => d.Id)
+                .Select(g => g.First())
                 .ToList();
 
-            ResponseData = drivers.Select(t => new ChartDataPoint
+            ResponseData = drivers.Select(ud => new ChartDataPoint
             {
-                Id = t.Id,
-                Name = t.LastName,
-                Color = t.Color,
-                Value = driverIds.Count(id => id == t.Id)
+                Id = ud.Id,
+                Name = ud.LastName,
+                Color = ud.Color,
+                Value = drivers.Count(d => d.Id == ud.Id)
             }).ToList();
-        }
-
-        private (string Id, string Name) GetCompetitorAnswer(string competitorId)
-        {
-            var answerId = AnswerService.GetCompetitorAnswerRaw(competitorId);
-            var answer = DriversService.Data.Single(t => t.Id == answerId).LastName;
-
-            return (answerId, answer);
         }
     }
 }

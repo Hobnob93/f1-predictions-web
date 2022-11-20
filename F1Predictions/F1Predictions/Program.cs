@@ -1,6 +1,7 @@
 using F1Predictions;
 using F1Predictions.Core.Config;
 using F1Predictions.Core.Interfaces;
+using F1Predictions.Core.Models;
 using F1Predictions.Core.Services;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -21,7 +22,9 @@ builder.Services.AddScoped<IDriversDataService, DriversDataService>();
 builder.Services.AddScoped<ITracksDataService, TracksDataService>();
 builder.Services.AddScoped<IQuestionsDataService, QuestionsDataService>();
 builder.Services.AddScoped<IDataServicesInitializer, DataServicesInitializer>();
-builder.Services.AddScoped<IAnswerService, AnswerService>();
+
+builder.Services.AddScoped<IRawCompResponses, RawCompResponses>();
+builder.Services.AddScoped<ICompResponses<Driver>, DriverCompResponses>();
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddMudServices();

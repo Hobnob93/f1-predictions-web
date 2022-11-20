@@ -12,7 +12,7 @@ namespace F1Predictions.Components.Question
 
         protected override void SetResponses()
         {
-            var liveryIds = AnswerService.GetAnswersRaw();
+            var liveryIds = AnswerService.GetAllRawResponses();
             var teamsFromLiveries = liveryIds
                 .Distinct()
                 .Select(id => TeamsService.FindItem(id))

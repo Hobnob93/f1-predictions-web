@@ -12,7 +12,7 @@ namespace F1Predictions.Components.Question
 
         protected override void SetResponses()
         {
-            var teamIds = AnswerService.GetAnswersRaw();
+            var teamIds = AnswerService.GetAllRawResponses();
             var teams = teamIds
                 .Distinct()
                 .Select(id => TeamsService.FindItem(id))
@@ -29,7 +29,7 @@ namespace F1Predictions.Components.Question
 
         private (string Id, string Name) GetCompetitorAnswer(string competitorId)
         {
-            var answerId = AnswerService.GetCompetitorAnswerRaw(competitorId);
+            var answerId = AnswerService.GetRawResponseForComp(competitorId);
             var answer = TeamsService.Data.Single(t => t.Id == answerId).Name;
 
             return (answerId, answer);

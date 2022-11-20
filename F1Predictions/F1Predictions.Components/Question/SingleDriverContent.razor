@@ -3,10 +3,10 @@
 <CompetitorResponses>
     <CompetitorTemplate Context="competitor">
         @{
-            var response = GetCompetitorAnswer(competitor.Id);
+            var response = Responses.GetResponseForComp(competitor.Id);
         }
         <Driver DriverId="@response.Id" />
-        <Text Content="@response.Name" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
+        <Text Content="@response.LastName" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
     </CompetitorTemplate>
 </CompetitorResponses>
 
