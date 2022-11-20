@@ -1,29 +1,28 @@
 ﻿using F1Predictions.Core.Interfaces;
 using F1Predictions.Core.Models;
 using Microsoft.AspNetCore.Components;
-using MudBlazor;
 
 namespace F1Predictions.Components.Question
 {
     public partial class IntroContent : QuestionContent
     {
         [Inject]
-        public ITeamsDataService TeamsService { get; set; } = default!;
+        public ICompResponses<Team> Responses { get; set; } = default!;
 
         protected override void SetResponses()
         {
-            var liveryIds = AnswerService.GetAllRawResponses();
-            var teamsFromLiveries = liveryIds
-                .Distinct()
-                .Select(id => TeamsService.FindItem(id))
+            var teams = Responses.GetAllResponses();
+            var uniqueTeams = teams
+                .GroupBy(t => t.Id)
+                .Select(g => g.First())
                 .ToList();
 
-            ResponseData = teamsFromLiveries.Select(t => new ChartDataPoint
+            ResponseData = uniqueTeams.Select(ut => new ChartDataPoint
             {
-                Id = t.Id,
-                Name = t.Name,
-                Color = t.Color,
-                Value = liveryIds.Count(id => id == t.Id)
+                Id = ut.Id,
+                Name = ut.Name,
+                Color = ut.Color,
+                Value = teams.Count(t => t.Id == ut.Id)
             }).ToList();
         }
     }
