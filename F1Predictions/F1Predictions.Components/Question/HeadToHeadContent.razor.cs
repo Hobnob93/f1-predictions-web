@@ -16,8 +16,9 @@ namespace F1Predictions.Components.Question
                 .SelectMany(h2h => new List<Driver> { h2h.QualiChoice, h2h.RaceChoice })
                 .ToList();
 
-            var uniqueDrivers = drivers
-                .GroupBy(t => t.Id)
+            var uniqueDrivers = Responses.GetAllResponses()
+                .SelectMany(d => d.DriverOptions)
+                .GroupBy(d => d.Id)
                 .Select(g => g.First())
                 .ToList();
 

@@ -2,11 +2,14 @@
 {
     public class HeadToHead
     {
+        public List<Driver> DriverOptions { get; set; }
+
         public Driver QualiChoice { get; set; }
         public Driver RaceChoice { get; set; }
 
-        public HeadToHead(Driver qualiChoice, Driver raceChoice)
+        public HeadToHead(List<Driver> driverOptions, Driver qualiChoice, Driver raceChoice)
         {
+            DriverOptions = driverOptions;
             QualiChoice = qualiChoice;
             RaceChoice = raceChoice;
         }

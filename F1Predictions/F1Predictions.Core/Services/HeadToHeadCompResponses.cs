@@ -7,11 +7,13 @@ namespace F1Predictions.Core.Services
     {
         private readonly IRawCompResponses _rawResponses;
         private readonly IDriversDataService _driversService;
+        private readonly ITeamsDataService _teamsService;
 
-        public HeadToHeadCompResponses(IRawCompResponses rawResponses, IDriversDataService driversService)
+        public HeadToHeadCompResponses(IRawCompResponses rawResponses, IDriversDataService driversService, ITeamsDataService teamsService)
         {
             _rawResponses = rawResponses;
             _driversService = driversService;
+            _teamsService = teamsService;
         }
 
         public List<HeadToHead> GetAllResponses()
@@ -37,7 +39,13 @@ namespace F1Predictions.Core.Services
             var qualiChoice = _driversService.FindItem(components.First());
             var raceChoice = _driversService.FindItem(components.Last());
 
-            return new HeadToHead(qualiChoice, raceChoice);
+            var teamId = qualiChoice.TeamId;
+            var driversFromTeam = _teamsService.FindItem(teamId)
+                .DriverIds
+                .Select(id => _driversService.FindItem(id))
+                .ToList();
+
+            return new HeadToHead(driversFromTeam, qualiChoice, raceChoice);
         }
     }
 }
