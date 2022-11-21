@@ -7,34 +7,25 @@ namespace F1Predictions.Components.Question
     public partial class MultiTrackContent : QuestionContent
     {
         [Inject]
-        private ITracksDataService TracksService { get; set; } = default!;
+        private IMultiCompResponses<Track> Responses { get; set; } = default!;
 
         protected override void SetResponses()
         {
-            var trackIds = AnswerService.GetAllRawResponses()
-                .SelectMany(a => a.Split(","));
+            var tracks = Responses.GetAllMultiResponses()
+                .SelectMany(t => t);
 
-            var tracks = trackIds
-                .Distinct()
-                .Select(id => TracksService.FindItem(id))
+            var uniqueTracks = tracks
+                .GroupBy(t => t.Id)
+                .Select(g => g.First())
                 .ToList();
 
-            ResponseData = tracks.Select(t => new ChartDataPoint
+            ResponseData = uniqueTracks.Select(ut => new ChartDataPoint
             {
-                Id = t.Id,
-                Name = t.Name,
-                Color = t.Color,
-                Value = trackIds.Count(id => id == t.Id)
+                Id = ut.Id,
+                Name = ut.Name,
+                Color = ut.Color,
+                Value = tracks.Count(t => t.Id == ut.Id)
             }).ToList();
-        }
-
-        private List<string> GetCompetitorAnswers(string competitorId)
-        {
-            var answerIds = AnswerService.GetRawResponseForComp(competitorId)
-                .Split(",")
-                .ToList();
-
-            return answerIds;
         }
     }
 }

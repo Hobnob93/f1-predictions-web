@@ -3,9 +3,10 @@
 <CompetitorResponses>
     <CompetitorTemplate Context="competitor">
         @{
-            var response = GetCompetitorAnswers(competitor.Id);
+            var response = Responses.GetMultiResponseForComp(competitor.Id);
+            var ids = response.Select(t => t.Id);
         }
-        <Tracks TrackIds="@response" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
+        <Tracks TrackIds="@ids.ToList()" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
     </CompetitorTemplate>
 </CompetitorResponses>
 
