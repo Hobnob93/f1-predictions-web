@@ -27,6 +27,7 @@ builder.Services.AddScoped<IRawCompResponses, RawCompResponses>();
 builder.Services.AddScoped<ICompResponses<Driver>, DriverCompResponses>();
 builder.Services.AddScoped<ICompResponses<Team>, TeamCompResponses>();
 builder.Services.AddScoped<ICompResponses<Track>, TrackCompResponses>();
+builder.Services.AddScoped<ICompResponses<HeadToHead>, HeadToHeadCompResponses>();
 builder.Services.AddScoped<IMultiCompResponses<DriverTrack>, DriverTrackCompResponses>();
 builder.Services.AddScoped<IMultiCompResponses<Driver>, DriverCompResponses>();
 builder.Services.AddScoped<IMultiCompResponses<Team>, TeamCompResponses>();
