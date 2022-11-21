@@ -1,14 +1,3 @@
 ﻿@inherits BaseComponent
 
-@if (!string.IsNullOrWhiteSpace(StarredNote))
-{
-    <MudTooltip Text="@StarredNote" Placement="Placement.Top" Arrow="true" Delay="500">
-        <MudBadge Origin="Origin.TopRight" Color="MudBlazor.Color.Warning" Overlap="true" Bordered="true" Dot="true">
-            <MudAvatar Class="@Classes" Style="@Styles" UserAttributes="@UserAttributes" Variant="Variant.Text" Size="Size.Large">@Initials</MudAvatar>
-        </MudBadge>
-    </MudTooltip>
-}
-else
-{
-    <MudAvatar Class="@Classes" Style="@Styles" UserAttributes="@UserAttributes" Variant="Variant.Text" Size="Size.Large">@Initials</MudAvatar>
-}
+<MudAvatar Class="@Classes" Style="@Styles" UserAttributes="@UserAttributes" Variant="Variant.Text" Size="Size.Large">@Initials</MudAvatar>

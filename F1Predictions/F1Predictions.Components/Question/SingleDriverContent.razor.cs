@@ -1,7 +1,6 @@
 ﻿using F1Predictions.Core.Interfaces;
 using F1Predictions.Core.Models;
 using Microsoft.AspNetCore.Components;
-using MudBlazor;
 
 namespace F1Predictions.Components.Question
 {
@@ -18,7 +17,7 @@ namespace F1Predictions.Components.Question
                 .Select(g => g.First())
                 .ToList();
 
-            ResponseData = drivers.Select(ud => new ChartDataPoint
+            ResponseData = uniqueDrivers.Select(ud => new ChartDataPoint
             {
                 Id = ud.Id,
                 Name = ud.LastName,
