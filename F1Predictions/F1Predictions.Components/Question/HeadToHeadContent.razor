@@ -1,1 +1,23 @@
-﻿
+﻿@inherits QuestionContent
+
+<CompetitorResponses>
+    <CompetitorTemplate Context="competitor">
+        @{
+            var response = Responses.GetResponseForComp(competitor.Id);
+        }
+
+        <div class="@GetContainerClasses(competitor.IsRightAligned)">
+            <Driver Class="@GetDriverClasses(competitor.IsRightAligned)" DriverId="@response.QualiChoice.Id" />
+            <Text Class="@GetTextClasses(competitor.IsRightAligned)" Content="@response.QualiChoice.LastName" Size="Size.Small" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
+        </div>
+
+        <div class="@GetContainerClasses(competitor.IsRightAligned)">
+            <Driver Class="@GetDriverClasses(competitor.IsRightAligned)" DriverId="@response.RaceChoice.Id" />
+            <Text Class="@GetTextClasses(competitor.IsRightAligned)" Content="@response.RaceChoice.LastName" Size="Size.Small" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
+        </div>
+    </CompetitorTemplate>
+</CompetitorResponses>
+
+<MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
+    <BarChart Title="Responses" Data="@ResponseData" SelectionCallback="OnSelectedChartDataPoint" @ref="RefreshableChart" />
+</MudPaper>
