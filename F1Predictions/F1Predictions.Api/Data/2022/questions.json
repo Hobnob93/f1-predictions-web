@@ -996,7 +996,7 @@
   {
     "id": "6-A",
     "question": "Mercedes vs Red Bull",
-    "type": "Versus",
+    "type": "SingleTeam",
     "scoring": "Versus",
     "kh": "MER",
     "hi": "MER",
@@ -1012,7 +1012,7 @@
   {
     "id": "6-B",
     "question": "Ferrari vs McLaren",
-    "type": "Versus",
+    "type": "SingleTeam",
     "scoring": "Versus",
     "kh": "FER",
     "hi": "FER",
@@ -1028,7 +1028,7 @@
   {
     "id": "6-C",
     "question": "Alpine vs AlphaTauri",
-    "type": "Versus",
+    "type": "SingleTeam",
     "scoring": "Versus",
     "kh": "AT",
     "hi": "ALP",
@@ -1044,7 +1044,7 @@
   {
     "id": "6-D",
     "question": "Aston Martin vs Williams",
-    "type": "Versus",
+    "type": "SingleTeam",
     "scoring": "Versus",
     "kh": "WIL",
     "hi": "WIL",
@@ -1060,7 +1060,7 @@
   {
     "id": "6-E",
     "question": "Alfa Romeo vs Haas",
-    "type": "Versus",
+    "type": "SingleTeam",
     "scoring": "Versus",
     "kh": "HAA",
     "hi": "HAA",
