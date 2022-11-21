@@ -1,41 +1,31 @@
 ﻿using F1Predictions.Core.Interfaces;
 using F1Predictions.Core.Models;
 using Microsoft.AspNetCore.Components;
-using MudBlazor;
 
 namespace F1Predictions.Components.Question
 {
     public partial class MultiTeamContent : QuestionContent
     {
         [Inject]
-        private ITeamsDataService TeamsService { get; set; } = default!;
+        private IMultiCompResponses<Team> Responses { get; set; } = default!;
 
         protected override void SetResponses()
         {
-            var teamIds = AnswerService.GetAllRawResponses()
-                .SelectMany(a => a.Split(","));
+            var teams = Responses.GetAllMultiResponses()
+                .SelectMany(t => t);
 
-            var teams = teamIds
-                .Distinct()
-                .Select(id => TeamsService.FindItem(id))
+            var uniqueTeams = teams
+                .GroupBy(t => t.Id)
+                .Select(g => g.First())
                 .ToList();
 
-            ResponseData = teams.Select(t => new ChartDataPoint
+            ResponseData = uniqueTeams.Select(ut => new ChartDataPoint
             {
-                Id = t.Id,
-                Name = t.Name,
-                Color = t.Color,
-                Value = teamIds.Count(id => id == t.Id)
+                Id = ut.Id,
+                Name = ut.Name,
+                Color = ut.Color,
+                Value = teams.Count(t => t.Id == ut.Id)
             }).ToList();
-        }
-
-        private List<string> GetCompetitorAnswers(string competitorId)
-        {
-            var answerIds = AnswerService.GetRawResponseForComp(competitorId)
-                .Split(",")
-                .ToList();
-
-            return answerIds;
         }
     }
 }
