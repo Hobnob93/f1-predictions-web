@@ -36,12 +36,6 @@
     "question": "What will the percentage of points difference be between first and second place in the Constructor's Championship?",
     "type": "Value",
     "scoring": "Value",
-    "stars": [
-      {
-        "target": "KC",
-        "reason": "Believed in the new regs!"
-      }
-    ],
     "kh": "8",
     "hi": "15",
     "sh": "5",
@@ -58,12 +52,6 @@
     "question": "Which team will come FIFTH in the Constructor's Championship?",
     "type": "SingleTeam",
     "scoring": "Leaderboard",
-    "stars": [
-      {
-        "target": "KH",
-        "reason": "Misplaced faith!"
-      }
-    ],
     "kh": "WIL",
     "hi": "ALP",
     "sh": "AT",
@@ -80,12 +68,6 @@
     "question": "Which team will come LAST in the Constructor's Championship?",
     "type": "SingleTeam",
     "scoring": "Leaderboard",
-    "stars": [
-      {
-        "target": "CB",
-        "reason": "Do you have regrets?"
-      }
-    ],
     "kh": "HAA",
     "hi": "AT",
     "sh": "HAA",
@@ -134,12 +116,6 @@
     "question": "Who will come TENTH in the Driver's Championship?",
     "type": "SingleDriver",
     "scoring": "Leaderboard",
-    "stars": [
-      {
-        "target": "KH",
-        "reason": "Continued misplaced faith!"
-      }
-    ],
     "kh": "ALB",
     "hi": "OCO",
     "sh": "ALO",
