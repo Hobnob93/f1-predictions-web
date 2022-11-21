@@ -16,7 +16,7 @@ namespace F1Predictions.Core.Services
             _tracksService = tracksService;
         }
 
-        public List<List<DriverTrack>> GetAllResponses()
+        public List<List<DriverTrack>> GetAllMultiResponses()
         {
             var rawResponses = _rawResponses.GetAllRawResponses();
 
@@ -26,7 +26,7 @@ namespace F1Predictions.Core.Services
                 .ToList();
         }
 
-        public List<DriverTrack> GetResponseForComp(string id)
+        public List<DriverTrack> GetMultiResponseForComp(string id)
         {
             var rawResponse = _rawResponses.GetRawResponseForComp(id);
 

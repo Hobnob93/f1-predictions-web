@@ -2,7 +2,7 @@
 {
     public interface IMultiCompResponses<T>
     {
-        List<List<T>> GetAllResponses();
-        List<T> GetResponseForComp(string id);
+        List<List<T>> GetAllMultiResponses();
+        List<T> GetMultiResponseForComp(string id);
     }
 }

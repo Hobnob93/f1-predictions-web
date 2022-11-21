@@ -3,7 +3,7 @@
 <CompetitorResponses>
     <CompetitorTemplate Context="competitor">
         @{
-            var responses = Responses.GetResponseForComp(competitor.Id);
+            var responses = Responses.GetMultiResponseForComp(competitor.Id);
         }
 
         @foreach (var response in responses)

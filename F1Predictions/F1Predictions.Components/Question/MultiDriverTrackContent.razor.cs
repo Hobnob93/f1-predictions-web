@@ -12,7 +12,7 @@ namespace F1Predictions.Components.Question
 
         protected override void SetResponses()
         {
-            var tracks = Responses.GetAllResponses()
+            var tracks = Responses.GetAllMultiResponses()
                 .SelectMany(r => r.Select(rr => rr.Track))
                 .ToList();
 

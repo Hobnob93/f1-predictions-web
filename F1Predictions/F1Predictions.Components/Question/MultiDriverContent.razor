@@ -3,9 +3,10 @@
 <CompetitorResponses>
     <CompetitorTemplate Context="competitor">
         @{
-            var response = GetCompetitorAnswers(competitor.Id);
+            var response = Responses.GetMultiResponseForComp(competitor.Id);
+            var ids = response.Select(d => d.Id);
         }
-        <Drivers DriverIds="@response" />
+        <Drivers DriverIds="@ids.ToList()" />
     </CompetitorTemplate>
 </CompetitorResponses>
 

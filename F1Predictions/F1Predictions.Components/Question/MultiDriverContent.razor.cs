@@ -1,41 +1,31 @@
 ﻿using F1Predictions.Core.Interfaces;
 using F1Predictions.Core.Models;
 using Microsoft.AspNetCore.Components;
-using MudBlazor;
 
 namespace F1Predictions.Components.Question
 {
     public partial class MultiDriverContent : QuestionContent
     {
         [Inject]
-        private IDriversDataService DriversService { get; set; } = default!;
+        private IMultiCompResponses<Driver> Responses { get; set; } = default!;
 
         protected override void SetResponses()
         {
-            var driverIds = AnswerService.GetAllRawResponses()
-                .SelectMany(a => a.Split(","));
+            var drivers = Responses.GetAllMultiResponses()
+                .SelectMany(d => d);
 
-            var drivers = driverIds
-                .Distinct()
-                .Select(id => DriversService.FindItem(id))
+            var uniqueDrivers = drivers
+                .GroupBy(d => d.Id)
+                .Select(g => g.First())
                 .ToList();
 
-            ResponseData = drivers.Select(t => new ChartDataPoint
+            ResponseData = uniqueDrivers.Select(ud => new ChartDataPoint
             {
-                Id = t.Id,
-                Name = t.LastName,
-                Color = t.Color,
-                Value = driverIds.Count(id => id == t.Id)
+                Id = ud.Id,
+                Name = ud.LastName,
+                Color = ud.Color,
+                Value = drivers.Count(d => d.Id == ud.Id)
             }).ToList();
-        }
-
-        private List<string> GetCompetitorAnswers(string competitorId)
-        {
-            var answerIds = AnswerService.GetRawResponseForComp(competitorId)
-                .Split(",")
-                .ToList();
-
-            return answerIds;
         }
     }
 }
