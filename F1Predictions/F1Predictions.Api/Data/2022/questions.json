@@ -3,7 +3,6 @@
     "id": "0-A",
     "question": "Introduction, and everyone's favourite liveries!",
     "type": "Intro",
-    "scoring": "None",
     "kh": "MCL",
     "hi": "ALP",
     "sh": "RBR",
@@ -19,7 +18,10 @@
     "id": "1-A",
     "question": "Who will win the Constructor's Championship?",
     "type": "SingleTeam",
-    "scoring": "Leaderboard",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "ConstructorOrder"
+    },
     "kh": "FER",
     "hi": "FER",
     "sh": "RBR",
@@ -84,7 +86,7 @@
     "question": "Who will WIN the Driver's Championship?",
     "type": "SingleDriver",
     "scoring": "Leaderboard",
-    "kh": "SAI",
+    "kh": "LEC",
     "hi": "HAM",
     "sh": "VER",
     "kc": "HAM",

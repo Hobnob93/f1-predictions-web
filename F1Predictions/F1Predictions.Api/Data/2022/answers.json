@@ -1,7 +1,48 @@
 [
   {
-    "id": "1-A",
-    "answer": "RBR"
+    "id": "ConstructorOrder",
+    "answersData": [
+      {
+        "id": "RBR",
+        "value": "759"
+      },
+      {
+        "id": "FER",
+        "value": "554"
+      },
+      {
+        "id": "MER",
+        "value": "515"
+      },
+      {
+        "id": "ALP",
+        "value": "173"
+      },
+      {
+        "id": "MCL",
+        "value": "159"
+      },
+      {
+        "id": "AR",
+        "value": "55"
+      },
+      {
+        "id": "AM",
+        "value": "55"
+      },
+      {
+        "id": "HAA",
+        "value": "37"
+      },
+      {
+        "id": "AT",
+        "value": "35"
+      },
+      {
+        "id": "WIL",
+        "value": "8"
+      }
+    ]
   },
   {
     "id": "1-B",
