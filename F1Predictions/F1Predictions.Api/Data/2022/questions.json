@@ -21,7 +21,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamChampOrder",
-      "ExtraData": "RBR"
+      "ExtraData": "RBR",
+      "Mode": "Teams"
     },
     "kh": "FER",
     "hi": "FER",
@@ -60,7 +61,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamChampOrder",
-      "ExtraData": "MCL"
+      "ExtraData": "MCL",
+      "Mode": "Teams"
     },
     "kh": "WIL",
     "hi": "ALP",
@@ -80,7 +82,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamChampOrder",
-      "ExtraData": "WIL"
+      "ExtraData": "WIL",
+      "Mode": "Teams"
     },
     "kh": "HAA",
     "hi": "AT",
@@ -100,7 +103,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverChampOrder",
-      "ExtraData": "VER"
+      "ExtraData": "VER",
+      "Mode": "Drivers"
     },
     "kh": "LEC",
     "hi": "HAM",
@@ -139,7 +143,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverChampOrder",
-      "ExtraData": "BOT"
+      "ExtraData": "BOT",
+      "Mode": "Drivers"
     },
     "kh": "ALB",
     "hi": "OCO",
@@ -159,7 +164,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverChampOrder",
-      "ExtraData": "HUL"
+      "ExtraData": "HUL",
+      "Mode": "Drivers"
     },
     "kh": "ZHO",
     "hi": "ZHO",
@@ -179,7 +185,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamDestrOrder",
-      "ExtraData": "HAA"
+      "ExtraData": "HAA",
+      "Mode": "Teams"
     },
     "kh": "AT",
     "hi": "RBR",
@@ -199,7 +206,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamDestrOrder",
-      "ExtraData": "MCL"
+      "ExtraData": "MCL",
+      "Mode": "Teams"
     },
     "kh": "MER",
     "hi": "WIL",
@@ -219,7 +227,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverDestrOrder",
-      "ExtraData": "MSC"
+      "ExtraData": "MSC",
+      "Mode": "Drivers"
     },
     "kh": "TSU",
     "hi": "VER",
@@ -239,7 +248,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverDestrOrder",
-      "ExtraData": "VER"
+      "ExtraData": "VER",
+      "Mode": "Drivers"
     },
     "kh": "HAM",
     "hi": "VET",
@@ -259,7 +269,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "2-A",
-      "ExtraData": "RBR"
+      "ExtraData": "RBR",
+      "Mode": "Teams"
     },
     "kh": "MER",
     "hi": "FER",
@@ -279,7 +290,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "Race1PitstopTimes",
-      "ExtraData": "RBR"
+      "ExtraData": "RBR",
+      "Mode": "Teams"
     },
     "kh": "RBR",
     "hi": "RBR",
@@ -299,7 +311,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "2-C",
-      "ExtraData": "AR"
+      "ExtraData": "AR",
+      "Mode": "Teams"
     },
     "kh": "MCL",
     "hi": "MCL",
@@ -337,7 +350,9 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "answersId": "2-E"
+      "answersId": "2-E",
+      "ExtraData": "AT",
+      "Mode": "Teams"
     },
     "kh": "MCL",
     "hi": "AR",
@@ -358,7 +373,7 @@
       "type": "Leaderboard",
       "AnswersId": "Race1PitstopTimes",
       "ExtraData": "HAA",
-      "Mode": "Reverse"
+      "Mode": "Teams"
     },
     "kh": "FER",
     "hi": "FER",
@@ -393,9 +408,12 @@
   },
   {
     "id": "2-H",
-    "question": "Pick a team - every time one of their drivers finishes 16th OR LOWER, you score points.",
+    "question": "Pick a team - every time one of their drivers are classified 16th OR LOWER, you score points.",
     "type": "SingleTeam",
-    "scoring": "TeamLower15th",
+    "scoring": {
+      "type": "TeamLower15th",
+      "answersId": "2-H"
+    },
     "kh": "AR",
     "hi": "AR",
     "sh": "WIL",
@@ -411,7 +429,12 @@
     "id": "2-I",
     "question": "Which team will be the biggest winner compared to 2021?",
     "type": "SingleTeam",
-    "scoring": "Leaderboard",
+    "scoring": {
+      "type": "Leaderboard",
+      "answerId": "2-I",
+      "ExtraData": "FER",
+      "Mode": "Teams"
+    },
     "kh": "WIL",
     "hi": "WIL",
     "sh": "MCL",
@@ -427,7 +450,12 @@
     "id": "3-A",
     "question": "Who will have the most laps led throughout the season?",
     "type": "SingleDriver",
-    "scoring": "Leaderboard",
+    "scoring": {
+      "type": "Leaderboard",
+      "answerId": "3-A",
+      "ExtraData": "VER",
+      "Mode": "Drivers"
+    },
     "kh": "LEC",
     "hi": "HAM",
     "sh": "VER",
@@ -443,21 +471,11 @@
     "id": "3-B",
     "question": "Which drivers will receive the \"Driver of the Day\" award?",
     "type": "MultiDriver",
-    "scoring": "DriverOfTheDay",
-    "stars": [
-      {
-        "target": "MH",
-        "reason": "Assignment misunderstood?"
-      },
-      {
-        "target": "MG",
-        "reason": "British bias confirmed"
-      },
-      {
-        "target": "SH",
-        "reason": "How come you didn't pick everyone?"
-      }
-    ],
+    "scoring": {
+      "type": "Selection",
+      "answerId": "3-B",
+      "Mode": "Drivers"
+    },
     "kh": "GAS,HAM,LEC,NOR,RUS,SAI,VER,VET",
     "hi": "HAM,LEC,NOR,RIC,RUS,SAI,VER,VET",
     "sh": "ALB,ALO,GAS,HAM,LEC,NOR,OCO,PER,RIC,RUS,MSC,VER,VET",
@@ -489,7 +507,11 @@
     "id": "3-D",
     "question": "Pick THREE drivers who will come the \"best of the rest\" the most.",
     "type": "MultiDriver",
-    "scoring": "DriverBestOfTheRest",
+    "scoring": {
+      "type": "DriverBestOfTheRest",
+      "answersId": "3-D",
+      "Mode": "Drivers"
+    },
     "kh": "GAS,PER,SAI",
     "hi": "GAS,NOR,VER",
     "sh": "GAS,NOR,RUS",

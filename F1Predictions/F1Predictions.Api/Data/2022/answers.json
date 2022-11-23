@@ -479,5 +479,206 @@
         "value": "1"
       }
     ]
+  },
+  {
+    "id": "2-H",
+    "answersData": [
+      {
+        "id": "WIL",
+        "value": "14"
+      },
+      {
+        "id": "HAA",
+        "value": "13"
+      },
+      {
+        "id": "AR",
+        "value": "5"
+      },
+      {
+        "id": "AT",
+        "value": "5"
+      },
+      {
+        "id": "AM",
+        "value": "4"
+      },
+      {
+        "id": "MCL",
+        "value": "3"
+      },
+      {
+        "id": "ALP",
+        "value": "2"
+      },
+      {
+        "id": "RBR",
+        "value": "2"
+      },
+      {
+        "id": "MER",
+        "value": "1"
+      },
+      {
+        "id": "FER",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "2-I",
+    "answersData": [
+      {
+        "id": "FER",
+        "value": "230.5"
+      },
+      {
+        "id": "RBR",
+        "value": "173.5"
+      },
+      {
+        "id": "AR",
+        "value": "42"
+      },
+      {
+        "id": "HAA",
+        "value": "37"
+      },
+      {
+        "id": "ALP",
+        "value": "18"
+      },
+      {
+        "id": "WIL",
+        "value": "-15"
+      },
+      {
+        "id": "AM",
+        "value": "-22"
+      },
+      {
+        "id": "MER",
+        "value": "-98.5"
+      },
+      {
+        "id": "AT",
+        "value": "-107"
+      },
+      {
+        "id": "MCL",
+        "value": "-116"
+      }
+    ]
+  },
+  {
+    "id": "3-A",
+    "answersData": [
+      {
+        "id": "VER",
+        "value": "616"
+      },
+      {
+        "id": "LEC",
+        "value": "311"
+      },
+      {
+        "id": "PER",
+        "value": "147"
+      },
+      {
+        "id": "RUS",
+        "value": "99"
+      },
+      {
+        "id": "SAI",
+        "value": "72"
+      },
+      {
+        "id": "HAM",
+        "value": "46"
+      },
+      {
+        "id": "VET",
+        "value": "2"
+      },
+      {
+        "id": "ALO",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "3-B",
+    "answersData": [
+      {
+        "id": "VER",
+        "value": "5"
+      },
+      {
+        "id": "LEC",
+        "value": "4"
+      },
+      {
+        "id": "HAM",
+        "value": "3"
+      },
+      {
+        "id": "VET",
+        "value": "3"
+      },
+      {
+        "id": "PER",
+        "value": "3"
+      },
+      {
+        "id": "MSC",
+        "value": "1"
+      },
+      {
+        "id": "SAI",
+        "value": "1"
+      },
+      {
+        "id": "DEV",
+        "value": "1"
+      },
+      {
+        "id": "RIC",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "3-D",
+    "answersData": [
+      {
+        "id": "RUS",
+        "value": "6"
+      },
+      {
+        "id": "PER",
+        "value": "4"
+      },
+      {
+        "id": "SAI",
+        "value": "4"
+      },
+      {
+        "id": "HAM",
+        "value": "3"
+      },
+      {
+        "id": "LEC",
+        "value": "3"
+      },
+      {
+        "id": "NOR",
+        "value": "1"
+      },
+      {
+        "id": "OCO",
+        "value": "1"
+      }
+    ]
   }
 ]
