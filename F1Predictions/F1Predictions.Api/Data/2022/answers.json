@@ -1,6 +1,6 @@
 [
   {
-    "id": "ConstructorOrder",
+    "id": "TeamChampOrder",
     "answersData": [
       {
         "id": "RBR",
@@ -49,23 +49,230 @@
     "answer": "37"
   },
   {
-    "id": "1-C",
-    "answer": "MCL"
-  },
-  {
-    "id": "1-D",
-    "answer": "WIL"
-  },
-  {
-    "id": "1-E",
-    "answer": "VER"
+    "id": "DriverChampOrder",
+    "answersData": [
+      {
+        "id": "VER",
+        "value": "454"
+      },
+      {
+        "id": "LEC",
+        "value": "308"
+      },
+      {
+        "id": "PER",
+        "value": "305"
+      },
+      {
+        "id": "RUS",
+        "value": "275"
+      },
+      {
+        "id": "SAI",
+        "value": "246"
+      },
+      {
+        "id": "HAM",
+        "value": "240"
+      },
+      {
+        "id": "NOR",
+        "value": "122"
+      },
+      {
+        "id": "OCO",
+        "value": "92"
+      },
+      {
+        "id": "ALO",
+        "value": "81"
+      },
+      {
+        "id": "BOT",
+        "value": "49"
+      },
+      {
+        "id": "RIC",
+        "value": "37"
+      },
+      {
+        "id": "VET",
+        "value": "37"
+      },
+      {
+        "id": "MAG",
+        "value": "25"
+      },
+      {
+        "id": "GAS",
+        "value": "23"
+      },
+      {
+        "id": "STR",
+        "value": "18"
+      },
+      {
+        "id": "MSC",
+        "value": "12"
+      },
+      {
+        "id": "TSU",
+        "value": "12"
+      },
+      {
+        "id": "ZHO",
+        "value": "6"
+      },
+      {
+        "id": "ALB",
+        "value": "4"
+      },
+      {
+        "id": "LAT",
+        "value": "2"
+      },
+      {
+        "id": "DEV",
+        "value": "2"
+      },
+      {
+        "id": "HUL",
+        "value": "0"
+      }
+    ]
   },
   {
     "id": "1-F",
     "answer": "47"
   },
   {
-    "id": "1-G",
-    "answer": "BOT"
+    "id": "DriverDestrOrder",
+    "answersData": [
+      {
+        "id": "MSC",
+        "value": "4627000"
+      },
+      {
+        "id": "LAT",
+        "value": "3297000"
+      },
+      {
+        "id": "ZHO",
+        "value": "2934000"
+      },
+      {
+        "id": "SAI",
+        "value": "2822000"
+      },
+      {
+        "id": "HAM",
+        "value": "2442000"
+      },
+      {
+        "id": "VET",
+        "value": "2229000"
+      },
+      {
+        "id": "STR",
+        "value": "2102000"
+      },
+      {
+        "id": "OCO",
+        "value": "1935000"
+      },
+      {
+        "id": "TSU",
+        "value": "1400000"
+      },
+      {
+        "id": "RUS",
+        "value": "1337000"
+      },
+      {
+        "id": "ALB",
+        "value": "1325000"
+      },
+      {
+        "id": "ALO",
+        "value": "1230000"
+      },
+      {
+        "id": "LEC",
+        "value": "1172000"
+      },
+      {
+        "id": "PER",
+        "value": "1147000"
+      },
+      {
+        "id": "GAS",
+        "value": "1115000"
+      },
+      {
+        "id": "RIC",
+        "value": "740000"
+      },
+      {
+        "id": "NOR",
+        "value": "605000"
+      },
+      {
+        "id": "BOT",
+        "value": "442000"
+      },
+      {
+        "id": "MAG",
+        "value": "375000"
+      },
+      {
+        "id": "VER",
+        "value": "235000"
+      }
+    ]
+  },
+  {
+    "id": "TeamDestrOrder",
+    "answersData": [
+      {
+        "id": "HAA",
+        "value": "5002000"
+      },
+      {
+        "id": "WIL",
+        "value": "4622000"
+      },
+      {
+        "id": "AM",
+        "value": "4331000"
+      },
+      {
+        "id": "FER",
+        "value": "3994000"
+      },
+      {
+        "id": "MER",
+        "value": "3779000"
+      },
+      {
+        "id": "AR",
+        "value": "3376000"
+      },
+      {
+        "id": "ALP",
+        "value": "3165000"
+      },
+      {
+        "id": "AT",
+        "value": "2515000"
+      },
+      {
+        "id": "RBR",
+        "value": "1382000"
+      },
+      {
+        "id": "MCL",
+        "value": "1345000"
+      }
+    ]
   }
 ]

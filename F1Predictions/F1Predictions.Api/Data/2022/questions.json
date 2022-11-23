@@ -20,7 +20,8 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "ConstructorOrder"
+      "AnswersId": "TeamChampOrder",
+      "ExtraData": "RBR"
     },
     "kh": "FER",
     "hi": "FER",
@@ -37,7 +38,10 @@
     "id": "1-B",
     "question": "What will the percentage of points difference be between first and second place in the Constructor's Championship?",
     "type": "Value",
-    "scoring": "Value",
+    "scoring": {
+      "Type": "Value",
+      "AnswersId": "1-B"
+    },
     "kh": "8",
     "hi": "15",
     "sh": "5",
@@ -53,7 +57,11 @@
     "id": "1-C",
     "question": "Which team will come FIFTH in the Constructor's Championship?",
     "type": "SingleTeam",
-    "scoring": "Leaderboard",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "TeamChampOrder",
+      "ExtraData": "MCL"
+    },
     "kh": "WIL",
     "hi": "ALP",
     "sh": "AT",
@@ -69,7 +77,11 @@
     "id": "1-D",
     "question": "Which team will come LAST in the Constructor's Championship?",
     "type": "SingleTeam",
-    "scoring": "Leaderboard",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "TeamChampOrder",
+      "ExtraData": "WIL"
+    },
     "kh": "HAA",
     "hi": "AT",
     "sh": "HAA",
@@ -85,7 +97,11 @@
     "id": "1-E",
     "question": "Who will WIN the Driver's Championship?",
     "type": "SingleDriver",
-    "scoring": "Leaderboard",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "DriverChampOrder",
+      "ExtraData": "VER"
+    },
     "kh": "LEC",
     "hi": "HAM",
     "sh": "VER",
@@ -101,7 +117,10 @@
     "id": "1-F",
     "question": "What will the percentage of points difference be between first and second place in the Driver's Championship?",
     "type": "Value",
-    "scoring": "Value",
+    "scoring": {
+      "Type": "Value",
+      "AnswersId": "1-F"
+    },
     "kh": "5",
     "hi": "10",
     "sh": "5",
@@ -117,7 +136,11 @@
     "id": "1-G",
     "question": "Who will come TENTH in the Driver's Championship?",
     "type": "SingleDriver",
-    "scoring": "Leaderboard",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "DriverChampOrder",
+      "ExtraData": "BOT"
+    },
     "kh": "ALB",
     "hi": "OCO",
     "sh": "ALO",
@@ -133,7 +156,11 @@
     "id": "1-H",
     "question": "Who will come LAST in the Driver's Championship?",
     "type": "SingleDriver",
-    "scoring": "Leaderboard",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "DriverChampOrder",
+      "ExtraData": "HUL"
+    },
     "kh": "ZHO",
     "hi": "ZHO",
     "sh": "ZHO",
@@ -149,7 +176,11 @@
     "id": "1-I",
     "question": "Which team will have the highest repair cost, and WIN the Destructors Championship?",
     "type": "SingleTeam",
-    "scoring": "Leaderboard",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "TeamDestrOrder",
+      "ExtraData": "HAA"
+    },
     "kh": "AT",
     "hi": "RBR",
     "sh": "AM",
@@ -165,7 +196,11 @@
     "id": "1-J",
     "question": "Which team will have the lowest repair cost, and come LAST in the Destructors Championship?",
     "type": "SingleTeam",
-    "scoring": "Leaderboard",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "TeamDestrOrder",
+      "ExtraData": "MCL"
+    },
     "kh": "MER",
     "hi": "WIL",
     "sh": "MER",
@@ -181,7 +216,11 @@
     "id": "1-K",
     "question": "Which driver will cause the most cost in repairs, and WIN the Destructors Championship?",
     "type": "SingleDriver",
-    "scoring": "Leaderboard",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "DriverDestrOrder",
+      "ExtraData": "MSC"
+    },
     "kh": "TSU",
     "hi": "VER",
     "sh": "STR",
@@ -197,7 +236,11 @@
     "id": "1-L",
     "question": "Which driver will cause the least in repair cost, and come LAST in the Destructors Championship?",
     "type": "SingleDriver",
-    "scoring": "Leaderboard",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "DriverDestrOrder",
+      "ExtraData": "VER"
+    },
     "kh": "HAM",
     "hi": "VET",
     "sh": "HAM",
