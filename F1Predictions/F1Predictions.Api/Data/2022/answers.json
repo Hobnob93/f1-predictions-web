@@ -649,6 +649,67 @@
     ]
   },
   {
+    "id": "3-C",
+    "answersData": [
+      {
+        "id": "AUS",
+        "value": "SAI-0,STR-0,TSU-0,ALO-0,BOT-4"
+      },
+      {
+        "id": "BAR",
+        "value": "SAI-12,STR-0,TSU-1,ALO-2,BOT-8"
+      },
+      {
+        "id": "BAH",
+        "value": "SAI-18,STR-0,TSU-4,ALO-2,BOT-8"
+      },
+      {
+        "id": "CAN",
+        "value": "SAI-19,STR-1,TSU-0,ALO-2,BOT-6"
+      },
+      {
+        "id": "EMR",
+        "value": "SAI-0,STR-1,TSU-6,ALO-0,BOT-10"
+      },
+      {
+        "id": "HUN",
+        "value": "SAI-12,STR-0,TSU-0,ALO-4,BOT-0"
+      },
+      {
+        "id": "JPN",
+        "value": "SAI-0,STR-0,TSU-0,ALO-6,BOT-0"
+      },
+      {
+        "id": "MIA",
+        "value": "SAI-15,STR-1,TSU-0,ALO-0,BOT-6"
+      },
+      {
+        "id": "MON",
+        "value": "SAI-18,STR-0,TSU-0,ALO-6,BOT-2"
+      },
+      {
+        "id": "MAZ",
+        "value": "SAI-12,STR-0,TSU-0,ALO-0,BOT-0"
+      },
+      {
+        "id": "NED",
+        "value": "SAI-4,STR-1,TSU-0,ALO-8,BOT-0"
+      },
+      {
+        "id": "RUS",
+        "value": "SAI-0,STR-0,TSU-0,ALO-0,BOT-0"
+      },
+      {
+        "id": "SAA",
+        "value": "SAI-15,STR-0,TSU-0,ALO-0,BOT-0"
+      },
+      {
+        "id": "SPA",
+        "value": "SAI-15,STR-0,TSU-0,ALO-10,BOT-0"
+      }
+    ]
+  },
+  {
     "id": "3-D",
     "answersData": [
       {
@@ -678,6 +739,318 @@
       {
         "id": "OCO",
         "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "3-E",
+    "answersData": [
+      {
+        "id": "ZHO",
+        "value": "15"
+      },
+      {
+        "id": "MSC",
+        "value": "11"
+      },
+      {
+        "id": "RIC",
+        "value": "11"
+      },
+      {
+        "id": "BOT",
+        "value": "10"
+      },
+      {
+        "id": "TSU",
+        "value": "9"
+      },
+      {
+        "id": "GAS",
+        "value": "8"
+      },
+      {
+        "id": "OCO",
+        "value": "8"
+      },
+      {
+        "id": "ALB",
+        "value": "7"
+      },
+      {
+        "id": "STR",
+        "value": "7"
+      },
+      {
+        "id": "NOR",
+        "value": "6"
+      },
+      {
+        "id": "VET",
+        "value": "6"
+      },
+      {
+        "id": "ALO",
+        "value": "5"
+      },
+      {
+        "id": "MAG",
+        "value": "3"
+      },
+      {
+        "id": "PER",
+        "value": "3"
+      },
+      {
+        "id": "RUS",
+        "value": "3"
+      },
+      {
+        "id": "HAM",
+        "value": "1"
+      },
+      {
+        "id": "LEC",
+        "value": "1"
+      },
+      {
+        "id": "DEV",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "3-F",
+    "answers": "LEC,SAI,HAM,VER,PER,RUS,NOR"
+  },
+  {
+    "id": "3-G",
+    "answersData": [
+      {
+        "id": "TSU",
+        "value": "67"
+      },
+      {
+        "id": "BOT",
+        "value": "54"
+      },
+      {
+        "id": "LEC",
+        "value": "40"
+      },
+      {
+        "id": "SAI",
+        "value": "35"
+      },
+      {
+        "id": "ALO",
+        "value": "35"
+      },
+      {
+        "id": "OCO",
+        "value": "33"
+      },
+      {
+        "id": "ZHO",
+        "value": "27"
+      },
+      {
+        "id": "RUS",
+        "value": "25"
+      },
+      {
+        "id": "GAS",
+        "value": "21"
+      },
+      {
+        "id": "VER",
+        "value": "20"
+      },
+      {
+        "id": "MAG",
+        "value": "20"
+      },
+      {
+        "id": "NOR",
+        "value": "15"
+      },
+      {
+        "id": "HAM",
+        "value": "15"
+      },
+      {
+        "id": "MSC",
+        "value": "15"
+      },
+      {
+        "id": "PER",
+        "value": "15"
+      },
+      {
+        "id": "STR",
+        "value": "6"
+      },
+      {
+        "id": "RIC",
+        "value": "6"
+      },
+      {
+        "id": "LAT",
+        "value": "5"
+      },
+      {
+        "id": "ALB",
+        "value": "3"
+      },
+      {
+        "id": "VET",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "3-H",
+    "answersData": [
+      {
+        "id": "GAS",
+        "value": "10"
+      },
+      {
+        "id": "ALB",
+        "value": "7"
+      },
+      {
+        "id": "RIC",
+        "value": "6"
+      },
+      {
+        "id": "STR",
+        "value": "5"
+      },
+      {
+        "id": "OCO",
+        "value": "5"
+      },
+      {
+        "id": "LAT",
+        "value": "5"
+      },
+      {
+        "id": "ZHO",
+        "value": "4"
+      },
+      {
+        "id": "ALO",
+        "value": "4"
+      },
+      {
+        "id": "TSU",
+        "value": "4"
+      },
+      {
+        "id": "RUS",
+        "value": "4"
+      },
+      {
+        "id": "VET",
+        "value": "2"
+      },
+      {
+        "id": "PER",
+        "value": "2"
+      },
+      {
+        "id": "MAG",
+        "value": "2"
+      },
+      {
+        "id": "NOR",
+        "value": "1"
+      },
+      {
+        "id": "LEC",
+        "value": "1"
+      },
+      {
+        "id": "MSC",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "3-I",
+    "answers": "RIC,VET,LAT,MSC"
+  },
+  {
+    "id": "3-G",
+    "answersData": [
+      {
+        "id": "BOT",
+        "value": "-177"
+      },
+      {
+        "id": "HAM",
+        "value": "-147.5"
+      },
+      {
+        "id": "GAS",
+        "value": "-87"
+      },
+      {
+        "id": "RIC",
+        "value": "-78"
+      },
+      {
+        "id": "NOR",
+        "value": "-38"
+      },
+      {
+        "id": "TSU",
+        "value": "-20"
+      },
+      {
+        "id": "STR",
+        "value": "-16"
+      },
+      {
+        "id": "VET",
+        "value": "-6"
+      },
+      {
+        "id": "LAT",
+        "value": "-5"
+      },
+      {
+        "id": "ALO",
+        "value": "0"
+      },
+      {
+        "id": "MSC",
+        "value": "12"
+      },
+      {
+        "id": "OCO",
+        "value": "18"
+      },
+      {
+        "id": "VER",
+        "value": "58.5"
+      },
+      {
+        "id": "SAI",
+        "value": "81.5"
+      },
+      {
+        "id": "PER",
+        "value": "115"
+      },
+      {
+        "id": "LEC",
+        "value": "149"
+      },
+      {
+        "id": "RUS",
+        "value": "259"
       }
     ]
   }

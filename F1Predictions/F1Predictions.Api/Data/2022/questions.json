@@ -491,7 +491,10 @@
     "id": "3-C",
     "question": "Select ONE track for Sainz, Stroll, Tsunoda, Alonso, and Bottas.",
     "type": "MultiDriverTrack",
-    "scoring": "MultiDriverOnTrack",
+    "scoring": {
+      "type": "MultiDriverOnTrack",
+      "answersId": "3-C"
+    },
     "kh": "SAI-NED,STR-CAN,TSU-BAH,ALO-BAR,BOT-SPA",
     "hi": "SAI-MZA,STR-CAN,TSU-JPN,ALO-BAR,BOT-RUS",
     "sh": "SAI-MON,STR-MIA,TSU-EMR,ALO-AUS,BOT-SAA",
@@ -527,7 +530,10 @@
     "id": "3-E",
     "question": "Who are going to be the Q2 specialists?",
     "type": "MultiDriver",
-    "scoring": "Q2DriverSpecialists",
+    "scoring": {
+      "type": "Q2DriverSpecialists",
+      "answersId": "3-E"
+    },
     "kh": "ALB,ALO,TSU,VET",
     "hi": "ALB,ALO,STR,TSU",
     "sh": "ALB,MAG,MSC,TSU",
@@ -543,7 +549,10 @@
     "id": "3-F",
     "question": "Pick all the drivers you think will make the podium.",
     "type": "MultiDriver",
-    "scoring": "DriversOnPodium",
+    "scoring": {
+      "type": "DriversOnPodium",
+      "answersId": "3-F"
+    },
     "kh": "GAS,HAM,LEC,NOR,PER,RIC,RUS,SAI,VER",
     "hi": "GAS,HAM,LEC,NOR,RIC,RUS,SAI,VER,VET",
     "sh": "GAS,HAM,LEC,NOR,PER,RIC,RUS,SAI,VER",
@@ -559,7 +568,11 @@
     "id": "3-G",
     "question": "Which driver will get the most grid penalties?",
     "type": "SingleDriver",
-    "scoring": "Leaderboard",
+    "scoring": {
+      "type": "Leaderboard",
+      "answersId": "3-G",
+      "Mode": "Drivers"
+    },
     "kh": "RIC",
     "hi": "ZHO",
     "sh": "MAG",
@@ -575,7 +588,10 @@
     "id": "3-H",
     "question": "Which drivers will be the most mischievous and get the most license point penalties?",
     "type": "MultiDriver",
-    "scoring": "MostLicensePoints",
+    "scoring": {
+      "type": "MostLicensePoints",
+      "answersId": "3-H"
+    },
     "kh": "LEC,MAG",
     "hi": "VER,ZHO",
     "sh": "STR,TSU",
@@ -591,7 +607,10 @@
     "id": "3-I",
     "question": "Select the drivers who you think will NOT be on the grid in 2023.",
     "type": "MultiDriver",
-    "scoring": "NotOn2023Grid",
+    "scoring": {
+      "type": "NotOn2023Grid",
+      "answersId": "3-I"
+    },
     "kh": "ALO,MAG,TSU,ZHO",
     "hi": "HAM,VET,ZHO",
     "sh": "LAT,MAG",
@@ -607,13 +626,11 @@
     "id": "3-J",
     "question": "Who will be the biggest loser compared to 2021?",
     "type": "SingleDriver",
-    "scoring": "Leaderboard",
-    "stars": [
-      {
-        "target": "CB",
-        "reason": "Error 404: Bottas not found"
-      }
-    ],
+    "scoring": {
+      "type": "Leaderboard",
+      "answersId": "3-J",
+      "Mode": "Drivers"
+    },
     "kh": "BOT",
     "hi": "BOT",
     "sh": "BOT",
