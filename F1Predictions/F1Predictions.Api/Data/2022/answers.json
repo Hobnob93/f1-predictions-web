@@ -982,7 +982,7 @@
     "answers": "RIC,VET,LAT,MSC"
   },
   {
-    "id": "3-G",
+    "id": "3-J",
     "answersData": [
       {
         "id": "BOT",
@@ -1053,5 +1053,118 @@
         "value": "259"
       }
     ]
+  },
+  {
+    "id": "3-K",
+    "answersData": [
+      {
+        "id": "BAH",
+        "value": "26"
+      },
+      {
+        "id": "SAA",
+        "value": "19"
+      },
+      {
+        "id": "AUS",
+        "value": "26"
+      },
+      {
+        "id": "EMR",
+        "value": "8"
+      },
+      {
+        "id": "MIA",
+        "value": "18"
+      },
+      {
+        "id": "BAR",
+        "value": "0"
+      },
+      {
+        "id": "MON",
+        "value": "12"
+      },
+      {
+        "id": "BAK",
+        "value": "0"
+      },
+      {
+        "id": "CAN",
+        "value": "10"
+      },
+      {
+        "id": "GBR",
+        "value": "12"
+      },
+      {
+        "id": "RBR",
+        "value": "25"
+      },
+      {
+        "id": "FRA",
+        "value": "0"
+      },
+      {
+        "id": "HUN",
+        "value": "8"
+      },
+      {
+        "id": "SPA",
+        "value": "8"
+      },
+      {
+        "id": "NED",
+        "value": "15"
+      },
+      {
+        "id": "MZA",
+        "value": "18"
+      },
+      {
+        "id": "SIN",
+        "value": "18"
+      },
+      {
+        "id": "JPN",
+        "value": "15"
+      },
+      {
+        "id": "CTA",
+        "value": "15"
+      },
+      {
+        "id": "MEX",
+        "value": "8"
+      },
+      {
+        "id": "BRA",
+        "value": "12"
+      },
+      {
+        "id": "YMC",
+        "value": "18"
+      }
+    ]
+  },
+  {
+    "id": "4-A",
+    "answers": "RBR,MER,AT,AM,ALP,MCL,WIL,AR,HAA,FER"
+  },
+  {
+    "id": "4-B",
+    "answer": "22"
+  },
+  {
+    "id": "4-C",
+    "answer": "22"
+  },
+  {
+    "id": "4-D",
+    "answer": "3"
+  },
+  {
+    "id": "4-E",
+    "answer": "23"
   }
 ]
