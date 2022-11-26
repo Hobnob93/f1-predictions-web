@@ -1166,5 +1166,236 @@
   {
     "id": "4-E",
     "answer": "23"
+  },
+  {
+    "id": "4-F",
+    "answersData": [
+      {
+        "id": "GBR",
+        "value": "10"
+      },
+      {
+        "id": "BRA",
+        "value": "8.52"
+      },
+      {
+        "id": "SAA",
+        "value": "8.11"
+      },
+      {
+        "id": "BAH",
+        "value": "7.98"
+      },
+      {
+        "id": "CTA",
+        "value": "6.95"
+      },
+      {
+        "id": "RBR",
+        "value": "6.5"
+      },
+      {
+        "id": "HUN",
+        "value": "6.13"
+      },
+      {
+        "id": "BAR",
+        "value": "5.8"
+      },
+      {
+        "id": "CAN",
+        "value": "5.64"
+      },
+      {
+        "id": "NED",
+        "value": "5.47"
+      },
+      {
+        "id": "SIN",
+        "value": "4.77"
+      },
+      {
+        "id": "AUS",
+        "value": "4.12"
+      },
+      {
+        "id": "MON",
+        "value": "3.87"
+      },
+      {
+        "id": "EMR",
+        "value": "3.79"
+      },
+      {
+        "id": "FRA",
+        "value": "3.17"
+      },
+      {
+        "id": "SPA",
+        "value": "3.13"
+      },
+      {
+        "id": "MIA",
+        "value": "3"
+      },
+      {
+        "id": "BAK",
+        "value": "2.84"
+      },
+      {
+        "id": "YMC",
+        "value": "2.72"
+      },
+      {
+        "id": "JPN",
+        "value": "2.63"
+      },
+      {
+        "id": "MZA",
+        "value": "2.43"
+      },
+      {
+        "id": "MEX",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "4-G",
+    "answersData": [
+      {
+        "id": "VER",
+        "value": "26"
+      },
+      {
+        "id": "LEC",
+        "value": "18"
+      },
+      {
+        "id": "SAI",
+        "value": "15"
+      },
+      {
+        "id": "PER",
+        "value": "12"
+      },
+      {
+        "id": "RUS",
+        "value": "10"
+      },
+      {
+        "id": "HAM",
+        "value": "8"
+      },
+      {
+        "id": "BOT",
+        "value": "6"
+      },
+      {
+        "id": "OCO",
+        "value": "4"
+      },
+      {
+        "id": "ALB",
+        "value": "2"
+      },
+      {
+        "id": "STR",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "4-H",
+    "answersData": [
+      {
+        "id": "BAH",
+        "value": "3"
+      },
+      {
+        "id": "SAA",
+        "value": "7"
+      },
+      {
+        "id": "AUS",
+        "value": "3"
+      },
+      {
+        "id": "EMR",
+        "value": "2"
+      },
+      {
+        "id": "MIA",
+        "value": "5"
+      },
+      {
+        "id": "BAR",
+        "value": "2"
+      },
+      {
+        "id": "MON",
+        "value": "3"
+      },
+      {
+        "id": "BAK",
+        "value": "5"
+      },
+      {
+        "id": "CAN",
+        "value": "3"
+      },
+      {
+        "id": "GBR",
+        "value": "6"
+      },
+      {
+        "id": "RBR",
+        "value": "3"
+      },
+      {
+        "id": "FRA",
+        "value": "4"
+      },
+      {
+        "id": "HUN",
+        "value": "1"
+      },
+      {
+        "id": "SPA",
+        "value": "2"
+      },
+      {
+        "id": "NED",
+        "value": "2"
+      },
+      {
+        "id": "MZA",
+        "value": "4"
+      },
+      {
+        "id": "SIN",
+        "value": "6"
+      },
+      {
+        "id": "JPN",
+        "value": "2"
+      },
+      {
+        "id": "CTA",
+        "value": "3"
+      },
+      {
+        "id": "MEX",
+        "value": "2"
+      },
+      {
+        "id": "BRA",
+        "value": "3"
+      },
+      {
+        "id": "YMC",
+        "value": "3"
+      }
+    ]
   }
 ]

@@ -762,7 +762,11 @@
     "id": "4-F",
     "question": "Which race will be voted the fan favourite?",
     "type": "SingleTrack",
-    "scoring": "Leaderboard",
+    "scoring": {
+      "type": "Leaderboard",
+      "answersId": "4-F",
+      "Mode": "Tracks"
+    },
     "kh": "MZA",
     "hi": "SPA",
     "sh": "MZA",
@@ -778,7 +782,11 @@
     "id": "4-G",
     "question": "Pick THREE drivers you think will perform the best at the MIAMI circuit.",
     "type": "MultiDriver",
-    "scoring": "DriversAtTrack",
+    "scoring": {
+      "type": "Selection",
+      "answersId": "4-G",
+      "Mode": "Drivers"
+    },
     "kh": "HAM,LEC,VER",
     "hi": "HAM,PER,RUS",
     "sh": "HAM,RUS,VER",
@@ -794,7 +802,10 @@
     "id": "4-H",
     "question": "Pick FOUR tracks you think there will be the MOST DNFs during the race.",
     "type": "MultiTrack",
-    "scoring": "DnfsAtTracks",
+    "scoring": {
+      "type": "DnfsAtTracks",
+      "answersId": "4-H"
+    },
     "kh": "BAH,SAA,EMR,MON",
     "hi": "SAA,BAK,JPN,YMC",
     "sh": "BAH,MIA,MON,SIN",
