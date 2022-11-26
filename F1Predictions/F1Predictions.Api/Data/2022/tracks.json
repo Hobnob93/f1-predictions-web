@@ -46,7 +46,7 @@
   },
   {
     "id": "GBR",
-    "name": "Silverstone",
+    "name": "Great Britain",
     "color": "#01237e"
   },
   {
@@ -61,22 +61,22 @@
   },
   {
     "id": "HUN",
-    "name": "Hungaroring",
+    "name": "Hungary",
     "color": "#436f4c"
   },
   {
     "id": "SPA",
-    "name": "Spa",
+    "name": "Belgium",
     "color": "#000000"
   },
   {
     "id": "NED",
-    "name": "Zandvoort",
+    "name": "Netherlands",
     "color": "#1e448b"
   },
   {
     "id": "MZA",
-    "name": "Monza",
+    "name": "Italy",
     "color": "#1d4803"
   },
   {
@@ -96,7 +96,7 @@
   },
   {
     "id": "CTA",
-    "name": "Circuit of the Americas",
+    "name": "United States",
     "color": "#020164"
   },
   {
