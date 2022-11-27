@@ -21,7 +21,7 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamChampOrder",
-      "ExtraData": "RBR",
+      "Index": 0,
       "Mode": "Teams"
     },
     "kh": "FER",
@@ -61,7 +61,7 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamChampOrder",
-      "ExtraData": "MCL",
+      "Index": 4,
       "Mode": "Teams"
     },
     "kh": "WIL",
@@ -82,7 +82,7 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamChampOrder",
-      "ExtraData": "WIL",
+      "Index": 9,
       "Mode": "Teams"
     },
     "kh": "HAA",
@@ -103,7 +103,7 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverChampOrder",
-      "ExtraData": "VER",
+      "Index": 0,
       "Mode": "Drivers"
     },
     "kh": "LEC",
@@ -143,7 +143,7 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverChampOrder",
-      "ExtraData": "BOT",
+      "Index": 9,
       "Mode": "Drivers"
     },
     "kh": "ALB",
@@ -164,7 +164,7 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverChampOrder",
-      "ExtraData": "HUL",
+      "Index": 21,
       "Mode": "Drivers"
     },
     "kh": "ZHO",
@@ -185,7 +185,6 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamDestrOrder",
-      "ExtraData": "HAA",
       "Mode": "Teams"
     },
     "kh": "AT",
@@ -206,7 +205,6 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamDestrOrder",
-      "ExtraData": "MCL",
       "Mode": "Teams"
     },
     "kh": "MER",
@@ -227,7 +225,6 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverDestrOrder",
-      "ExtraData": "MSC",
       "Mode": "Drivers"
     },
     "kh": "TSU",
@@ -248,7 +245,6 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverDestrOrder",
-      "ExtraData": "VER",
       "Mode": "Drivers"
     },
     "kh": "HAM",
@@ -269,7 +265,6 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "2-A",
-      "ExtraData": "RBR",
       "Mode": "Teams"
     },
     "kh": "MER",
@@ -290,7 +285,6 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "Race1PitstopTimes",
-      "ExtraData": "RBR",
       "Mode": "Teams"
     },
     "kh": "RBR",
@@ -311,7 +305,6 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "2-C",
-      "ExtraData": "AR",
       "Mode": "Teams"
     },
     "kh": "MCL",
@@ -351,7 +344,6 @@
     "scoring": {
       "type": "Leaderboard",
       "answersId": "2-E",
-      "ExtraData": "AT",
       "Mode": "Teams"
     },
     "kh": "MCL",
@@ -372,7 +364,6 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "Race1PitstopTimes",
-      "ExtraData": "HAA",
       "Mode": "Teams"
     },
     "kh": "FER",
@@ -432,7 +423,6 @@
     "scoring": {
       "type": "Leaderboard",
       "answerId": "2-I",
-      "ExtraData": "FER",
       "Mode": "Teams"
     },
     "kh": "WIL",
@@ -453,7 +443,6 @@
     "scoring": {
       "type": "Leaderboard",
       "answerId": "3-A",
-      "ExtraData": "VER",
       "Mode": "Drivers"
     },
     "kh": "LEC",
