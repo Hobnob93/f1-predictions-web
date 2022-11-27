@@ -46,7 +46,7 @@
   },
   {
     "id": "1-B",
-    "answer": "37"
+    "rawAnswer": "37"
   },
   {
     "id": "DriverChampOrder",
@@ -143,7 +143,7 @@
   },
   {
     "id": "1-F",
-    "answer": "47"
+    "rawAnswer": "47"
   },
   {
     "id": "DriverDestrOrder",
@@ -433,7 +433,7 @@
   },
   {
     "id": "2-E",
-    "answers": "AT,RBR,HAA,ALP,MCL,AR,WIL,FER,AM,MER"
+    "rawAnswer": "AT,RBR,HAA,ALP,MCL,AR,WIL,FER,AM,MER"
   },
   {
     "id": "2-G",
@@ -821,7 +821,7 @@
   },
   {
     "id": "3-F",
-    "answers": "LEC,SAI,HAM,VER,PER,RUS,NOR"
+    "rawAnswer": "LEC,SAI,HAM,VER,PER,RUS,NOR"
   },
   {
     "id": "3-G",
@@ -979,7 +979,7 @@
   },
   {
     "id": "3-I",
-    "answers": "RIC,VET,LAT,MSC"
+    "rawAnswer": "RIC,VET,LAT,MSC"
   },
   {
     "id": "3-J",
@@ -1149,23 +1149,23 @@
   },
   {
     "id": "4-A",
-    "answers": "RBR,MER,AT,AM,ALP,MCL,WIL,AR,HAA,FER"
+    "rawAnswer": "RBR,MER,AT,AM,ALP,MCL,WIL,AR,HAA,FER"
   },
   {
     "id": "4-B",
-    "answer": "22"
+    "rawAnswer": "22"
   },
   {
     "id": "4-C",
-    "answer": "22"
+    "rawAnswer": "22"
   },
   {
     "id": "4-D",
-    "answer": "3"
+    "rawAnswer": "3"
   },
   {
     "id": "4-E",
-    "answer": "23"
+    "rawAnswer": "23"
   },
   {
     "id": "4-F",
@@ -1400,75 +1400,75 @@
   },
   {
     "id": "5-A",
-    "answer": "true"
+    "rawAnswer": "true"
   },
   {
     "id": "5-B",
-    "answer": "false"
+    "rawAnswer": "false"
   },
   {
     "id": "5-C",
-    "answer": "false"
+    "rawAnswer": "false"
   },
   {
     "id": "5-D",
-    "answer": "true"
+    "rawAnswer": "true"
   },
   {
     "id": "5-E",
-    "answer": "false"
+    "rawAnswer": "false"
   },
   {
     "id": "5-F",
-    "answer": "false"
+    "rawAnswer": "false"
   },
   {
     "id": "5-G",
-    "answer": "false"
+    "rawAnswer": "false"
   },
   {
     "id": "5-H",
-    "answer": "false"
+    "rawAnswer": "false"
   },
   {
     "id": "5-I",
-    "answer": "false"
+    "rawAnswer": "false"
   },
   {
     "id": "5-J",
-    "answer": "false"
+    "rawAnswer": "false"
   },
   {
     "id": "5-K",
-    "answer": "true"
+    "rawAnswer": "true"
   },
   {
     "id": "5-L",
-    "answer": "true"
+    "rawAnswer": "true"
   },
   {
     "id": "5-M",
-    "answer": "true"
+    "rawAnswer": "true"
   },
   {
     "id": "5-N",
-    "answer": "true"
+    "rawAnswer": "true"
   },
   {
     "id": "5-O",
-    "answer": "false"
+    "rawAnswer": "false"
   },
   {
     "id": "5-P",
-    "answer": "false"
+    "rawAnswer": "false"
   },
   {
     "id": "5-Q",
-    "answer": "false"
+    "rawAnswer": "false"
   },
   {
     "id": "5-R",
-    "answer": "false"
+    "rawAnswer": "false"
   },
   {
     "id": "6-A",
