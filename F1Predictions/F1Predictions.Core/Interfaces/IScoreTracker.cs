@@ -1,0 +1,9 @@
+﻿namespace F1Predictions.Core.Interfaces
+{
+    public interface IScoreTracker
+    {
+        double Score { get; }
+
+        void AddScore(double score);
+    }
+}

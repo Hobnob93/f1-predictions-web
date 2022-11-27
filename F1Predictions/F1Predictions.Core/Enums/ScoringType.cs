@@ -4,6 +4,7 @@
     {
         None,
         Leaderboard,
+        GetChoiceValue,
         Value,
         Q2Drivers,
         TeamAtTrack,
@@ -17,6 +18,7 @@
         NotOn2023Grid,
         DriverAtTrack,
         DriversAtTrack,
+        Selection,
         DnfsAtTracks,
         Bool,
         MultiBool,
