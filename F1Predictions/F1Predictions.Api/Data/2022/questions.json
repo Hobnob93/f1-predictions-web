@@ -1258,7 +1258,10 @@
     "id": "6-F",
     "question": "Mercedes Drivers Head to Head",
     "type": "HeadToHead",
-    "scoring": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-F"
+    },
     "kh": "RUS,HAM",
     "hi": "HAM,HAM",
     "sh": "HAM,HAM",
@@ -1274,7 +1277,10 @@
     "id": "6-G",
     "question": "Red Bull Drivers Head to Head",
     "type": "HeadToHead",
-    "scoring": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-G"
+    },
     "kh": "VER,VER",
     "hi": "VER,VER",
     "sh": "VER,VER",
@@ -1290,7 +1296,10 @@
     "id": "6-H",
     "question": "Ferrari Drivers Head to Head",
     "type": "HeadToHead",
-    "scoring": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-H"
+    },
     "kh": "LEC,SAI",
     "hi": "SAI,SAI",
     "sh": "LEC,SAI",
@@ -1306,7 +1315,10 @@
     "id": "6-I",
     "question": "McLaren Drivers Head to Head",
     "type": "HeadToHead",
-    "scoring": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-I"
+    },
     "kh": "NOR,NOR",
     "hi": "NOR,NOR",
     "sh": "NOR,NOR",
@@ -1322,7 +1334,10 @@
     "id": "6-J",
     "question": "Alpine Drivers Head to Head",
     "type": "HeadToHead",
-    "scoring": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-J"
+    },
     "kh": "OCO,ALO",
     "hi": "ALO,ALO",
     "sh": "ALO,ALO",
@@ -1338,7 +1353,10 @@
     "id": "6-K",
     "question": "AlphaTauri Drivers Head to Head",
     "type": "HeadToHead",
-    "scoring": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-K"
+    },
     "kh": "GAS,GAS",
     "hi": "GAS,GAS",
     "sh": "GAS,GAS",
@@ -1354,7 +1372,10 @@
     "id": "6-L",
     "question": "Aston Martin Drivers Head to Head",
     "type": "HeadToHead",
-    "scoring": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-L"
+    },
     "kh": "VET,VET",
     "hi": "STR,VET",
     "sh": "VET,VET",
@@ -1370,7 +1391,10 @@
     "id": "6-M",
     "question": "Alfa Romeo Drivers Head to Head",
     "type": "HeadToHead",
-    "scoring": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-M"
+    },
     "kh": "BOT,BOT",
     "hi": "BOT,BOT",
     "sh": "BOT,BOT",
@@ -1386,7 +1410,10 @@
     "id": "6-N",
     "question": "Williams Drivers Head to Head",
     "type": "HeadToHead",
-    "scoring": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-N"
+    },
     "kh": "ALB,ALB",
     "hi": "ALB,ALB",
     "sh": "ALB,ALB",
@@ -1402,7 +1429,10 @@
     "id": "6-O",
     "question": "Haas Drivers Head to Head",
     "type": "HeadToHead",
-    "scoring": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-O"
+    },
     "kh": "MSC,MAG",
     "hi": "MAG,MAG",
     "sh": "MAG,MSC",

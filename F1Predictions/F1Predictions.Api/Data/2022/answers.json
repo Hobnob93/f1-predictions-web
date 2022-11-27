@@ -1472,22 +1472,277 @@
   },
   {
     "id": "6-A",
-    "answer": "RBR"
+    "answersData": [
+      {
+        "id": "RBR",
+        "value": "759"
+      },
+      {
+        "id": "MER",
+        "value": "515"
+      }
+    ]
   },
   {
     "id": "6-B",
-    "answer": "FER"
+    "answersData": [
+      {
+        "id": "FER",
+        "value": "554"
+      },
+      {
+        "id": "MCL",
+        "value": "159"
+      }
+    ]
   },
   {
     "id": "6-C",
-    "answer": "ALP"
+    "answersData": [
+      {
+        "id": "ALP",
+        "value": "173"
+      },
+      {
+        "id": "AT",
+        "value": "35"
+      }
+    ]
   },
   {
     "id": "6-D",
-    "answer": "AM"
+    "answersData": [
+      {
+        "id": "AM",
+        "value": "55"
+      },
+      {
+        "id": "WIL",
+        "value": "8"
+      }
+    ]
   },
   {
     "id": "6-E",
-    "answer": "AR"
+    "answersData": [
+      {
+        "id": "AR",
+        "value": "55"
+      },
+      {
+        "id": "HAA",
+        "value": "37"
+      }
+    ]
+  },
+  {
+    "id": "6-F",
+    "answersData": [
+      {
+        "id": "HAM",
+        "value": "13"
+      },
+      {
+        "id": "RUS",
+        "value": "9"
+      },
+      {
+        "id": "RUS",
+        "value": "12"
+      },
+      {
+        "id": "HAM",
+        "value": "10"
+      }
+    ]
+  },
+  {
+    "id": "6-G",
+    "answersData": [
+      {
+        "id": "VER",
+        "value": "18"
+      },
+      {
+        "id": "PER",
+        "value": "4"
+      },
+      {
+        "id": "VER",
+        "value": "17"
+      },
+      {
+        "id": "PER",
+        "value": "5"
+      }
+    ]
+  },
+  {
+    "id": "6-H",
+    "answersData": [
+      {
+        "id": "LEC",
+        "value": "15"
+      },
+      {
+        "id": "SAI",
+        "value": "7"
+      },
+      {
+        "id": "LEC",
+        "value": "12"
+      },
+      {
+        "id": "SAI",
+        "value": "9"
+      }
+    ]
+  },
+  {
+    "id": "6-I",
+    "answersData": [
+      {
+        "id": "NOR",
+        "value": "19"
+      },
+      {
+        "id": "RIC",
+        "value": "2"
+      },
+      {
+        "id": "NOR",
+        "value": "16"
+      },
+      {
+        "id": "RIC",
+        "value": "5"
+      }
+    ]
+  },
+  {
+    "id": "6-J",
+    "answersData": [
+      {
+        "id": "ALO",
+        "value": "12"
+      },
+      {
+        "id": "OCO",
+        "value": "10"
+      },
+      {
+        "id": "OCO",
+        "value": "12"
+      },
+      {
+        "id": "ALO",
+        "value": "9"
+      }
+    ]
+  },
+  {
+    "id": "6-K",
+    "answersData": [
+      {
+        "id": "GAS",
+        "value": "13"
+      },
+      {
+        "id": "TSU",
+        "value": "9"
+      },
+      {
+        "id": "GAS",
+        "value": "13"
+      },
+      {
+        "id": "TSU",
+        "value": "8"
+      }
+    ]
+  },
+  {
+    "id": "6-L",
+    "answersData": [
+      {
+        "id": "VET",
+        "value": "13"
+      },
+      {
+        "id": "STR",
+        "value": "7"
+      },
+      {
+        "id": "VET",
+        "value": "10"
+      },
+      {
+        "id": "STR",
+        "value": "9"
+      }
+    ]
+  },
+  {
+    "id": "6-M",
+    "answersData": [
+      {
+        "id": "BOT",
+        "value": "14"
+      },
+      {
+        "id": "ZHO",
+        "value": "8"
+      },
+      {
+        "id": "BOT",
+        "value": "14"
+      },
+      {
+        "id": "ZHO",
+        "value": "7"
+      }
+    ]
+  },
+  {
+    "id": "6-N",
+    "answersData": [
+      {
+        "id": "ALB",
+        "value": "19"
+      },
+      {
+        "id": "LAT",
+        "value": "2"
+      },
+      {
+        "id": "ALB",
+        "value": "16"
+      },
+      {
+        "id": "LAT",
+        "value": "4"
+      }
+    ]
+  },
+  {
+    "id": "6-O",
+    "answersData": [
+      {
+        "id": "MAG",
+        "value": "16"
+      },
+      {
+        "id": "MSC",
+        "value": "6"
+      },
+      {
+        "id": "MSC",
+        "value": "14"
+      },
+      {
+        "id": "MAG",
+        "value": "6"
+      }
+    ]
   }
 ]
