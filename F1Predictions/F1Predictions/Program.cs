@@ -21,6 +21,7 @@ builder.Services.AddScoped<ITeamsDataService, TeamsDataService>();
 builder.Services.AddScoped<IDriversDataService, DriversDataService>();
 builder.Services.AddScoped<ITracksDataService, TracksDataService>();
 builder.Services.AddScoped<IQuestionsDataService, QuestionsDataService>();
+builder.Services.AddScoped<IAnswersDataService, AnswersDataService>();
 builder.Services.AddScoped<IDataServicesInitializer, DataServicesInitializer>();
 
 builder.Services.AddScoped<IRawCompResponses, RawCompResponses>();
