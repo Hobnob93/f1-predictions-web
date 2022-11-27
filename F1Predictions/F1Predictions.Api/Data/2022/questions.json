@@ -1448,7 +1448,10 @@
     "id": "7-A",
     "question": "Constructor Championship Order - 1st to 5th",
     "type": "MultiTeam",
-    "scoring": "TeamChampOrder",
+    "scoring": {
+      "type": "TeamChampOrder",
+      "answersId": "TeamChampOrder"
+    },
     "kh": "FER,MER,RBR,MCL,WIL",
     "hi": "FER,MER,RBR,MCL,ALP",
     "sh": "RBR,MER,MCL,FER,AT",
@@ -1464,7 +1467,10 @@
     "id": "7-B",
     "question": "Constructor Championship Order - 6th to 10th",
     "type": "MultiTeam",
-    "scoring": "TeamChampOrder",
+    "scoring": {
+      "type": "TeamChampOrder",
+      "answersId": "TeamChampOrder"
+    },
     "kh": "AT,AM,ALP,HAA,AR",
     "hi": "AT,AM,WIL,AR,HAA",
     "sh": "ALP,AM,AR,WIL,HAA",
@@ -1480,7 +1486,10 @@
     "id": "7-C",
     "question": "Driver Championship Order - 1st to 5th",
     "type": "MultiDriver",
-    "scoring": "DriverChampOrder",
+    "scoring": {
+      "type": "DriverChampOrder",
+      "answersId": "DriverChampOrder"
+    },
     "kh": "LEC,HAM,VER,SAI,RUS",
     "hi": "HAM,SAI,VER,LEC,RUS",
     "sh": "VER,HAM,RUS,PER,SAI",
@@ -1496,7 +1505,10 @@
     "id": "7-D",
     "question": "Driver Championship Order - 6th to 10th",
     "type": "MultiDriver",
-    "scoring": "DriverChampOrder",
+    "scoring": {
+      "type": "DriverChampOrder",
+      "answersId": "DriverChampOrder"
+    },
     "kh": "NOR,PER,GAS,RIC,ALB",
     "hi": "NOR,PER,GAS,RIC,OCO",
     "sh": "NOR,RIC,LEC,GAS,ALO",
@@ -1512,7 +1524,10 @@
     "id": "7-E",
     "question": "Driver Championship Order - 11th to 15th",
     "type": "MultiDriver",
-    "scoring": "DriverChampOrder",
+    "scoring": {
+      "type": "DriverChampOrder",
+      "answersId": "DriverChampOrder"
+    },
     "kh": "ALO,VET,TSU,OCO,STR",
     "hi": "ALO,TSU,VET,ALB,STR",
     "sh": "BOT,VET,OCO,TSU,ALB",
@@ -1528,7 +1543,10 @@
     "id": "7-F",
     "question": "Driver Championship Order - 15th to 20th",
     "type": "MultiDriver",
-    "scoring": "DriverChampOrder",
+    "scoring": {
+      "type": "DriverChampOrder",
+      "answersId": "DriverChampOrder"
+    },
     "kh": "LAT,BOT,MSC,MAG,ZHO",
     "hi": "BOT,LAT,MAG,MSC,ZHO",
     "sh": "STR,MAG,MSC,LAT,ZHO",
