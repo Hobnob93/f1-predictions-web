@@ -821,7 +821,10 @@
     "id": "5-A",
     "question": "All teams will score points.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-A"
+    },
     "kh": "true",
     "hi": "true",
     "sh": "true",
@@ -837,7 +840,10 @@
     "id": "5-B",
     "question": "Russell outscores Perez.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-B"
+    },
     "kh": "true",
     "hi": "true",
     "sh": "true",
@@ -853,7 +859,10 @@
     "id": "5-C",
     "question": "The winning constructor takes 10 or fewer race wins.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-C"
+    },
     "kh": "true",
     "hi": "true",
     "sh": "false",
@@ -869,7 +878,10 @@
     "id": "5-D",
     "question": "Team in 10th place after Race 10 will still be 10th by the end of the season.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-D"
+    },
     "kh": "true",
     "hi": "false",
     "sh": "false",
@@ -885,7 +897,10 @@
     "id": "5-E",
     "question": "The Formula 2 Driver Champion gets a 2023 seat.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-E"
+    },
     "kh": "true",
     "hi": "false",
     "sh": "false",
@@ -901,7 +916,10 @@
     "id": "5-F",
     "question": "There will be a different World Champion if sprint race points excluded.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-F"
+    },
     "kh": "true",
     "hi": "true",
     "sh": "false",
@@ -917,7 +935,10 @@
     "id": "5-G",
     "question": "Ferrari will win 14 or more races.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-G"
+    },
     "kh": "false",
     "hi": "false",
     "sh": "false",
@@ -933,7 +954,10 @@
     "id": "5-H",
     "question": "Latifi will outscore Albon.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-H"
+    },
     "kh": "false",
     "hi": "false",
     "sh": "false",
@@ -949,7 +973,10 @@
     "id": "5-I",
     "question": "At least 3 first-time race winners.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-I"
+    },
     "kh": "true",
     "hi": "true",
     "sh": "false",
@@ -965,7 +992,10 @@
     "id": "5-J",
     "question": "Less than 15 points separating the top 3 drivers at the summer break.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-J"
+    },
     "kh": "true",
     "hi": "true",
     "sh": "true",
@@ -981,7 +1011,10 @@
     "id": "5-K",
     "question": "Hamilton does not win a race.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-K"
+    },
     "kh": "false",
     "hi": "false",
     "sh": "false",
@@ -997,7 +1030,10 @@
     "id": "5-L",
     "question": "Magnussen will score at least 15 points.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-L"
+    },
     "kh": "false",
     "hi": "false",
     "sh": "false",
@@ -1013,7 +1049,10 @@
     "id": "5-M",
     "question": "Schumacher makes Q3 at least 3 times.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-M"
+    },
     "kh": "true",
     "hi": "false",
     "sh": "false",
@@ -1029,7 +1068,10 @@
     "id": "5-N",
     "question": "Vettel will retire this season.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-N"
+    },
     "kh": "true",
     "hi": "true",
     "sh": "false",
@@ -1045,7 +1087,10 @@
     "id": "5-O",
     "question": "The new wheel covers cause at least 2 pitstop problems.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-O"
+    },
     "kh": "false",
     "hi": "true",
     "sh": "true",
@@ -1061,7 +1106,10 @@
     "id": "5-P",
     "question": "At least one race has less than 50% race distance completed.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-P"
+    },
     "kh": "false",
     "hi": "false",
     "sh": "true",
@@ -1077,7 +1125,10 @@
     "id": "5-Q",
     "question": "Either championship is decided in the last race.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-Q"
+    },
     "kh": "true",
     "hi": "false",
     "sh": "true",
@@ -1093,7 +1144,10 @@
     "id": "5-R",
     "question": "The team in the lead at the summer break is NOT the same team that wins the championship.",
     "type": "SingleBool",
-    "scoring": "Bool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-R"
+    },
     "kh": "true",
     "hi": "false",
     "sh": "true",
@@ -1238,12 +1292,6 @@
     "question": "McLaren Drivers Head to Head",
     "type": "HeadToHead",
     "scoring": "HeadToHead",
-    "stars": [
-      {
-        "target": "MG",
-        "reason": "Ricciardo strikes again!"
-      }
-    ],
     "kh": "NOR,NOR",
     "hi": "NOR,NOR",
     "sh": "NOR,NOR",

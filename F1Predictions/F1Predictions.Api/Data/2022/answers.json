@@ -1397,5 +1397,77 @@
         "value": "3"
       }
     ]
+  },
+  {
+    "id": "5-A",
+    "answer": "true"
+  },
+  {
+    "id": "5-B",
+    "answer": "false"
+  },
+  {
+    "id": "5-C",
+    "answer": "false"
+  },
+  {
+    "id": "5-D",
+    "answer": "true"
+  },
+  {
+    "id": "5-E",
+    "answer": "false"
+  },
+  {
+    "id": "5-F",
+    "answer": "false"
+  },
+  {
+    "id": "5-G",
+    "answer": "false"
+  },
+  {
+    "id": "5-H",
+    "answer": "false"
+  },
+  {
+    "id": "5-I",
+    "answer": "false"
+  },
+  {
+    "id": "5-J",
+    "answer": "false"
+  },
+  {
+    "id": "5-K",
+    "answer": "true"
+  },
+  {
+    "id": "5-L",
+    "answer": "true"
+  },
+  {
+    "id": "5-M",
+    "answer": "true"
+  },
+  {
+    "id": "5-N",
+    "answer": "true"
+  },
+  {
+    "id": "5-O",
+    "answer": "false"
+  },
+  {
+    "id": "5-P",
+    "answer": "false"
+  },
+  {
+    "id": "5-Q",
+    "answer": "false"
+  },
+  {
+    "id": "5-R",
+    "answer": "false"
   }
 ]
