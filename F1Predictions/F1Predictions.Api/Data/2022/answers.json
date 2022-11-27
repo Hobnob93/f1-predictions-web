@@ -1469,5 +1469,25 @@
   {
     "id": "5-R",
     "answer": "false"
+  },
+  {
+    "id": "6-A",
+    "answer": "RBR"
+  },
+  {
+    "id": "6-B",
+    "answer": "FER"
+  },
+  {
+    "id": "6-C",
+    "answer": "ALP"
+  },
+  {
+    "id": "6-D",
+    "answer": "AM"
+  },
+  {
+    "id": "6-E",
+    "answer": "AR"
   }
 ]

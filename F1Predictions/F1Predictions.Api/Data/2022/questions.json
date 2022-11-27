@@ -1163,7 +1163,10 @@
     "id": "6-A",
     "question": "Mercedes vs Red Bull",
     "type": "SingleTeam",
-    "scoring": "Versus",
+    "scoring": {
+      "type": "Versus",
+      "answersId": "6-A"
+    },
     "kh": "MER",
     "hi": "MER",
     "sh": "MER",
@@ -1179,7 +1182,10 @@
     "id": "6-B",
     "question": "Ferrari vs McLaren",
     "type": "SingleTeam",
-    "scoring": "Versus",
+    "scoring": {
+      "type": "Versus",
+      "answersId": "6-B"
+    },
     "kh": "FER",
     "hi": "FER",
     "sh": "MCL",
@@ -1195,7 +1201,10 @@
     "id": "6-C",
     "question": "Alpine vs AlphaTauri",
     "type": "SingleTeam",
-    "scoring": "Versus",
+    "scoring": {
+      "type": "Versus",
+      "answersId": "6-C"
+    },
     "kh": "AT",
     "hi": "ALP",
     "sh": "AT",
@@ -1211,7 +1220,10 @@
     "id": "6-D",
     "question": "Aston Martin vs Williams",
     "type": "SingleTeam",
-    "scoring": "Versus",
+    "scoring": {
+      "type": "Versus",
+      "answersId": "6-D"
+    },
     "kh": "WIL",
     "hi": "WIL",
     "sh": "AM",
@@ -1227,7 +1239,10 @@
     "id": "6-E",
     "question": "Alfa Romeo vs Haas",
     "type": "SingleTeam",
-    "scoring": "Versus",
+    "scoring": {
+      "type": "Versus",
+      "answersId": "6-E"
+    },
     "kh": "HAA",
     "hi": "HAA",
     "sh": "AR",
