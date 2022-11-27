@@ -10,5 +10,6 @@
         public string Teams { get; set; } = string.Empty;
         public string Tracks { get; set; } = string.Empty;
         public string Questions { get; set; } = string.Empty;
+        public string Answers { get; set; } = string.Empty;
     }
 }

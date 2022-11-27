@@ -2,6 +2,7 @@
 {
     public enum ApiEndpoint
     {
+        Answers,
         Competitors,
         Drivers,
         Teams,

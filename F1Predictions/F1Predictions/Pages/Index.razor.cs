@@ -20,6 +20,7 @@ namespace F1Predictions.Pages
             await DataInitializer.InitializeQuestionsAsync();
             await DataInitializer.InitializeDriversAsync();
             await DataInitializer.InitializeTracksAsync();
+            await DataInitializer.InitializeAnswersAsync();
 
             NavManager.NavigateTo("./results");
         }

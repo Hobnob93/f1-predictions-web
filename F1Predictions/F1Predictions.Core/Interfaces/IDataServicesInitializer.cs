@@ -7,5 +7,6 @@
         Task InitializeQuestionsAsync();
         Task InitializeDriversAsync();
         Task InitializeTracksAsync();
+        Task InitializeAnswersAsync();
     }
 }

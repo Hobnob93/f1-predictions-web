@@ -9,15 +9,17 @@ namespace F1Predictions.Core.Services
         private readonly IQuestionsDataService _questionsService;
         private readonly IDriversDataService _driversDataService;
         private readonly ITracksDataService _tracksDataService;
+        private readonly IAnswersDataService _answersDataService;
 
         public DataServicesInitializer(ITeamsDataService teamsService, ICompetitorsDataService competitorsService, IQuestionsDataService questionsService,
-            IDriversDataService driversDataService, ITracksDataService tracksDataService)
+            IDriversDataService driversDataService, ITracksDataService tracksDataService, IAnswersDataService answersDataService)
         {
             _teamsService = teamsService;
             _competitorsService = competitorsService;
             _questionsService = questionsService;
             _driversDataService = driversDataService;
             _tracksDataService = tracksDataService;
+            _answersDataService = answersDataService;
         }
 
         public async Task InitializeCompetitorsAsync()
@@ -43,6 +45,11 @@ namespace F1Predictions.Core.Services
         public async Task InitializeTracksAsync()
         {
             await _tracksDataService.InitializeAsync();
+        }
+
+        public async Task InitializeAnswersAsync()
+        {
+            await _answersDataService.InitializeAsync();
         }
     }
 }
