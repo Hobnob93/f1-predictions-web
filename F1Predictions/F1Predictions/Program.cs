@@ -35,6 +35,7 @@ builder.Services.AddScoped<IMultiCompResponses<Team>, TeamCompResponses>();
 builder.Services.AddScoped<IMultiCompResponses<Track>, TrackCompResponses>();
 
 builder.Services.AddScoped<IScoreTrackerFactory, ScoreTrackerFactory>();
+builder.Services.AddScoped<IScoreSystem, ScoreSystem>();
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddMudServices();
