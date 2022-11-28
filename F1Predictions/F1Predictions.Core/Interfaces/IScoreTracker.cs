@@ -4,6 +4,6 @@
     {
         double Score { get; }
 
-        void AddScore(double score);
+        void AddScore(string scoreId, double score);
     }
 }

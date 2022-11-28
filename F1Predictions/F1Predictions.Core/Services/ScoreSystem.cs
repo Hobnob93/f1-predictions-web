@@ -14,14 +14,14 @@ namespace F1Predictions.Core.Services
             _scores = new();
         }
 
-        public void AddScore(string compId, double score)
+        public void AddScore(string compId, string scoreId, double score)
         {
             if (!_scores.ContainsKey(compId))
             {
                 _scores.Add(compId, _trackerFactory.CreateTracker());
             }
 
-            _scores[compId].AddScore(score);
+            _scores[compId].AddScore(scoreId, score);
         }
     }
 }

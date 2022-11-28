@@ -2,6 +2,6 @@
 {
     public interface IScoreSystem
     {
-        void AddScore(string compId, double score);
+        void AddScore(string compId, string scoreId, double score);
     }
 }
