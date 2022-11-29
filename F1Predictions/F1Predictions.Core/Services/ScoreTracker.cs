@@ -4,17 +4,24 @@ namespace F1Predictions.Core.Services
 {
     public class ScoreTracker : IScoreTracker
     {
-        private readonly List<string> _scoreIds = new();
+        private readonly ICompScoreTrackerFactory _trackerFactory;
 
-        public double Score { get; private set; }
+        private Dictionary<string, ICompScoreTracker> _scores;
 
-        public void AddScore(string scoreId, double score)
+        public ScoreTracker(ICompScoreTrackerFactory trackerFactory)
         {
-            if (_scoreIds.Contains(scoreId))
-                return;
+            _trackerFactory = trackerFactory;
+            _scores = new();
+        }
 
-            _scoreIds.Add(scoreId);
-            Score += score;
+        public void AddScore(string compId, string scoreId, double score)
+        {
+            if (!_scores.ContainsKey(compId))
+            {
+                _scores.Add(compId, _trackerFactory.CreateTracker());
+            }
+
+            _scores[compId].AddScore(scoreId, score);
         }
     }
 }

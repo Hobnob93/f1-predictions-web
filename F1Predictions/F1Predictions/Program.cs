@@ -1,5 +1,6 @@
 using F1Predictions;
 using F1Predictions.Core.Config;
+using F1Predictions.Core.Enums;
 using F1Predictions.Core.Interfaces;
 using F1Predictions.Core.Models;
 using F1Predictions.Core.Services;
@@ -34,8 +35,17 @@ builder.Services.AddScoped<IMultiCompResponses<Driver>, DriverCompResponses>();
 builder.Services.AddScoped<IMultiCompResponses<Team>, TeamCompResponses>();
 builder.Services.AddScoped<IMultiCompResponses<Track>, TrackCompResponses>();
 
-builder.Services.AddScoped<IScoreTrackerFactory, ScoreTrackerFactory>();
-builder.Services.AddScoped<IScoreSystem, ScoreSystem>();
+builder.Services.AddScoped<ICompScoreTrackerFactory, CompScoreTrackerFactory>();
+builder.Services.AddScoped<IScoreSystemFactory, ScoreSystemFactory>();
+builder.Services.AddScoped<IScoreTracker, ScoreTracker>();
+
+builder.Services.AddScoped<Func<ScoringType, IScoreSystem>>(provider => key =>
+{
+    return key switch
+    {
+        _ => (IScoreSystem?)null
+    } ?? throw new InvalidOperationException($"The scoring type '{key}' does not have an associated scoring system");
+});
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddMudServices();

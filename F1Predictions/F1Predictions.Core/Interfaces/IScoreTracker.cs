@@ -2,8 +2,6 @@
 {
     public interface IScoreTracker
     {
-        double Score { get; }
-
-        void AddScore(string scoreId, double score);
+        void AddScore(string compId, string scoreId, double score);
     }
 }
