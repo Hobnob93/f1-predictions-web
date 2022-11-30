@@ -2,5 +2,6 @@
 {
     public interface IScoreSystem
     {
+        double ScoreForCompResponse(string compResponse);
     }
 }

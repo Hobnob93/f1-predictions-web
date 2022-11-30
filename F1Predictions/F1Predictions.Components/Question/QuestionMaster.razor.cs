@@ -32,9 +32,6 @@ namespace F1Predictions.Components.Question
 
         private void SetCurrentQuestionType()
         {
-            if (QuestionsService.CurrentQuestion is null)
-                throw new InvalidOperationException("The current question is null!");
-
             var questionType = QuestionsService.CurrentQuestion.Type;
             QuestionType = questionType switch
             {

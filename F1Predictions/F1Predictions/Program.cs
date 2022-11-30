@@ -3,6 +3,7 @@ using F1Predictions.Core.Config;
 using F1Predictions.Core.Enums;
 using F1Predictions.Core.Interfaces;
 using F1Predictions.Core.Models;
+using F1Predictions.Core.ScoringSystems;
 using F1Predictions.Core.Services;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -39,10 +40,13 @@ builder.Services.AddScoped<ICompScoreTrackerFactory, CompScoreTrackerFactory>();
 builder.Services.AddScoped<IScoreSystemFactory, ScoreSystemFactory>();
 builder.Services.AddScoped<IScoreTracker, ScoreTracker>();
 
+builder.Services.AddScoped<ValueScoringSystem>();
+
 builder.Services.AddScoped<Func<ScoringType, IScoreSystem>>(provider => key =>
 {
     return key switch
     {
+        ScoringType.Value => provider.GetService<ValueScoringSystem>(),
         _ => (IScoreSystem?)null
     } ?? throw new InvalidOperationException($"The scoring type '{key}' does not have an associated scoring system");
 });

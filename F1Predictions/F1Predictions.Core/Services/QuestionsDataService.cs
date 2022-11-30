@@ -10,12 +10,13 @@ namespace F1Predictions.Core.Services
 
         public List<QuestionResponse> Data { get; private set; } = new();
         public List<IGrouping<char, QuestionResponse>> QuestionGroups { get; private set; } = new();
-        public QuestionResponse? CurrentQuestion { get; private set; }
+        public QuestionResponse CurrentQuestion => _currentQuestion ?? throw new InvalidOperationException("The current question is null!");
 
         public event Func<Task>? StateChanging;
         public event Func<Task>? StateChanged;
 
         private int _currentIndex;
+        private QuestionResponse? _currentQuestion;
 
         public QuestionsDataService(IWebApiRequest apiWebRequest)
         {
@@ -75,7 +76,7 @@ namespace F1Predictions.Core.Services
                 await Task.Delay(750);
             }
 
-            CurrentQuestion = Data[_currentIndex];
+            _currentQuestion = Data[_currentIndex];
 
             if (notify && StateChanged is not null)
                 await StateChanged.Invoke();

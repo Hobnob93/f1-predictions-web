@@ -4,7 +4,7 @@ namespace F1Predictions.Core.Interfaces
 {
     public interface IQuestionsDataService : IDataService<QuestionResponse>
     {
-        QuestionResponse? CurrentQuestion { get; }
+        QuestionResponse CurrentQuestion { get; }
         List<IGrouping<char, QuestionResponse>> QuestionGroups { get; }
 
         event Func<Task>? StateChanging;

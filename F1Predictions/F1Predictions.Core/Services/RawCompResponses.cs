@@ -47,7 +47,7 @@ namespace F1Predictions.Core.Services
 
         private QuestionResponse GetQuestionResponse()
         {
-            return _questionsService.CurrentQuestion ?? throw new InvalidOperationException("Current question is null!");
+            return _questionsService.CurrentQuestion;
         }
     }
 }
