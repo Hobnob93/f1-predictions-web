@@ -323,7 +323,7 @@
     "question": "Chose TWO teams - every time one of their drivers make it to Q2, you LOSE 1 point",
     "type": "MultiTeam",
     "scoring": {
-      "type": "Q2Drivers",
+      "type": "GainWhenX",
       "answersId": "2-D"
     },
     "kh": "AR,HAA",
@@ -402,7 +402,7 @@
     "question": "Pick a team - every time one of their drivers are classified 16th OR LOWER, you score points.",
     "type": "SingleTeam",
     "scoring": {
-      "type": "TeamLower15th",
+      "type": "GainWhenX",
       "answersId": "2-H"
     },
     "kh": "AR",
@@ -461,7 +461,7 @@
     "question": "Which drivers will receive the \"Driver of the Day\" award?",
     "type": "MultiDriver",
     "scoring": {
-      "type": "Selection",
+      "type": "GetChoiceValue",
       "answerId": "3-B",
       "Mode": "Drivers"
     },
@@ -500,7 +500,7 @@
     "question": "Pick THREE drivers who will come the \"best of the rest\" the most.",
     "type": "MultiDriver",
     "scoring": {
-      "type": "DriverBestOfTheRest",
+      "type": "GainWhenX",
       "answersId": "3-D",
       "Mode": "Drivers"
     },
@@ -520,7 +520,7 @@
     "question": "Who are going to be the Q2 specialists?",
     "type": "MultiDriver",
     "scoring": {
-      "type": "Q2DriverSpecialists",
+      "type": "GainWhenX",
       "answersId": "3-E"
     },
     "kh": "ALB,ALO,TSU,VET",
@@ -539,7 +539,7 @@
     "question": "Pick all the drivers you think will make the podium.",
     "type": "MultiDriver",
     "scoring": {
-      "type": "DriversOnPodium",
+      "type": "GainLose",
       "answersId": "3-F"
     },
     "kh": "GAS,HAM,LEC,NOR,PER,RIC,RUS,SAI,VER",
@@ -578,7 +578,7 @@
     "question": "Which drivers will be the most mischievous and get the most license point penalties?",
     "type": "MultiDriver",
     "scoring": {
-      "type": "MostLicensePoints",
+      "type": "GainWhenX",
       "answersId": "3-H"
     },
     "kh": "LEC,MAG",
@@ -597,7 +597,7 @@
     "question": "Select the drivers who you think will NOT be on the grid in 2023.",
     "type": "MultiDriver",
     "scoring": {
-      "type": "NotOn2023Grid",
+      "type": "GainLose",
       "answersId": "3-I"
     },
     "kh": "ALO,MAG,TSU,ZHO",
@@ -636,7 +636,7 @@
     "question": "Pick THREE races of the season YOU think Leclerc will perform the BEST at.",
     "type": "MultiTrack",
     "scoring": {
-      "type": "Selection",
+      "type": "GetChoiceValue",
       "answerId": "3-K",
       "Mode": "Tracks"
     },
@@ -772,7 +772,7 @@
     "question": "Pick THREE drivers you think will perform the best at the MIAMI circuit.",
     "type": "MultiDriver",
     "scoring": {
-      "type": "Selection",
+      "type": "GetChoiceValue",
       "answersId": "4-G",
       "Mode": "Drivers"
     },
@@ -792,7 +792,7 @@
     "question": "Pick FOUR tracks you think there will be the MOST DNFs during the race.",
     "type": "MultiTrack",
     "scoring": {
-      "type": "DnfsAtTracks",
+      "type": "GainWhenX",
       "answersId": "4-H"
     },
     "kh": "BAH,SAA,EMR,MON",
@@ -1438,7 +1438,7 @@
     "question": "Constructor Championship Order - 1st to 5th",
     "type": "MultiTeam",
     "scoring": {
-      "type": "TeamChampOrder",
+      "type": "ChampOrder",
       "answersId": "TeamChampOrder"
     },
     "kh": "FER,MER,RBR,MCL,WIL",
@@ -1457,7 +1457,7 @@
     "question": "Constructor Championship Order - 6th to 10th",
     "type": "MultiTeam",
     "scoring": {
-      "type": "TeamChampOrder",
+      "type": "ChampOrder",
       "answersId": "TeamChampOrder"
     },
     "kh": "AT,AM,ALP,HAA,AR",
@@ -1476,7 +1476,7 @@
     "question": "Driver Championship Order - 1st to 5th",
     "type": "MultiDriver",
     "scoring": {
-      "type": "DriverChampOrder",
+      "type": "ChampOrder",
       "answersId": "DriverChampOrder"
     },
     "kh": "LEC,HAM,VER,SAI,RUS",
@@ -1495,7 +1495,7 @@
     "question": "Driver Championship Order - 6th to 10th",
     "type": "MultiDriver",
     "scoring": {
-      "type": "DriverChampOrder",
+      "type": "ChampOrder",
       "answersId": "DriverChampOrder"
     },
     "kh": "NOR,PER,GAS,RIC,ALB",
@@ -1514,7 +1514,7 @@
     "question": "Driver Championship Order - 11th to 15th",
     "type": "MultiDriver",
     "scoring": {
-      "type": "DriverChampOrder",
+      "type": "ChampOrder",
       "answersId": "DriverChampOrder"
     },
     "kh": "ALO,VET,TSU,OCO,STR",
@@ -1533,7 +1533,7 @@
     "question": "Driver Championship Order - 15th to 20th",
     "type": "MultiDriver",
     "scoring": {
-      "type": "DriverChampOrder",
+      "type": "ChampOrder",
       "answersId": "DriverChampOrder"
     },
     "kh": "LAT,BOT,MSC,MAG,ZHO",
