@@ -3,15 +3,15 @@
     public enum ScoringType
     {
         None,
-        Leaderboard,
-        GetChoiceValue,
-        Value,
+        Bool,
+        ChampOrder,
         GainLose,
         GainWhenX,
-        MultiDriverOnTrack,
-        Bool,
-        Versus,
+        GetChoiceValue,
         HeadToHead,
-        ChampOrder
+        Leaderboard,
+        MultiDriverOnTrack,
+        Value,
+        Versus
     }
 }

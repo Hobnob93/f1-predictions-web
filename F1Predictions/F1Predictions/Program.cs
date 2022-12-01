@@ -40,12 +40,14 @@ builder.Services.AddScoped<ICompScoreTrackerFactory, CompScoreTrackerFactory>();
 builder.Services.AddScoped<IScoreSystemFactory, ScoreSystemFactory>();
 builder.Services.AddScoped<IScoreTracker, ScoreTracker>();
 
+builder.Services.AddScoped<LeaderboardScoringSystem>();
 builder.Services.AddScoped<ValueScoringSystem>();
 
 builder.Services.AddScoped<Func<ScoringType, IScoreSystem>>(provider => key =>
 {
     return key switch
     {
+        ScoringType.Leaderboard => provider.GetService<LeaderboardScoringSystem>(),
         ScoringType.Value => provider.GetService<ValueScoringSystem>(),
         _ => (IScoreSystem?)null
     } ?? throw new InvalidOperationException($"The scoring type '{key}' does not have an associated scoring system");
