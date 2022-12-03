@@ -46,5 +46,10 @@ namespace F1Predictions.Core.ScoringSystems
                 _ => 0
             };
         }
+
+        public double ExtraToAccountFor(string compId)
+        {
+            return 0;
+        }
     }
 }

@@ -2,12 +2,12 @@
 
 namespace F1Predictions.Core.ScoringSystems
 {
-    public class BoolScoringSystem : IScoreSystem
+    public class ChampOrderScoringSystem : IScoreSystem
     {
         private readonly IQuestionsDataService _questionsService;
         private readonly IAnswersDataService _answersService;
 
-        public BoolScoringSystem(IQuestionsDataService questionsService, IAnswersDataService answersService)
+        public ChampOrderScoringSystem(IQuestionsDataService questionsService, IAnswersDataService answersService)
         {
             _questionsService = questionsService;
             _answersService = answersService;
@@ -15,10 +15,7 @@ namespace F1Predictions.Core.ScoringSystems
 
         public double ScoreForCompResponse(string compResponse)
         {
-            var answerIdForCurrentQuestion = _questionsService.CurrentQuestion.Scoring.AnswersId;
-            var answerData = _answersService.FindItem(answerIdForCurrentQuestion);
-
-            return compResponse == answerData.RawAnswer ? 10 : 0;
+            return 0;
         }
 
         public double ExtraToAccountFor(string compId)

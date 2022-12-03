@@ -23,5 +23,10 @@ namespace F1Predictions.Core.ScoringSystems
 
             return 25 - Math.Abs(answer - response);
         }
+
+        public double ExtraToAccountFor(string compId)
+        {
+            return 0;
+        }
     }
 }

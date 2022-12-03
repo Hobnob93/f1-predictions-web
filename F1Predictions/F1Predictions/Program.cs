@@ -31,16 +31,20 @@ builder.Services.AddScoped<ICompResponses<Driver>, DriverCompResponses>();
 builder.Services.AddScoped<ICompResponses<Team>, TeamCompResponses>();
 builder.Services.AddScoped<ICompResponses<Track>, TrackCompResponses>();
 builder.Services.AddScoped<ICompResponses<HeadToHead>, HeadToHeadCompResponses>();
+builder.Services.AddScoped<ICompResponses<DataItem>, AnyCompResponses>();
 builder.Services.AddScoped<IMultiCompResponses<DriverTrack>, DriverTrackCompResponses>();
 builder.Services.AddScoped<IMultiCompResponses<Driver>, DriverCompResponses>();
 builder.Services.AddScoped<IMultiCompResponses<Team>, TeamCompResponses>();
 builder.Services.AddScoped<IMultiCompResponses<Track>, TrackCompResponses>();
+builder.Services.AddScoped<IMultiCompResponses<DataItem>, AnyCompResponses>();
 
 builder.Services.AddScoped<ICompScoreTrackerFactory, CompScoreTrackerFactory>();
 builder.Services.AddScoped<IScoreSystemFactory, ScoreSystemFactory>();
 builder.Services.AddScoped<IScoreTracker, ScoreTracker>();
 
 builder.Services.AddScoped<BoolScoringSystem>();
+builder.Services.AddScoped<ChampOrderScoringSystem>();
+builder.Services.AddScoped<GainLoseScoringSystem>();
 builder.Services.AddScoped<LeaderboardScoringSystem>();
 builder.Services.AddScoped<ValueScoringSystem>();
 
@@ -49,6 +53,8 @@ builder.Services.AddScoped<Func<ScoringType, IScoreSystem>>(provider => key =>
     return key switch
     {
         ScoringType.Bool => provider.GetService<BoolScoringSystem>(),
+        ScoringType.ChampOrder => provider.GetService<ChampOrderScoringSystem>(),
+        ScoringType.GainLose => provider.GetService<GainLoseScoringSystem>(),
         ScoringType.Leaderboard => provider.GetService<LeaderboardScoringSystem>(),
         ScoringType.Value => provider.GetService<ValueScoringSystem>(),
         _ => (IScoreSystem?)null
