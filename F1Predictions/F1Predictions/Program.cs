@@ -51,6 +51,7 @@ builder.Services.AddScoped<HeadToHeadScoringSystem>();
 builder.Services.AddScoped<LeaderboardScoringSystem>();
 builder.Services.AddScoped<MultiDriverOnTrackScoringSystem>();
 builder.Services.AddScoped<ValueScoringSystem>();
+builder.Services.AddScoped<VersusScoringSystem>();
 
 builder.Services.AddScoped<Func<ScoringType, IScoreSystem>>(provider => key =>
 {
@@ -65,6 +66,7 @@ builder.Services.AddScoped<Func<ScoringType, IScoreSystem>>(provider => key =>
         ScoringType.Leaderboard => provider.GetService<LeaderboardScoringSystem>(),
         ScoringType.MultiDriverOnTrack => provider.GetService<MultiDriverOnTrackScoringSystem>(),
         ScoringType.Value => provider.GetService<ValueScoringSystem>(),
+        ScoringType.Versus => provider.GetService<VersusScoringSystem>(),
         _ => (IScoreSystem?)null
     } ?? throw new InvalidOperationException($"The scoring type '{key}' does not have an associated scoring system");
 });
