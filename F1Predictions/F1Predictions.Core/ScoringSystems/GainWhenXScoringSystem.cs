@@ -1,4 +1,5 @@
 ﻿using F1Predictions.Core.Interfaces;
+using F1Predictions.Core.Models;
 
 namespace F1Predictions.Core.ScoringSystems
 {
@@ -6,27 +7,32 @@ namespace F1Predictions.Core.ScoringSystems
     {
         private readonly IQuestionsDataService _questionsService;
         private readonly IAnswersDataService _answersService;
+        private readonly IMultiCompResponses<DataItem> _responses;
 
-        public GainWhenXScoringSystem(IQuestionsDataService questionsService, IAnswersDataService answersService)
+        public GainWhenXScoringSystem(IQuestionsDataService questionsService, IAnswersDataService answersService, IMultiCompResponses<DataItem> responses)
         {
             _questionsService = questionsService;
             _answersService = answersService;
+            _responses = responses;
         }
 
-        public double ScoreForCompResponse(string compResponse)
+        public double GetScoreForComp(string compId)
         {
             var answerIdForCurrentQuestion = _questionsService.CurrentQuestion.Scoring.AnswersId;
             var answerData = _answersService.FindItem(answerIdForCurrentQuestion);
-            var selectedAnswer = answerData.AnswersData.SingleOrDefault(ad => ad.Id == compResponse);
-            if (selectedAnswer is null)
-                return 0;
 
-            return double.Parse(selectedAnswer.Value) * _questionsService.CurrentQuestion.Scoring.Value;
-        }
+            var compResponses = _responses.GetMultiResponseForComp(compId);
+            var score = 0.0;
+            foreach (var compResponse in compResponses)
+            {
+                var selectedAnswer = answerData.AnswersData.SingleOrDefault(ad => ad.Id == compResponse.Id);
+                if (selectedAnswer is null)
+                    continue;
 
-        public double ExtraToAccountFor(string compId)
-        {
-            return 0;
+                score += double.Parse(selectedAnswer.Value) * _questionsService.CurrentQuestion.Scoring.Value;
+            }
+
+            return score;
         }
     }
 }

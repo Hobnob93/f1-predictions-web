@@ -2,7 +2,6 @@
 {
     public interface IScoreSystem
     {
-        double ScoreForCompResponse(string compResponse);
-        double ExtraToAccountFor(string compId);
+        double GetScoreForComp(string compId);
     }
 }
