@@ -47,6 +47,7 @@ builder.Services.AddScoped<ChampOrderScoringSystem>();
 builder.Services.AddScoped<GainLoseScoringSystem>();
 builder.Services.AddScoped<GainWhenXScoringSystem>();
 builder.Services.AddScoped<GetChoiceValueScoringSystem>();
+builder.Services.AddScoped<HeadToHeadScoringSystem>();
 builder.Services.AddScoped<LeaderboardScoringSystem>();
 builder.Services.AddScoped<ValueScoringSystem>();
 
@@ -59,6 +60,7 @@ builder.Services.AddScoped<Func<ScoringType, IScoreSystem>>(provider => key =>
         ScoringType.GainLose => provider.GetService<GainLoseScoringSystem>(),
         ScoringType.GainWhenX => provider.GetService<GainWhenXScoringSystem>(),
         ScoringType.GetChoiceValue => provider.GetService<GetChoiceValueScoringSystem>(),
+        ScoringType.HeadToHead => provider.GetService<HeadToHeadScoringSystem>(),
         ScoringType.Leaderboard => provider.GetService<LeaderboardScoringSystem>(),
         ScoringType.Value => provider.GetService<ValueScoringSystem>(),
         _ => (IScoreSystem?)null
