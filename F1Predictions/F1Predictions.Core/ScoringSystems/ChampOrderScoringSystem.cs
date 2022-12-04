@@ -27,13 +27,16 @@ namespace F1Predictions.Core.ScoringSystems
 
             var compResponses = _responses.GetMultiResponseForComp(compId);
             var score = 0.0;
+            var currentIndex = (_questionsService.CurrentQuestion.Scoring.Index ?? 0) - 1;
             foreach (var compResponse in compResponses)
             {
+                currentIndex++;
+
                 var indexOfResponse = leaderboard.FindIndex(0, leaderboard.Count, a => a.Id == compResponse.Id);
                 if (indexOfResponse == -1)
                     continue;
 
-                score += GetScoreFromLeaderboardPositionDistance(indexOfResponse - _questionsService.CurrentQuestion.Scoring.Index ?? 0);
+                score += GetScoreFromLeaderboardPositionDistance(indexOfResponse - currentIndex);
             }
 
             return score;
