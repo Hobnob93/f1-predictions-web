@@ -3,6 +3,7 @@
     public enum RenderType
     {
         List,
+        Bool,
         Raw,
         Bar,
         MultiBar,

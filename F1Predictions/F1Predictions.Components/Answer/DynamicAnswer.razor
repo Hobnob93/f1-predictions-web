@@ -1,0 +1,22 @@
+﻿@using F1Predictions.Core.Enums;
+
+@implements IRefreshable
+
+<MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
+    @if (Answer.RenderType == RenderType.Pie)
+    {
+        <PieChart Title="Answers" Data="@AnswerData" @ref="AnswersChart" />
+    }
+    else if (Answer.RenderType == RenderType.Bar)
+    {
+        <BarChart Title="Answers" Data="@AnswerData" @ref="AnswersChart" />
+    }
+    else if (Answer.RenderType == RenderType.Raw)
+    {
+        <p>@Answer.RawAnswer</p>
+    }
+    else if (Answer.RenderType == RenderType.Bool)
+    {
+        <p>@Answer.RawAnswer</p>
+    }
+</MudPaper>

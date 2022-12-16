@@ -7,27 +7,21 @@ namespace F1Predictions.Components.Question
     public abstract class QuestionContent : ComponentBase, IRefreshable
     {
         [Inject]
-        protected IQuestionsDataService Questions { get; set; } = default!;
-
-        [Inject]
-        protected IAnswersDataService Answers { get; set; } = default!;
-
-        [Inject]
         protected ICompetitorsDataService CompetitorsService { get; set; } = default!;
 
         [Inject]
-        protected IRawCompResponses AnswerService { get; set; } = default!;
+        protected IRawCompResponses CompResponses { get; set; } = default!;
 
-        public IRefreshable? RefreshableChart { get; set; }
+        public IRefreshable? ResponsesChart { get; set; }
         public List<ChartDataPoint> ResponseData { get; protected set; } = new();
 
+        public IRefreshable? AnswersSection { get; set; }
+
         protected abstract void SetResponses();
-        protected abstract void SetAnswers();
 
         protected override void OnInitialized()
         {
             SetResponses();
-            SetAnswers();
         }
 
         public async Task Refresh()
@@ -36,13 +30,16 @@ namespace F1Predictions.Components.Question
 
             await InvokeAsync(StateHasChanged);
 
-            if (RefreshableChart is not null)
-                await RefreshableChart.Refresh();
+            if (ResponsesChart is not null)
+                await ResponsesChart.Refresh();
+
+            if (AnswersSection is not null)
+                await AnswersSection.Refresh();
         }
 
         protected async Task OnSelectedChartDataPoint(ChartDataPoint dataPoint)
         {
-            await CompetitorsService.ShowAllWithAnswer(dataPoint.Id, AnswerService);
+            await CompetitorsService.ShowAllWithAnswer(dataPoint.Id, CompResponses);
         }
     }
 }

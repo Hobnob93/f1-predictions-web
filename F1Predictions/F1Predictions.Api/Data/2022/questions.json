@@ -21,8 +21,7 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamChampOrder",
-      "Index": 0,
-      "Mode": "Teams"
+      "Index": 0
     },
     "kh": "FER",
     "hi": "FER",
@@ -61,8 +60,7 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamChampOrder",
-      "Index": 4,
-      "Mode": "Teams"
+      "Index": 4
     },
     "kh": "WIL",
     "hi": "ALP",
@@ -82,8 +80,7 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamChampOrder",
-      "Index": 9,
-      "Mode": "Teams"
+      "Index": 9
     },
     "kh": "HAA",
     "hi": "AT",
@@ -103,8 +100,7 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverChampOrder",
-      "Index": 0,
-      "Mode": "Drivers"
+      "Index": 0
     },
     "kh": "LEC",
     "hi": "HAM",
@@ -143,8 +139,7 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverChampOrder",
-      "Index": 9,
-      "Mode": "Drivers"
+      "Index": 9
     },
     "kh": "ALB",
     "hi": "OCO",
@@ -164,8 +159,7 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverChampOrder",
-      "Index": 21,
-      "Mode": "Drivers"
+      "Index": 21
     },
     "kh": "ZHO",
     "hi": "ZHO",
@@ -184,8 +178,7 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "TeamDestrOrder",
-      "Mode": "Teams"
+      "AnswersId": "TeamDestrOrder"
     },
     "kh": "AT",
     "hi": "RBR",
@@ -204,8 +197,7 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "TeamDestrOrder",
-      "Mode": "Teams"
+      "AnswersId": "TeamDestrOrder"
     },
     "kh": "MER",
     "hi": "WIL",
@@ -224,8 +216,7 @@
     "type": "SingleDriver",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "DriverDestrOrder",
-      "Mode": "Drivers"
+      "AnswersId": "DriverDestrOrder"
     },
     "kh": "TSU",
     "hi": "VER",
@@ -244,8 +235,7 @@
     "type": "SingleDriver",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "DriverDestrOrder",
-      "Mode": "Drivers"
+      "AnswersId": "DriverDestrOrder"
     },
     "kh": "HAM",
     "hi": "VET",
@@ -264,8 +254,7 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "2-A",
-      "Mode": "Teams"
+      "AnswersId": "2-A"
     },
     "kh": "MER",
     "hi": "FER",
@@ -284,8 +273,7 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "Race1PitstopTimes",
-      "Mode": "Teams"
+      "AnswersId": "Race1PitstopTimes"
     },
     "kh": "RBR",
     "hi": "RBR",
@@ -304,8 +292,7 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "2-C",
-      "Mode": "Teams"
+      "AnswersId": "2-C"
     },
     "kh": "MCL",
     "hi": "MCL",
@@ -344,8 +331,7 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "answersId": "2-E",
-      "Mode": "Teams"
+      "answersId": "2-E"
     },
     "kh": "MCL",
     "hi": "AR",
@@ -364,8 +350,7 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "Race1PitstopTimes",
-      "Mode": "Teams"
+      "AnswersId": "Race1PitstopTimes"
     },
     "kh": "FER",
     "hi": "FER",
@@ -384,8 +369,7 @@
     "type": "MultiTrack",
     "scoring": {
       "type": "GetChoiceValue",
-      "answersId": "2-G",
-      "Mode": "Tracks"
+      "answersId": "2-G"
     },
     "kh": "BAH,BAK,MZA",
     "hi": "MIA,MZA,RUS",
@@ -424,8 +408,7 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "answerId": "2-I",
-      "Mode": "Teams"
+      "answerId": "2-I"
     },
     "kh": "WIL",
     "hi": "WIL",
@@ -444,8 +427,7 @@
     "type": "SingleDriver",
     "scoring": {
       "type": "Leaderboard",
-      "answerId": "3-A",
-      "Mode": "Drivers"
+      "answerId": "3-A"
     },
     "kh": "LEC",
     "hi": "HAM",
@@ -464,8 +446,7 @@
     "type": "MultiDriver",
     "scoring": {
       "type": "GetChoiceValue",
-      "answerId": "3-B",
-      "Mode": "Drivers"
+      "answerId": "3-B"
     },
     "kh": "GAS,HAM,LEC,NOR,RUS,SAI,VER,VET",
     "hi": "HAM,LEC,NOR,RIC,RUS,SAI,VER,VET",
@@ -562,8 +543,7 @@
     "type": "SingleDriver",
     "scoring": {
       "type": "Leaderboard",
-      "answersId": "3-G",
-      "Mode": "Drivers"
+      "answersId": "3-G"
     },
     "kh": "RIC",
     "hi": "ZHO",
@@ -621,8 +601,7 @@
     "type": "SingleDriver",
     "scoring": {
       "type": "Leaderboard",
-      "answersId": "3-J",
-      "Mode": "Drivers"
+      "answersId": "3-J"
     },
     "kh": "BOT",
     "hi": "BOT",
@@ -641,8 +620,7 @@
     "type": "MultiTrack",
     "scoring": {
       "type": "GetChoiceValue",
-      "answerId": "3-K",
-      "Mode": "Tracks"
+      "answerId": "3-K"
     },
     "kh": "BAK,NED,MZA",
     "hi": "MON,SPA,MZA",
@@ -661,8 +639,7 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "answersId": "4-A",
-      "Mode": "Teams"
+      "answersId": "4-A"
     },
     "kh": "FER",
     "hi": "RBR",
@@ -757,8 +734,7 @@
     "type": "SingleTrack",
     "scoring": {
       "type": "Leaderboard",
-      "answersId": "4-F",
-      "Mode": "Tracks"
+      "answersId": "4-F"
     },
     "kh": "MZA",
     "hi": "SPA",
@@ -777,8 +753,7 @@
     "type": "MultiDriver",
     "scoring": {
       "type": "GetChoiceValue",
-      "answersId": "4-G",
-      "Mode": "Drivers"
+      "answersId": "4-G"
     },
     "kh": "HAM,LEC,VER",
     "hi": "HAM,PER,RUS",

@@ -13,7 +13,7 @@ namespace F1Predictions.Components.Core
         [Parameter, EditorRequired]
         public List<ChartDataPoint> Data { get; set; } = default!;
 
-        [Parameter, EditorRequired]
+        [Parameter]
         public EventCallback<ChartDataPoint> SelectionCallback { get; set; }
 
         private ApexChart<ChartDataPoint>? Chart;

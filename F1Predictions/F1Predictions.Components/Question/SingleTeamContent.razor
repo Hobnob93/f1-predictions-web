@@ -12,9 +12,7 @@
 
 <MudPaper Class="d-flex flex-row justify-center align-content-center align-center" Elevation="0">
     <MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
-        <PieChart Title="Responses" Data="@ResponseData" SelectionCallback="OnSelectedChartDataPoint" @ref="RefreshableChart" />
+        <PieChart Title="Responses" Data="@ResponseData" SelectionCallback="OnSelectedChartDataPoint" @ref="ResponsesChart" />
     </MudPaper>
-    <MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
-        <PieChart Title="Answers" Data="@ResponseData" SelectionCallback="OnSelectedChartDataPoint" @ref="RefreshableChart" />
-    </MudPaper>
+    <DynamicAnswer @ref="AnswersSection" />
 </MudPaper>
