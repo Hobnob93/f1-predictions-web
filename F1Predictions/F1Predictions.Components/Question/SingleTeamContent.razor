@@ -10,6 +10,11 @@
     </CompetitorTemplate>
 </CompetitorResponses>
 
-<MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
-    <PieChart Title="Responses" Data="@ResponseData" SelectionCallback="OnSelectedChartDataPoint" @ref="RefreshableChart" />
+<MudPaper Class="d-flex flex-row justify-center align-content-center align-center" Elevation="0">
+    <MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
+        <PieChart Title="Responses" Data="@ResponseData" SelectionCallback="OnSelectedChartDataPoint" @ref="RefreshableChart" />
+    </MudPaper>
+    <MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
+        <PieChart Title="Answers" Data="@ResponseData" SelectionCallback="OnSelectedChartDataPoint" @ref="RefreshableChart" />
+    </MudPaper>
 </MudPaper>

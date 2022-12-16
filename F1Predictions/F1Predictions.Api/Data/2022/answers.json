@@ -1,6 +1,7 @@
 [
   {
     "id": "TeamChampOrder",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "RBR",
@@ -46,10 +47,12 @@
   },
   {
     "id": "1-B",
+    "renderType": "Raw",
     "rawAnswer": "37"
   },
   {
     "id": "DriverChampOrder",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "VER",
@@ -143,10 +146,12 @@
   },
   {
     "id": "1-F",
+    "renderType": "Raw",
     "rawAnswer": "47"
   },
   {
     "id": "DriverDestrOrder",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "MSC",
@@ -232,6 +237,7 @@
   },
   {
     "id": "TeamDestrOrder",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "HAA",
@@ -277,6 +283,7 @@
   },
   {
     "id": "2-A",
+    "renderType": "Pie",
     "answersData": [
       {
         "id": "RBR",
@@ -298,6 +305,7 @@
   },
   {
     "id": "Race1PitstopTimes",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "RBR",
@@ -343,6 +351,7 @@
   },
   {
     "id": "2-C",
+    "renderType": "Pie",
     "answersData": [
       {
         "id": "AR",
@@ -388,6 +397,7 @@
   },
   {
     "id": "2-D",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "RBR",
@@ -433,10 +443,12 @@
   },
   {
     "id": "2-E",
+    "renderType": "List",
     "rawAnswer": "AT,RBR,HAA,ALP,MCL,AR,WIL,FER,AM,MER"
   },
   {
     "id": "2-G",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "BAH",
@@ -482,6 +494,7 @@
   },
   {
     "id": "2-H",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "WIL",
@@ -527,6 +540,7 @@
   },
   {
     "id": "2-I",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "FER",
@@ -572,6 +586,7 @@
   },
   {
     "id": "3-A",
+    "renderType": "Pie",
     "answersData": [
       {
         "id": "VER",
@@ -609,6 +624,7 @@
   },
   {
     "id": "3-B",
+    "renderType": "Pie",
     "answersData": [
       {
         "id": "VER",
@@ -650,6 +666,7 @@
   },
   {
     "id": "3-C",
+    "renderType": "MultiBar",
     "answersData": [
       {
         "id": "AUS",
@@ -711,6 +728,7 @@
   },
   {
     "id": "3-D",
+    "renderType": "Pie",
     "answersData": [
       {
         "id": "RUS",
@@ -744,6 +762,7 @@
   },
   {
     "id": "3-E",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "ZHO",
@@ -821,10 +840,41 @@
   },
   {
     "id": "3-F",
-    "rawAnswer": "LEC,SAI,HAM,VER,PER,RUS,NOR"
+    "renderType": "Bar",
+    "answersData": [
+      {
+        "id": "VER",
+        "value": "17"
+      },
+      {
+        "id": "LEC",
+        "value": "11"
+      },
+      {
+        "id": "PER",
+        "value": "10"
+      },
+      {
+        "id": "SAI",
+        "value": "9"
+      },
+      {
+        "id": "HAM",
+        "value": "9"
+      },
+      {
+        "id": "RUS",
+        "value": "8"
+      },
+      {
+        "id": "NOR",
+        "value": "1"
+      }
+    ]
   },
   {
     "id": "3-G",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "TSU",
@@ -910,6 +960,7 @@
   },
   {
     "id": "3-H",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "GAS",
@@ -979,10 +1030,12 @@
   },
   {
     "id": "3-I",
+    "renderType": "List",
     "rawAnswer": "RIC,VET,LAT,MSC"
   },
   {
     "id": "3-J",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "BOT",
@@ -1056,6 +1109,7 @@
   },
   {
     "id": "3-K",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "BAH",
@@ -1149,26 +1203,32 @@
   },
   {
     "id": "4-A",
+    "renderType": "List",
     "rawAnswer": "RBR,MER,AT,AM,ALP,MCL,WIL,AR,HAA,FER"
   },
   {
     "id": "4-B",
+    "renderType": "Raw",
     "rawAnswer": "22"
   },
   {
     "id": "4-C",
+    "renderType": "Raw",
     "rawAnswer": "22"
   },
   {
     "id": "4-D",
+    "renderType": "Raw",
     "rawAnswer": "3"
   },
   {
     "id": "4-E",
+    "renderType": "Raw",
     "rawAnswer": "23"
   },
   {
     "id": "4-F",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "GBR",
@@ -1262,6 +1322,7 @@
   },
   {
     "id": "4-G",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "VER",
@@ -1307,6 +1368,7 @@
   },
   {
     "id": "4-H",
+    "renderType": "Bar",
     "answersData": [
       {
         "id": "BAH",
@@ -1400,78 +1462,97 @@
   },
   {
     "id": "5-A",
+    "renderType": "Raw",
     "rawAnswer": "true"
   },
   {
     "id": "5-B",
+    "renderType": "Raw",
     "rawAnswer": "false"
   },
   {
     "id": "5-C",
+    "renderType": "Raw",
     "rawAnswer": "false"
   },
   {
     "id": "5-D",
+    "renderType": "Raw",
     "rawAnswer": "true"
   },
   {
     "id": "5-E",
+    "renderType": "Raw",
     "rawAnswer": "false"
   },
   {
     "id": "5-F",
+    "renderType": "Raw",
     "rawAnswer": "false"
   },
   {
     "id": "5-G",
+    "renderType": "Raw",
     "rawAnswer": "false"
   },
   {
     "id": "5-H",
+    "renderType": "Raw",
     "rawAnswer": "false"
   },
   {
     "id": "5-I",
+    "renderType": "Raw",
     "rawAnswer": "false"
   },
   {
     "id": "5-J",
+    "renderType": "Raw",
     "rawAnswer": "false"
   },
   {
     "id": "5-K",
+    "renderType": "Raw",
     "rawAnswer": "true"
   },
   {
     "id": "5-L",
+    "renderType": "Raw",
     "rawAnswer": "true"
   },
   {
     "id": "5-M",
+    "renderType": "Raw",
     "rawAnswer": "true"
   },
   {
     "id": "5-N",
+    "renderType": "Raw",
     "rawAnswer": "true"
   },
   {
     "id": "5-O",
+    "renderType": "Raw",
     "rawAnswer": "false"
   },
   {
     "id": "5-P",
+    "renderType": "Raw",
     "rawAnswer": "false"
   },
   {
     "id": "5-Q",
+    "renderType": "Raw",
     "rawAnswer": "false"
   },
   {
     "id": "5-R",
+    "renderType": "Raw",
     "rawAnswer": "false"
   },
   {
     "id": "6-A",
+    "renderType": "Pie",
     "answersData": [
       {
         "id": "RBR",
@@ -1485,6 +1566,7 @@
   },
   {
     "id": "6-B",
+    "renderType": "Pie",
     "answersData": [
       {
         "id": "FER",
@@ -1498,6 +1580,7 @@
   },
   {
     "id": "6-C",
+    "renderType": "Pie",
     "answersData": [
       {
         "id": "ALP",
@@ -1511,6 +1594,7 @@
   },
   {
     "id": "6-D",
+    "renderType": "Pie",
     "answersData": [
       {
         "id": "AM",
@@ -1524,6 +1608,7 @@
   },
   {
     "id": "6-E",
+    "renderType": "Pie",
     "answersData": [
       {
         "id": "AR",
@@ -1537,6 +1622,7 @@
   },
   {
     "id": "6-F",
+    "renderType": "Paired",
     "answersData": [
       {
         "id": "HAM",
@@ -1558,6 +1644,7 @@
   },
   {
     "id": "6-G",
+    "renderType": "Paired",
     "answersData": [
       {
         "id": "VER",
@@ -1579,6 +1666,7 @@
   },
   {
     "id": "6-H",
+    "renderType": "Paired",
     "answersData": [
       {
         "id": "LEC",
@@ -1600,6 +1688,7 @@
   },
   {
     "id": "6-I",
+    "renderType": "Paired",
     "answersData": [
       {
         "id": "NOR",
@@ -1621,6 +1710,7 @@
   },
   {
     "id": "6-J",
+    "renderType": "Paired",
     "answersData": [
       {
         "id": "ALO",
@@ -1642,6 +1732,7 @@
   },
   {
     "id": "6-K",
+    "renderType": "Paired",
     "answersData": [
       {
         "id": "GAS",
@@ -1663,6 +1754,7 @@
   },
   {
     "id": "6-L",
+    "renderType": "Paired",
     "answersData": [
       {
         "id": "VET",
@@ -1684,6 +1776,7 @@
   },
   {
     "id": "6-M",
+    "renderType": "Paired",
     "answersData": [
       {
         "id": "BOT",
@@ -1705,6 +1798,7 @@
   },
   {
     "id": "6-N",
+    "renderType": "Paired",
     "answersData": [
       {
         "id": "ALB",
@@ -1726,6 +1820,7 @@
   },
   {
     "id": "6-O",
+    "renderType": "Paired",
     "answersData": [
       {
         "id": "MAG",

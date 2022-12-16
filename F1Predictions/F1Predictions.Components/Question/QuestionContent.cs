@@ -7,6 +7,12 @@ namespace F1Predictions.Components.Question
     public abstract class QuestionContent : ComponentBase, IRefreshable
     {
         [Inject]
+        protected IQuestionsDataService Questions { get; set; } = default!;
+
+        [Inject]
+        protected IAnswersDataService Answers { get; set; } = default!;
+
+        [Inject]
         protected ICompetitorsDataService CompetitorsService { get; set; } = default!;
 
         [Inject]
@@ -16,10 +22,12 @@ namespace F1Predictions.Components.Question
         public List<ChartDataPoint> ResponseData { get; protected set; } = new();
 
         protected abstract void SetResponses();
+        protected abstract void SetAnswers();
 
         protected override void OnInitialized()
         {
             SetResponses();
+            SetAnswers();
         }
 
         public async Task Refresh()
