@@ -46,6 +46,7 @@ namespace F1Predictions.Core.Services
                 ApiEndpoint.Tracks => _config.Tracks,
                 ApiEndpoint.Drivers => _config.Drivers,
                 ApiEndpoint.Questions => _config.Questions,
+                ApiEndpoint.Answers => _config.Answers,
                 _ => throw new InvalidOperationException($"The endpoint {endpoint} has not been defined.")
             };
     }
