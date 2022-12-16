@@ -9,6 +9,9 @@
     </CompetitorTemplate>
 </CompetitorResponses>
 
-<MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
-    <ScatterChart Title="Responses" Data="@ResponseData" SelectionCallback="@OnSelectedChartDataPoint" @ref="ResponsesChart" />
+<MudPaper Class="d-flex flex-row justify-center align-content-center align-center gap-14" Elevation="0">
+    <MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
+        <ScatterChart Title="Responses" Data="@ResponseData" SelectionCallback="@OnSelectedChartDataPoint" @ref="ResponsesChart" />
+    </MudPaper>
+    <DynamicAnswer @ref="AnswersSection" />
 </MudPaper>

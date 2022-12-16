@@ -6,7 +6,7 @@ namespace F1Predictions.Components.Question
     {
         protected override void SetResponses()
         {
-            var answers = AnswerService.GetAllRawResponses();
+            var answers = CompResponses.GetAllRawResponses();
             var uniqueAnswers = answers
                 .Distinct()
                 .Select(id => (string.Equals(id, "true", StringComparison.OrdinalIgnoreCase), id))
@@ -23,7 +23,7 @@ namespace F1Predictions.Components.Question
 
         private bool GetCompetitorAnswer(string competitorId)
         {
-            var rawAnswer = AnswerService.GetRawResponseForComp(competitorId);
+            var rawAnswer = CompResponses.GetRawResponseForComp(competitorId);
             return string.Equals(rawAnswer, "true", StringComparison.OrdinalIgnoreCase);
         }
     }

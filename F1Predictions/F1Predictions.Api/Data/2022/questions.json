@@ -408,7 +408,7 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "answerId": "2-I"
+      "answersId": "2-I"
     },
     "kh": "WIL",
     "hi": "WIL",
@@ -427,7 +427,7 @@
     "type": "SingleDriver",
     "scoring": {
       "type": "Leaderboard",
-      "answerId": "3-A"
+      "answersId": "3-A"
     },
     "kh": "LEC",
     "hi": "HAM",
@@ -446,7 +446,7 @@
     "type": "MultiDriver",
     "scoring": {
       "type": "GetChoiceValue",
-      "answerId": "3-B"
+      "answersId": "3-B"
     },
     "kh": "GAS,HAM,LEC,NOR,RUS,SAI,VER,VET",
     "hi": "HAM,LEC,NOR,RIC,RUS,SAI,VER,VET",
@@ -620,7 +620,7 @@
     "type": "MultiTrack",
     "scoring": {
       "type": "GetChoiceValue",
-      "answerId": "3-K"
+      "answersId": "3-K"
     },
     "kh": "BAK,NED,MZA",
     "hi": "MON,SPA,MZA",
@@ -628,10 +628,10 @@
     "kc": "EMR,GBR,MZA",
     "tw": "BAH,MON,MZA",
     "gh": "BAH,MON,MZA",
-    "mg": "BAR,MON,CPR",
+    "mg": "BAR,MON,FRA",
     "kb": "EMR,MZA,YMC",
-    "cb": "BAH,MON,CPR",
-    "mh": "MON,CPR,BRA"
+    "cb": "BAH,MON,FRA",
+    "mh": "MON,FRA,BRA"
   },
   {
     "id": "4-A",
@@ -781,7 +781,7 @@
     "kc": "BAH,AUS,BAK,SPA",
     "tw": "SAA,MON,BAK,SPA",
     "gh": "SAA,MON,SPA,JPN",
-    "mg": "RBR,CPR,SPA,RUS",
+    "mg": "RBR,FRA,SPA,RUS",
     "kb": "MIA,MON,RUS,JPN",
     "cb": "MIA,MON,MZA,MEX",
     "mh": "BAH,AUS,SPA,MEX"
@@ -1419,7 +1419,7 @@
     "type": "MultiTeam",
     "scoring": {
       "type": "ChampOrder",
-      "answersId": "ChampOrder",
+      "answersId": "TeamChampOrder",
       "index": 0
     },
     "kh": "FER,MER,RBR,MCL,WIL",
@@ -1439,7 +1439,7 @@
     "type": "MultiTeam",
     "scoring": {
       "type": "ChampOrder",
-      "answersId": "ChampOrder",
+      "answersId": "TeamChampOrder",
       "index": 5
     },
     "kh": "AT,AM,ALP,HAA,AR",
@@ -1459,7 +1459,7 @@
     "type": "MultiDriver",
     "scoring": {
       "type": "ChampOrder",
-      "answersId": "ChampOrder",
+      "answersId": "DriverChampOrder",
       "index": 0
     },
     "kh": "LEC,HAM,VER,SAI,RUS",
@@ -1479,7 +1479,7 @@
     "type": "MultiDriver",
     "scoring": {
       "type": "ChampOrder",
-      "answersId": "ChampOrder",
+      "answersId": "DriverChampOrder",
       "index": 5
     },
     "kh": "NOR,PER,GAS,RIC,ALB",
@@ -1499,7 +1499,7 @@
     "type": "MultiDriver",
     "scoring": {
       "type": "ChampOrder",
-      "answersId": "ChampOrder",
+      "answersId": "DriverChampOrder",
       "index": 10
     },
     "kh": "ALO,VET,TSU,OCO,STR",
@@ -1519,7 +1519,7 @@
     "type": "MultiDriver",
     "scoring": {
       "type": "ChampOrder",
-      "answersId": "ChampOrder",
+      "answersId": "DriverChampOrder",
       "index": 15
     },
     "kh": "LAT,BOT,MSC,MAG,ZHO",

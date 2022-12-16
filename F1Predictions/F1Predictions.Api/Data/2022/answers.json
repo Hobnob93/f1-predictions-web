@@ -357,7 +357,7 @@
   },
   {
     "id": "2-C",
-    "renderType": "Pie",
+    "renderType": "Bar",
     "mode": "Teams",
     "answersData": [
       {
@@ -598,7 +598,7 @@
   },
   {
     "id": "3-A",
-    "renderType": "Pie",
+    "renderType": "Bar",
     "mode": "Drivers",
     "answersData": [
       {
@@ -1226,9 +1226,50 @@
   },
   {
     "id": "4-A",
-    "renderType": "List",
-    "mode": "Tracks",
-    "rawAnswer": "RBR,MER,AT,AM,ALP,MCL,WIL,AR,HAA,FER"
+    "renderType": "Bar",
+    "mode": "Teams",
+    "answersData": [
+      {
+        "id": "RBR",
+        "value": "44"
+      },
+      {
+        "id": "MER",
+        "value": "27"
+      },
+      {
+        "id": "AT",
+        "value": "10"
+      },
+      {
+        "id": "AM",
+        "value": "8"
+      },
+      {
+        "id": "ALP",
+        "value": "7"
+      },
+      {
+        "id": "MCL",
+        "value": "6"
+      },
+      {
+        "id": "WIL",
+        "value": "0"
+      },
+      {
+        "id": "AR",
+        "value": "0"
+      },
+      {
+        "id": "HAA",
+        "value": "0"
+      },
+      {
+        "id": "FER",
+        "value": "0"
+      }
+    ]
   },
   {
     "id": "4-B",
