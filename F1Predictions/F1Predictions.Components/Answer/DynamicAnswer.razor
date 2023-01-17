@@ -13,10 +13,16 @@
     }
     else if (Answer.RenderType == RenderType.Raw)
     {
-        <p>@Answer.RawAnswer</p>
+        <div style="width:500px;height:395px;">
+            <MudText Class="mb-3" Typo="Typo.h4" Align="MudBlazor.Align.Center">Answer</MudText>
+            <MudText Class="mb-3 mt-3" Typo="Typo.h1" Align="MudBlazor.Align.Center" Color="MudBlazor.Color.Tertiary">@Answer.RawAnswer</MudText>
+        </div>
     }
     else if (Answer.RenderType == RenderType.Bool)
     {
-        <p>@Answer.RawAnswer</p>
+        <div style="width:500px;height:395px;">
+            <MudText Class="mb-3" Typo="Typo.h4" Align="MudBlazor.Align.Center">Answer</MudText>
+            <MudText Class="mb-3 mt-3" Typo="Typo.h1" Align="MudBlazor.Align.Center" Color="MudBlazor.Color.Tertiary">@Answer.RawAnswer</MudText>
+        </div>
     }
 </MudPaper>
