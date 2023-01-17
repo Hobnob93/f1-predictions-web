@@ -62,6 +62,9 @@ namespace F1Predictions.Components.Answer
                 case RenderType.List:
                     DetermineListData();
                     break;
+                case RenderType.OrderedList:
+                    DetermineListData();
+                    break;
                 case RenderType.Paired:
                     DetermineStackedChartData();
                     break;

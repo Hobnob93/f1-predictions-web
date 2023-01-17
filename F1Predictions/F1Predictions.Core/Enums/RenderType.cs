@@ -8,6 +8,7 @@
         Bar,
         MultiBar,
         Pie,
-        Paired
+        Paired,
+        OrderedList
     }
 }
