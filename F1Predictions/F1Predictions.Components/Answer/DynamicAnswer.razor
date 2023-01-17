@@ -11,6 +11,10 @@
     {
         <BarChart Title="Answers" Data="@ChartData" @ref="AnswersChart" />
     }
+    else if (Answer.RenderType == RenderType.Paired)
+    {
+        <StackedChart Title="Answers" Data="@StackedChartData" @ref="AnswersChart" />
+    }
     else if (Answer.RenderType == RenderType.Raw)
     {
         <div style="width:500px;height:395px;">

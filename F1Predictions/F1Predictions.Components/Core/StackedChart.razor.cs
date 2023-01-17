@@ -33,7 +33,11 @@ namespace F1Predictions.Components.Core
             Options.Chart = new Chart
             {
                 Stacked = true,
-                StackType = StackType.Normal
+                StackType = StackType.Percent100,
+                Toolbar = new Toolbar
+                {
+                    Show = false
+                }
             };
 
             Options.PlotOptions = new PlotOptions
@@ -43,12 +47,41 @@ namespace F1Predictions.Components.Core
                     Horizontal = true
                 }
             };
+
+            Options.Legend = new Legend
+            {
+                FontSize = "14px",
+                FontWeight = "bold",
+                Position = LegendPosition.Right,
+                Labels = new LegendLabels
+                {
+                    Colors = new Color("#9D9D9D")
+                },
+                Markers = new LegendMarkers
+                {
+                    FillColors = new List<string> { Data.LeftStackData.First().Color, Data.RightStackData.First().Color }
+                }
+            };
+
+            Options.DataLabels = new DataLabels
+            {
+                Enabled = true,
+                Style = new DataLabelsStyle
+                {
+                    FontSize = "20px"
+                }
+            };
         }
 
         public async Task Refresh()
         {
             if (Chart is not null)
             {
+                Options.Legend.Markers = new LegendMarkers
+                {
+                    FillColors = new List<string> { Data.LeftStackData.First().Color, Data.RightStackData.First().Color }
+                };
+
                 await Chart.UpdateSeriesAsync();
                 await Chart.RenderAsync();
             }

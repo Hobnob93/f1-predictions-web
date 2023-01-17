@@ -26,6 +26,7 @@ namespace F1Predictions.Components.Answer
         public IRefreshable? AnswersChart { get; set; }
         public List<ChartDataPoint> ChartData { get; protected set; } = new();
         public List<ListDataPoint> ListData { get; protected set; } = new();
+        public StackedChartData StackedChartData { get; protected set; } = new();
 
 
         protected override void OnInitialized()
@@ -60,6 +61,9 @@ namespace F1Predictions.Components.Answer
                     break;
                 case RenderType.List:
                     DetermineListData();
+                    break;
+                case RenderType.Paired:
+                    DetermineStackedChartData();
                     break;
             }
         }
@@ -126,6 +130,30 @@ namespace F1Predictions.Components.Answer
                     }),
                 _ => Enumerable.Empty<ChartDataPoint>()
             }).ToList();
+        }
+
+        private void DetermineStackedChartData()
+        {
+            DetermineChartData();
+
+            var topDistinct = ChartData.DistinctBy(cd => cd.Id).First();
+            var leftSection = ChartData.Where(cd => cd.Id == topDistinct.Id);
+            var leftSectionName = leftSection.First().Name;
+            var rightSection = ChartData.Where(cd => cd.Id != topDistinct.Id);
+            var rightSectionName = rightSection.First().Name;
+
+            leftSection.First().Name = "Quali";
+            rightSection.First().Name = "Quali";
+            leftSection.Last().Name = "Race";
+            rightSection.Last().Name = "Race";
+
+            StackedChartData = new()
+            {
+                LeftStackName = leftSectionName,
+                RightStackName = rightSectionName,
+                LeftStackData = leftSection.ToList(),
+                RightStackData = rightSection.ToList()
+            };
         }
     }
 }
