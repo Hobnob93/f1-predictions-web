@@ -5,24 +5,35 @@
 <MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
     @if (Answer.RenderType == RenderType.Pie)
     {
-        <PieChart Title="Answers" Data="@AnswerData" @ref="AnswersChart" />
+        <PieChart Title="Answers" Data="@ChartData" @ref="AnswersChart" />
     }
     else if (Answer.RenderType == RenderType.Bar)
     {
-        <BarChart Title="Answers" Data="@AnswerData" @ref="AnswersChart" />
+        <BarChart Title="Answers" Data="@ChartData" @ref="AnswersChart" />
     }
     else if (Answer.RenderType == RenderType.Raw)
     {
         <div style="width:500px;height:395px;">
             <MudText Class="mb-3" Typo="Typo.h4" Align="MudBlazor.Align.Center">Answer</MudText>
-            <MudText Class="mb-3 mt-3" Typo="Typo.h1" Align="MudBlazor.Align.Center" Color="MudBlazor.Color.Tertiary">@Answer.RawAnswer</MudText>
+            <MudText Class="mt-3" Typo="Typo.h1" Align="MudBlazor.Align.Center" Color="MudBlazor.Color.Tertiary">@Answer.RawAnswer</MudText>
         </div>
     }
     else if (Answer.RenderType == RenderType.Bool)
     {
         <div style="width:500px;height:395px;">
             <MudText Class="mb-3" Typo="Typo.h4" Align="MudBlazor.Align.Center">Answer</MudText>
-            <MudText Class="mb-3 mt-3" Typo="Typo.h1" Align="MudBlazor.Align.Center" Color="MudBlazor.Color.Tertiary">@Answer.RawAnswer</MudText>
+            <MudText Class="mt-3" Typo="Typo.h1" Align="MudBlazor.Align.Center" Color="MudBlazor.Color.Tertiary">@Answer.RawAnswer</MudText>
+        </div>
+    }
+    else if (Answer.RenderType == RenderType.List)
+    {
+        <div style="width:500px;height:395px;">
+            <MudText Class="mb-3" Typo="Typo.h4" Align="MudBlazor.Align.Center">Answers</MudText>
+            @foreach (var item in ListData)
+            {
+                var colorProperty = $"color: {item.Color}";
+                <MudText Class="mt-3" Typo="Typo.h5" Align="MudBlazor.Align.Center" Style="@colorProperty">@item.Name</MudText>
+            }
         </div>
     }
 </MudPaper>
