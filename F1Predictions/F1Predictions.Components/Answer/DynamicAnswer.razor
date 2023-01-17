@@ -22,7 +22,21 @@
     {
         <div style="width:500px;height:395px;">
             <MudText Class="mb-3" Typo="Typo.h4" Align="MudBlazor.Align.Center">Answer</MudText>
-            <MudText Class="mt-3" Typo="Typo.h1" Align="MudBlazor.Align.Center" Color="MudBlazor.Color.Tertiary">@Answer.RawAnswer</MudText>
+
+            <div class="d-flex flex-row justify-center">
+                @if (string.Equals(Answer.RawAnswer, "true", StringComparison.OrdinalIgnoreCase))
+                {
+                    <MudAvatar Color="MudBlazor.Color.Success" Variant="Variant.Filled" Size="Size.Large">
+                        <MudIcon Color="MudBlazor.Color.Dark" Icon="@Icons.Filled.Check" Size="Size.Large" />
+                    </MudAvatar>
+                }
+                else
+                {
+                    <MudAvatar Color="MudBlazor.Color.Error" Variant="Variant.Filled" Size="Size.Large">
+                        <MudIcon Color="MudBlazor.Color.Dark" Icon="@Icons.Filled.Close" Size="Size.Large" />
+                    </MudAvatar>
+                }
+            </div>
         </div>
     }
     else if (Answer.RenderType == RenderType.List)
