@@ -100,11 +100,13 @@ namespace F1Predictions.Components.Response
 
         private string ScoreStyle => new StyleBuilder()
             .AddStyle("position", "absolute")
-            .AddStyle("color", "gold")
+            .AddStyle("color", "greenyellow", when: Score > 0)
+            .AddStyle("color", "darksalmon", when: Score < 0)
             .AddStyle("z-index", "100")
             .AddStyle("font-size", "22px")
             .AddStyle("font-weight", "bold")
             .AddStyle("display", "none", when: Score == 0.0)
+            .AddStyle("margin-bottom", "60px")
             .Build();
 
         private string ScoreClass => new CssBuilder()

@@ -1,5 +1,6 @@
 ﻿using F1Predictions.Core.Interfaces;
 using F1Predictions.Core.Models;
+using System.Net;
 
 namespace F1Predictions.Core.ScoringSystems
 {
@@ -25,7 +26,8 @@ namespace F1Predictions.Core.ScoringSystems
             var compResponseRaw = _responses.GetRawResponseForComp(compId);
             var compResponse = int.Parse(compResponseRaw);
 
-            return 25 - Math.Abs(answer - compResponse);
+            var score = 25 - Math.Abs(answer - compResponse);
+            return score < 0 ? 0 : score;
         }
     }
 }
