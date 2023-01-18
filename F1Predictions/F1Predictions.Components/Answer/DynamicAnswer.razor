@@ -15,6 +15,10 @@
     {
         <StackedChart Title="Answers" Data="@StackedChartData" @ref="AnswersChart" />
     }
+    else if (Answer.RenderType == RenderType.MultiBar)
+    {
+        <MultiBarChart Title="Answers" Data="@MultiBarChartData" @ref="AnswersChart" />
+    }
     else if (Answer.RenderType == RenderType.Raw)
     {
         <div style="width:500px;height:395px;">

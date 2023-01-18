@@ -27,6 +27,7 @@ namespace F1Predictions.Components.Answer
         public List<ChartDataPoint> ChartData { get; protected set; } = new();
         public List<ListDataPoint> ListData { get; protected set; } = new();
         public StackedChartData StackedChartData { get; protected set; } = new();
+        public MultiBarChartData MultiBarChartData { get; protected set; } = new();
 
 
         protected override void OnInitialized()
@@ -56,7 +57,7 @@ namespace F1Predictions.Components.Answer
                 case RenderType.Pie:
                     DetermineChartData();
                     break;
-                case RenderType.Bar when Answer.Mode != ScoringMode.DriverTracks:
+                case RenderType.Bar:
                     DetermineChartData();
                     break;
                 case RenderType.List:
@@ -67,6 +68,9 @@ namespace F1Predictions.Components.Answer
                     break;
                 case RenderType.Paired:
                     DetermineStackedChartData();
+                    break;
+                case RenderType.MultiBar:
+                    DetermineMultiBarChartData();
                     break;
             }
         }
@@ -133,6 +137,49 @@ namespace F1Predictions.Components.Answer
                     }),
                 _ => Enumerable.Empty<ChartDataPoint>()
             }).ToList();
+        }
+
+        private void DetermineMultiBarChartData()
+        {
+            MultiBarChartData = new();
+
+            if (Answer.Mode is not ScoringMode.DriverTracks)
+                return;
+
+            var tracks = Answer.AnswersData
+                .Select(ad => Tracks.FindItem(ad.Id))
+                .ToArray();
+
+            var driverScoreGroups = Answer.AnswersData
+                .SelectMany(ad => ad.Value.Split(","))
+                .Select(raw => (DriverId: raw.Split("-").First(), RawScore: raw.Split("-").Last()))
+                .Select(data => (Driver: Drivers.FindItem(data.DriverId), Score: int.Parse(data.RawScore)))
+                .GroupBy(data => data.Driver.Id)
+                .ToArray();
+
+            foreach (var group in driverScoreGroups)
+            {
+                var driver = Drivers.FindItem(group.Key);
+                var dataPoints = new List<MultiBarChartDataPoint>();
+
+                var index = 0;
+                foreach (var item in group)
+                {
+                    var track = tracks[index];
+                    dataPoints.Add(new MultiBarChartDataPoint
+                    {
+                        Id = $"{track.Id}-{driver.Id}",
+                        Color = driver.Color,
+                        Name = driver.LastName,
+                        Value = item.Score,
+                        XValue = track.Name
+                    });
+
+                    index++;
+                }
+
+                MultiBarChartData.DataPoints.Add(dataPoints);
+            }
         }
 
         private void DetermineStackedChartData()
