@@ -29,6 +29,8 @@ namespace F1Predictions.Components.Answer
         public StackedChartData StackedChartData { get; protected set; } = new();
         public MultiBarChartData MultiBarChartData { get; protected set; } = new();
 
+        private bool isShowing = false;
+
 
         protected override void OnInitialized()
         {
@@ -47,6 +49,8 @@ namespace F1Predictions.Components.Answer
 
         private void Initialize()
         {
+            isShowing = false;
+
             var currentQuestion = Questions.CurrentQuestion;
             var answerId = currentQuestion.Scoring.AnswersId;
 

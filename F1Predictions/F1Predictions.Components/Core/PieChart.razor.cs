@@ -25,7 +25,7 @@ namespace F1Predictions.Components.Core
             {
                 FontSize = "14px",
                 FontWeight = "bold",
-                Position = LegendPosition.Right,
+                Position = LegendPosition.Bottom,
                 Labels = new LegendLabels
                 {
                     Colors = new Color("#9D9D9D")
