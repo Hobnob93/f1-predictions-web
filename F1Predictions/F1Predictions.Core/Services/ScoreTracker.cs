@@ -5,8 +5,7 @@ namespace F1Predictions.Core.Services
     public class ScoreTracker : IScoreTracker
     {
         private readonly ICompScoreTrackerFactory _trackerFactory;
-
-        private Dictionary<string, ICompScoreTracker> _scores;
+        private readonly Dictionary<string, ICompScoreTracker> _scores;
 
         public ScoreTracker(ICompScoreTrackerFactory trackerFactory)
         {
@@ -22,6 +21,22 @@ namespace F1Predictions.Core.Services
             }
 
             _scores[compId].AddScore(scoreId, score);
+        }
+
+        public double GetScore(string compId, string scoreId)
+        {
+            if (_scores.ContainsKey(compId))
+                return _scores[compId].GetScore(scoreId);
+
+            return 0;
+        }
+
+        public double GetTotalScore(string compId)
+        {
+            if (_scores.ContainsKey(compId))
+                return _scores[compId].TotalScore;
+
+            return 0;
         }
     }
 }
