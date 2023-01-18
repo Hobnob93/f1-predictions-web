@@ -2,8 +2,9 @@
 {
     public interface ICompScoreTracker
     {
-        double Score { get; }
+        double TotalScore { get; }
 
         void AddScore(string scoreId, double score);
+        double GetScore(string scoreId);
     }
 }
