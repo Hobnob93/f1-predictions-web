@@ -50,9 +50,9 @@ namespace F1Predictions.Components.Core
             DialogService.Show<QuestionSelectorDialog>("Select Target Question");
         }
 
-        private void OnUpdateScoresClicked(MouseEventArgs e)
+        private async Task OnUpdateScoresClicked(MouseEventArgs e)
         {
-            ScoreManager.UpdateScoresForQuestion();
+            await ScoreManager.UpdateScoresForQuestion();
         }
 
         public void Dispose()

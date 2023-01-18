@@ -9,6 +9,8 @@ namespace F1Predictions.Core.Services
         private readonly ICompetitorsDataService _competitors;
         private readonly IQuestionsDataService _questions;
 
+        public event Func<Task>? OnScoresUpdated;
+
         public ScoreManager(IScoreSystemFactory scoreSystemFactory, IScoreTracker scoreTracker, ICompetitorsDataService competitors, IQuestionsDataService questions)
         {
             _scoreSystemFactory = scoreSystemFactory;
@@ -17,9 +19,12 @@ namespace F1Predictions.Core.Services
             _questions = questions;
         }
 
-        public void UpdateScoresForQuestion()
+        public async Task UpdateScoresForQuestion()
         {
             var curQuestion = _questions.CurrentQuestion;
+            if (curQuestion.Type == Enums.QuestionType.Intro)
+                return;
+
             var scoringSystem = _scoreSystemFactory.GetScoreSystem(curQuestion.Scoring.Type);
 
             if (scoringSystem is null)
@@ -30,6 +35,15 @@ namespace F1Predictions.Core.Services
                 var compScoreForQuestion = scoringSystem.GetScoreForComp(comp.Id);
                 _scoreTracker.AddScore(comp.Id, curQuestion.Id, compScoreForQuestion);
             }
+
+            if (OnScoresUpdated != null)
+                await OnScoresUpdated.Invoke();
+        }
+
+        public double GetScore(string compId)
+        {
+            var curQuestion = _questions.CurrentQuestion;
+            return _scoreTracker.GetScore(compId, curQuestion.Id);
         }
     }
 }

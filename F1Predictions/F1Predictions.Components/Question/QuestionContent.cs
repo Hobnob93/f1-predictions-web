@@ -13,7 +13,7 @@ namespace F1Predictions.Components.Question
         protected IRawCompResponses CompResponses { get; set; } = default!;
 
         [Inject]
-        protected IScoreTracker ScoreTracker { get; set; } = default!;
+        protected IScoreManager ScoreManager { get; set; } = default!;
 
         public IRefreshable? ResponsesChart { get; set; }
         public List<ChartDataPoint> ResponseData { get; protected set; } = new();

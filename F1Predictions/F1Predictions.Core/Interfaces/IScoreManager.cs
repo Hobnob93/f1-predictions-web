@@ -2,6 +2,9 @@
 {
     public interface IScoreManager
     {
-        void UpdateScoresForQuestion();
+        event Func<Task>? OnScoresUpdated;
+
+        Task UpdateScoresForQuestion();
+        double GetScore(string compId);
     }
 }

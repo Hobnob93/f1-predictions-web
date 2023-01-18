@@ -3,13 +3,8 @@
 
     <MudSpacer />
 
-    <MudButton Variant="Variant.Text" Class="me-4 mt-1" Color="MudBlazor.Color.Primary" OnClick="OnQuestionIdClicked">@QuestionsService.CurrentQuestion?.Id</MudButton>
-
-    <MudSpacer />
-
     <MudButton Variant="Variant.Text" Class="me-4 mt-1" Color="MudBlazor.Color.Primary" OnClick="OnUpdateScoresClicked">Update Scores</MudButton>
-
-    <MudSpacer />
+    <MudButton Variant="Variant.Text" Class="me-4 mt-1" Color="MudBlazor.Color.Primary" OnClick="OnQuestionIdClicked">@QuestionsService.CurrentQuestion?.Id</MudButton>
 
     <MudIconButton id="btn-back" Color="MudBlazor.Color.Primary" Icon="@Icons.Material.Filled.ArrowCircleLeft" Size="Size.Large" Disabled="@(!QuestionsService.CanGoBack())" OnClick="OnBackClicked" />
     <MudIconButton id="btn-next" Color="MudBlazor.Color.Primary" Icon="@Icons.Material.Filled.ArrowCircleRight" Size="Size.Large" Disabled="@(!QuestionsService.CanGoForward())" OnClick="OnForwardClicked" />
