@@ -14,6 +14,9 @@ namespace F1Predictions.Components.Core
         [Inject]
         private IDialogService DialogService { get; set; } = default!;
 
+        [Inject]
+        private IScoreManager ScoreManager { get; set; } = default!;
+
         protected override async Task OnInitializedAsync()
         {
             QuestionsService.StateChanged += OnQuestionChangedAsync;
@@ -45,6 +48,11 @@ namespace F1Predictions.Components.Core
         private void OnQuestionIdClicked(MouseEventArgs e)
         {
             DialogService.Show<QuestionSelectorDialog>("Select Target Question");
+        }
+
+        private void OnUpdateScoresClicked(MouseEventArgs e)
+        {
+            ScoreManager.UpdateScoresForQuestion();
         }
 
         public void Dispose()

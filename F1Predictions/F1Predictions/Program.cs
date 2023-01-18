@@ -41,6 +41,7 @@ builder.Services.AddScoped<IMultiCompResponses<DataItem>, AnyCompResponses>();
 builder.Services.AddScoped<ICompScoreTrackerFactory, CompScoreTrackerFactory>();
 builder.Services.AddScoped<IScoreSystemFactory, ScoreSystemFactory>();
 builder.Services.AddScoped<IScoreTracker, ScoreTracker>();
+builder.Services.AddScoped<IScoreManager, ScoreManager>();
 
 builder.Services.AddScoped<BoolScoringSystem>();
 builder.Services.AddScoped<ChampOrderScoringSystem>();
