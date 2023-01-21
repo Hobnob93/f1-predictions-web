@@ -1,0 +1,11 @@
+﻿@inherits QuestionContent
+
+<CompetitorResults>
+    <CompetitorTemplate Context="competitor">
+        <Text Content="@($"{competitor.Name} A.K.A. '{competitor.Nickname}'")" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
+    </CompetitorTemplate>
+</CompetitorResults>
+
+<MudPaper Class="d-flex flex-column justify-center align-content-center align-center" Elevation="0">
+    <PieChart Title="The Results!" Data="@ResponseData" SelectionCallback="OnSelectedChartDataPoint" @ref="ResponsesChart" />
+</MudPaper>

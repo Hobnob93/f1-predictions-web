@@ -6,5 +6,7 @@
 
         Task UpdateScoresForQuestion();
         double GetScore(string compId);
+        double GetTotalScore(string compId);
+        List<string> GetOrderedCompetitors();
     }
 }

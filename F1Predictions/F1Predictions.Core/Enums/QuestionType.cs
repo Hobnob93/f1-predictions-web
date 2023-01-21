@@ -14,6 +14,7 @@
         MultiDriver,
         MultiDriverTrack,
         MultiBool,
+        Outro,
         Versus,
         HeadToHead,
         ChampOrder

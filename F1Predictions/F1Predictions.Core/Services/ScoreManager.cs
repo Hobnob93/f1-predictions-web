@@ -45,5 +45,15 @@ namespace F1Predictions.Core.Services
             var curQuestion = _questions.CurrentQuestion;
             return _scoreTracker.GetScore(compId, curQuestion.Id);
         }
+
+        public double GetTotalScore(string compId)
+        {
+            return _scoreTracker.GetTotalScore(compId);
+        }
+
+        public List<string> GetOrderedCompetitors()
+        {
+            return _scoreTracker.GetOrderedCompetitors();
+        }
     }
 }

@@ -23,6 +23,13 @@ namespace F1Predictions.Core.Services
             _scores[compId].AddScore(scoreId, score);
         }
 
+        public List<string> GetOrderedCompetitors()
+        {
+            return _scores.OrderByDescending(s => s.Value.TotalScore)
+                .Select(s => s.Key)
+                .ToList();
+        }
+
         public double GetScore(string compId, string scoreId)
         {
             if (_scores.ContainsKey(compId))
