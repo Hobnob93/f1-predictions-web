@@ -178,7 +178,8 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "TeamDestrOrder"
+      "AnswersId": "TeamDestrOrder",
+      "Index": 0
     },
     "kh": "AT",
     "hi": "RBR",
@@ -197,7 +198,8 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "TeamDestrOrder"
+      "AnswersId": "TeamDestrOrder",
+      "Index": 9
     },
     "kh": "MER",
     "hi": "WIL",
@@ -216,7 +218,8 @@
     "type": "SingleDriver",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "DriverDestrOrder"
+      "AnswersId": "DriverDestrOrder",
+      "Index": 0
     },
     "kh": "TSU",
     "hi": "VER",
@@ -235,7 +238,8 @@
     "type": "SingleDriver",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "DriverDestrOrder"
+      "AnswersId": "DriverDestrOrder",
+      "Index": 19
     },
     "kh": "HAM",
     "hi": "VET",
@@ -254,7 +258,8 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "2-A"
+      "AnswersId": "2-A",
+      "Index": 0
     },
     "kh": "MER",
     "hi": "FER",
@@ -273,7 +278,8 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "Race1PitstopTimes"
+      "AnswersId": "Race1PitstopTimes",
+      "Index": 0
     },
     "kh": "RBR",
     "hi": "RBR",
@@ -292,7 +298,8 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "2-C"
+      "AnswersId": "2-C",
+      "Index": 0
     },
     "kh": "MCL",
     "hi": "MCL",
@@ -331,7 +338,8 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "answersId": "2-E"
+      "answersId": "2-E",
+      "Index": 0
     },
     "kh": "MCL",
     "hi": "AR",
@@ -350,7 +358,8 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "AnswersId": "Race1PitstopTimes"
+      "AnswersId": "Race1PitstopTimes",
+      "Index": 9
     },
     "kh": "FER",
     "hi": "FER",
@@ -408,7 +417,8 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "answersId": "2-I"
+      "answersId": "2-I",
+      "Index": 0
     },
     "kh": "WIL",
     "hi": "WIL",
@@ -427,7 +437,8 @@
     "type": "SingleDriver",
     "scoring": {
       "type": "Leaderboard",
-      "answersId": "3-A"
+      "answersId": "3-A",
+      "Index": 0
     },
     "kh": "LEC",
     "hi": "HAM",
@@ -445,8 +456,10 @@
     "question": "Which drivers will receive the \"Driver of the Day\" award?",
     "type": "MultiDriver",
     "scoring": {
-      "type": "GetChoiceValue",
-      "answersId": "3-B"
+      "type": "GainLose",
+      "answersId": "3-B",
+      "value": 10,
+      "extraValue": -7
     },
     "kh": "GAS,HAM,LEC,NOR,RUS,SAI,VER,VET",
     "hi": "HAM,LEC,NOR,RIC,RUS,SAI,VER,VET",
@@ -524,7 +537,9 @@
     "type": "MultiDriver",
     "scoring": {
       "type": "GainLose",
-      "answersId": "3-F"
+      "answersId": "3-F",
+      "value": 10,
+      "extraValue": -7
     },
     "kh": "GAS,HAM,LEC,NOR,PER,RIC,RUS,SAI,VER",
     "hi": "GAS,HAM,LEC,NOR,RIC,RUS,SAI,VER,VET",
@@ -543,7 +558,8 @@
     "type": "SingleDriver",
     "scoring": {
       "type": "Leaderboard",
-      "answersId": "3-G"
+      "answersId": "3-G",
+      "Index": 0
     },
     "kh": "RIC",
     "hi": "ZHO",
@@ -582,7 +598,9 @@
     "type": "MultiDriver",
     "scoring": {
       "type": "GainLose",
-      "answersId": "3-I"
+      "answersId": "3-I",
+      "value": 20,
+      "extraValue": -2
     },
     "kh": "ALO,MAG,TSU,ZHO",
     "hi": "HAM,VET,ZHO",
@@ -601,7 +619,8 @@
     "type": "SingleDriver",
     "scoring": {
       "type": "Leaderboard",
-      "answersId": "3-J"
+      "answersId": "3-J",
+      "Index": 0
     },
     "kh": "BOT",
     "hi": "BOT",
@@ -639,7 +658,8 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
-      "answersId": "4-A"
+      "answersId": "4-A",
+      "Index": 0
     },
     "kh": "FER",
     "hi": "RBR",
@@ -734,7 +754,8 @@
     "type": "SingleTrack",
     "scoring": {
       "type": "Leaderboard",
-      "answersId": "4-F"
+      "answersId": "4-F",
+      "Index": 0
     },
     "kh": "MZA",
     "hi": "SPA",

@@ -19,7 +19,20 @@ namespace F1Predictions.Core.ScoringSystems
         public double GetScoreForComp(string compId)
         {
             var answerIdForCurrentQuestion = _questionsService.CurrentQuestion.Scoring.AnswersId;
-            var answerData = _answersService.FindItem(answerIdForCurrentQuestion);
+            var answerData = _answersService.FindItem(answerIdForCurrentQuestion) 
+                ?? throw new InvalidOperationException($"AnswersData for '{answerIdForCurrentQuestion}' has not been provided!"); ;
+
+            if (answerData.AnswersData is null || answerData.AnswersData.Count == 0)
+            {
+                var rawAnswers = answerData.RawAnswer?.Split(",");
+
+                if (rawAnswers is null || rawAnswers.Length == 0)
+                    throw new InvalidOperationException($"AnswersData for '{answerIdForCurrentQuestion}' has not been provided!"); ;
+
+                answerData.AnswersData = rawAnswers
+                    .Select((rr, i) => new AnswerData { Id = rr, Value = i.ToString() })
+                    .ToList();
+            }
 
             var compResponses = _responses.GetMultiResponseForComp(compId);
             var score = 0;
@@ -27,11 +40,11 @@ namespace F1Predictions.Core.ScoringSystems
             {
                 if (answerData.AnswersData.Any(ad => ad.Id == compResponse.Id))
                 {
-                    score += 10;
+                    score += _questionsService.CurrentQuestion.Scoring.Value;
                 }
                 else
                 {
-                    score -= 7;
+                    score += _questionsService.CurrentQuestion.Scoring.ExtraValue;
                 }
             }
 
@@ -40,10 +53,10 @@ namespace F1Predictions.Core.ScoringSystems
                 if (compResponses.Any(r => r.Id == answer.Id))
                     continue;
 
-                score -= 7;
+                score += _questionsService.CurrentQuestion.Scoring.ExtraValue;
             }
 
-            return score;
+            return score < 0 ? 0 : score;
         }
     }
 }

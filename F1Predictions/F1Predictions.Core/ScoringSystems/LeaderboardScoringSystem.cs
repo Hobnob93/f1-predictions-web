@@ -23,7 +23,14 @@ namespace F1Predictions.Core.ScoringSystems
 
             var leaderboard = answerData.AnswersData;
             if (leaderboard is null || leaderboard.Count == 0)
-                throw new InvalidOperationException($"AnswersData for '{answerData.Id}' has not been provided!");
+            {
+                var rawResponses = answerData.RawAnswer?.Split(",");
+
+                if (rawResponses is null || rawResponses.Length == 0)
+                    throw new InvalidOperationException($"AnswersData for '{answerData.Id}' has not been provided!");
+
+                leaderboard = rawResponses.Select((rr, i) => new AnswerData { Id = rr, Value = i.ToString() }).ToList();
+            }
 
             var compResponse = _responses.GetResponseForComp(compId);
             var indexOfResponse = leaderboard.FindIndex(0, leaderboard.Count, a => a.Id == compResponse.Id);

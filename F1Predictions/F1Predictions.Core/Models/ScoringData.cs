@@ -8,5 +8,6 @@ namespace F1Predictions.Core.Models
         public string AnswersId { get; set; } = string.Empty;
         public int? Index { get; set; }
         public int Value { get; set; }
+        public int ExtraValue { get; set; }
     }
 }
