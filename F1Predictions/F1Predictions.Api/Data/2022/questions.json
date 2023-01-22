@@ -21,7 +21,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamChampOrder",
-      "Index": 0
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "FER",
     "hi": "FER",
@@ -40,7 +41,8 @@
     "type": "Value",
     "scoring": {
       "Type": "Value",
-      "AnswersId": "1-B"
+      "AnswersId": "1-B",
+      "explanation": "25 points minus each unit away you are from the answer - you cannot score less than 0"
     },
     "kh": "8",
     "hi": "15",
@@ -60,7 +62,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamChampOrder",
-      "Index": 4
+      "Index": 4,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "WIL",
     "hi": "ALP",
@@ -80,7 +83,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamChampOrder",
-      "Index": 9
+      "Index": 9,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "HAA",
     "hi": "AT",
@@ -100,7 +104,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverChampOrder",
-      "Index": 0
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "LEC",
     "hi": "HAM",
@@ -119,7 +124,8 @@
     "type": "Value",
     "scoring": {
       "Type": "Value",
-      "AnswersId": "1-F"
+      "AnswersId": "1-F",
+      "explanation": "25 points minus each unit away you are from the answer - you cannot score less than 0"
     },
     "kh": "5",
     "hi": "10",
@@ -139,7 +145,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverChampOrder",
-      "Index": 9
+      "Index": 9,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "ALB",
     "hi": "OCO",
@@ -159,7 +166,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverChampOrder",
-      "Index": 21
+      "Index": 21,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "ZHO",
     "hi": "ZHO",
@@ -179,7 +187,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamDestrOrder",
-      "Index": 0
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "AT",
     "hi": "RBR",
@@ -199,7 +208,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "TeamDestrOrder",
-      "Index": 9
+      "Index": 9,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "MER",
     "hi": "WIL",
@@ -219,7 +229,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverDestrOrder",
-      "Index": 0
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "TSU",
     "hi": "VER",
@@ -239,7 +250,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverDestrOrder",
-      "Index": 19
+      "Index": 19,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "HAM",
     "hi": "VET",
@@ -259,7 +271,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "2-A",
-      "Index": 0
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "MER",
     "hi": "FER",
@@ -279,7 +292,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "Race1PitstopTimes",
-      "Index": 0
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "RBR",
     "hi": "RBR",
@@ -299,7 +313,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "2-C",
-      "Index": 0
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "MCL",
     "hi": "MCL",
@@ -314,12 +329,13 @@
   },
   {
     "id": "2-D",
-    "question": "Chose TWO teams - every time one of their drivers make it to Q2, you LOSE 1 point",
+    "question": "Chose two teams who you think will be the worst at qualifying",
     "type": "MultiTeam",
     "scoring": {
       "type": "GainWhenX",
       "answersId": "2-D",
-      "value": -1
+      "value": -1,
+      "explanation": "Lose 1 point each time a driver from chosen teams make it to Q2"
     },
     "kh": "AR,HAA",
     "hi": "AR,HAA",
@@ -339,7 +355,8 @@
     "scoring": {
       "type": "Leaderboard",
       "answersId": "2-E",
-      "Index": 0
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "MCL",
     "hi": "AR",
@@ -359,7 +376,8 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "Race1PitstopTimes",
-      "Index": 9
+      "Index": 9,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "FER",
     "hi": "FER",
@@ -378,7 +396,8 @@
     "type": "MultiTrack",
     "scoring": {
       "type": "GetChoiceValue",
-      "answersId": "2-G"
+      "answersId": "2-G",
+      "explanation": "Whatever Alpha Tauri scored in your picked races, you get equal points"
     },
     "kh": "BAH,BAK,MZA",
     "hi": "MIA,MZA,RUS",
@@ -393,12 +412,13 @@
   },
   {
     "id": "2-H",
-    "question": "Pick a team - every time one of their drivers are classified 16th OR LOWER, you score points.",
+    "question": "Pick a team who you think will be the worst in the races.",
     "type": "SingleTeam",
     "scoring": {
       "type": "GainWhenX",
       "answersId": "2-H",
-      "value": 2
+      "value": 2,
+      "explanation": "2 points every time a driver in your chosen team finishes 16th or lower"
     },
     "kh": "AR",
     "hi": "AR",
@@ -418,7 +438,8 @@
     "scoring": {
       "type": "Leaderboard",
       "answersId": "2-I",
-      "Index": 0
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "WIL",
     "hi": "WIL",
@@ -438,7 +459,8 @@
     "scoring": {
       "type": "Leaderboard",
       "answersId": "3-A",
-      "Index": 0
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "LEC",
     "hi": "HAM",
@@ -459,7 +481,8 @@
       "type": "GainLose",
       "answersId": "3-B",
       "value": 10,
-      "extraValue": -7
+      "extraValue": -7,
+      "explanation": "10 points for each correct choice; -7 points for each incorrect and missing choice"
     },
     "kh": "GAS,HAM,LEC,NOR,RUS,SAI,VER,VET",
     "hi": "HAM,LEC,NOR,RIC,RUS,SAI,VER,VET",
@@ -478,7 +501,8 @@
     "type": "MultiDriverTrack",
     "scoring": {
       "type": "MultiDriverOnTrack",
-      "answersId": "3-C"
+      "answersId": "3-C",
+      "explanation": "You score whatever your driver scores on their respective track"
     },
     "kh": "SAI-NED,STR-CAN,TSU-BAH,ALO-BAR,BOT-SPA",
     "hi": "SAI-MZA,STR-CAN,TSU-JPN,ALO-BAR,BOT-RUS",
@@ -498,7 +522,8 @@
     "scoring": {
       "type": "GainWhenX",
       "answersId": "3-D",
-      "value": 2
+      "value": 2,
+      "explanation": "2 points every time your chosen driver comes 4th in a race"
     },
     "kh": "GAS,PER,SAI",
     "hi": "GAS,NOR,VER",
@@ -513,12 +538,13 @@
   },
   {
     "id": "3-E",
-    "question": "Who are going to be the Q2 specialists?",
+    "question": "Pick FOUR drivers who you think are going to be the Q2 specialists",
     "type": "MultiDriver",
     "scoring": {
       "type": "GainWhenX",
       "answersId": "3-E",
-      "value": 1
+      "value": 1,
+      "explanation": "1 point every time a chosen driver makes it to Q2 but NOT Q3"
     },
     "kh": "ALB,ALO,TSU,VET",
     "hi": "ALB,ALO,STR,TSU",
@@ -539,7 +565,8 @@
       "type": "GainLose",
       "answersId": "3-F",
       "value": 10,
-      "extraValue": -7
+      "extraValue": -7,
+      "explanation": "10 points for each correct choice; -7 for each inccorrect or missing choice"
     },
     "kh": "GAS,HAM,LEC,NOR,PER,RIC,RUS,SAI,VER",
     "hi": "GAS,HAM,LEC,NOR,RIC,RUS,SAI,VER,VET",
@@ -559,7 +586,8 @@
     "scoring": {
       "type": "Leaderboard",
       "answersId": "3-G",
-      "Index": 0
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "RIC",
     "hi": "ZHO",
@@ -574,12 +602,13 @@
   },
   {
     "id": "3-H",
-    "question": "Which drivers will be the most mischievous by getting the most license point penalties?",
+    "question": "Pick TWO drivers who will be the most mischievous by getting the most license point penalties",
     "type": "MultiDriver",
     "scoring": {
       "type": "GainWhenX",
       "answersId": "3-H",
-      "value": 3
+      "value": 3,
+      "explanation": "3 points for each license point gained this season by your selected drivers"
     },
     "kh": "LEC,MAG",
     "hi": "VER,ZHO",
@@ -600,7 +629,8 @@
       "type": "GainLose",
       "answersId": "3-I",
       "value": 20,
-      "extraValue": -2
+      "extraValue": -2,
+      "explanation": "20 points for a correct choice; -2 points for each incorrect or missing choice"
     },
     "kh": "ALO,MAG,TSU,ZHO",
     "hi": "HAM,VET,ZHO",
@@ -620,7 +650,8 @@
     "scoring": {
       "type": "Leaderboard",
       "answersId": "3-J",
-      "Index": 0
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "BOT",
     "hi": "BOT",
@@ -639,7 +670,8 @@
     "type": "MultiTrack",
     "scoring": {
       "type": "GetChoiceValue",
-      "answersId": "3-K"
+      "answersId": "3-K",
+      "explanation": "You get the points Leclerc gets in the chosen races"
     },
     "kh": "BAK,NED,MZA",
     "hi": "MON,SPA,MZA",
@@ -659,7 +691,8 @@
     "scoring": {
       "type": "Leaderboard",
       "answersId": "4-A",
-      "Index": 0
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "FER",
     "hi": "RBR",
@@ -678,7 +711,8 @@
     "type": "Value",
     "scoring": {
       "type": "Value",
-      "answersId": "4-B"
+      "answersId": "4-B",
+      "explanation": "25 points minus each unit away you are from the answer - you cannot score less than 0"
     },
     "kh": "15",
     "hi": "15",
@@ -697,7 +731,8 @@
     "type": "Value",
     "scoring": {
       "type": "Value",
-      "answersId": "4-C"
+      "answersId": "4-C",
+      "explanation": "25 points minus each unit away you are from the answer - you cannot score less than 0"
     },
     "kh": "10",
     "hi": "5",
@@ -716,7 +751,8 @@
     "type": "Value",
     "scoring": {
       "type": "Value",
-      "answersId": "4-D"
+      "answersId": "4-D",
+      "explanation": "25 points minus each unit away you are from the answer - you cannot score less than 0"
     },
     "kh": "4",
     "hi": "5",
@@ -735,7 +771,8 @@
     "type": "Value",
     "scoring": {
       "type": "Value",
-      "answersId": "4-E"
+      "answersId": "4-E",
+      "explanation": "25 points minus each unit away you are from the answer - you cannot score less than 0"
     },
     "kh": "20",
     "hi": "15",
@@ -755,7 +792,8 @@
     "scoring": {
       "type": "Leaderboard",
       "answersId": "4-F",
-      "Index": 0
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "MZA",
     "hi": "SPA",
@@ -774,7 +812,8 @@
     "type": "MultiDriver",
     "scoring": {
       "type": "GetChoiceValue",
-      "answersId": "4-G"
+      "answersId": "4-G",
+      "explanation": "Get the points your selected drivers score"
     },
     "kh": "HAM,LEC,VER",
     "hi": "HAM,PER,RUS",
@@ -794,7 +833,8 @@
     "scoring": {
       "type": "GainWhenX",
       "answersId": "4-H",
-      "value": 3
+      "value": 3,
+      "explanation": "3 points for each DNF in your chosen races"
     },
     "kh": "BAH,SAA,EMR,MON",
     "hi": "SAA,BAK,JPN,YMC",
@@ -813,7 +853,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-A"
+      "answersId": "5-A",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "true",
     "hi": "true",
@@ -832,7 +873,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-B"
+      "answersId": "5-B",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "true",
     "hi": "true",
@@ -851,7 +893,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-C"
+      "answersId": "5-C",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "true",
     "hi": "true",
@@ -870,7 +913,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-D"
+      "answersId": "5-D",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "true",
     "hi": "false",
@@ -889,7 +933,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-E"
+      "answersId": "5-E",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "true",
     "hi": "false",
@@ -908,7 +953,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-F"
+      "answersId": "5-F",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "true",
     "hi": "true",
@@ -927,7 +973,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-G"
+      "answersId": "5-G",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "false",
     "hi": "false",
@@ -946,7 +993,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-H"
+      "answersId": "5-H",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "false",
     "hi": "false",
@@ -965,7 +1013,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-I"
+      "answersId": "5-I",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "true",
     "hi": "true",
@@ -984,7 +1033,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-J"
+      "answersId": "5-J",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "true",
     "hi": "true",
@@ -1003,7 +1053,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-K"
+      "answersId": "5-K",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "false",
     "hi": "false",
@@ -1022,7 +1073,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-L"
+      "answersId": "5-L",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "false",
     "hi": "false",
@@ -1041,7 +1093,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-M"
+      "answersId": "5-M",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "true",
     "hi": "false",
@@ -1060,7 +1113,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-N"
+      "answersId": "5-N",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "true",
     "hi": "true",
@@ -1079,7 +1133,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-O"
+      "answersId": "5-O",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "false",
     "hi": "true",
@@ -1098,7 +1153,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-P"
+      "answersId": "5-P",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "false",
     "hi": "false",
@@ -1117,7 +1173,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-Q"
+      "answersId": "5-Q",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "true",
     "hi": "false",
@@ -1136,7 +1193,8 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-R"
+      "answersId": "5-R",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "true",
     "hi": "false",
@@ -1155,7 +1213,8 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Versus",
-      "answersId": "6-A"
+      "answersId": "6-A",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "MER",
     "hi": "MER",
@@ -1174,7 +1233,8 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Versus",
-      "answersId": "6-B"
+      "answersId": "6-B",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "FER",
     "hi": "FER",
@@ -1193,7 +1253,8 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Versus",
-      "answersId": "6-C"
+      "answersId": "6-C",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "AT",
     "hi": "ALP",
@@ -1212,7 +1273,8 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Versus",
-      "answersId": "6-D"
+      "answersId": "6-D",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "WIL",
     "hi": "WIL",
@@ -1231,7 +1293,8 @@
     "type": "SingleTeam",
     "scoring": {
       "type": "Versus",
-      "answersId": "6-E"
+      "answersId": "6-E",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "kh": "HAA",
     "hi": "HAA",
@@ -1250,7 +1313,8 @@
     "type": "HeadToHead",
     "scoring": {
       "type": "HeadToHead",
-      "answersId": "6-F"
+      "answersId": "6-F",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
     },
     "kh": "RUS,HAM",
     "hi": "HAM,HAM",
@@ -1269,7 +1333,8 @@
     "type": "HeadToHead",
     "scoring": {
       "type": "HeadToHead",
-      "answersId": "6-G"
+      "answersId": "6-G",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
     },
     "kh": "VER,VER",
     "hi": "VER,VER",
@@ -1288,7 +1353,8 @@
     "type": "HeadToHead",
     "scoring": {
       "type": "HeadToHead",
-      "answersId": "6-H"
+      "answersId": "6-H",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
     },
     "kh": "LEC,SAI",
     "hi": "SAI,SAI",
@@ -1307,7 +1373,8 @@
     "type": "HeadToHead",
     "scoring": {
       "type": "HeadToHead",
-      "answersId": "6-I"
+      "answersId": "6-I",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
     },
     "kh": "NOR,NOR",
     "hi": "NOR,NOR",
@@ -1326,7 +1393,8 @@
     "type": "HeadToHead",
     "scoring": {
       "type": "HeadToHead",
-      "answersId": "6-J"
+      "answersId": "6-J",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
     },
     "kh": "OCO,ALO",
     "hi": "ALO,ALO",
@@ -1345,7 +1413,8 @@
     "type": "HeadToHead",
     "scoring": {
       "type": "HeadToHead",
-      "answersId": "6-K"
+      "answersId": "6-K",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
     },
     "kh": "GAS,GAS",
     "hi": "GAS,GAS",
@@ -1364,7 +1433,8 @@
     "type": "HeadToHead",
     "scoring": {
       "type": "HeadToHead",
-      "answersId": "6-L"
+      "answersId": "6-L",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
     },
     "kh": "VET,VET",
     "hi": "STR,VET",
@@ -1383,7 +1453,8 @@
     "type": "HeadToHead",
     "scoring": {
       "type": "HeadToHead",
-      "answersId": "6-M"
+      "answersId": "6-M",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
     },
     "kh": "BOT,BOT",
     "hi": "BOT,BOT",
@@ -1402,7 +1473,8 @@
     "type": "HeadToHead",
     "scoring": {
       "type": "HeadToHead",
-      "answersId": "6-N"
+      "answersId": "6-N",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
     },
     "kh": "ALB,ALB",
     "hi": "ALB,ALB",
@@ -1421,7 +1493,8 @@
     "type": "HeadToHead",
     "scoring": {
       "type": "HeadToHead",
-      "answersId": "6-O"
+      "answersId": "6-O",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
     },
     "kh": "MSC,MAG",
     "hi": "MAG,MAG",
@@ -1441,7 +1514,8 @@
     "scoring": {
       "type": "ChampOrder",
       "answersId": "TeamChampOrder",
-      "index": 0
+      "index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "FER,MER,RBR,MCL,WIL",
     "hi": "FER,MER,RBR,MCL,ALP",
@@ -1461,7 +1535,8 @@
     "scoring": {
       "type": "ChampOrder",
       "answersId": "TeamChampOrder",
-      "index": 5
+      "index": 5,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "AT,AM,ALP,HAA,AR",
     "hi": "AT,AM,WIL,AR,HAA",
@@ -1481,7 +1556,8 @@
     "scoring": {
       "type": "ChampOrder",
       "answersId": "DriverChampOrder",
-      "index": 0
+      "index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "LEC,HAM,VER,SAI,RUS",
     "hi": "HAM,SAI,VER,LEC,RUS",
@@ -1501,7 +1577,8 @@
     "scoring": {
       "type": "ChampOrder",
       "answersId": "DriverChampOrder",
-      "index": 5
+      "index": 5,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "NOR,PER,GAS,RIC,ALB",
     "hi": "NOR,PER,GAS,RIC,OCO",
@@ -1521,7 +1598,8 @@
     "scoring": {
       "type": "ChampOrder",
       "answersId": "DriverChampOrder",
-      "index": 10
+      "index": 10,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "ALO,VET,TSU,OCO,STR",
     "hi": "ALO,TSU,VET,ALB,STR",
@@ -1541,7 +1619,8 @@
     "scoring": {
       "type": "ChampOrder",
       "answersId": "DriverChampOrder",
-      "index": 15
+      "index": 15,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "kh": "LAT,BOT,MSC,MAG,ZHO",
     "hi": "BOT,LAT,MAG,MSC,ZHO",

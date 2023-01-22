@@ -8,6 +8,9 @@ namespace F1Predictions.Components.Question
         [Parameter, EditorRequired]
         public string Text { get; set; } = string.Empty;
 
+        [Parameter]
+        public string? Scoring { get; set; }
+
         public string Classes => new CssBuilder()
             .AddClass("mt-n4")
             .AddClass(Class, when: Class is not null)

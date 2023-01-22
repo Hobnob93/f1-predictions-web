@@ -114,6 +114,10 @@
     font-size: 20px;
 }
 
+.mud-tooltip-inline {
+    width: 100% !important;
+}
+
 header#title-bar {
     background-color: #21222bff !important;
     max-width: 100%;
