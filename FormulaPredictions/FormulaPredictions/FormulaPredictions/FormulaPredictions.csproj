@@ -8,7 +8,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FormulaPredictions.Client\FormulaPredictions.Client.csproj" />
+    <PackageReference Include="Blazor-ApexCharts" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.0" />
+    <PackageReference Include="MudBlazor" Version="6.11.1" />
   </ItemGroup>
 
 </Project>
