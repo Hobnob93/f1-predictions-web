@@ -19,7 +19,7 @@ public class CompetitorsController : BasePredictionsController<CompetitorsContro
     {
         try
         {
-            var competitors = (await _jsonParser.ParseFileAsync<IEnumerable<Competitor>>($"Data/{_config.Year}/competitors"))
+            var competitors = (await _jsonParser.ParseFileAsync<IEnumerable<Competitor>>($"{_config.DataBasePath}/competitors"))
                 .OrderBy(c => c.Id)
                 .ToList();
 

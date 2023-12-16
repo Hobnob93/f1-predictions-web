@@ -19,7 +19,7 @@ public class TeamsController : BasePredictionsController<TeamsController>
     {
         try
         {
-            return await _jsonParser.ParseFileAsync<IEnumerable<Team>>($"Data/{_config.Year}/teams");
+            return await _jsonParser.ParseFileAsync<IEnumerable<Team>>($"{_config.DataBasePath}/teams");
         }
         catch (Exception ex)
         {

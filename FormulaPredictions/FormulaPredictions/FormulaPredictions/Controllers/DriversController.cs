@@ -19,7 +19,7 @@ public class DriversController : BasePredictionsController<DriversController>
     {
         try
         {
-            return await _jsonParser.ParseFileAsync<IEnumerable<Driver>>($"Data/{_config.Year}/drivers");
+            return await _jsonParser.ParseFileAsync<IEnumerable<Driver>>($"{_config.DataBasePath}/drivers");
         }
         catch (Exception ex)
         {

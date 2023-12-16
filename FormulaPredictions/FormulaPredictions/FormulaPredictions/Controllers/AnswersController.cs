@@ -19,7 +19,7 @@ public class AnswersController : BasePredictionsController<AnswersController>
     {
         try
         {
-            return await _jsonParser.ParseFileAsync<IEnumerable<Answer>>($"Data/{_config.Year}/answers");
+            return await _jsonParser.ParseFileAsync<IEnumerable<Answer>>($"{_config.DataBasePath}/answers");
         }
         catch (Exception ex)
         {

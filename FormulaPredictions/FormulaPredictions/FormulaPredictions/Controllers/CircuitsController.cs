@@ -19,7 +19,7 @@ public class CircuitsController : BasePredictionsController<CircuitsController>
     {
         try
         {
-            return await _jsonParser.ParseFileAsync<IEnumerable<Circuit>>($"Data/{_config.Year}/tracks");
+            return await _jsonParser.ParseFileAsync<IEnumerable<Circuit>>($"{_config.DataBasePath}/tracks");
         }
         catch (Exception ex)
         {
