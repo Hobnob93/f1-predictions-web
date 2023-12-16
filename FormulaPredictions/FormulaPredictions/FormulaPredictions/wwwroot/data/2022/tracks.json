@@ -1,0 +1,117 @@
+[
+  {
+    "id": "BAH",
+    "name": "Bahrain",
+    "color": "#a31c24"
+  },
+  {
+    "id": "SAA",
+    "name": "Saudi Arabia",
+    "color": "#006c35"
+  },
+  {
+    "id": "AUS",
+    "name": "Australia",
+    "color": "#525572"
+  },
+  {
+    "id": "EMR",
+    "name": "Emilia Romagna",
+    "color": "#44830d"
+  },
+  {
+    "id": "MIA",
+    "name": "Miami",
+    "color": "#020164"
+  },
+  {
+    "id": "BAR",
+    "name": "Spain",
+    "color": "#fabd00"
+  },
+  {
+    "id": "MON",
+    "name": "Monaco",
+    "color": "#a4444c"
+  },
+  {
+    "id": "BAK",
+    "name": "Baku",
+    "color": "#00b9e5"
+  },
+  {
+    "id": "CAN",
+    "name": "Canada",
+    "color": "#fe0000"
+  },
+  {
+    "id": "GBR",
+    "name": "Great Britain",
+    "color": "#01237e"
+  },
+  {
+    "id": "RBR",
+    "name": "Austria",
+    "color": "#c80f2e"
+  },
+  {
+    "id": "FRA",
+    "name": "France",
+    "color": "#0c2444"
+  },
+  {
+    "id": "HUN",
+    "name": "Hungary",
+    "color": "#436f4c"
+  },
+  {
+    "id": "SPA",
+    "name": "Belgium",
+    "color": "#000000"
+  },
+  {
+    "id": "NED",
+    "name": "Netherlands",
+    "color": "#1e448b"
+  },
+  {
+    "id": "MZA",
+    "name": "Italy",
+    "color": "#1d4803"
+  },
+  {
+    "id": "RUS",
+    "name": "Russia",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "SIN",
+    "name": "Singapore",
+    "color": "#d4435e"
+  },
+  {
+    "id": "JPN",
+    "name": "Japan",
+    "color": "#FF0000"
+  },
+  {
+    "id": "CTA",
+    "name": "United States",
+    "color": "#020164"
+  },
+  {
+    "id": "MEX",
+    "name": "Mexico",
+    "color": "#006847"
+  },
+  {
+    "id": "BRA",
+    "name": "Brazil",
+    "color": "#ffdf00"
+  },
+  {
+    "id": "YMC",
+    "name": "Abu Dhabi",
+    "color": "#04742c"
+  }
+]

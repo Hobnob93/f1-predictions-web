@@ -1,0 +1,65 @@
+[
+  {
+    "id": "KH",
+    "name": "Kyle",
+    "nickname": "Hobnob",
+    "color": "#28e0d4"
+  },
+  {
+    "id": "SH",
+    "name": "Samantha",
+    "nickname": "Sammy",
+    "color": "#ffc2fa"
+  },
+  {
+    "id": "HI",
+    "name": "Sam",
+    "nickname": "Higgy",
+    "color": "#13c219"
+  },
+  {
+    "id": "KC",
+    "name": "Keith",
+    "nickname": "Bubbles",
+    "color": "#4f34eb",
+    "useDarkText": false
+  },
+  {
+    "id": "TW",
+    "name": "Tiegan",
+    "nickname": "Tigs",
+    "color": "#34c6eb"
+  },
+  {
+    "id": "GH",
+    "name": "Gareth",
+    "nickname": "Gdog",
+    "color": "#8634eb",
+    "useDarkText": false
+  },
+  {
+    "id": "MG",
+    "name": "Mike",
+    "nickname": "Ginge",
+    "color": "#f27216"
+  },
+  {
+    "id": "CB",
+    "name": "Courtney",
+    "nickname": "Courtney",
+    "color": "#1002ce",
+    "useDarkText": false
+  },
+  {
+    "id": "KB",
+    "name": "Katie",
+    "nickname": "Haasshoulders Kneesandtoes",
+    "color": "#c163ff"
+  },
+  {
+    "id": "MH",
+    "name": "Michael",
+    "nickname": "8 times world champ",
+    "color": "#ffffff"
+  }
+]

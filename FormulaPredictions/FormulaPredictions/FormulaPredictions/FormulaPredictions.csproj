@@ -15,11 +15,36 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\data\2022\" />
+    <Folder Include="wwwroot\data\2023\" />
     <Folder Include="wwwroot\images\2022\" />
     <Folder Include="wwwroot\images\2023\cars\" />
     <Folder Include="wwwroot\images\2023\drivers\" />
     <Folder Include="wwwroot\images\2023\teams\" />
-    <Folder Include="wwwroot\data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\data\2022\answers.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\data\2022\bold-predictions.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\data\2022\competitors.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\data\2022\drivers.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\data\2022\questions.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\data\2022\teams.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\data\2022\tracks.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
