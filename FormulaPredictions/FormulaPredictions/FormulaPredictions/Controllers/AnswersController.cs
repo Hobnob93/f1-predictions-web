@@ -1,4 +1,5 @@
-﻿using FormulaPredictions.Services.Interfaces;
+﻿using FormulaPredictions.Controllers.Base;
+using FormulaPredictions.Services.Interfaces;
 using FormulaPredictions.Shared.Config;
 using FormulaPredictions.Shared.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -6,19 +7,11 @@ using Microsoft.Extensions.Options;
 
 namespace FormulaPredictions.Controllers;
 
-[ApiController]
-[Route("api/[controller]")]
-public class AnswersController : ControllerBase
+public class AnswersController : BasePredictionsController<AnswersController>
 {
-    private readonly IJsonParser _jsonParser;
-    private readonly GeneralConfig _config;
-    private readonly ILogger<AnswersController> _logger;
-
     public AnswersController(IJsonParser jsonParser, IOptions<GeneralConfig> config, ILogger<AnswersController> logger)
+        : base(jsonParser, config, logger)
     {
-        _jsonParser = jsonParser;
-        _config = config.Value;
-        _logger = logger;
     }
 
     [HttpGet(Name = "GetAnswers")]

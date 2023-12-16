@@ -1,23 +1,17 @@
-﻿using FormulaPredictions.Services.Interfaces;
+﻿using FormulaPredictions.Controllers.Base;
+using FormulaPredictions.Services.Interfaces;
 using FormulaPredictions.Shared.Config;
 using FormulaPredictions.Shared.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 
 namespace FormulaPredictions.Controllers;
 
-[ApiController]
-[Route("api/[controller]")]
-public class CompetitorsController : ControllerBase
+public class CompetitorsController : BasePredictionsController<CompetitorsController>
 {
-    private readonly IJsonParser _jsonParser;
-    private readonly GeneralConfig _config;
-    private readonly ILogger<CompetitorsController> _logger;
-
-    public CompetitorsController(IJsonParser jsonParser, GeneralConfig config, ILogger<CompetitorsController> logger)
+    public CompetitorsController(IJsonParser jsonParser, IOptions<GeneralConfig> config, ILogger<CompetitorsController> logger)
+        : base(jsonParser, config, logger)
     {
-        _jsonParser = jsonParser;
-        _config = config;
-        _logger = logger;
     }
 
     [HttpGet(Name = "GetCompetitors")]
