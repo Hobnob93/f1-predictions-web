@@ -1,16 +1,27 @@
 using FormulaPredictions.Client.Pages;
 using FormulaPredictions.Components;
+using FormulaPredictions.Services.Implementations;
+using FormulaPredictions.Services.Interfaces;
+using FormulaPredictions.Shared.Config;
 using MudBlazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+var config = builder.Configuration;
 
-// Add services to the container.
 builder.Services
     .AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
 
-builder.Services.AddMudServices();
+builder.Services
+    .AddMudServices()
+    .AddControllers();
+
+builder.Services
+    .Configure<GeneralConfig>(config.GetSection(GeneralConfig.SectionName));
+
+builder.Services
+    .AddTransient<IJsonParser, JsonParser>();
 
 var app = builder.Build();
 
@@ -35,5 +46,7 @@ app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode()
     .AddInteractiveWebAssemblyRenderMode()
     .AddAdditionalAssemblies(typeof(Counter).Assembly);
+
+app.MapControllers();
 
 app.Run();

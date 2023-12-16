@@ -14,4 +14,8 @@
     <PackageReference Include="MudBlazor" Version="6.11.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\FormulaPredictions.Shared\FormulaPredictions.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
