@@ -13,4 +13,11 @@
     <PackageReference Include="MudBlazor" Version="6.11.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\2022\" />
+    <Folder Include="wwwroot\images\2023\cars\" />
+    <Folder Include="wwwroot\images\2023\drivers\" />
+    <Folder Include="wwwroot\images\2023\teams\" />
+  </ItemGroup>
+
 </Project>
