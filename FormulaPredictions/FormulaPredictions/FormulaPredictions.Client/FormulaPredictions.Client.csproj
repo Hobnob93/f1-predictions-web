@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\FormulaPredictions.Components\FormulaPredictions.Components.csproj" />
     <ProjectReference Include="..\..\FormulaPredictions.Shared\FormulaPredictions.Shared.csproj" />
   </ItemGroup>
 
