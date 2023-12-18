@@ -1,0 +1,17 @@
+﻿@page "/"
+@rendermode InteractiveWebAssembly
+
+<PageTitle>Formula Predictions</PageTitle>
+
+<h1>Home</h1>
+
+<p>Hello.</p>
+
+@if (AppData?.HasFetched ?? false)
+{
+    <p>Answers: @AppData.Answers.Length</p>
+}
+else
+{
+    <p>Loading data...</p>
+}
