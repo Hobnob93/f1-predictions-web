@@ -1,5 +1,3 @@
-using FormulaPredictions.Components.State;
-using FormulaPredictions.Shared.Constants;
 using FormulaPredictions.Shared.State;
 using Microsoft.AspNetCore.Components;
 

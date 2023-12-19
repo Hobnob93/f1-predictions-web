@@ -1,7 +1,16 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Formula Predictions</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>Home</h1>
 
-Welcome to your new app.
+<p>Hello.</p>
+
+@if (AppState.AppData.HasFetched)
+{
+    <p>Answers: @AppState.AppData.Answers.Length</p>
+}
+else
+{
+    <p>Loading data...</p>
+}

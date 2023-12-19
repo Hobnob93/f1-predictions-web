@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaPredictions", "Formu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaPredictions.Client", "FormulaPredictions\FormulaPredictions.Client\FormulaPredictions.Client.csproj", "{6C148BA8-5DA7-4BEC-84F0-2E3B497010A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaPredictions.Shared", "FormulaPredictions.Shared\FormulaPredictions.Shared.csproj", "{74013E2B-8DAA-4B90-819F-62AD32613E96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaPredictions.RCL", "FormulaPredictions.RCL\FormulaPredictions.RCL.csproj", "{FDA04A86-252C-4DE0-BED7-BF35EF2D6AE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6C148BA8-5DA7-4BEC-84F0-2E3B497010A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C148BA8-5DA7-4BEC-84F0-2E3B497010A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C148BA8-5DA7-4BEC-84F0-2E3B497010A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74013E2B-8DAA-4B90-819F-62AD32613E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74013E2B-8DAA-4B90-819F-62AD32613E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74013E2B-8DAA-4B90-819F-62AD32613E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74013E2B-8DAA-4B90-819F-62AD32613E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA04A86-252C-4DE0-BED7-BF35EF2D6AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA04A86-252C-4DE0-BED7-BF35EF2D6AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA04A86-252C-4DE0-BED7-BF35EF2D6AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA04A86-252C-4DE0-BED7-BF35EF2D6AE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

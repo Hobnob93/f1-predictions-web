@@ -1,11 +1,29 @@
 using FormulaPredictions.Client.Pages;
 using FormulaPredictions.Components;
+using FormulaPredictions.RCL.State;
+using FormulaPredictions.Services.Implementations;
+using FormulaPredictions.Services.Interfaces;
+using FormulaPredictions.Shared.Config;
+using MudBlazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+var config = builder.Configuration;
 
 // Add services to the container.
-builder.Services.AddRazorComponents()
+builder.Services
+    .AddRazorComponents()
     .AddInteractiveWebAssemblyComponents();
+
+builder.Services
+    .AddSwaggerGen()
+    .AddMudServices()
+    .AddControllers();
+
+builder.Services
+    .Configure<GeneralConfig>(config.GetSection(GeneralConfig.SectionName));
+
+builder.Services
+    .AddTransient<IJsonParser, JsonParser>();
 
 var app = builder.Build();
 
@@ -21,6 +39,12 @@ else
     app.UseHsts();
 }
 
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Formula Predictions API V1");
+});
+
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
@@ -28,6 +52,9 @@ app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
     .AddInteractiveWebAssemblyRenderMode()
-    .AddAdditionalAssemblies(typeof(Counter).Assembly);
+    .AddAdditionalAssemblies(typeof(Home).Assembly)
+    .AddAdditionalAssemblies(typeof(CascadingState).Assembly);
+
+app.MapControllers();
 
 app.Run();
