@@ -18,5 +18,7 @@ public partial class Home : ComponentBase
 
         if (!AppState.AppData.HasFetched)
             NavigationManager.NavigateTo("./fetch-data");
+
+        AppState.Title = "The Results";
     }
 }

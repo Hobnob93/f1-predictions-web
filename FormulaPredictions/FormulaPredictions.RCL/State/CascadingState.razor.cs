@@ -21,4 +21,18 @@ public partial class CascadingState : ComponentBase
             }
         }
     }
+
+    private string _title = "Loading...";
+    public string Title
+    {
+        get => _title;
+        set
+        {
+            if (_title != value)
+            {
+                _title = value;
+                StateHasChanged();
+            }
+        }
+    }
 }

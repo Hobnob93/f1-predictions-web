@@ -19,8 +19,10 @@ public partial class FetchData : ComponentBase
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
-        await FetchAllAppData();
 
+        AppState.Title = "Loading...";
+
+        await FetchAllAppData();
         NavigationManager.NavigateTo("/");
     }
 

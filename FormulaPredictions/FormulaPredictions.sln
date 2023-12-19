@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaPredictions", "FormulaPredictions\FormulaPredictions\FormulaPredictions.csproj", "{4F357EA8-B403-44E8-9CFA-A7A4B9FAA85C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaPredictions", "FormulaPredictions\FormulaPredictions\FormulaPredictions.csproj", "{4F357EA8-B403-44E8-9CFA-A7A4B9FAA85C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaPredictions.Client", "FormulaPredictions\FormulaPredictions.Client\FormulaPredictions.Client.csproj", "{6C148BA8-5DA7-4BEC-84F0-2E3B497010A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaPredictions.Client", "FormulaPredictions\FormulaPredictions.Client\FormulaPredictions.Client.csproj", "{6C148BA8-5DA7-4BEC-84F0-2E3B497010A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaPredictions.Shared", "FormulaPredictions.Shared\FormulaPredictions.Shared.csproj", "{74013E2B-8DAA-4B90-819F-62AD32613E96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaPredictions.Shared", "FormulaPredictions.Shared\FormulaPredictions.Shared.csproj", "{74013E2B-8DAA-4B90-819F-62AD32613E96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaPredictions.RCL", "FormulaPredictions.RCL\FormulaPredictions.RCL.csproj", "{FDA04A86-252C-4DE0-BED7-BF35EF2D6AE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaPredictions.RCL", "FormulaPredictions.RCL\FormulaPredictions.RCL.csproj", "{FDA04A86-252C-4DE0-BED7-BF35EF2D6AE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
