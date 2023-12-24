@@ -121,6 +121,7 @@ body {
 header#title-bar {
     background-color: #21222bff !important;
     max-width: 100%;
+    border-radius: 10px;
 }
 
     header#title-bar > .mud-toolbar-appbar {

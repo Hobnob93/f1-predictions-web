@@ -1,5 +1,4 @@
 using FormulaPredictions.RCL.State;
-using FormulaPredictions.Shared.State;
 using Microsoft.AspNetCore.Components;
 
 namespace FormulaPredictions.Client.Pages;
@@ -19,6 +18,6 @@ public partial class Home : ComponentBase
         if (!AppState.AppData.HasFetched)
             NavigationManager.NavigateTo("./fetch-data");
 
-        AppState.Title = "The Results";
+        AppState.AppBarText = "The Results";
     }
 }

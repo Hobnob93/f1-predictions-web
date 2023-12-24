@@ -2,15 +2,11 @@
 
 <PageTitle>Formula Predictions</PageTitle>
 
-<h1>Home</h1>
+<MudLayout>
+    <SectionBar />
+    <SideBar />
 
-<p>Hello.</p>
-
-@if (AppState.AppData.HasFetched)
-{
-    <p>Answers: @AppState.AppData.Answers.Length</p>
-}
-else
-{
-    <p>Loading data...</p>
-}
+    <MudContainer id="core-container" MaxWidth="MaxWidth.ExtraExtraLarge">
+        <TitleBar />
+    </MudContainer>
+</MudLayout>

@@ -22,15 +22,29 @@ public partial class CascadingState : ComponentBase
         }
     }
 
-    private string _title = "Loading...";
-    public string Title
+    private string _appBarTitle = "Loading...";
+    public string AppBarText
     {
-        get => _title;
+        get => _appBarTitle;
         set
         {
-            if (_title != value)
+            if (_appBarTitle != value)
             {
-                _title = value;
+                _appBarTitle = value;
+                StateHasChanged();
+            }
+        }
+    }
+
+    private CurrentQuestion? _currentQuestion;
+    public CurrentQuestion? CurrentQuestion
+    {
+        get => _currentQuestion;
+        set
+        {
+            if (_currentQuestion != value)
+            {
+                _currentQuestion = value;
                 StateHasChanged();
             }
         }

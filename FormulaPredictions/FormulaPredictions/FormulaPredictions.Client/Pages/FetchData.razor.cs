@@ -20,9 +20,14 @@ public partial class FetchData : ComponentBase
     {
         await base.OnInitializedAsync();
 
-        AppState.Title = "Loading...";
+        AppState.AppBarText = "Loading...";
 
         await FetchAllAppData();
+        AppState.CurrentQuestion = new CurrentQuestion
+        (
+            Question: AppState.AppData.Questions.First()
+        );
+
         NavigationManager.NavigateTo("/");
     }
 
