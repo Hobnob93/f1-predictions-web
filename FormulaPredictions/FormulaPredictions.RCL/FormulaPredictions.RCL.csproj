@@ -22,4 +22,8 @@
     <ProjectReference Include="..\FormulaPredictions.Shared\FormulaPredictions.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Responses\" />
+  </ItemGroup>
+
 </Project>
