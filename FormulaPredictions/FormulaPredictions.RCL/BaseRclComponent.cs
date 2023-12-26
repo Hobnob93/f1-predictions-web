@@ -2,10 +2,10 @@
 
 namespace FormulaPredictions.RCL;
 
-public abstract class BaseRclComponent
+public abstract class BaseRclComponent : ComponentBase
 {
     [Parameter(CaptureUnmatchedValues = true)]
-    public Dictionary<string, object> UserAttributes { get; set; } = new Dictionary<string, object>();
+    public Dictionary<string, object> UserAttributes { get; set; } = [];
 
     [Parameter]
     public string? Class { get; set; }

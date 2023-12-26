@@ -8,5 +8,14 @@
 
     <MudContainer id="core-container" MaxWidth="MaxWidth.ExtraExtraLarge">
         <TitleBar />
+
+        @if (QuestionType is not null)
+        {
+            <MudPaper id="question-container" Class="pa-4 d-flex flex-column justify-start gap-4" Elevation="0">
+                <QuestionText id="question-chip" />
+
+                <DynamicComponent Type="@QuestionType" />
+            </MudPaper>
+        }
     </MudContainer>
 </MudLayout>
