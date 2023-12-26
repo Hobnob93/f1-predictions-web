@@ -1,7 +1,7 @@
 ﻿using FormulaPredictions.RCL.Services.Interfaces;
 using FormulaPredictions.Shared.Models;
 using FormulaPredictions.Shared.State;
-using System.Net.NetworkInformation;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace FormulaPredictions.RCL.Services.Implementations;
 
@@ -45,6 +45,13 @@ public class QuestionsService : IQuestionsService
             return string.Empty;
 
         return currentQuestion.Question.Id;
+    }
+
+    public IGrouping<char, QuestionResponses>[] GetGroupings(AppData appData)
+    {
+        return appData.Questions
+            .GroupBy(d => d.Id.First())
+            .ToArray();
     }
 
     public QuestionResponses? Next(CurrentQuestion? currentQuestion, AppData appData)

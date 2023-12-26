@@ -1,7 +1,9 @@
+using FormulaPredictions.RCL.Dialog;
 using FormulaPredictions.RCL.Services.Interfaces;
 using FormulaPredictions.RCL.State;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using MudBlazor;
 
 namespace FormulaPredictions.RCL.Core;
 
@@ -9,6 +11,9 @@ public partial class TitleBar : ComponentBase
 {
     [Inject]
     private IQuestionsService QuestionsService { get; set; } = default!;
+
+    [Inject]
+    private IDialogService DialogService { get; set; } = default!;
 
     [CascadingParameter]
     private CascadingState AppState { get; set; } = default!;
@@ -59,7 +64,7 @@ public partial class TitleBar : ComponentBase
 
     private void OnQuestionIdClicked(MouseEventArgs e)
     {
-        
+        DialogService.Show<QuestionSelectorDialog>("Select Target Question");
     }
 
     private void OnUpdateScoresClicked(MouseEventArgs e)
