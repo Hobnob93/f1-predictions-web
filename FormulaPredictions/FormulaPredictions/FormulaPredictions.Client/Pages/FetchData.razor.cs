@@ -23,9 +23,10 @@ public partial class FetchData : ComponentBase
         AppState.AppBarText = "Loading...";
 
         await FetchAllAppData();
-        AppState.CurrentQuestion = new CurrentQuestion
+        AppState.Current = new CurrentData
         (
-            Question: AppState.AppData.Questions.First()
+            Question: AppState.AppData.Questions.First(),
+            ShowingCompetitorAnswers: []
         );
 
         NavigationManager.NavigateTo("/");

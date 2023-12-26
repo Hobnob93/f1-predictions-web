@@ -1,6 +1,7 @@
 using FormulaPredictions.RCL.Dialog;
 using FormulaPredictions.RCL.Services.Interfaces;
 using FormulaPredictions.RCL.State;
+using FormulaPredictions.Shared.State;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using MudBlazor;
@@ -20,46 +21,48 @@ public partial class TitleBar : ComponentBase
 
     private string GetQuestionGroupName()
     {
-        return QuestionsService.GetCurrentGroup(AppState.CurrentQuestion);
+        return QuestionsService.GetCurrentGroup(AppState.Current);
     }
 
     private string GetQuestionId()
     {
-        return QuestionsService.GetCurrentId(AppState.CurrentQuestion);
+        return QuestionsService.GetCurrentId(AppState.Current);
     }
 
     private bool CanGoBack()
     {
-        return QuestionsService.Previous(AppState.CurrentQuestion, AppState.AppData) is not null;
+        return QuestionsService.Previous(AppState.Current, AppState.AppData) is not null;
     }
 
     private bool CanGoForward()
     {
-        return QuestionsService.Next(AppState.CurrentQuestion, AppState.AppData) is not null;
+        return QuestionsService.Next(AppState.Current, AppState.AppData) is not null;
     }
 
     private void OnBackClicked(MouseEventArgs e)
     {
-        var previousQuestion = QuestionsService.Previous(AppState.CurrentQuestion, AppState.AppData);
-        if (AppState.CurrentQuestion is null || previousQuestion is null)
+        var previousQuestion = QuestionsService.Previous(AppState.Current, AppState.AppData);
+        if (AppState.Current is null || previousQuestion is null)
             return;
 
-        AppState.CurrentQuestion = AppState.CurrentQuestion with
-        {
-            Question = previousQuestion
-        };
+        AppState.Current = new CurrentData
+        (
+            Question: previousQuestion,
+            ShowingCompetitorAnswers: []
+        );
     }
 
     private void OnForwardClicked(MouseEventArgs e)
     {
-        var nextQuestion = QuestionsService.Next(AppState.CurrentQuestion, AppState.AppData);
-        if (AppState.CurrentQuestion is null || nextQuestion is null)
+        var nextQuestion = QuestionsService.Next(AppState.Current, AppState.AppData);
+        if (AppState.Current is null || nextQuestion is null)
             return;
 
-        AppState.CurrentQuestion = AppState.CurrentQuestion with
-        {
-            Question = nextQuestion
-        };
+        AppState.Current = new CurrentData
+        (
+            Question: nextQuestion,
+            ShowingCompetitorAnswers: []
+        );
     }
 
     private void OnQuestionIdClicked(MouseEventArgs e)

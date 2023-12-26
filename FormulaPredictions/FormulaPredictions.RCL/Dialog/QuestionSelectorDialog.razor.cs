@@ -29,19 +29,10 @@ public partial class QuestionSelectorDialog
     {
         Dialog.Cancel();
         
-        if (AppState.CurrentQuestion is null)
-        {
-            AppState.CurrentQuestion = new CurrentQuestion
-            (
-                Question: question
-            );
-        }
-        else
-        {
-            AppState.CurrentQuestion = AppState.CurrentQuestion with
-            {
-                Question = question
-            };
-        }
+        AppState.Current = new CurrentData
+        (
+            Question: question,
+            ShowingCompetitorAnswers: []
+        );
     }
 }

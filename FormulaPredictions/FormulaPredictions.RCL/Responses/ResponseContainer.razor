@@ -1,0 +1,10 @@
+﻿@inherits BaseRclComponent
+
+<MudItem xs="6">
+    <MudPaper Class="@OuterClasses" Style="@Style" UserAttributes="@UserAttributes" Elevation="0">
+        <MudPaper Class="@InnerClasses" Style="@InnerStyle" @onclick="OnClick">
+            <div class="@ScoreClass" style="@ScoreStyle">@Score</div>
+            @ChildContent
+        </MudPaper>
+    </MudPaper>
+</MudItem>

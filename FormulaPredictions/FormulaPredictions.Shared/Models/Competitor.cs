@@ -9,7 +9,6 @@ public class Competitor : BaseItem
     public string Nickname { get; set; } = string.Empty;
     public string Color { get; set; } = string.Empty;
     public bool UseDarkText { get; set; } = true;
-    public bool IsShowingContent { get; set; }
 
     public bool IsRightAligned => Index % 2 == 1;
 }

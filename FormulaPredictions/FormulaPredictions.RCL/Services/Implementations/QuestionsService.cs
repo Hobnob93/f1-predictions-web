@@ -18,7 +18,7 @@ public class QuestionsService : IQuestionsService
         throw new InvalidOperationException($"Question ID '{Id}' not found!");
     }
 
-    public string GetCurrentGroup(CurrentQuestion? currentQuestion)
+    public string GetCurrentGroup(CurrentData? currentQuestion)
     {
         if (currentQuestion is null)
             return "Loading...";
@@ -39,7 +39,7 @@ public class QuestionsService : IQuestionsService
         };
     }
 
-    public string GetCurrentId(CurrentQuestion? currentQuestion)
+    public string GetCurrentId(CurrentData? currentQuestion)
     {
         if (currentQuestion is null)
             return string.Empty;
@@ -54,7 +54,7 @@ public class QuestionsService : IQuestionsService
             .ToArray();
     }
 
-    public QuestionResponses? Next(CurrentQuestion? currentQuestion, AppData appData)
+    public QuestionResponses? Next(CurrentData? currentQuestion, AppData appData)
     {
         if (currentQuestion is null)
             return null;
@@ -66,7 +66,7 @@ public class QuestionsService : IQuestionsService
         return appData.Questions[currentIndex + 1];
     }
 
-    public QuestionResponses? Previous(CurrentQuestion? currentQuestion, AppData appData)
+    public QuestionResponses? Previous(CurrentData? currentQuestion, AppData appData)
     {
         if (currentQuestion is null)
             return null;

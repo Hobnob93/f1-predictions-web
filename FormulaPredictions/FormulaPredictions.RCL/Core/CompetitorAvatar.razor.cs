@@ -1,4 +1,3 @@
-using ApexCharts;
 using BlazorComponentUtilities;
 using Microsoft.AspNetCore.Components;
 

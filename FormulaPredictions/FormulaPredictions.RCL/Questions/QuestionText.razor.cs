@@ -10,7 +10,7 @@ public partial class QuestionText : BaseRclComponent
     [CascadingParameter]
     private CascadingState AppState { get; set; } = default!;
 
-    private QuestionResponses? CurrentQuestion => AppState.CurrentQuestion?.Question;
+    private QuestionResponses? CurrentQuestion => AppState.Current?.Question;
     private string Text => CurrentQuestion?.Question ?? string.Empty;
     private string? Scoring => CurrentQuestion?.Scoring.Explanation;
 
