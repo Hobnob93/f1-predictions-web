@@ -99,58 +99,58 @@
       }
     ]
   },
-  {
-    "id": "1-B",
-    "question": "What will the percentage of points difference be between first and second place in the Constructor's Championship?",
-    "type": "Value",
-    "scoring": {
-      "Type": "Value",
-      "AnswersId": "1-B",
-      "explanation": "25 points minus each unit away you are from the answer - you cannot score less than 0"
-    },
-    "compensatorResponses": [
-      {
-        "Id": "KH",
-        "Response": "8"
-      },
-      {
-        "Id": "HI",
-        "Response": "15"
-      },
-      {
-        "Id": "SH",
-        "Response": "5"
-      },
-      {
-        "Id": "KC",
-        "Response": "3"
-      },
-      {
-        "Id": "TW",
-        "Response": "4"
-      },
-      {
-        "Id": "GH",
-        "Response": "6"
-      },
-      {
-        "Id": "MG",
-        "Response": "10"
-      },
-      {
-        "Id": "KB",
-        "Response": "12"
-      },
-      {
-        "Id": "CB",
-        "Response": "15"
-      },
-      {
-        "Id": "MH",
-        "Response": "10"
-      }
-    ]
-  },
+	{
+		"id": "1-B",
+		"question": "What will the percentage of points difference be between first and second place in the Constructor's Championship?",
+		"type": "Value",
+		"scoring": {
+			"Type": "Value",
+			"AnswersId": "1-B",
+			"explanation": "25 points minus each unit away you are from the answer - you cannot score less than 0"
+		},
+		"competitorResponses": [
+			{
+				"Id": "KH",
+				"Response": "8"
+			},
+			{
+				"Id": "HI",
+				"Response": "15"
+			},
+			{
+				"Id": "SH",
+				"Response": "5"
+			},
+			{
+				"Id": "KC",
+				"Response": "3"
+			},
+			{
+				"Id": "TW",
+				"Response": "4"
+			},
+			{
+				"Id": "GH",
+				"Response": "6"
+			},
+			{
+				"Id": "MG",
+				"Response": "10"
+			},
+			{
+				"Id": "KB",
+				"Response": "12"
+			},
+			{
+				"Id": "CB",
+				"Response": "15"
+			},
+			{
+				"Id": "MH",
+				"Response": "10"
+			}
+		]
+	},
 	{
 		"id": "1-C",
 		"question": "Which team will come FIFTH in the Constructor's Championship?",

@@ -1,5 +1,4 @@
 using BlazorComponentUtilities;
-using FormulaPredictions.RCL.Services.Implementations;
 using FormulaPredictions.RCL.State;
 using FormulaPredictions.Shared.Models;
 using Microsoft.AspNetCore.Components;
@@ -11,8 +10,8 @@ public partial class CompetitorResponses : BaseRclComponent
     [CascadingParameter]
     private CascadingState AppState { get; set; } = default!;
 
-    [Parameter, EditorRequired]
-    public RenderFragment<Competitor> CompetitorTemplate { get; set; } = default!;
+    [Parameter]
+    public RenderFragment<Competitor>? CompetitorTemplate { get; set; }
 
     private Competitor[] Competitors => AppState.AppData.Competitors;
 

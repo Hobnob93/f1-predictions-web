@@ -19,6 +19,17 @@ public abstract class BaseTemplateComponent : ComponentBase
 
     protected int Year => AppState.AppData.Config.Year;
 
+    private bool _shouldRender = true;
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        base.OnAfterRender(firstRender);
+
+        _shouldRender = false;
+    }
+
+    protected override bool ShouldRender() => _shouldRender;
+
     protected T GetResponseForCompetitor<T>() where T : BaseItem
     {
         return ResponsesService.GetSingleResponse<T>(Competitor.Id, AppState.AppData, AppState.Current!);
@@ -27,5 +38,10 @@ public abstract class BaseTemplateComponent : ComponentBase
     protected T[] GetResponsesForCompetitor<T>() where T : BaseItem
     {
         return ResponsesService.GetAllResponses<T>(Competitor.Id, AppState.AppData, AppState.Current!);
+    }
+
+    protected T GetResponseValueForCompetitor<T>() where T : struct
+    {
+        return ResponsesService.GetValueResponse<T>(Competitor.Id, AppState.Current!);
     }
 }

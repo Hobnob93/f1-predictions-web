@@ -15,4 +15,12 @@ public partial class QuestionContent : ComponentBase
     {
         return new() { { "Competitor", competitor } };
     }
+
+    private bool ShouldRenderCompetitorContent(Competitor competitor)
+    {
+        return
+            AppState.Current is not null &&
+            CompetitorTemplate is not null &&
+            AppState.Current.ShowingCompetitorAnswers.Contains(competitor);
+    }
 }

@@ -6,6 +6,7 @@ namespace FormulaPredictions.RCL.Services.Interfaces;
 
 public interface IResponsesService
 {
-    T[] GetAllResponses<T>(string competitorId, AppData appData, CurrentData currentData) where T: BaseItem;
-    T GetSingleResponse<T>(string competitorId, AppData appData, CurrentData currentData) where T: BaseItem;
+    T[] GetAllResponses<T>(string competitorId, AppData appData, CurrentData currentData) where T : BaseItem;
+    T GetSingleResponse<T>(string competitorId, AppData appData, CurrentData currentData) where T : BaseItem;
+    T GetValueResponse<T>(string competitorId, CurrentData currentData) where T : struct;
 }

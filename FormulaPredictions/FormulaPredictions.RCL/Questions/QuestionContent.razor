@@ -1,10 +1,8 @@
 ﻿<CompetitorResponses>
     <CompetitorTemplate Context="competitor">
-
-        @if (CompetitorTemplate is not null)
+        @if (ShouldRenderCompetitorContent(competitor))
         {
             <DynamicComponent Type="@CompetitorTemplate" Parameters="@GetTemplateParameters(competitor)" />
         }
-
     </CompetitorTemplate>
 </CompetitorResponses>

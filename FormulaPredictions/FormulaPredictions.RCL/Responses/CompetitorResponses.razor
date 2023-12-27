@@ -6,7 +6,11 @@
         <ResponseContainer CompId="@competitor.Id" Color="@competitor.Color" IsRightAligned="@competitor.IsRightAligned"
                 OnClicked="() => CompetitorClicked(competitor)" IsShowingContent="@CompetitorIsShowingContent(competitor)">
             <CompetitorAvatar Initials="@competitor.Id" Color="@competitor.Color" StarredNote="@GetCompetitorNote(competitor.Id)" />
-            @CompetitorTemplate(competitor)
+
+            @if (CompetitorTemplate is not null)
+            {
+                @CompetitorTemplate(competitor)
+            }
         </ResponseContainer>
     }
 </MudGrid>
