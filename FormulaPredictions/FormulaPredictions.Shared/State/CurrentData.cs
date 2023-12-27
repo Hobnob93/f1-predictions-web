@@ -9,7 +9,7 @@ public record CurrentData
     ObservableCollection<Competitor> ShowingCompetitorAnswers
 )
 {
-    public Type ComponentForQuestion => 
-        Type.GetType($"FormulaPredictions.RCL.Questions.{Question.Type}Content,FormulaPredictions.RCL") 
+    public Type CompetitorResponseTemplate => 
+        Type.GetType($"FormulaPredictions.RCL.Templates.Competitor.{Question.Type}Template,FormulaPredictions.RCL") 
             ?? throw new InvalidOperationException($"Type '{Question.Type}' does not have a Content component");
 };

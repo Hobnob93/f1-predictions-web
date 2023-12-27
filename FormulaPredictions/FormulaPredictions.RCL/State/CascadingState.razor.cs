@@ -1,7 +1,5 @@
-using FormulaPredictions.Shared.Models;
 using FormulaPredictions.Shared.State;
 using Microsoft.AspNetCore.Components;
-using System.Collections.Specialized;
 
 namespace FormulaPredictions.RCL.State;
 
@@ -46,21 +44,9 @@ public partial class CascadingState : ComponentBase
         {
             if (_currentQuestion != value)
             {
-                if (_currentQuestion is not null)
-                    _currentQuestion.ShowingCompetitorAnswers.CollectionChanged -= OnObservableCollectionModified;
-
                 _currentQuestion = value;
-
-                if (_currentQuestion is not null)
-                    _currentQuestion.ShowingCompetitorAnswers.CollectionChanged += OnObservableCollectionModified;
-
                 StateHasChanged();
             }
         }
-    }
-
-    private void OnObservableCollectionModified(object? sender, NotifyCollectionChangedEventArgs e)
-    {
-        StateHasChanged();
     }
 }

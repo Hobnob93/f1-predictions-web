@@ -16,6 +16,7 @@ public partial class CarResponse : BaseRclComponent
 
     private string Classes => new CssBuilder()
         .AddClass("car")
+        .AddClass("hidable-content")
         .AddClass(Class, when: Class is not null)
         .Build();
 }

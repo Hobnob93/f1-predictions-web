@@ -1,0 +1,10 @@
+﻿<CompetitorResponses>
+    <CompetitorTemplate Context="competitor">
+
+        @if (CompetitorTemplate is not null)
+        {
+            <DynamicComponent Type="@CompetitorTemplate" Parameters="@GetTemplateParameters(competitor)" />
+        }
+
+    </CompetitorTemplate>
+</CompetitorResponses>

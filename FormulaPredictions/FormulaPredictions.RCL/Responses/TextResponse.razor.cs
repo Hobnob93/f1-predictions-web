@@ -18,6 +18,11 @@ public partial class TextResponse : BaseRclComponent
     [Parameter]
     public Size Size { get; set; } = Size.Medium;
 
+    private string Classes => new CssBuilder()
+        .AddClass("hidable-content")
+        .AddClass(Class, when: Class is not null)
+        .Build();
+
     public string ColorStyles => new StyleBuilder()
         .AddStyle("font-size", "1.1rem")
         .AddStyle("font-weight", "500")

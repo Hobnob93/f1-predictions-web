@@ -55,6 +55,7 @@ body {
 
 .nameplate {
     border-radius: 2em;
+    transition: all .5s ease-in 0s;
 }
 
 .competitor {
@@ -62,12 +63,17 @@ body {
     border: 2px solid;
     box-shadow: 0 0 0em, inset 0 0 0em;
     overflow: hidden;
+    width: auto;
     max-width: 74px;
-    transition: max-width .5s ease-in 0s
+    transition: all .5s ease-in 0s;
 }
 
 .show-content {
     max-width: 100%;
+}
+
+.nameplate.competitor:not(.show-content) > .hidable-content {
+    visibility: hidden;
 }
 
 .nameplate.competitor:not(.show-content):hover {

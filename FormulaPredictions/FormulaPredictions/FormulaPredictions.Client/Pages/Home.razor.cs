@@ -11,8 +11,6 @@ public partial class Home : ComponentBase
     [CascadingParameter]
     private CascadingState AppState { get; set; } = default!;
 
-    private Type? QuestionType => AppState.Current?.ComponentForQuestion;
-
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();

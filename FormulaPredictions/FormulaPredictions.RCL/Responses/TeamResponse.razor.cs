@@ -18,6 +18,7 @@ public partial class TeamResponse : BaseRclComponent
         .AddClass("ms-2")
         .AddClass("me-2")
         .AddClass("team")
+        .AddClass("hidable-content")
         .AddClass(Class, when: Class is not null)
         .Build();
 }
