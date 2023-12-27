@@ -1,4 +1,5 @@
-﻿using FormulaPredictions.Shared.Models;
+﻿using FormulaPredictions.Shared.Config;
+using FormulaPredictions.Shared.Models;
 
 namespace FormulaPredictions.Shared.Services.Interfaces;
 
@@ -10,4 +11,5 @@ public interface IPredictionsData
     Task<QuestionResponses[]> GetQuestionResponses();
     Task<Team[]> GetTeams();
     Task<Circuit[]> GetCircuits();
+    Task<GeneralConfig> GetConfig();
 }

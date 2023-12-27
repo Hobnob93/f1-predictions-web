@@ -1,4 +1,5 @@
-﻿using FormulaPredictions.Shared.Models;
+﻿using FormulaPredictions.Shared.Config;
+using FormulaPredictions.Shared.Models;
 using FormulaPredictions.Shared.Services.Base;
 using FormulaPredictions.Shared.Services.Interfaces;
 
@@ -39,5 +40,10 @@ public class PredictionsDataClient : BaseWebApiClient, IPredictionsData
     public async Task<Team[]> GetTeams()
     {
         return await TryGet<Team[]>("api/teams");
+    }
+
+    public async Task<GeneralConfig> GetConfig()
+    {
+        return await TryGet<GeneralConfig>("api/config");
     }
 }
