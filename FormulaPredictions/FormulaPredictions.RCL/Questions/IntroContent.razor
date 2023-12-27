@@ -1,6 +1,8 @@
-﻿<CompetitorResponses>
+﻿@inherits QuestionContentComponent
+
+<CompetitorResponses>
     <CompetitorTemplate Context="competitor">
-        <CarResponse Team="@GetResponseForCompetitor(competitor)" Year="@Year" />
+        <CarResponse Team="@(GetResponseForCompetitor<Team>(competitor))" Year="@Year" />
         <TextResponse Content="@GetTextContent(competitor)" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
     </CompetitorTemplate>
 </CompetitorResponses>

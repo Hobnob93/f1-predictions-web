@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Components;
 
 namespace FormulaPredictions.RCL.Responses;
 
-public partial class CarResponse : BaseRclComponent
+public partial class TeamResponse : BaseRclComponent
 {
     [Parameter, EditorRequired]
     public Team Team { get; set; } = default!;
@@ -12,10 +12,12 @@ public partial class CarResponse : BaseRclComponent
     [Parameter, EditorRequired]
     public int Year { get; set; }
 
-    private string ImageSource => $"images/{Year}/cars/{Team.ImageName}.png";
+    private string ImageSource => $"images/{Year}/teams/{Team.ImageName}.png";
 
     private string Classes => new CssBuilder()
-        .AddClass("car")
+        .AddClass("ms-2")
+        .AddClass("me-2")
+        .AddClass("team")
         .AddClass(Class, when: Class is not null)
         .Build();
 }
