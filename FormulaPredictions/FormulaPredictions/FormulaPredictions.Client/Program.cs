@@ -18,6 +18,7 @@ builder.Services
 
 builder.Services
     .AddTransient<IPredictionsData, PredictionsDataClient>()
-    .AddTransient<IQuestionsService, QuestionsService>();
+    .AddTransient<IQuestionsService, QuestionsService>()
+    .AddTransient<IResponsesService, ResponsesService>();
 
 await builder.Build().RunAsync();

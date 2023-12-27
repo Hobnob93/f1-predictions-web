@@ -1,5 +1,6 @@
 ﻿<CompetitorResponses>
     <CompetitorTemplate Context="competitor">
-        <p>@competitor.Name</p>
+        <CarResponse Team="@GetResponseForCompetitor(competitor)" Year="@Year" />
+        <TextResponse Content="@GetTextContent(competitor)" Color="@competitor.Color" UseDarkText="@competitor.UseDarkText" />
     </CompetitorTemplate>
 </CompetitorResponses>

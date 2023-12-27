@@ -40,6 +40,7 @@ public partial class FetchData : ComponentBase
         var drivers = await Client.GetDrivers();
         var questions = await Client.GetQuestionResponses();
         var teams = await Client.GetTeams();
+        var config = await Client.GetConfig();
 
         AppState.AppData = new AppData
         (
@@ -49,6 +50,7 @@ public partial class FetchData : ComponentBase
             drivers,
             questions,
             teams,
+            config,
             HasFetched: true
         );
     }
