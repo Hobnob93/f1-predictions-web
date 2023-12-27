@@ -48,7 +48,7 @@ public partial class TitleBar : ComponentBase
         AppState.Current = new CurrentData
         (
             Question: previousQuestion,
-            ShowingCompetitorAnswers: [AppState.AppData.Competitors.First()]
+            ShowingCompetitorAnswers: []
         );
     }
 
@@ -61,7 +61,7 @@ public partial class TitleBar : ComponentBase
         AppState.Current = new CurrentData
         (
             Question: nextQuestion,
-            ShowingCompetitorAnswers: [AppState.AppData.Competitors.First()]
+            ShowingCompetitorAnswers: []
         );
     }
 

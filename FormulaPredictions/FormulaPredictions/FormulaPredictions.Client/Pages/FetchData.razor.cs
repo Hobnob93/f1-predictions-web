@@ -26,7 +26,7 @@ public partial class FetchData : ComponentBase
         AppState.Current = new CurrentData
         (
             Question: AppState.AppData.Questions.First(),
-            ShowingCompetitorAnswers: [AppState.AppData.Competitors.First()]
+            ShowingCompetitorAnswers: []
         );
 
         NavigationManager.NavigateTo("/");

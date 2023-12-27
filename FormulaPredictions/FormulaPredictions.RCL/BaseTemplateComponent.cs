@@ -23,4 +23,9 @@ public abstract class BaseTemplateComponent : ComponentBase
     {
         return ResponsesService.GetSingleResponse<T>(Competitor.Id, AppState.AppData, AppState.Current!);
     }
+
+    protected T[] GetResponsesForCompetitor<T>() where T : BaseItem
+    {
+        return ResponsesService.GetAllResponses<T>(Competitor.Id, AppState.AppData, AppState.Current!);
+    }
 }

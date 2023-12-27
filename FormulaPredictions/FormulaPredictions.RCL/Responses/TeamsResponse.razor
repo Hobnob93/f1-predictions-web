@@ -1,0 +1,17 @@
+﻿@inherits BaseRclComponent
+
+<div class="@Classes" style="@Styles" @attributes="UserAttributes">
+    @for (var i = 0; i < Teams.Length; i++)
+    {
+        var team = Teams[i];
+
+        @if (i == (Teams.Length - 1))
+        {
+            <TeamResponse Team="@team" Year="@Year" />
+        }
+        else
+        {
+            <TeamResponse Class="@ChildClass" Team="@team" Year="@Year" />
+        }
+    }
+</div>
