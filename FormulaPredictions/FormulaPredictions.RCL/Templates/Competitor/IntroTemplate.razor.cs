@@ -1,9 +1,14 @@
+using FormulaPredictions.Shared.Models;
+
 namespace FormulaPredictions.RCL.Templates.Competitor;
 
 public partial class IntroTemplate : BaseTemplateComponent
 {
-    private string GetTextContent()
+    private Team? _team;
+    private Team Team
     {
-        return $"{Competitor.Name} A.K.A. '{Competitor.Nickname}'";
+        get => _team ??= GetResponseForCompetitor<Team>();
     }
+
+    private string TextContent => $"{Competitor.Name} A.K.A. '{Competitor.Nickname}'";
 }

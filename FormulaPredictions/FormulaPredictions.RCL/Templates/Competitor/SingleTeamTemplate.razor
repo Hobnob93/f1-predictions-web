@@ -1,4 +1,4 @@
 ﻿@inherits BaseTemplateComponent
 
-<TeamResponse Team="@(GetResponseForCompetitor<Team>())" Year="@Year" />
-<TextResponse Content="@(GetResponseForCompetitor<Team>().Name)" Color="@Competitor.Color" UseDarkText="@Competitor.UseDarkText" />
+<TeamResponse Team="@Team" Year="@Year" />
+<TextResponse Content="@Team.Name" Color="@Competitor.Color" UseDarkText="@Competitor.UseDarkText" />
