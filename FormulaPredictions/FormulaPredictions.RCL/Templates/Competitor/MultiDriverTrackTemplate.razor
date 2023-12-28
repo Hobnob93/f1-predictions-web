@@ -1,0 +1,9 @@
+﻿@inherits BaseTemplateComponent
+
+@foreach (var driverTrack in DriverTracks)
+{
+    <div class="@DriverTrackContainerClasses">
+        <DriverResponse Class="@DriverClasses" Driver="@driverTrack.Driver" Year="@Year" />
+        <TrackResponse Class="@TrackClasses" Circuit="@driverTrack.Circuit" Size="Size.Small" Color="@Competitor.Color" UseDarkText="@Competitor.UseDarkText" />
+    </div>
+}

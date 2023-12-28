@@ -1,4 +1,5 @@
 ﻿using FormulaPredictions.RCL.Services.Interfaces;
+using FormulaPredictions.Shared.Models;
 using FormulaPredictions.Shared.Models.Base;
 using FormulaPredictions.Shared.State;
 
@@ -14,6 +15,24 @@ public class ResponsesService : IResponsesService
 
         return competitorAnswerIds
             .Select(rca => dataArray.Single(d => d.Id == rca))
+            .ToArray();
+    }
+
+    public DriverTrack[] GetDriverTrackResponses(string competitorId, AppData appData, CurrentData currentData)
+    {
+        var drivers = appData.GetDataArray<Driver>();
+        var circuits = appData.GetDataArray<Circuit>();
+
+        var competitorAnswers = GetCompetitorRawAnswer(competitorId, currentData)
+            .Split(',');
+
+        return competitorAnswers
+            .Select(str => str.Split('-'))
+            .Select(spl => new DriverTrack
+            (
+                drivers.Single(d => d.Id == spl.First()),
+                circuits.Single(c => c.Id == spl.Last())
+            ))
             .ToArray();
     }
 
