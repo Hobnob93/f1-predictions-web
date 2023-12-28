@@ -30,6 +30,11 @@ public partial class ResponseContainer : BaseRclComponent
         await OnClicked.InvokeAsync();
     }
 
+    private string MudItemStyle => new StyleBuilder()
+        .AddStyle("padding-right", "100px", when: !IsRightAligned)
+        .AddStyle("padding-left", "100px", when: IsRightAligned)
+        .Build();
+
     private string OuterClasses => new CssBuilder()
         .AddClass("d-flex")
         .AddClass("z-10")

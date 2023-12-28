@@ -8,5 +8,5 @@
     }
 
     #section-bar ::deep > header > div > .f1-text {
-        color: #f50814;
+        color: var(--mud-palette-primary);
     }

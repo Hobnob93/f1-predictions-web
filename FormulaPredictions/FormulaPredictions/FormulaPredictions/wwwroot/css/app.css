@@ -41,6 +41,8 @@ body {
 
 #question-container {
     min-height: calc(100vh - 75px);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 #question-chip {
@@ -51,11 +53,12 @@ body {
     height: auto;
     text-align: center;
     font-size: 1.8em;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 .nameplate {
     border-radius: 2em;
-    transition: all .5s ease-in 0s;
 }
 
 .competitor {
@@ -63,13 +66,12 @@ body {
     border: 2px solid;
     box-shadow: 0 0 0em, inset 0 0 0em;
     overflow: hidden;
-    width: auto;
-    max-width: 74px;
-    transition: all .5s ease-in 0s;
+    width: 74px;
+    transition: all .6s cubic-bezier(.82,.25,.24,.72) 0s;
 }
 
 .show-content {
-    max-width: 100%;
+    width: 100%;
 }
 
 .nameplate.competitor:not(.show-content) > .hidable-content {
@@ -128,6 +130,8 @@ header#title-bar {
     background-color: #21222bff !important;
     max-width: 100%;
     border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
     header#title-bar > .mud-toolbar-appbar {

@@ -1,6 +1,6 @@
 ﻿@inherits BaseRclComponent
 
-<MudGrid Spacing="2" Class="@Classes" Style="@Style" UserAttributes="@UserAttributes">
+<MudGrid Spacing="3" Class="@Classes" Style="@Style" UserAttributes="@UserAttributes">
     @foreach (var competitor in Competitors)
     {
         <ResponseContainer CompId="@competitor.Id" Color="@competitor.Color" IsRightAligned="@competitor.IsRightAligned"
@@ -9,7 +9,9 @@
 
             @if (CompetitorTemplate is not null)
             {
+                <MudSpacer />
                 @CompetitorTemplate(competitor)
+                <MudSpacer />
             }
         </ResponseContainer>
     }
