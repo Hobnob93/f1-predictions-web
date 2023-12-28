@@ -1,0 +1,14 @@
+﻿@inherits BaseRclComponent
+
+@if (State is true)
+{
+    <MudAvatar Color="MudBlazor.Color.Success" Variant="Variant.Filled">
+        <MudIcon Color="MudBlazor.Color.Dark" Icon="@Icons.Material.Filled.Check" Size="Size.Large" />
+    </MudAvatar>
+}
+else
+{
+    <MudAvatar Color="MudBlazor.Color.Error" Variant="Variant.Filled">
+        <MudIcon Color="MudBlazor.Color.Dark" Icon="@Icons.Material.Filled.Close" Size="Size.Large" />
+    </MudAvatar>
+}
