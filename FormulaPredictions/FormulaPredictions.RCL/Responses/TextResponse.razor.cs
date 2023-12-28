@@ -16,7 +16,7 @@ public partial class TextResponse : BaseRclComponent
     public bool UseDarkText { get; set; }
 
     [Parameter]
-    public Size Size { get; set; } = Size.Medium;
+    public Size Size { get; set; } = Size.Large;
 
     private string Classes => new CssBuilder()
         .AddClass("hidable-content")
@@ -24,7 +24,7 @@ public partial class TextResponse : BaseRclComponent
         .Build();
 
     public string ColorStyles => new StyleBuilder()
-        .AddStyle("font-size", "1.1rem")
+        .AddStyle("font-size", "1.2rem")
         .AddStyle("font-weight", "500")
         .AddStyle("max-width", "none")
         .AddStyle("color", "#1a2030", when: UseDarkText)

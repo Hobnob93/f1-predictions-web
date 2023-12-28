@@ -88,23 +88,23 @@ body {
 
 .mud-avatar.mud-avatar-large.mud-avatar-text.competitor-avatar {
     width: 70px;
-    height: 70px;
+    height: 85px;
     font-size: 2.2rem;
 }
 
 .mud-image.car {
-    height: 65px;
+    height: 80px;
     width: auto;
 }
 
 .mud-image.team {
-    height: 65px;
+    height: 80px;
     width: auto;
     transform: scale(1.25);
 }
 
 .mud-image.driver {
-    height: 65px;
+    height: 80px;
     width: auto;
     transform: scale(1.25);
 }
