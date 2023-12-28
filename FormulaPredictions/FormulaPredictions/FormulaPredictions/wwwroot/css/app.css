@@ -31,6 +31,10 @@ body {
         content: "An error has occurred."
     }
 
+.w-100 {
+    width: 100%;
+}
+
 #core-container {
     width: calc(100vw - 75px - 100px);
     margin-left: 88px;

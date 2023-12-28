@@ -11,5 +11,9 @@ public record CurrentData
 {
     public Type CompetitorResponseTemplate => 
         Type.GetType($"FormulaPredictions.RCL.Templates.Competitor.{Question.Type}Template,FormulaPredictions.RCL") 
-            ?? throw new InvalidOperationException($"Type '{Question.Type}' does not have a Content component");
+            ?? throw new InvalidOperationException($"Type '{Question.Type}' does not have a Competitor component");
+
+    public Type GraphResponseTemplate =>
+        Type.GetType($"FormulaPredictions.RCL.Templates.Data.{Question.Type}Template,FormulaPredictions.RCL")
+            ?? throw new InvalidOperationException($"Type '{Question.Type}' does not have a Data component");
 };

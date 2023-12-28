@@ -1,0 +1,20 @@
+﻿@inherits BaseRclComponent
+
+<MudAppBar Bottom="true" Fixed="true" Color="@BarColor" Elevation="0" Style="@Styles">
+    <MudSpacer />
+    <div class="d-flex flex-column w-100 mt-2">
+        <div class="d-flex flex-row w-100">
+            <MudSpacer />
+            <MudIconButton Icon="@OpenIcon" OnClick="Toggle" Color="MudBlazor.Color.Primary" />
+            <MudSpacer />
+        </div>
+
+        @if (Open)
+        {
+            <div class="d-flex flex-row w-100">
+                <DynamicComponent Type="@GraphTemplate" />
+            </div>
+        }
+    </div>
+    <MudSpacer />
+</MudAppBar>
