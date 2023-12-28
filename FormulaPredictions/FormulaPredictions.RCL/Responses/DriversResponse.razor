@@ -1,0 +1,17 @@
+﻿@inherits BaseRclComponent
+
+<div class="@Classes" style="@Styles" @attributes="UserAttributes">
+    @for (var i = 0; i < Drivers.Length; i++)
+    {
+        var driver = Drivers[i];
+
+        @if (i == (Drivers.Length - 1))
+        {
+            <DriverResponse Driver="@driver" Year="@Year" />
+        }
+        else
+        {
+            <DriverResponse Class="@ChildClass" Driver="@driver" Year="@Year" />
+        }
+    }
+</div>
