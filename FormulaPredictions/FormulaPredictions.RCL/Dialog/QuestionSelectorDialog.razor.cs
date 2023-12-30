@@ -32,7 +32,8 @@ public partial class QuestionSelectorDialog
         AppState.Current = new CurrentData
         (
             Question: question,
-            ShowingCompetitorAnswers: []
+            ShowingCompetitorAnswers: [],
+            OpenGraphSection: false
         );
     }
 }

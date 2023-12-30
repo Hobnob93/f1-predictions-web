@@ -1,10 +1,9 @@
 ﻿using FormulaPredictions.RCL.Services.Interfaces;
 using FormulaPredictions.RCL.State;
-using FormulaPredictions.Shared.Models;
 using FormulaPredictions.Shared.Models.Base;
 using Microsoft.AspNetCore.Components;
 
-namespace FormulaPredictions.RCL;
+namespace FormulaPredictions.RCL.Templates;
 
 public abstract class BaseTemplateComponent : ComponentBase
 {
@@ -15,7 +14,7 @@ public abstract class BaseTemplateComponent : ComponentBase
     protected CascadingState AppState { get; set; } = default!;
 
     [Parameter]
-    public Competitor Competitor { get; set; } = default!;
+    public Shared.Models.Competitor Competitor { get; set; } = default!;
 
     protected int Year => AppState.AppData.Config.Year;
 

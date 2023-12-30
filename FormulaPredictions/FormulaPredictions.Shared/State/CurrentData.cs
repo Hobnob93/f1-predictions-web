@@ -6,7 +6,8 @@ namespace FormulaPredictions.Shared.State;
 public record CurrentData
 (
     QuestionResponses Question,
-    ObservableCollection<Competitor> ShowingCompetitorAnswers
+    ObservableCollection<Competitor> ShowingCompetitorAnswers,
+    bool OpenGraphSection
 )
 {
     public Type CompetitorResponseTemplate => 
