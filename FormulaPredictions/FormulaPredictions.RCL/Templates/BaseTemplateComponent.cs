@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Components;
 
 namespace FormulaPredictions.RCL.Templates;
 
-public abstract class BaseTemplateComponent : ComponentBase
+public abstract class BaseTemplateComponent : OneTimeRenderComponent
 {
     [Inject]
     protected IResponsesService ResponsesService { get; set; } = default!;
@@ -17,17 +17,6 @@ public abstract class BaseTemplateComponent : ComponentBase
     public Shared.Models.Competitor Competitor { get; set; } = default!;
 
     protected int Year => AppState.AppData.Config.Year;
-
-    private bool _shouldRender = true;
-
-    protected override void OnAfterRender(bool firstRender)
-    {
-        base.OnAfterRender(firstRender);
-
-        _shouldRender = false;
-    }
-
-    protected override bool ShouldRender() => _shouldRender;
 
     protected T GetResponseForCompetitor<T>() where T : BaseItem
     {

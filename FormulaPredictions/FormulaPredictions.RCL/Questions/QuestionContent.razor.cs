@@ -21,6 +21,6 @@ public partial class QuestionContent : ComponentBase
         return
             AppState.Current is not null &&
             CompetitorTemplate is not null &&
-            AppState.Current.ShowingCompetitorAnswers.Contains(competitor);
+            AppState.Current.ShowingCompetitorResponses.Contains(competitor);
     }
 }

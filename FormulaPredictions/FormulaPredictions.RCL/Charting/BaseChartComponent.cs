@@ -7,9 +7,6 @@ namespace FormulaPredictions.RCL.Charting;
 public abstract class BaseChartComponent : BaseRclComponent
 {
     [Parameter, EditorRequired]
-    public string Title { get; set; } = string.Empty;
-
-    [Parameter, EditorRequired]
     public List<ChartDataPoint> Data { get; set; } = default!;
 
     [Parameter, EditorRequired]

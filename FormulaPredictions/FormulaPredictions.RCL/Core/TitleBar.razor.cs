@@ -48,7 +48,7 @@ public partial class TitleBar : ComponentBase
         AppState.Current = new CurrentData
         (
             Question: previousQuestion,
-            ShowingCompetitorAnswers: [],
+            ShowingCompetitorResponses: [],
             OpenGraphSection: false
         );
     }
@@ -62,7 +62,7 @@ public partial class TitleBar : ComponentBase
         AppState.Current = new CurrentData
         (
             Question: nextQuestion,
-            ShowingCompetitorAnswers: [],
+            ShowingCompetitorResponses: [],
             OpenGraphSection: false
         );
     }

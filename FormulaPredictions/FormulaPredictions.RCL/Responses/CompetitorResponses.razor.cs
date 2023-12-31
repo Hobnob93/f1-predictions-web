@@ -31,7 +31,7 @@ public partial class CompetitorResponses : BaseRclComponent
 
     private bool CompetitorIsShowingContent(Competitor competitor)
     {
-        return AppState.Current?.ShowingCompetitorAnswers.Contains(competitor)
+        return AppState.Current?.ShowingCompetitorResponses.Contains(competitor)
             ?? false;
     }
 
@@ -40,6 +40,6 @@ public partial class CompetitorResponses : BaseRclComponent
         if (AppState.Current is null)
             return;
 
-        AppState.Current.ShowingCompetitorAnswers.Add(competitor);
+        AppState.Current.ShowingCompetitorResponses.Add(competitor);
     }
 }

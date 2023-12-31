@@ -1,6 +1,7 @@
 ﻿using FormulaPredictions.RCL.Services.Interfaces;
 using FormulaPredictions.Shared.Models;
 using FormulaPredictions.Shared.Models.Base;
+using FormulaPredictions.Shared.Models.Charting;
 using FormulaPredictions.Shared.State;
 
 namespace FormulaPredictions.RCL.Services.Implementations;
@@ -10,11 +11,25 @@ public class ResponsesService : IResponsesService
     public T[] GetAllResponses<T>(string competitorId, AppData appData, CurrentData currentData) where T : BaseItem
     {
         var dataArray = appData.GetDataArray<T>();
-        var competitorAnswerIds = GetCompetitorRawAnswer(competitorId, currentData)
+        var competitorResponseIds = GetCompetitorRawAnswer(competitorId, currentData)
             .Split(',');
 
-        return competitorAnswerIds
+        return competitorResponseIds
             .Select(rca => dataArray.Single(d => d.Id == rca))
+            .ToArray();
+    }
+
+    public RawCompetitorResponse<T>[] GetAllResponses<T>(AppData appData, CurrentData currentData) where T : BaseItem
+    {
+        var dataArray = appData.GetDataArray<T>();
+        var allAnswerIds = GetCompetitorRawAnswers(currentData);
+
+        return allAnswerIds
+            .Select(a => new RawCompetitorResponse<T>
+            { 
+                Competitor = appData.Competitors.Single(c => string.Equals(c.Id, a.CompetitorId, StringComparison.OrdinalIgnoreCase)),
+                Response = dataArray.Single(d => d.Id == a.Response)
+            })
             .ToArray();
     }
 
@@ -23,10 +38,10 @@ public class ResponsesService : IResponsesService
         var drivers = appData.GetDataArray<Driver>();
         var circuits = appData.GetDataArray<Circuit>();
 
-        var competitorAnswers = GetCompetitorRawAnswer(competitorId, currentData)
+        var competitorResponses = GetCompetitorRawAnswer(competitorId, currentData)
             .Split(',');
 
-        return competitorAnswers
+        return competitorResponses
             .Select(str => str.Split('-'))
             .Select(spl => new DriverTrack
             (
@@ -39,20 +54,20 @@ public class ResponsesService : IResponsesService
     public T GetSingleResponse<T>(string competitorId, AppData appData, CurrentData currentData) where T : BaseItem
     {
         var dataArray = appData.GetDataArray<T>();
-        var competitorAnswerId = GetCompetitorRawAnswer(competitorId, currentData);
+        var competitorResponseId = GetCompetitorRawAnswer(competitorId, currentData);
 
-        return dataArray.Single(d => d.Id == competitorAnswerId);
+        return dataArray.Single(d => d.Id == competitorResponseId);
     }
 
     public T GetValueResponse<T>(string competitorId, CurrentData currentData) where T : struct
     {
-        var competitorAnswer = GetCompetitorRawAnswer(competitorId, currentData);
+        var competitorResponse = GetCompetitorRawAnswer(competitorId, currentData);
 
         return typeof(T) switch
         {
-            _ when typeof(T) == typeof(bool) => (T)(object)bool.Parse(competitorAnswer),
-            _ when typeof(T) == typeof(int) => (T)(object)int.Parse(competitorAnswer),
-            _ when typeof(T) == typeof(double) => (T)(object)double.Parse(competitorAnswer),
+            _ when typeof(T) == typeof(bool) => (T)(object)bool.Parse(competitorResponse),
+            _ when typeof(T) == typeof(int) => (T)(object)int.Parse(competitorResponse),
+            _ when typeof(T) == typeof(double) => (T)(object)double.Parse(competitorResponse),
             _ => throw new InvalidCastException($"The type '{typeof(T)}' is not recognised")
         };
     }
@@ -62,5 +77,14 @@ public class ResponsesService : IResponsesService
         return currentData.Question.CompetitorResponses
             .Single(cr => string.Equals(cr.Id, competitorId, StringComparison.OrdinalIgnoreCase))
             .Response;
+    }
+
+    private IEnumerable<(string CompetitorId, string Response)> GetCompetitorRawAnswers(CurrentData currentData)
+    {
+        return currentData.Question.CompetitorResponses
+            .SelectMany(cr => cr.Response
+                .Split(',')
+                .Select(s => ( cr.Id, Response: s )))
+            .Select(d => (d.Id, d.Response));
     }
 }

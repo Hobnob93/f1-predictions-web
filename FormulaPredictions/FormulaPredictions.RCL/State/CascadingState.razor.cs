@@ -49,4 +49,9 @@ public partial class CascadingState : ComponentBase
             }
         }
     }
+
+    public void ForceStateHasChanged()
+    {
+        StateHasChanged();
+    }
 }
