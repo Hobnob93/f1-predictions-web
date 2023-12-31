@@ -1,15 +1,15 @@
-using FormulaPredictions.Shared.Models;
 using FormulaPredictions.Shared.Models.Charting;
+using FormulaPredictions.Shared.Models;
 
 namespace FormulaPredictions.RCL.Templates.Data;
 
-public partial class IntroTemplate : DataTemplateComponent
+public partial class SingleDriverTemplate : DataTemplateComponent
 {
     protected override void OnInitialized()
     {
         base.OnInitialized();
 
-        var responses = GetResponsesForAllCompetitors<Team>();
+        var responses = GetResponsesForAllCompetitors<Driver>();
         var unique = responses
             .Select(r => r.Response)
             .GroupBy(t => t.Id)
@@ -19,7 +19,7 @@ public partial class IntroTemplate : DataTemplateComponent
         ResponseData = unique.Select(u => new ChartDataPoint
         {
             Id = u.Id,
-            Name = u.Name,
+            Name = u.LastName,
             Color = u.Color,
             Value = responses
                 .Count(t => t.Response.Id == u.Id),
