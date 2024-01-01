@@ -2,7 +2,7 @@ using FormulaPredictions.Shared.Models;
 
 namespace FormulaPredictions.RCL.Templates.Competitor;
 
-public partial class IntroTemplate : BaseTemplateComponent
+public partial class IntroTemplate : CompetitorTemplateComponent
 {
     private Team? _team;
     private Team Team

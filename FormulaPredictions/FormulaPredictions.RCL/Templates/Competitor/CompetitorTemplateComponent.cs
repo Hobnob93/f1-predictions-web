@@ -3,9 +3,9 @@ using FormulaPredictions.RCL.State;
 using FormulaPredictions.Shared.Models.Base;
 using Microsoft.AspNetCore.Components;
 
-namespace FormulaPredictions.RCL.Templates;
+namespace FormulaPredictions.RCL.Templates.Competitor;
 
-public abstract class BaseTemplateComponent : OneTimeRenderComponent
+public abstract class CompetitorTemplateComponent : OneTimeRenderComponent
 {
     [Inject]
     protected IResponsesService ResponsesService { get; set; } = default!;

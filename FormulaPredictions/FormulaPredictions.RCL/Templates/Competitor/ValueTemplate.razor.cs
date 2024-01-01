@@ -1,6 +1,6 @@
 namespace FormulaPredictions.RCL.Templates.Competitor;
 
-public partial class ValueTemplate : BaseTemplateComponent
+public partial class ValueTemplate : CompetitorTemplateComponent
 {
     private string? _value;
     private string Value

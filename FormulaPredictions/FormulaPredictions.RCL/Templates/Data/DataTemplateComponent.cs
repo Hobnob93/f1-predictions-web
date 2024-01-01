@@ -1,5 +1,6 @@
 ﻿using FormulaPredictions.RCL.Services.Interfaces;
 using FormulaPredictions.RCL.State;
+using FormulaPredictions.Shared.Models;
 using FormulaPredictions.Shared.Models.Base;
 using FormulaPredictions.Shared.Models.Charting;
 using Microsoft.AspNetCore.Components;
@@ -35,6 +36,11 @@ public abstract class DataTemplateComponent : OneTimeRenderComponent
         {
             OpenGraphSection = false
         };
+    }
+
+    protected Answer GetCurrentAnswer()
+    {
+        return AnswersService.GetCurrentAnswer(AppState.AppData, AppState.Current!);
     }
 
     protected RawCompetitorResponse<T>[] GetResponsesForAllCompetitors<T>() where T : BaseItem

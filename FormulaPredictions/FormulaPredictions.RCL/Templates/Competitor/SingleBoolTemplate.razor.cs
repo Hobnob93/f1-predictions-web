@@ -1,6 +1,6 @@
 namespace FormulaPredictions.RCL.Templates.Competitor;
 
-public partial class SingleBoolTemplate : BaseTemplateComponent
+public partial class SingleBoolTemplate : CompetitorTemplateComponent
 {
     private bool? _state;
     private bool State

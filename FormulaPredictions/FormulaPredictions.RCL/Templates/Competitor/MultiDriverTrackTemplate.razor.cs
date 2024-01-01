@@ -3,7 +3,7 @@ using FormulaPredictions.Shared.Models;
 
 namespace FormulaPredictions.RCL.Templates.Competitor;
 
-public partial class MultiDriverTrackTemplate : BaseTemplateComponent
+public partial class MultiDriverTrackTemplate : CompetitorTemplateComponent
 {
     private DriverTrack[]? _driverTracks;
     private DriverTrack[] DriverTracks
