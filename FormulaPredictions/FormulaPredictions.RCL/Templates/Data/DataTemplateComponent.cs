@@ -38,6 +38,12 @@ public abstract class DataTemplateComponent : OneTimeRenderComponent
         };
     }
 
+    protected Type GetRenderType()
+    {
+        var currentAnswerData = GetCurrentAnswer();
+        return AnswersService.GetAnswerOutputType(currentAnswerData);
+    }
+
     protected Answer GetCurrentAnswer()
     {
         return AnswersService.GetCurrentAnswer(AppState.AppData, AppState.Current!);

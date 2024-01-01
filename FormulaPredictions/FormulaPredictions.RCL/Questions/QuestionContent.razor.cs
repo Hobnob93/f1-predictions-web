@@ -1,4 +1,5 @@
 using FormulaPredictions.RCL.State;
+using FormulaPredictions.RCL.Templates.Competitor;
 using FormulaPredictions.Shared.Models;
 using Microsoft.AspNetCore.Components;
 
@@ -13,7 +14,7 @@ public partial class QuestionContent : ComponentBase
 
     private Dictionary<string, object> GetTemplateParameters(Competitor competitor)
     {
-        return new() { { "Competitor", competitor } };
+        return new() { { nameof(CompetitorTemplateComponent.Competitor), competitor } };
     }
 
     private bool ShouldRenderCompetitorContent(Competitor competitor)
