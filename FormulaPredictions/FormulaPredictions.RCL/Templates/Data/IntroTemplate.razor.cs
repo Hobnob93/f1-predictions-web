@@ -16,7 +16,7 @@ public partial class IntroTemplate : DataTemplateComponent
             .Select(g => g.First())
             .ToList();
 
-        ResponseData = unique.Select(u => new ChartDataPoint
+        ChartData = unique.Select(u => new ChartDataPoint
         {
             Id = u.Id,
             Name = u.Name,

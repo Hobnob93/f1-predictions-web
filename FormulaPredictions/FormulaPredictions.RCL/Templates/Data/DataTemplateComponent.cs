@@ -18,7 +18,7 @@ public abstract class DataTemplateComponent : OneTimeRenderComponent
     [CascadingParameter]
     protected CascadingState AppState { get; set; } = default!;
 
-    protected List<ChartDataPoint> ResponseData { get; set; } = [];
+    protected List<ChartDataPoint> ChartData { get; set; } = [];
 
     protected virtual void OnSelectedChartDataPoint(ChartDataPoint dataPoint)
     {
@@ -36,12 +36,6 @@ public abstract class DataTemplateComponent : OneTimeRenderComponent
         {
             OpenGraphSection = false
         };
-    }
-
-    protected Type GetRenderType()
-    {
-        var currentAnswerData = GetCurrentAnswer();
-        return AnswersService.GetAnswerOutputType(currentAnswerData);
     }
 
     protected Answer GetCurrentAnswer()

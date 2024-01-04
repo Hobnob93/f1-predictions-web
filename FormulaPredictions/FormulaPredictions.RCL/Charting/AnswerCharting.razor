@@ -1,3 +1,13 @@
 ﻿@inherits BaseRclComponent
 
-<DynamicComponent Type="@RenderType" Parameters="@GetTemplateParameters()" />
+<ChartContainer Title="Answers">
+    @switch (Answer.RenderType)
+    {
+        case Shared.Enums.RenderType.Pie:
+            <PieChart Data="@ChartData" />
+            break;
+        case Shared.Enums.RenderType.Bar:
+            <BarChart Data="@ChartData" />
+            break;
+    }
+</ChartContainer>

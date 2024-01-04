@@ -9,7 +9,7 @@ public abstract class BaseChartComponent : BaseRclComponent
     [Parameter, EditorRequired]
     public List<ChartDataPoint> Data { get; set; } = default!;
 
-    [Parameter, EditorRequired]
+    [Parameter]
     public EventCallback<ChartDataPoint> SelectionCallback { get; set; }
 
     protected ApexChart<ChartDataPoint>? Chart;

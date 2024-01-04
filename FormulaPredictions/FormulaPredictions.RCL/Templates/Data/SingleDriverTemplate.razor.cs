@@ -16,10 +16,10 @@ public partial class SingleDriverTemplate : DataTemplateComponent
             .Select(g => g.First())
             .ToList();
 
-        ResponseData = unique.Select(u => new ChartDataPoint
+        ChartData = unique.Select(u => new ChartDataPoint
         {
             Id = u.Id,
-            Name = u.LastName,
+            Name = u.Name,
             Color = u.Color,
             Value = responses
                 .Count(t => t.Response.Id == u.Id),

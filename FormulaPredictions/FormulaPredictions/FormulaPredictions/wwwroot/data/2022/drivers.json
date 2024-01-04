@@ -2,154 +2,154 @@
   {
     "id": "VER",
     "firstName": "Max",
-    "lastName": "Verstappen",
+    "name": "Verstappen",
     "color": "#3671C6",
     "teamId": "RBR"
   },
   {
     "id": "PER",
     "firstName": "Sergio",
-    "lastName": "Perez",
+    "name": "Perez",
     "color": "#5893E8",
     "teamId": "RBR"
   },
   {
     "id": "SAI",
     "firstName": "Carlos",
-    "lastName": "Sainz",
+    "name": "Sainz",
     "color": "#F91536",
     "teamId": "FER"
   },
   {
     "id": "LEC",
     "firstName": "Charles",
-    "lastName": "Leclerc",
+    "name": "Leclerc",
     "color": "#D60314",
     "teamId": "FER"
   },
   {
     "id": "HAM",
     "firstName": "Lewis",
-    "lastName": "Hamilton",
+    "name": "Hamilton",
     "color": "#6CD3BF",
     "teamId": "MER"
   },
   {
     "id": "RUS",
     "firstName": "George",
-    "lastName": "Russell",
+    "name": "Russell",
     "color": "#8EF5E1",
     "teamId": "MER"
   },
   {
     "id": "OCO",
     "firstName": "Esteban",
-    "lastName": "Ocon",
+    "name": "Ocon",
     "color": "#2293D1",
     "teamId": "ALP"
   },
   {
     "id": "ALO",
     "firstName": "Fernando",
-    "lastName": "Alonso",
+    "name": "Alonso",
     "color": "#44B5F3",
     "teamId": "ALP"
   },
   {
     "id": "NOR",
     "firstName": "Lando",
-    "lastName": "Norris",
+    "name": "Norris",
     "color": "#F58020",
     "teamId": "MCL"
   },
   {
     "id": "RIC",
     "firstName": "Daniel",
-    "lastName": "Ricciardo",
+    "name": "Ricciardo",
     "color": "#F7A242",
     "teamId": "MCL"
   },
   {
     "id": "ZHO",
     "firstName": "Guanyu",
-    "lastName": "Zhou",
+    "name": "Zhou",
     "color": "#EB4F6D",
     "teamId": "AR"
   },
   {
     "id": "BOT",
     "firstName": "Valtteri",
-    "lastName": "Bottas",
+    "name": "Bottas",
     "color": "#C92D4B",
     "teamId": "AR"
   },
   {
     "id": "MSC",
     "firstName": "Mick",
-    "lastName": "Schumacher",
+    "name": "Schumacher",
     "color": "#D8DCDF",
     "teamId": "HAA"
   },
   {
     "id": "MAG",
     "firstName": "Kevin",
-    "lastName": "Magnussen",
+    "name": "Magnussen",
     "color": "#B6BABD",
     "teamId": "HAA"
   },
   {
     "id": "TSU",
     "firstName": "Yuki",
-    "lastName": "Tsunoda",
+    "name": "Tsunoda",
     "color": "#80B1CC",
     "teamId": "AT"
   },
   {
     "id": "GAS",
     "firstName": "Pierre",
-    "lastName": "Gasly",
+    "name": "Gasly",
     "color": "#5E8FAA",
     "teamId": "AT"
   },
   {
     "id": "VET",
     "firstName": "Sebastian",
-    "lastName": "Vettel",
+    "name": "Vettel",
     "color": "#358C75",
     "teamId": "AM"
   },
   {
     "id": "STR",
     "firstName": "Lance",
-    "lastName": "Stroll",
+    "name": "Stroll",
     "color": "#57AE97",
     "teamId": "AM"
   },
   {
     "id": "HUL",
     "firstName": "Nico",
-    "lastName": "Hulkenburg",
+    "name": "Hulkenburg",
     "color": "#358C75",
     "teamId": "AM"
   },
   {
     "id": "LAT",
     "firstName": "Nicholas",
-    "lastName": "Latifi",
+    "name": "Latifi",
     "color": "#59E0FF",
     "teamId": "WIL"
   },
   {
     "id": "ALB",
     "firstName": "Alex",
-    "lastName": "Albon",
+    "name": "Albon",
     "color": "#37BEDD",
     "teamId": "WIL"
   },
   {
     "id": "DEV",
     "firstName": "Nyck",
-    "lastName": "De Vries",
+    "name": "De Vries",
     "color": "#159CBB",
     "teamId": "WIL"
   }
