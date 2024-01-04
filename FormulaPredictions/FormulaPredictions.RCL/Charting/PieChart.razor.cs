@@ -18,5 +18,14 @@ public partial class PieChart : BaseChartComponent
                 Colors = new Color("#9D9D9D")
             }
         };
+
+        Options.Tooltip = new Tooltip
+        {
+            Style = new TooltipStyle
+            {
+                FontSize = "14px"
+            },
+            Theme = Mode.Dark,
+        };
     }
 }

@@ -9,7 +9,7 @@ public partial class IntroTemplate : DataTemplateComponent
     {
         base.OnInitialized();
 
-        var responses = GetResponsesForAllCompetitors<Team>();
+        var responses = GetResponsesForAll<Team>();
         var unique = responses
             .Select(r => r.Response)
             .GroupBy(t => t.Id)

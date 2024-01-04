@@ -2,7 +2,7 @@
 
 namespace FormulaPredictions.Shared.Models.Charting;
 
-public class RawCompetitorResponse<T> where T : BaseItem
+public class RawCompetitorResponse<T>
 {
     public required Competitor Competitor { get; set; }
     public required T Response { get; set; }

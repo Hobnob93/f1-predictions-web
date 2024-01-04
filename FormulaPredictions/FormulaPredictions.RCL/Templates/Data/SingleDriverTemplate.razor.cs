@@ -9,7 +9,7 @@ public partial class SingleDriverTemplate : DataTemplateComponent
     {
         base.OnInitialized();
 
-        var responses = GetResponsesForAllCompetitors<Driver>();
+        var responses = GetResponsesForAll<Driver>();
         var unique = responses
             .Select(r => r.Response)
             .GroupBy(t => t.Id)

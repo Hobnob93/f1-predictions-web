@@ -43,8 +43,13 @@ public abstract class DataTemplateComponent : OneTimeRenderComponent
         return AnswersService.GetCurrentAnswer(AppState.AppData, AppState.Current!);
     }
 
-    protected RawCompetitorResponse<T>[] GetResponsesForAllCompetitors<T>() where T : BaseItem
+    protected RawCompetitorResponse<T>[] GetResponsesForAll<T>() where T : BaseItem
     {
         return ResponsesService.GetAllResponses<T>(AppState.AppData, AppState.Current!);
+    }
+
+    protected RawCompetitorResponse<T>[] GetValueResponsesForAll<T>() where T : struct
+    {
+        return ResponsesService.GetAllValueResponses<T>(AppState.AppData, AppState.Current!);
     }
 }

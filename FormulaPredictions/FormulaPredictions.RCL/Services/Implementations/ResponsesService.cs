@@ -33,6 +33,17 @@ public class ResponsesService : IResponsesService
             .ToArray();
     }
 
+    public RawCompetitorResponse<T>[] GetAllValueResponses<T>(AppData appData, CurrentData currentData) where T : struct
+    {
+        return appData.Competitors
+            .Select(c => new RawCompetitorResponse<T>
+            {
+                Competitor = c,
+                Response = GetValueResponse<T>(c.Id, currentData)
+            })
+            .ToArray();
+    }
+
     public DriverTrack[] GetDriverTrackResponses(string competitorId, AppData appData, CurrentData currentData)
     {
         var drivers = appData.GetDataArray<Driver>();
