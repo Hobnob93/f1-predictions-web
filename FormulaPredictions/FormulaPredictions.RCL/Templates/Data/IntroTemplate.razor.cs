@@ -14,6 +14,7 @@ public partial class IntroTemplate : DataTemplateComponent
             .Select(r => r.Response)
             .GroupBy(t => t.Id)
             .Select(g => g.First())
+            .OrderByDescending(t => responses.Count(r => r.Response.Id == t.Id))
             .ToList();
 
         ChartData = unique.Select(u => new ChartDataPoint
