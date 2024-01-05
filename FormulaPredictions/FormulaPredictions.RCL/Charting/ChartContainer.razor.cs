@@ -11,7 +11,7 @@ public partial class ChartContainer : ComponentBase
     [Parameter, EditorRequired]
     public RenderFragment ChildContent { get; set; } = default!;
 
-    [Parameter, EditorRequired]
+    [Parameter]
     public bool UseDivContainer { get; set; } = false;
 
     [CascadingParameter]
