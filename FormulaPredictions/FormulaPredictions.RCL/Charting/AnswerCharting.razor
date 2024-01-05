@@ -1,6 +1,6 @@
 ﻿@inherits BaseRclComponent
 
-<ChartContainer Title="@Title">
+<ChartContainer Title="@Title" UseDivContainer="@IsNonNumericRenderType()">
     @switch (Answer.RenderType)
     {
         case Shared.Enums.RenderType.Pie:
@@ -11,6 +11,11 @@
             break;
         case Shared.Enums.RenderType.Raw:
             <FunnelChart Data="@GetSingleAnswerDataPoint()" />
+            break;
+        case Shared.Enums.RenderType.Bool:
+        case Shared.Enums.RenderType.List:
+        case Shared.Enums.RenderType.OrderedList:
+            <AnswerListing Answer="@Answer" AppData="@AppData" />
             break;
     }
 </ChartContainer>

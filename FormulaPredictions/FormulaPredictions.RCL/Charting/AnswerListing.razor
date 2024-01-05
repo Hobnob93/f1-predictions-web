@@ -1,0 +1,39 @@
+﻿@inherits BaseRclComponent
+
+@switch (Answer.RenderType)
+{
+    case Shared.Enums.RenderType.Bool:
+        <div class="d-flex flex-row justify-center">
+            @if (string.Equals(Answer.RawAnswer, "true", StringComparison.OrdinalIgnoreCase))
+            {
+                <MudAvatar Color="MudBlazor.Color.Success" Variant="Variant.Filled" Size="MudBlazor.Size.Large">
+                    <MudIcon Color="MudBlazor.Color.Dark" Icon="@Icons.Material.Filled.Check" Size="MudBlazor.Size.Large" />
+                </MudAvatar>
+            }
+            else
+            {
+                <MudAvatar Color="MudBlazor.Color.Error" Variant="Variant.Filled" Size="MudBlazor.Size.Large">
+                    <MudIcon Color="MudBlazor.Color.Dark" Icon="@Icons.Material.Filled.Close" Size="MudBlazor.Size.Large" />
+                </MudAvatar>
+            }
+        </div>
+        break;
+
+    case Shared.Enums.RenderType.List:
+        @foreach (var item in ListData)
+        {
+            var colorProperty = $"color: {item.Color}";
+            <MudText Typo="Typo.h5" Align="MudBlazor.Align.Center" Style="@colorProperty">@item.Name</MudText>
+        }
+        break;
+
+    case Shared.Enums.RenderType.OrderedList:
+        @for (var i = 0; i < ListData.Count; i++)
+        {
+            var item = ListData[i];
+            var colorProperty = $"color: {item.Color}";
+            var index = i + 1;
+            <MudText Typo="Typo.h5" Align="MudBlazor.Align.Center" Style="@colorProperty">(@index) @item.Name</MudText>
+        }
+        break;
+}

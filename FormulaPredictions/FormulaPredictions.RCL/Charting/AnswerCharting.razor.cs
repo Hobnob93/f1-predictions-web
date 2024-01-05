@@ -15,7 +15,7 @@ public partial class AnswerCharting : BaseRclComponent
     [Parameter, EditorRequired]
     public AppData AppData { get; set; } = default!;
 
-    private string Title => Answer.RenderType == RenderType.Raw ? "Answer" : "Answers";
+    private string Title => IsSingleAnswer() ? "Answer" : "Answers";
 
     private List<ChartDataPoint> GetAnswerChartData()
     {
@@ -39,7 +39,7 @@ public partial class AnswerCharting : BaseRclComponent
             ScoringMode.Teams => AppData.GetDataArray<Team>().Cast<BaseColorItem>().ToArray(),
             ScoringMode.Drivers => AppData.GetDataArray<Driver>().Cast<BaseColorItem>().ToArray(),
             ScoringMode.Tracks => AppData.GetDataArray<Circuit>().Cast<BaseColorItem>().ToArray(),
-            _ => []
+            _ => throw new NotImplementedException($"{scoringMode} not implemented")
         };
     }
 
@@ -58,5 +58,27 @@ public partial class AnswerCharting : BaseRclComponent
                 Value = answer
             }
         ];
+    }
+
+    private bool IsNonNumericRenderType()
+    {
+        return Answer.RenderType switch
+        {
+            RenderType.Raw => true,
+            RenderType.Bool => true,
+            RenderType.List => true,
+            RenderType.OrderedList => true,
+            _ => false
+        };
+    }
+
+    private bool IsSingleAnswer()
+    {
+        return Answer.RenderType switch
+        {
+            RenderType.Raw => true,
+            RenderType.Bool => true,
+            _ => false
+        };
     }
 }
