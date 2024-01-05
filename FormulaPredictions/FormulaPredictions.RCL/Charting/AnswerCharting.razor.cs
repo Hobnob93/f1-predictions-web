@@ -29,7 +29,9 @@ public partial class AnswerCharting : BaseRclComponent
                 Color = d.Item.Color,
                 Name = d.Item.Name,
                 Value = decimal.Parse(d.Data.Value)
-            }).ToList();
+            })
+            .OrderByDescending(c => c.Value)
+            .ToList();
     }
 
     private BaseColorItem[] GetAnswerItems(ScoringMode scoringMode)
