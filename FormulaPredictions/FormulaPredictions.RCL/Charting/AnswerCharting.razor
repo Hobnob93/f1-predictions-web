@@ -1,13 +1,16 @@
 ﻿@inherits BaseRclComponent
 
-<ChartContainer Title="Answers">
+<ChartContainer Title="@Title">
     @switch (Answer.RenderType)
     {
         case Shared.Enums.RenderType.Pie:
-            <PieChart Data="@ChartData" />
+            <PieChart Data="@GetAnswerChartData()" />
             break;
         case Shared.Enums.RenderType.Bar:
-            <BarChart Data="@ChartData" />
+            <BarChart Data="@GetAnswerChartData()" />
+            break;
+        case Shared.Enums.RenderType.Raw:
+            <FunnelChart Data="@GetSingleAnswerDataPoint()" />
             break;
     }
 </ChartContainer>

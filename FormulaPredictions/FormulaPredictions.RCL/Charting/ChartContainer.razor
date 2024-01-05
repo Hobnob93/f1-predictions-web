@@ -1,4 +1,7 @@
 ﻿<div class="d-flex flex-column justify-center align-content-center align-center">
-    <MudText Class="mb-3" Typo="Typo.h4">@Title</MudText>
-    @ChildContent
+    @if (AppState.Current?.OpenGraphSection == true)
+    {
+        <MudText Class="mb-3" Typo="Typo.h4">@Title</MudText>
+        @ChildContent
+    }
 </div>

@@ -15,14 +15,12 @@ public partial class AnswerCharting : BaseRclComponent
     [Parameter, EditorRequired]
     public AppData AppData { get; set; } = default!;
 
-    protected List<ChartDataPoint> ChartData { get; set; } = [];
+    private string Title => Answer.RenderType == RenderType.Raw ? "Answer" : "Answers";
 
-    protected override void OnInitialized()
+    private List<ChartDataPoint> GetAnswerChartData()
     {
-        base.OnInitialized();
-
         var answerItems = GetAnswerItems(Answer.ScoringMode);
-        ChartData = Answer.AnswersData
+        return Answer.AnswersData
             .Select(ad => (Data: ad, Item: answerItems.Single(ai => string.Equals(ai.Id, ad.Id, StringComparison.OrdinalIgnoreCase))))
             .Select((d, i) => new ChartDataPoint
             {
@@ -41,7 +39,24 @@ public partial class AnswerCharting : BaseRclComponent
             ScoringMode.Teams => AppData.GetDataArray<Team>().Cast<BaseColorItem>().ToArray(),
             ScoringMode.Drivers => AppData.GetDataArray<Driver>().Cast<BaseColorItem>().ToArray(),
             ScoringMode.Tracks => AppData.GetDataArray<Circuit>().Cast<BaseColorItem>().ToArray(),
-            _ => throw new NotImplementedException($"{scoringMode} not implemented")
+            _ => []
         };
+    }
+
+    private List<ChartDataPoint> GetSingleAnswerDataPoint()
+    {
+        var answer = int.Parse(Answer.RawAnswer ?? throw new InvalidCastException("String is null!"));
+
+        return 
+        [
+            new ChartDataPoint
+            {
+                Id = Answer.RawAnswer,
+                Index = 0,
+                Color = "#2ab546",
+                Name = Answer.RawAnswer,
+                Value = answer
+            }
+        ];
     }
 }
