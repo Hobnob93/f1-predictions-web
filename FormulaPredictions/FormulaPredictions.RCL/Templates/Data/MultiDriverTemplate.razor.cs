@@ -3,7 +3,7 @@ using FormulaPredictions.Shared.Models;
 
 namespace FormulaPredictions.RCL.Templates.Data;
 
-public partial class SingleDriverTemplate : DataTemplateComponent
+public partial class MultiDriverTemplate : DataTemplateComponent
 {
     protected override void OnAfterRender(bool firstRender)
     {
