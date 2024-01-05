@@ -1,5 +1,4 @@
 ﻿using FormulaPredictions.RCL.Services.Interfaces;
-using FormulaPredictions.RCL.State;
 using FormulaPredictions.Shared.Models.Base;
 using Microsoft.AspNetCore.Components;
 
@@ -9,9 +8,6 @@ public abstract class CompetitorTemplateComponent : OneTimeRenderComponent
 {
     [Inject]
     protected IResponsesService ResponsesService { get; set; } = default!;
-
-    [CascadingParameter]
-    protected CascadingState AppState { get; set; } = default!;
 
     [Parameter]
     public Shared.Models.Competitor Competitor { get; set; } = default!;

@@ -1,5 +1,4 @@
 ﻿using FormulaPredictions.RCL.Services.Interfaces;
-using FormulaPredictions.RCL.State;
 using FormulaPredictions.Shared.Models;
 using FormulaPredictions.Shared.Models.Base;
 using FormulaPredictions.Shared.Models.Charting;
@@ -14,9 +13,6 @@ public abstract class DataTemplateComponent : OneTimeRenderComponent
 
     [Inject]
     protected IAnswersService AnswersService { get; set; } = default!;
-
-    [CascadingParameter]
-    protected CascadingState AppState { get; set; } = default!;
 
     protected List<ChartDataPoint> ChartData { get; set; } = [];
 
