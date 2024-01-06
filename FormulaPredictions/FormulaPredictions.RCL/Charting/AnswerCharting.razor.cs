@@ -53,7 +53,8 @@ public partial class AnswerCharting : BaseRclComponent
 
         var tracks = GetAnswerItems(ScoringMode.Tracks);
         var trackAnswers = Answer.AnswersData
-            .Select(ad => tracks.Single(t => t.Id == ad.Id));
+            .Select(ad => tracks.Single(t => t.Id == ad.Id))
+            .ToArray();
 
         var drivers = GetAnswerItems(ScoringMode.Drivers);
         var driverScoreGroups = Answer.AnswersData
@@ -70,7 +71,7 @@ public partial class AnswerCharting : BaseRclComponent
             var index = 0;
             foreach (var item in group)
             {
-                var track = tracks[index];
+                var track = trackAnswers[index];
                 dataPoints.Add(new MultiBarChartDataPoint
                 {
                     Id = $"{track.Id}-{driver.Id}",

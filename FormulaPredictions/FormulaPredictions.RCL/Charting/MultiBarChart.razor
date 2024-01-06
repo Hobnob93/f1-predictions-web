@@ -1,6 +1,6 @@
 ﻿@inherits BaseRclComponent
 
-<ApexChart TItem="MultiBarChartDataPoint" @ref="Chart" OnDataPointSelection="OnChartItemSelected" Options="@Options" Width="750" Height="325">
+<ApexChart TItem="MultiBarChartDataPoint" @ref="Chart" Options="@Options" Width="750" Height="325">
 
     @foreach (var data in Data.DataPoints)
     {

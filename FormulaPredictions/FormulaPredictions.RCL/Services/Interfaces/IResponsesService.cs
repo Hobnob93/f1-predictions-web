@@ -13,4 +13,5 @@ public interface IResponsesService
     T GetSingleResponse<T>(string competitorId, AppData appData, CurrentData currentData) where T : BaseItem;
     T GetValueResponse<T>(string competitorId, CurrentData currentData) where T : struct;
     DriverTrack[] GetDriverTrackResponses(string competitorId, AppData appData, CurrentData currentData);
+    RawCompetitorResponse<DriverTrack>[] GetAllDriverTrackResponses(AppData appData, CurrentData currentData);
 }

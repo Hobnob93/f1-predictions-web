@@ -41,12 +41,4 @@ public partial class MultiBarChart : BaseRclComponent
             }
         };
     }
-
-    protected async Task OnChartItemSelected(SelectedData<MultiBarChartDataPoint> selectedData)
-    {
-        var index = selectedData.DataPointIndex;
-        var item = Data.DataPoints[index];
-
-        await SelectionCallback.InvokeAsync(item);
-    }
 }

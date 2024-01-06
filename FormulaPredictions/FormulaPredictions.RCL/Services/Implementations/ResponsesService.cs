@@ -8,10 +8,29 @@ namespace FormulaPredictions.RCL.Services.Implementations;
 
 public class ResponsesService : IResponsesService
 {
+    public RawCompetitorResponse<DriverTrack>[] GetAllDriverTrackResponses(AppData appData, CurrentData currentData)
+    {
+        var drivers = appData.GetDataArray<Driver>();
+        var circuits = appData.GetDataArray<Circuit>();
+
+        return GetAllResponsesForAllCompetitors(currentData)
+            .Select(r => (r.CompetitorId, DriverId: r.Response.Split('-').First(), TrackId: r.Response.Split('-').Last()))
+            .Select(r => new RawCompetitorResponse<DriverTrack>
+            {
+                Competitor = appData.Competitors.Single(c => string.Equals(c.Id, r.CompetitorId, StringComparison.OrdinalIgnoreCase)),
+                Response = new DriverTrack
+                (
+                    drivers.Single(d => d.Id == r.DriverId),
+                    circuits.Single(c => c.Id == r.TrackId)
+                )
+            })
+            .ToArray();
+    }
+
     public T[] GetAllResponses<T>(string competitorId, AppData appData, CurrentData currentData) where T : BaseItem
     {
         var dataArray = appData.GetDataArray<T>();
-        var competitorResponseIds = GetCompetitorRawAnswer(competitorId, currentData)
+        var competitorResponseIds = GetCompetitorRawResponse(competitorId, currentData)
             .Split(',');
 
         return competitorResponseIds
@@ -22,9 +41,9 @@ public class ResponsesService : IResponsesService
     public RawCompetitorResponse<T>[] GetAllResponses<T>(AppData appData, CurrentData currentData) where T : BaseItem
     {
         var dataArray = appData.GetDataArray<T>();
-        var allAnswerIds = GetCompetitorRawAnswers(currentData);
+        var allResponseIds = GetAllResponsesForAllCompetitors(currentData);
 
-        return allAnswerIds
+        return allResponseIds
             .Select(a => new RawCompetitorResponse<T>
             { 
                 Competitor = appData.Competitors.Single(c => string.Equals(c.Id, a.CompetitorId, StringComparison.OrdinalIgnoreCase)),
@@ -49,7 +68,7 @@ public class ResponsesService : IResponsesService
         var drivers = appData.GetDataArray<Driver>();
         var circuits = appData.GetDataArray<Circuit>();
 
-        var competitorResponses = GetCompetitorRawAnswer(competitorId, currentData)
+        var competitorResponses = GetCompetitorRawResponse(competitorId, currentData)
             .Split(',');
 
         return competitorResponses
@@ -65,14 +84,14 @@ public class ResponsesService : IResponsesService
     public T GetSingleResponse<T>(string competitorId, AppData appData, CurrentData currentData) where T : BaseItem
     {
         var dataArray = appData.GetDataArray<T>();
-        var competitorResponseId = GetCompetitorRawAnswer(competitorId, currentData);
+        var competitorResponseId = GetCompetitorRawResponse(competitorId, currentData);
 
         return dataArray.Single(d => d.Id == competitorResponseId);
     }
 
     public T GetValueResponse<T>(string competitorId, CurrentData currentData) where T : struct
     {
-        var competitorResponse = GetCompetitorRawAnswer(competitorId, currentData);
+        var competitorResponse = GetCompetitorRawResponse(competitorId, currentData);
 
         return typeof(T) switch
         {
@@ -83,14 +102,14 @@ public class ResponsesService : IResponsesService
         };
     }
 
-    private string GetCompetitorRawAnswer(string competitorId, CurrentData currentData)
+    private string GetCompetitorRawResponse(string competitorId, CurrentData currentData)
     {
         return currentData.Question.CompetitorResponses
             .Single(cr => string.Equals(cr.Id, competitorId, StringComparison.OrdinalIgnoreCase))
             .Response;
     }
 
-    private IEnumerable<(string CompetitorId, string Response)> GetCompetitorRawAnswers(CurrentData currentData)
+    private IEnumerable<(string CompetitorId, string Response)> GetAllResponsesForAllCompetitors(CurrentData currentData)
     {
         return currentData.Question.CompetitorResponses
             .SelectMany(cr => cr.Response
