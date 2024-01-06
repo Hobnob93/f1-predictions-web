@@ -1,0 +1,7 @@
+﻿@inherits DataTemplateComponent
+
+<ChartContainer Title="Responses">
+    <PieChart Data="@ChartData" SelectionCallback="OnSelectedChartDataPoint" />
+</ChartContainer>
+
+<AnswerCharting Answer="GetCurrentAnswer()" AppData="@AppState.AppData" />
