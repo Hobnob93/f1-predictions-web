@@ -9,6 +9,9 @@
         case Shared.Enums.RenderType.Bar:
             <BarChart Data="@GetAnswerChartData()" />
             break;
+        case Shared.Enums.RenderType.MultiBar:
+            <MultiBarChart Data="@GetMultiAnswerChartData()" />
+            break;
         case Shared.Enums.RenderType.Raw:
             <FunnelChart Data="@GetSingleAnswerDataPoint()" />
             break;

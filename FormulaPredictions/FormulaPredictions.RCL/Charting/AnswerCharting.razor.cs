@@ -45,6 +45,50 @@ public partial class AnswerCharting : BaseRclComponent
         };
     }
 
+    private MultiBarChartData GetMultiAnswerChartData()
+    {
+        var data = new MultiBarChartData();
+        if (Answer.ScoringMode != ScoringMode.DriverTracks)
+            return data;
+
+        var tracks = GetAnswerItems(ScoringMode.Tracks);
+        var trackAnswers = Answer.AnswersData
+            .Select(ad => tracks.Single(t => t.Id == ad.Id));
+
+        var drivers = GetAnswerItems(ScoringMode.Drivers);
+        var driverScoreGroups = Answer.AnswersData
+            .SelectMany(ad => ad.Value.Split(','))
+            .Select(str => (DriverId: str.Split('-').First(), RawScore: str.Split('-').Last()))
+            .Select(data => (Driver: drivers.Single(d => d.Id == data.DriverId), Score: int.Parse(data.RawScore)))
+            .GroupBy(data => data.Driver.Id);
+
+        foreach (var group in driverScoreGroups)
+        {
+            var driver = drivers.Single(d => d.Id == group.Key);
+            List<MultiBarChartDataPoint> dataPoints = [];
+
+            var index = 0;
+            foreach (var item in group)
+            {
+                var track = tracks[index];
+                dataPoints.Add(new MultiBarChartDataPoint
+                {
+                    Id = $"{track.Id}-{driver.Id}",
+                    Color = driver.Color,
+                    Name = driver.Name,
+                    Value = item.Score,
+                    XValue = track.Name
+                });
+
+                index++;
+            }
+
+            data.DataPoints.Add(dataPoints);
+        }
+
+        return data;
+    }
+
     private List<ChartDataPoint> GetSingleAnswerDataPoint()
     {
         var answer = int.Parse(Answer.RawAnswer ?? throw new InvalidCastException("String is null!"));
