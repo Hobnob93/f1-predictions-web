@@ -15,7 +15,7 @@ public partial class AnswerCharting : BaseRclComponent
     [Parameter, EditorRequired]
     public AppData AppData { get; set; } = default!;
 
-    private string Title => IsSingleAnswer() ? "Answer" : "Answers";
+    private string Title => IsSingleAnswer() ? "Actual" : "Actual";
 
     private List<ChartDataPoint> GetAnswerChartData()
     {
