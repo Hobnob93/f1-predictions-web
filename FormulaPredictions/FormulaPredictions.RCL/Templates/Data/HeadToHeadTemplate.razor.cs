@@ -1,3 +1,4 @@
+using FormulaPredictions.Shared.Models;
 using FormulaPredictions.Shared.Models.Charting;
 
 namespace FormulaPredictions.RCL.Templates.Data;
@@ -8,22 +9,23 @@ public partial class HeadToHeadTemplate : DataTemplateComponent
     {
         base.OnAfterRender(firstRender);
 
-        var responses = GetValueResponsesForAll<bool>();
+        var responses = GetResponsesForAll<Driver>();
         var unique = responses
             .Select(r => r.Response)
-            .Distinct()
-            .OrderByDescending(b => responses.Count(r => r.Response == b))
+            .GroupBy(t => t.Id)
+            .Select(g => g.First())
+            .OrderByDescending(d => responses.Count(r => r.Response.Id == d.Id))
             .ToList();
 
-        ChartData = unique.Select(b => new ChartDataPoint
+        ChartData = unique.Select(u => new ChartDataPoint
         {
-            Id = b ? "True" : "False",
-            Name = b ? "True" : "False",
-            Color = b ? "#0BBA83" : "#F64E62",
+            Id = u.Id,
+            Name = u.Name,
+            Color = u.Color,
             Value = responses
-                .Count(r => r.Response == b),
+                .Count(t => t.Response.Id == u.Id),
             ApplicableCompetitors = responses
-                .Where(r => r.Response == b)
+                .Where(r => r.Response.Id == u.Id)
                 .Select(r => r.Competitor)
                 .ToArray()
         }).ToList();

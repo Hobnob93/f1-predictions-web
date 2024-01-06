@@ -61,7 +61,7 @@ public partial class StackedChart : BaseRclComponent
             },
             Markers = new LegendMarkers
             {
-                FillColors = new List<string> { Data.LeftStackData.First().Color, Data.RightStackData.First().Color }
+                FillColors = new List<string> { Data.TopStackData.First().Color, Data.BottomStackData.First().Color }
             }
         };
 

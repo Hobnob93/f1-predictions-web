@@ -107,6 +107,41 @@ public partial class AnswerCharting : BaseRclComponent
         ];
     }
 
+    private StackedChartData GetStackedChartData()
+    {
+        var answerItems = GetAnswerItems(Answer.ScoringMode);
+        var chartData = Answer.AnswersData
+            .Select(ad => (Data: ad, Item: answerItems.Single(ai => string.Equals(ai.Id, ad.Id, StringComparison.OrdinalIgnoreCase))))
+            .Select((d, i) => new ChartDataPoint
+            {
+                Id = d.Item.Id,
+                Index = i,
+                Color = d.Item.Color,
+                Name = d.Item.Name,
+                Value = decimal.Parse(d.Data.Value)
+            })
+            .ToList();
+
+        var firstDisctinct = chartData.DistinctBy(cd => cd.Id).First();
+        var topSection = chartData.Where(cd => cd.Id == firstDisctinct.Id);
+        var topSectionName = topSection.First().Name;
+        var bottomSection = chartData.Where(cd => cd.Id != firstDisctinct.Id);
+        var bottomSectionName = bottomSection.First().Name;
+
+        topSection.First().Name = "Quali";
+        bottomSection.First().Name = "Quali";
+        topSection.Last().Name = "Race";
+        bottomSection.Last().Name = "Race";
+
+        return new()
+        {
+            TopStackName = topSectionName,
+            BottomStackName = bottomSectionName,
+            TopStackData = topSection.ToList(),
+            BottomStackData = bottomSection.ToList()
+        };
+    }
+
     private bool IsNonNumericRenderType()
     {
         return Answer.RenderType switch

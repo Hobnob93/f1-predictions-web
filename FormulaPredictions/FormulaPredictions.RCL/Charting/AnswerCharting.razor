@@ -15,6 +15,9 @@
         case Shared.Enums.RenderType.Raw:
             <FunnelChart Data="@GetSingleAnswerDataPoint()" />
             break;
+        case Shared.Enums.RenderType.Paired:
+            <StackedChart Data="@GetStackedChartData()" />
+            break;
         case Shared.Enums.RenderType.Bool:
         case Shared.Enums.RenderType.List:
         case Shared.Enums.RenderType.OrderedList:

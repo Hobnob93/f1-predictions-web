@@ -2,9 +2,9 @@
 
 public class StackedChartData
 {
-    public string LeftStackName { get; set; } = string.Empty;
-    public string RightStackName { get; set; } = string.Empty;
+    public string TopStackName { get; set; } = string.Empty;
+    public string BottomStackName { get; set; } = string.Empty;
 
-    public List<ChartDataPoint> LeftStackData { get; set; } = [];
-    public List<ChartDataPoint> RightStackData { get; set; } = [];
+    public List<ChartDataPoint> TopStackData { get; set; } = [];
+    public List<ChartDataPoint> BottomStackData { get; set; } = [];
 }
