@@ -20,6 +20,8 @@ builder.Services
     .AddTransient<IPredictionsData, PredictionsDataClient>()
     .AddTransient<IQuestionsService, QuestionsService>()
     .AddTransient<IResponsesService, ResponsesService>()
-    .AddTransient<IAnswersService, AnswersService>();
+    .AddTransient<IAnswersService, AnswersService>()
+    .AddTransient<IScoreSystemFactory, ScoreSystemFactory>()
+    .AddTransient<IScoreManager, ScoreManager>();
 
 await builder.Build().RunAsync();
