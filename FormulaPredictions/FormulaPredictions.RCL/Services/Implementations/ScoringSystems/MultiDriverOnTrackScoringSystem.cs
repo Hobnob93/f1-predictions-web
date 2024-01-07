@@ -4,7 +4,7 @@ using FormulaPredictions.Shared.State;
 
 namespace FormulaPredictions.RCL.Services.Implementations.ScoringSystems;
 
-public class MultiDriverOnTrackScoringSystem : BaseScoringSystem, IScoreSystem
+public class MultiDriverOnTrackScoringSystem : BaseScoringSystem, IScoringSystem
 {
     public MultiDriverOnTrackScoringSystem(IResponsesService responsesService)
         : base(responsesService)

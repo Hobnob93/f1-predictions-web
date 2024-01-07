@@ -4,7 +4,7 @@ using FormulaPredictions.Shared.State;
 
 namespace FormulaPredictions.RCL.Services.Implementations.ScoringSystems;
 
-public class GainWhenXScoringSystem : BaseScoringSystem, IScoreSystem
+public class GainWhenXScoringSystem : BaseScoringSystem, IScoringSystem
 {
     public GainWhenXScoringSystem(IResponsesService responsesService)
         : base(responsesService)

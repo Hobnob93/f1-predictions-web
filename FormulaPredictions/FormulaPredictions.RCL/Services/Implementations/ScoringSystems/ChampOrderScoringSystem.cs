@@ -4,7 +4,7 @@ using FormulaPredictions.Shared.State;
 
 namespace FormulaPredictions.RCL.Services.Implementations.ScoringSystems;
 
-public class ChampOrderScoringSystem : BaseScoringSystem, IScoreSystem
+public class ChampOrderScoringSystem : BaseScoringSystem, IScoringSystem
 {
     public ChampOrderScoringSystem(IResponsesService responsesService)
         : base(responsesService)

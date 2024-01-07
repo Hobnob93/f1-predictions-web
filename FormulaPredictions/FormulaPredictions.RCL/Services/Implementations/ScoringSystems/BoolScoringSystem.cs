@@ -4,7 +4,7 @@ using FormulaPredictions.Shared.State;
 
 namespace FormulaPredictions.RCL.Services.Implementations.ScoringSystems;
 
-public class BoolScoringSystem : BaseScoringSystem, IScoreSystem
+public class BoolScoringSystem : BaseScoringSystem, IScoringSystem
 {
     public BoolScoringSystem(IResponsesService responsesService)
         : base(responsesService)

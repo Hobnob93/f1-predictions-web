@@ -4,9 +4,9 @@ namespace FormulaPredictions.RCL.Services.Implementations;
 
 public class ScoreManager : IScoreManager
 {
-    private readonly IScoreSystemFactory _scoreSystemFactory;
+    private readonly IScoringSystemFactory _scoreSystemFactory;
 
-    public ScoreManager(IScoreSystemFactory scoreSystemFactory)
+    public ScoreManager(IScoringSystemFactory scoreSystemFactory)
     {
         _scoreSystemFactory = scoreSystemFactory;
     }

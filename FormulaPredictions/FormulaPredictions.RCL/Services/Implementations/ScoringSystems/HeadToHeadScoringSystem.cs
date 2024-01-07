@@ -4,7 +4,7 @@ using FormulaPredictions.Shared.State;
 
 namespace FormulaPredictions.RCL.Services.Implementations.ScoringSystems;
 
-public class HeadToHeadScoringSystem : BaseScoringSystem, IScoreSystem
+public class HeadToHeadScoringSystem : BaseScoringSystem, IScoringSystem
 {
     public HeadToHeadScoringSystem(IResponsesService responsesService)
         : base(responsesService)

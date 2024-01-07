@@ -3,7 +3,7 @@ using FormulaPredictions.Shared.State;
 
 namespace FormulaPredictions.RCL.Services.Interfaces;
 
-public interface IScoreSystem
+public interface IScoringSystem
 {
     double CalculateScoreForCompetitor(Competitor competitor, AppData appData, CurrentData current);
 }
