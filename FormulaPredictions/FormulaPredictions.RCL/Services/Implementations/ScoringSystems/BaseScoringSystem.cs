@@ -16,8 +16,7 @@ public abstract class BaseScoringSystem
 
     protected (Answer Answer, CompetitorResponse Response) GetAnswerAndResponse(Competitor competitor, AppData appData, CurrentData current)
     {
-        var answerId = current.Question.Scoring.AnswersId;
-        var answerData = appData.Answers.Single(a => string.Equals(a.Id, answerId, StringComparison.OrdinalIgnoreCase));
+        var answerData = GetAnswerData(appData, current);
         var competitorResponse = current.Question.CompetitorResponses.Single(c => string.Equals(c.Id, competitor.Id, StringComparison.OrdinalIgnoreCase));
 
         return (answerData, competitorResponse);
@@ -25,10 +24,15 @@ public abstract class BaseScoringSystem
 
     protected (Answer Answer, BaseItem[] Items) GetAnswerAndResponseItems(Competitor competitor, AppData appData, CurrentData current)
     {
-        var answerId = current.Question.Scoring.AnswersId;
-        var answerData = appData.Answers.Single(a => string.Equals(a.Id, answerId, StringComparison.OrdinalIgnoreCase));
+        var answerData = GetAnswerData(appData, current);
         var responseItems = _responsesService.GetAllResponses(competitor.Id, appData, current);
 
         return (answerData, responseItems);
+    }
+
+    protected Answer GetAnswerData(AppData appData, CurrentData current)
+    {
+        var answerId = current.Question.Scoring.AnswersId;
+        return appData.Answers.Single(a => string.Equals(a.Id, answerId, StringComparison.OrdinalIgnoreCase));
     }
 }
