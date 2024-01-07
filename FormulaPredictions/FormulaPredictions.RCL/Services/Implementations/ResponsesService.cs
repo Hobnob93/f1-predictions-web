@@ -117,4 +117,17 @@ public class ResponsesService : IResponsesService
                 .Select(s => ( cr.Id, Response: s )))
             .Select(d => (d.Id, d.Response));
     }
+
+    public BaseItem[] GetAllResponses(string competitorId, AppData appData, CurrentData currentData)
+    {
+        var competitorResponseIds = GetCompetitorRawResponse(competitorId, currentData)
+            .Split(',');
+
+        return competitorResponseIds
+            .Select(id => new BaseItem
+            {
+                Id = id
+            })
+            .ToArray();
+    }
 }
