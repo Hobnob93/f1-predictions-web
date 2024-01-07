@@ -4,9 +4,9 @@ using FormulaPredictions.Shared.State;
 
 namespace FormulaPredictions.RCL.Services.Implementations.ScoringSystems;
 
-public class GainWhenXScoringSystem : BaseScoringSystem, IScoreSystem
+public class GetChoiceValueScoringSystem : BaseScoringSystem, IScoreSystem
 {
-    public GainWhenXScoringSystem(IResponsesService responsesService)
+    public GetChoiceValueScoringSystem(IResponsesService responsesService)
         : base(responsesService)
     {
     }
@@ -24,7 +24,7 @@ public class GainWhenXScoringSystem : BaseScoringSystem, IScoreSystem
             if (selectedAnswer is null)
                 continue;
 
-            score += double.Parse(selectedAnswer.Value) * current.Question.Scoring.Value;
+            score += double.Parse(selectedAnswer.Value);
         }
 
         return score;
