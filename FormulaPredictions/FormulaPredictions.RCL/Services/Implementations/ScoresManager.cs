@@ -4,13 +4,13 @@ using FormulaPredictions.Shared.State;
 
 namespace FormulaPredictions.RCL.Services.Implementations;
 
-public class ScoreManager : IScoreManager
+public class ScoresManager : IScoresManager
 {
     private readonly IScoringSystemFactory _scoreSystemFactory;
 
     private Dictionary<string, double> _scoresMap = [];
 
-    public ScoreManager(IScoringSystemFactory scoreSystemFactory)
+    public ScoresManager(IScoringSystemFactory scoreSystemFactory)
     {
         _scoreSystemFactory = scoreSystemFactory;
     }

@@ -1,10 +1,19 @@
+using FormulaPredictions.RCL.Services.Interfaces;
+using FormulaPredictions.Shared.Enums;
 using FormulaPredictions.Shared.State;
 using Microsoft.AspNetCore.Components;
+using MudBlazor;
 
 namespace FormulaPredictions.RCL.State;
 
 public partial class CascadingState : ComponentBase
 {
+    [Inject]
+    private IScoresManager ScoresManager { get; set; } = default!;
+
+    [Inject]
+    private ISnackbar Snackbar { get; set; } = default!;
+
     [Parameter, EditorRequired]
     public RenderFragment ChildContent { get; set; } = default!;
 
@@ -36,22 +45,59 @@ public partial class CascadingState : ComponentBase
         }
     }
 
-    private CurrentData? _currentQuestion;
+    private CurrentData? _currentData;
     public CurrentData? Current
     {
-        get => _currentQuestion;
+        get => _currentData;
         set
         {
-            if (_currentQuestion != value)
+            if (_currentData != value)
             {
-                _currentQuestion = value;
+                CurrentDataChanging(_currentData, value);
+                _currentData = value;
                 StateHasChanged();
             }
         }
     }
 
-    public void ForceStateHasChanged()
+    protected override void OnInitialized()
     {
-        StateHasChanged();
+        base.OnInitialized();
+
+        Snackbar.Configuration.SnackbarVariant = Variant.Outlined;
+        Snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomLeft;
+        Snackbar.Configuration.ShowCloseIcon = false;
+        Snackbar.Configuration.VisibleStateDuration = 10000;
+        Snackbar.Configuration.HideTransitionDuration = 250;
+        Snackbar.Configuration.ShowTransitionDuration = 250;
+    }
+
+    public void CurrentDataChanging(CurrentData? oldData, CurrentData? newData)
+    {
+        if (oldData is null || newData is null)
+            return;
+
+        if (oldData.Question.Id == newData.Question.Id)
+            return;
+
+        if (oldData.Question.Scoring.Type == ScoringType.None)
+            return;
+
+        var (topScore, topScorers) = ScoresManager.GetHighestScorers(AppData, oldData);
+        if (topScore == 0)
+        {
+            Snackbar.Add("No points scored in that last question!", Severity.Normal);
+        }
+        else if (topScorers.Length == AppData.Competitors.Length)
+        {
+            Snackbar.Add($"EVERYONE scored {topScore} that round...", Severity.Info);
+        }
+        else
+        {
+            foreach (var scorer in topScorers)
+            {
+                Snackbar.Add($"{scorer.Name} was top with {topScore}", Severity.Success);
+            }
+        }
     }
 }

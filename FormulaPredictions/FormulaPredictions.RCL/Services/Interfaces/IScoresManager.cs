@@ -3,7 +3,7 @@ using FormulaPredictions.Shared.State;
 
 namespace FormulaPredictions.RCL.Services.Interfaces;
 
-public interface IScoreManager
+public interface IScoresManager
 {
     (double Score, Competitor[] Scorers) GetHighestScorers(AppData appData, CurrentData current);
     void CalculateAllScores(AppData appData);
