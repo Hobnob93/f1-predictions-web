@@ -23,7 +23,8 @@ public partial class ResponseContainer : BaseRclComponent
     [Parameter]
     public bool IsShowingContent { get; set; }
 
-    private double Score { get; set; }
+    [Parameter]
+    public double Score { get; set; }
 
     private async Task OnClick()
     {

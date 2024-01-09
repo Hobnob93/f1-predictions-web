@@ -24,7 +24,7 @@ public class ScoresManager : IScoresManager
             _scoresMap.Add(competitor.Id, 0d);
         }
 
-        var fakeCurrent = new CurrentData(new QuestionResponses(), [], false);
+        var fakeCurrent = new CurrentData(new QuestionResponses(), [], false, false);
         foreach (var question in appData.Questions)
         {
             fakeCurrent = fakeCurrent with

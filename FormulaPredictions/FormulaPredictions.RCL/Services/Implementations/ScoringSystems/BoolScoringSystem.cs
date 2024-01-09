@@ -14,7 +14,7 @@ public class BoolScoringSystem : BaseScoringSystem, IScoringSystem
     public double CalculateScoreForCompetitor(Competitor competitor, AppData appData, CurrentData current)
     {
         var (answerData, competitorResponse) = GetAnswerAndResponse(competitor, appData, current);
-        return string.Equals(competitorResponse.Id, answerData.RawAnswer, StringComparison.OrdinalIgnoreCase)
+        return string.Equals(competitorResponse.Response, answerData.RawAnswer, StringComparison.OrdinalIgnoreCase)
             ? 10 : 0;
     }
 }

@@ -27,7 +27,7 @@ public class ScoreSystemFactory : IScoringSystemFactory
             ScoringType.MultiDriverOnTrack => new MultiDriverOnTrackScoringSystem(_responsesService),
             ScoringType.Value => new ValueScoringSystem(_responsesService),
             ScoringType.Versus => new VersusScoringSystem(_responsesService),
-            _ => throw new NotImplementedException($"No scoring type '{scoringType}'")
+            _ => new NullScoringSystem()
         };
     }
 }

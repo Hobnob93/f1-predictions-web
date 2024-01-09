@@ -27,7 +27,8 @@ public partial class FetchData : ComponentBase
         (
             Question: AppState.AppData.Questions.First(),
             ShowingCompetitorResponses: [],
-            OpenGraphSection: false
+            OpenGraphSection: false,
+            ShowScores: false
         );
 
         NavigationManager.NavigateTo("/");

@@ -49,7 +49,8 @@ public partial class TitleBar : ComponentBase
         (
             Question: previousQuestion,
             ShowingCompetitorResponses: [],
-            OpenGraphSection: false
+            OpenGraphSection: false,
+            ShowScores: false
         );
     }
 
@@ -63,12 +64,24 @@ public partial class TitleBar : ComponentBase
         (
             Question: nextQuestion,
             ShowingCompetitorResponses: [],
-            OpenGraphSection: false
+            OpenGraphSection: false,
+            ShowScores: false
         );
     }
 
     private void OnQuestionIdClicked(MouseEventArgs e)
     {
         DialogService.Show<QuestionSelectorDialog>("Select Target Question");
+    }
+
+    private void OnUpdateScoresClicked(MouseEventArgs e)
+    {
+        if (AppState.Current is null)
+            return;
+
+        AppState.Current = AppState.Current with
+        {
+            ShowScores = true
+        };
     }
 }

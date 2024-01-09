@@ -7,6 +7,7 @@ public record CurrentData
 (
     QuestionResponses Question,
     ObservableCollection<Competitor> ShowingCompetitorResponses,
+    bool ShowScores,
     bool OpenGraphSection
 )
 {

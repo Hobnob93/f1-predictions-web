@@ -33,7 +33,8 @@ public partial class QuestionSelectorDialog
         (
             Question: question,
             ShowingCompetitorResponses: [],
-            OpenGraphSection: false
+            OpenGraphSection: false,
+            ShowScores: false
         );
     }
 }
