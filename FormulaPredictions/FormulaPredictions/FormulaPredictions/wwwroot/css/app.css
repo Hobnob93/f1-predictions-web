@@ -130,6 +130,11 @@ body {
     width: 100% !important;
 }
 
+.mud-snackbar .mud-snackbar-content-message {
+    font-size: 1rem;
+    font-weight: 1000;
+}
+
 header#title-bar {
     background-color: #21222bff !important;
     max-width: 100%;

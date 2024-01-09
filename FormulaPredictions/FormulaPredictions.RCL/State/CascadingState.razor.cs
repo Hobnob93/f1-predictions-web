@@ -3,6 +3,7 @@ using FormulaPredictions.Shared.Enums;
 using FormulaPredictions.Shared.State;
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace FormulaPredictions.RCL.State;
 
@@ -67,9 +68,9 @@ public partial class CascadingState : ComponentBase
         Snackbar.Configuration.SnackbarVariant = Variant.Outlined;
         Snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomLeft;
         Snackbar.Configuration.ShowCloseIcon = false;
-        Snackbar.Configuration.VisibleStateDuration = 10000;
-        Snackbar.Configuration.HideTransitionDuration = 250;
-        Snackbar.Configuration.ShowTransitionDuration = 250;
+        Snackbar.Configuration.VisibleStateDuration = 500000;
+        Snackbar.Configuration.HideTransitionDuration = 200;
+        Snackbar.Configuration.ShowTransitionDuration = 200;
     }
 
     public void CurrentDataChanging(CurrentData? oldData, CurrentData? newData)
@@ -92,12 +93,14 @@ public partial class CascadingState : ComponentBase
         {
             Snackbar.Add($"EVERYONE scored {topScore} that round...", Severity.Info);
         }
+        else if (topScorers.Length == 1)
+        {
+            Snackbar.Add($"{topScorers.First().Id} was top with {topScore}", Severity.Success);
+        }
         else
         {
-            foreach (var scorer in topScorers)
-            {
-                Snackbar.Add($"{scorer.Name} was top with {topScore}", Severity.Success);
-            }
+            var ids = string.Join(", ", topScorers.Select(x => x.Id));
+            Snackbar.Add($"{ids} were top with {topScore}", Severity.Success);
         }
     }
 }
