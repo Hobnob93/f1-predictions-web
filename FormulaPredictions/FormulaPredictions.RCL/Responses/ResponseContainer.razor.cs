@@ -20,11 +20,18 @@ public partial class ResponseContainer : BaseRclComponent
     [Parameter, EditorRequired]
     public EventCallback OnClicked { get; set; }
 
-    [Parameter]
+    [Parameter, EditorRequired]
     public bool IsShowingContent { get; set; }
 
-    [Parameter]
+    [Parameter, EditorRequired]
+    public bool IsFinalQuestion { get; set; }
+
+    [Parameter, EditorRequired]
     public double Score { get; set; }
+
+    private string ActualColor => IsFinalQuestion
+        ? IsShowingContent ? Color : "#FFFFFF"
+        : Color;
 
     private async Task OnClick()
     {
@@ -63,8 +70,8 @@ public partial class ResponseContainer : BaseRclComponent
         .Build();
 
     private string InnerStyle => new StyleBuilder()
-        .AddStyle("color", Color)
-        .AddStyle("border-color", Color)
+        .AddStyle("color", ActualColor)
+        .AddStyle("border-color", ActualColor)
         .Build();
 
     private string ScoreStyle => new StyleBuilder()

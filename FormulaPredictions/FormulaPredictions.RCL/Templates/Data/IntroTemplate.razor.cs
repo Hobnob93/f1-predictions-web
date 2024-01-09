@@ -5,9 +5,9 @@ namespace FormulaPredictions.RCL.Templates.Data;
 
 public partial class IntroTemplate : DataTemplateComponent
 {
-    protected override void OnInitialized()
+    protected override void OnAfterRender(bool firstRender)
     {
-        base.OnInitialized();
+        base.OnAfterRender(firstRender);
 
         var responses = GetResponsesForAll<Team>();
         var unique = responses

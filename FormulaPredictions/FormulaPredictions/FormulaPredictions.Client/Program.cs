@@ -22,6 +22,6 @@ builder.Services
     .AddTransient<IResponsesService, ResponsesService>()
     .AddTransient<IAnswersService, AnswersService>()
     .AddTransient<IScoringSystemFactory, ScoreSystemFactory>()
-    .AddTransient<IScoresManager, ScoresManager>();
+    .AddSingleton<IScoresManager, ScoresManager>();
 
 await builder.Build().RunAsync();

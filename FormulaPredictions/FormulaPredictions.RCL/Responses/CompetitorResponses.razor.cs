@@ -12,6 +12,9 @@ public partial class CompetitorResponses : BaseRclComponent
     [Inject]
     private IScoringSystemFactory ScoringSystemFactory { get; set; } = default!;
 
+    [Inject]
+    private IScoresManager ScoresManager { get; set; } = default!;
+
     [CascadingParameter]
     private CascadingState AppState { get; set; } = default!;
 
@@ -20,13 +23,33 @@ public partial class CompetitorResponses : BaseRclComponent
 
     private IScoringSystem? ScoringSystem { get; set; }
 
-    private Competitor[] Competitors => AppState.AppData.Competitors;
+    private Competitor[] _competitors = [];
+    private bool _isFinalQuestion = false;
 
     protected override void OnAfterRender(bool firstRender)
     {
         base.OnAfterRender(firstRender);
 
-        ScoringSystem = ScoringSystemFactory.CreateSystemFromScoreType(AppState.Current?.Question.Scoring.Type ?? ScoringType.None);
+        if (!_isFinalQuestion)
+        {
+            ScoringSystem = ScoringSystemFactory.CreateSystemFromScoreType(AppState.Current?.Question.Scoring.Type ?? ScoringType.None);
+            _isFinalQuestion = AppState.Current?.Question.Id == AppState.AppData.Questions.Last().Id;
+
+            if (firstRender)
+            {
+                _competitors = AppState.AppData.Competitors;
+                StateHasChanged();
+            }
+
+            if (_isFinalQuestion)
+            {
+                _competitors = _competitors
+                    .OrderByDescending(c => ScoresManager.GetScoreForCompetitor(c.Id))
+                    .ToArray();
+
+                StateHasChanged();
+            }
+        }
     }
 
     private string Classes => new CssBuilder()
@@ -66,5 +89,35 @@ public partial class CompetitorResponses : BaseRclComponent
             return 0d;
 
         return ScoringSystem.CalculateScoreForCompetitor(competitor, AppState.AppData, AppState.Current!);
+    }
+
+    private string GetCompetitorInitials(Competitor competitor)
+    {
+        if (_isFinalQuestion)
+            return (Array.IndexOf(_competitors, competitor) + 1).ToString();
+
+        return competitor.Id;
+    }
+
+    private string GetCompetitorColor(Competitor competitor)
+    {
+        if (_isFinalQuestion)
+        {
+            var isShowingContent = CompetitorIsShowingContent(competitor);
+            return isShowingContent ? competitor.Color : "#FFFFFF";
+        }
+
+        return competitor.Color;
+    }
+
+    private bool IsCompetitorRightAligned(Competitor competitor)
+    {
+        if (_isFinalQuestion)
+        {
+            var index = Array.IndexOf(_competitors, competitor);
+            return index % 2 == 1;
+        }
+
+        return competitor.IsRightAligned;
     }
 }
