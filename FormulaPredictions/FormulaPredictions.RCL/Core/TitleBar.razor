@@ -3,7 +3,6 @@
 
     <MudSpacer />
 
-    <MudButton Variant="Variant.Text" Class="me-4 mt-1" Color="MudBlazor.Color.Primary" OnClick="OnUpdateScoresClicked">Show Scores</MudButton>
     <MudButton Variant="Variant.Text" Class="me-4 mt-1" Color="MudBlazor.Color.Primary" OnClick="OnQuestionIdClicked">@GetQuestionId()</MudButton>
 
     <MudIconButton id="btn-back" Color="MudBlazor.Color.Primary" Icon="@Icons.Material.Filled.ArrowCircleLeft" Size="MudBlazor.Size.Large" Disabled="@(!CanGoBack())" OnClick="OnBackClicked" />

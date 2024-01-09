@@ -68,7 +68,7 @@ public partial class CascadingState : ComponentBase
         Snackbar.Configuration.SnackbarVariant = Variant.Outlined;
         Snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomLeft;
         Snackbar.Configuration.ShowCloseIcon = false;
-        Snackbar.Configuration.VisibleStateDuration = 500000;
+        Snackbar.Configuration.VisibleStateDuration = 5000;
         Snackbar.Configuration.HideTransitionDuration = 200;
         Snackbar.Configuration.ShowTransitionDuration = 200;
     }

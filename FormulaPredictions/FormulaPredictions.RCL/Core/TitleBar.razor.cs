@@ -71,9 +71,4 @@ public partial class TitleBar : ComponentBase
     {
         DialogService.Show<QuestionSelectorDialog>("Select Target Question");
     }
-
-    private void OnUpdateScoresClicked(MouseEventArgs e)
-    {
-        
-    }
 }
