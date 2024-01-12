@@ -1,0 +1,70 @@
+[
+  {
+    "id": 0,
+    "text": "All teams will score points"
+  },
+  {
+    "id": 1,
+    "text": "Ferrari will win 10 or more races"
+  },
+  {
+    "id": 2,
+    "text": "There will be at least one first-time race winner"
+  },
+  {
+    "id": 3,
+    "text": "Less than 15 points separating the top 3 drivers at the summer break"
+  },
+  {
+    "id": 4,
+    "text": "Hamilton does not win a race"
+  },
+  {
+    "id": 5,
+    "text": "Magnussen tells Hulkenberg to 'suck my balls' (or any other publicly verbal altercation)"
+  },
+  {
+    "id": 6,
+    "text": "Williams makes Q3 at least 3 times"
+  },
+  {
+    "id": 7,
+    "text": "Alonso will retire this season"
+  },
+  {
+    "id": 8,
+    "text": "At least one race has less than 50% race distance completed before being called off"
+  },
+  {
+    "id": 9,
+    "text": "Both teammates of any team DNF as a result of a collision with each other"
+  },
+  {
+    "id": 10,
+    "text": "Either championship is decided in the last race"
+  },
+  {
+    "id": 11,
+    "text": "The team in the lead at the summer break is NOT the same team that wins the championship"
+  },
+  {
+    "id": 12,
+    "text": "The Formula 2 Driver Champion gets a 2024 F1 seat"
+  },
+  {
+    "id": 13,
+    "text": "Team in 10th place after Race 10 will still be 10th by the end of the season"
+  },
+  {
+    "id": 14,
+    "text": "The winning constructor takes 10 or fewer race wins"
+  },
+  {
+    "id": 15,
+    "text": "Logan Sargeant scores points in any of 3 home races (one of the 3 that are in the USA)"
+  },
+  {
+    "id": 16,
+    "text": "Winning constructor wins by a final score margin of 30% or more"
+  }
+]
