@@ -1,0 +1,49 @@
+[
+  {
+    "id": "TeamChampOrder",
+    "renderType": "Bar",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "RBR",
+        "value": "860"
+      },
+      {
+        "id": "MER",
+        "value": "409"
+      },
+      {
+        "id": "FER",
+        "value": "406"
+      },
+      {
+        "id": "MCL",
+        "value": "302"
+      },
+      {
+        "id": "AM",
+        "value": "280"
+      },
+      {
+        "id": "ALP",
+        "value": "120"
+      },
+      {
+        "id": "WIL",
+        "value": "28"
+      },
+      {
+        "id": "AT",
+        "value": "25"
+      },
+      {
+        "id": "AR",
+        "value": "16"
+      },
+      {
+        "id": "HAA",
+        "value": "12"
+      }
+    ]
+  }
+]
