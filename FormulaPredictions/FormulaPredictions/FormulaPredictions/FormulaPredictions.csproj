@@ -18,7 +18,6 @@
 
 	<ItemGroup>
 		<Folder Include="wwwroot\data\2022\" />
-		<Folder Include="wwwroot\data\2023\" />
 		<Folder Include="wwwroot\images\2022\" />
 		<Folder Include="wwwroot\images\2023\cars\" />
 		<Folder Include="wwwroot\images\2023\drivers\" />

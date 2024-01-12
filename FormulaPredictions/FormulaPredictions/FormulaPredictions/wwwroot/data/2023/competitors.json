@@ -1,0 +1,65 @@
+[
+  {
+    "id": "KH",
+    "name": "Kyle",
+    "nickname": "Boz0",
+    "color": "#28e0d4"
+  },
+  {
+    "id": "JB",
+    "name": "Joe",
+    "nickname": "The Only Alpha Tauri Fan",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "BB",
+    "name": "Ben",
+    "nickname": "BennyB",
+    "color": "#DDDDDD"
+  },
+  {
+    "id": "HI",
+    "name": "Sam",
+    "nickname": "Higgy",
+    "color": "#13c219"
+  },
+  {
+    "id": "MP",
+    "name": "Matt",
+    "nickname": "Pateman",
+    "color": "#BBBBBB"
+  },
+  {
+    "id": "GH",
+    "name": "Gareth",
+    "nickname": "Hobnobdey",
+    "color": "#8634eb",
+    "useDarkText": false
+  },
+  {
+    "id": "SH",
+    "name": "Samantha",
+    "nickname": "Sam",
+    "color": "#ffc2fa"
+  },
+  {
+    "id": "CB",
+    "name": "Courtney",
+    "nickname": "Courtney",
+    "color": "#1002ce",
+    "useDarkText": false
+  },
+  {
+    "id": "LT",
+    "name": "Levi",
+    "nickname": "levi",
+    "color": "#999999"
+  },
+  {
+    "id": "SA",
+    "name": "Samuel",
+    "nickname": "Sammy Boi",
+    "color": "#008000",
+    "useDarkText": false
+  }
+]
