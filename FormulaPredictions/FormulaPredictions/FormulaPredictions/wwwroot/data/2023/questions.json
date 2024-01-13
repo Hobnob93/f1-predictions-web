@@ -59,7 +59,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "JB",
@@ -111,7 +111,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "15"
       },
       {
         "Id": "JB",
@@ -164,7 +164,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "MCL"
       },
       {
         "Id": "JB",
@@ -217,7 +217,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "JB",
@@ -270,7 +270,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "JB",
@@ -322,7 +322,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "20"
       },
       {
         "Id": "JB",
@@ -375,7 +375,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "GAS"
       },
       {
         "Id": "JB",
@@ -428,7 +428,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "SAR"
       },
       {
         "Id": "JB",
@@ -481,7 +481,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "JB",
@@ -534,7 +534,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "JB",
@@ -587,7 +587,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "HUL"
       },
       {
         "Id": "JB",
@@ -640,7 +640,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "RUS"
       },
       {
         "Id": "JB",
@@ -693,7 +693,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "JB",
@@ -746,7 +746,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "JB",
@@ -799,7 +799,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "AM,WIL"
       },
       {
         "Id": "JB",
@@ -852,7 +852,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "JB",
@@ -905,7 +905,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "JB",
@@ -957,7 +957,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "BAK,NED,MZA,JPN,LSV"
       },
       {
         "Id": "JB",
@@ -1010,7 +1010,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "ALP,MCL"
       },
       {
         "Id": "JB",
@@ -1063,7 +1063,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "AM"
       },
       {
         "Id": "JB",
@@ -1116,7 +1116,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "LEC"
       },
       {
         "Id": "JB",
@@ -1170,7 +1170,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "ALO,DEV,HAM,LEC,SAI,VER"
       },
       {
         "Id": "JB",
@@ -1222,7 +1222,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "RUS-MIA,PIA-MZA,HUL-SPA,ALO-BRA,GAS-JPN"
       },
       {
         "Id": "JB",
@@ -1275,7 +1275,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "PER"
       },
       {
         "Id": "JB",
@@ -1328,7 +1328,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "ALB,DEV,MAG,STR"
       },
       {
         "Id": "JB",
@@ -1381,7 +1381,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "PER,SAI"
       },
       {
         "Id": "JB",
@@ -1434,7 +1434,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "MAG"
       },
       {
         "Id": "JB",
@@ -1487,7 +1487,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "HUL,LEC,MAG"
       },
       {
         "Id": "JB",
@@ -1541,7 +1541,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "ALO,HUL,PER,SAR"
       },
       {
         "Id": "JB",
@@ -1594,7 +1594,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "PER"
       },
       {
         "Id": "JB",
@@ -1646,7 +1646,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "MON,RBR,LSV"
       },
       {
         "Id": "JB",
@@ -1698,7 +1698,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "AM"
       },
       {
         "Id": "JB",
@@ -1750,7 +1750,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "18"
       },
       {
         "Id": "JB",
@@ -1802,7 +1802,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "0"
       },
       {
         "Id": "JB",
@@ -1854,7 +1854,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "15"
       },
       {
         "Id": "JB",
@@ -1896,7 +1896,7 @@
   },
   {
     "id": "4-E",
-    "question": "Excluding 2022's top teams, pick three drivers you think will score the most at Miami",
+    "question": "Excluding 2022's top drivers, pick three drivers you think will score the most at Miami",
     "type": "MultiTeam",
     "scoring": {
       "type": "GetChoiceValue",
@@ -1906,7 +1906,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "GAS,NOR,OCO"
       },
       {
         "Id": "JB",
@@ -1959,7 +1959,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "BAH,BAK,MON,GBR"
       },
       {
         "Id": "JB",
@@ -2011,7 +2011,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -2063,7 +2063,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JB",
@@ -2115,7 +2115,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -2167,7 +2167,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JB",
@@ -2219,7 +2219,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -2271,7 +2271,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -2323,7 +2323,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -2375,7 +2375,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JB",
@@ -2427,7 +2427,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -2479,7 +2479,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -2531,7 +2531,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JB",
@@ -2583,7 +2583,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JB",
@@ -2635,7 +2635,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JB",
@@ -2687,7 +2687,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -2739,7 +2739,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JB",
@@ -2791,7 +2791,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -2843,7 +2843,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -2895,7 +2895,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "JB",
@@ -2947,7 +2947,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "MER"
       },
       {
         "Id": "JB",
@@ -2999,7 +2999,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "ALP"
       },
       {
         "Id": "JB",
@@ -3051,7 +3051,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "AM"
       },
       {
         "Id": "JB",
@@ -3103,7 +3103,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "JB",
@@ -3155,7 +3155,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "RUS,RUS"
       },
       {
         "Id": "JB",
@@ -3207,7 +3207,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "VER,VER"
       },
       {
         "Id": "JB",
@@ -3259,7 +3259,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "LEC,LEC"
       },
       {
         "Id": "JB",
@@ -3311,7 +3311,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "NOR,NOR"
       },
       {
         "Id": "JB",
@@ -3363,7 +3363,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "OCO,GAS"
       },
       {
         "Id": "JB",
@@ -3415,7 +3415,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "DEV,DEV"
       },
       {
         "Id": "JB",
@@ -3467,7 +3467,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "STR,ALO"
       },
       {
         "Id": "JB",
@@ -3519,7 +3519,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "BOT,BOT"
       },
       {
         "Id": "JB",
@@ -3571,7 +3571,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "ALB,ALB"
       },
       {
         "Id": "JB",
@@ -3623,7 +3623,7 @@
     "competitorResponses": [
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "MAG,MAG"
       },
       {
         "Id": "JB",
