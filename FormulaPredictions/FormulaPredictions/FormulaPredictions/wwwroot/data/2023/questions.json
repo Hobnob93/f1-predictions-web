@@ -67,7 +67,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "HI",
@@ -119,7 +119,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "15"
       },
       {
         "Id": "HI",
@@ -172,7 +172,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "ALP"
       },
       {
         "Id": "HI",
@@ -225,7 +225,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "WIL"
       },
       {
         "Id": "HI",
@@ -278,7 +278,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "HI",
@@ -330,7 +330,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "25"
       },
       {
         "Id": "HI",
@@ -383,7 +383,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "BOT"
       },
       {
         "Id": "HI",
@@ -436,7 +436,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "SAR"
       },
       {
         "Id": "HI",
@@ -489,7 +489,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "HI",
@@ -542,7 +542,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "WIL"
       },
       {
         "Id": "HI",
@@ -595,7 +595,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "TSU"
       },
       {
         "Id": "HI",
@@ -648,7 +648,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "SAR"
       },
       {
         "Id": "HI",
@@ -701,7 +701,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "HI",
@@ -754,7 +754,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "MCL"
       },
       {
         "Id": "HI",
@@ -807,7 +807,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "MCL,WIL"
       },
       {
         "Id": "HI",
@@ -860,7 +860,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "MCL"
       },
       {
         "Id": "HI",
@@ -913,7 +913,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "HI",
@@ -965,7 +965,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "BAK,CAN,MZA,CTA,BRA"
       },
       {
         "Id": "HI",
@@ -1018,7 +1018,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "AR,MCL"
       },
       {
         "Id": "HI",
@@ -1071,7 +1071,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "AM"
       },
       {
         "Id": "HI",
@@ -1124,7 +1124,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "HI",
@@ -1178,7 +1178,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "ALO,LEC,RUS,STR,VER"
       },
       {
         "Id": "HI",
@@ -1230,7 +1230,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "RUS-YMC,PIA-RBR,HUL-MZA,ALO-BAH,GAS-HUN"
       },
       {
         "Id": "HI",
@@ -1283,7 +1283,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "ALO"
       },
       {
         "Id": "HI",
@@ -1336,7 +1336,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "BOT,HUL,MAG,ZHO"
       },
       {
         "Id": "HI",
@@ -1389,7 +1389,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "HAM,RUS"
       },
       {
         "Id": "HI",
@@ -1442,7 +1442,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "PIA"
       },
       {
         "Id": "HI",
@@ -1495,7 +1495,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "GAS,SAR,TSU"
       },
       {
         "Id": "HI",
@@ -1549,7 +1549,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "TSU"
       },
       {
         "Id": "HI",
@@ -1602,7 +1602,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "HI",
@@ -1654,7 +1654,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "SAA,BAK,SIN"
       },
       {
         "Id": "HI",
@@ -1706,7 +1706,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "AM"
       },
       {
         "Id": "HI",
@@ -1758,7 +1758,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "20"
       },
       {
         "Id": "HI",
@@ -1810,7 +1810,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "4"
       },
       {
         "Id": "HI",
@@ -1862,7 +1862,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "20"
       },
       {
         "Id": "HI",
@@ -1914,7 +1914,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "ALO,GAS,OCO"
       },
       {
         "Id": "HI",
@@ -1967,7 +1967,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "BAH,SAA,AUS,SIN"
       },
       {
         "Id": "HI",
@@ -2019,7 +2019,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "HI",
@@ -2071,7 +2071,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "HI",
@@ -2123,7 +2123,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "HI",
@@ -2175,7 +2175,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "HI",
@@ -2227,7 +2227,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "HI",
@@ -2279,7 +2279,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "HI",
@@ -2331,7 +2331,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "HI",
@@ -2383,7 +2383,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "HI",
@@ -2435,7 +2435,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "HI",
@@ -2487,7 +2487,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "HI",
@@ -2539,7 +2539,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "HI",
@@ -2591,7 +2591,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "HI",
@@ -2643,7 +2643,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "HI",
@@ -2695,7 +2695,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "HI",
@@ -2747,7 +2747,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "HI",
@@ -2799,7 +2799,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "HI",
@@ -2851,7 +2851,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "HI",
@@ -2903,7 +2903,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "HI",
@@ -2955,7 +2955,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "MER"
       },
       {
         "Id": "HI",
@@ -3007,7 +3007,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "ALP"
       },
       {
         "Id": "HI",
@@ -3059,7 +3059,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "AM"
       },
       {
         "Id": "HI",
@@ -3111,7 +3111,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "HI",
@@ -3163,7 +3163,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "RUS,RUS"
       },
       {
         "Id": "HI",
@@ -3215,7 +3215,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "VER,VER"
       },
       {
         "Id": "HI",
@@ -3267,7 +3267,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "LEC,LEC"
       },
       {
         "Id": "HI",
@@ -3319,7 +3319,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "NOR,NOR"
       },
       {
         "Id": "HI",
@@ -3371,7 +3371,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "GAS,OCO"
       },
       {
         "Id": "HI",
@@ -3423,7 +3423,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "TSU,TSU"
       },
       {
         "Id": "HI",
@@ -3475,7 +3475,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "ALO,ALO"
       },
       {
         "Id": "HI",
@@ -3527,7 +3527,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "BOT,BOT"
       },
       {
         "Id": "HI",
@@ -3579,7 +3579,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "ALB,ALB"
       },
       {
         "Id": "HI",
@@ -3631,7 +3631,7 @@
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "HUL,MAG"
       },
       {
         "Id": "HI",
