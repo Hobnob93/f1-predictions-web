@@ -1303,5 +1303,165 @@
         "value": "1"
       }
     ]
+  },
+  {
+    "id": "4-A",
+    "renderType": "Pie",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "RBR",
+        "value": "40"
+      },
+      {
+        "id": "FER",
+        "value": "26"
+      },
+      {
+        "id": "ALP",
+        "value": "12"
+      },
+      {
+        "id": "AM",
+        "value": "12"
+      },
+      {
+        "id": "MER",
+        "value": "10"
+      },
+      {
+        "id": "MCL",
+        "value": "2"
+      }
+    ]
+  },
+  {
+    "id": "4-B",
+    "renderType": "Raw",
+    "rawAnswer": "18"
+  },
+  {
+    "id": "4-C",
+    "renderType": "Raw",
+    "rawAnswer": "6"
+  },
+  {
+    "id": "4-D",
+    "renderType": "Raw",
+    "rawAnswer": "23"
+  },
+  {
+    "id": "4-E",
+    "renderType": "Bar",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "ALO",
+        "value": "15"
+      },
+      {
+        "id": "GAS",
+        "value": "4"
+      },
+      {
+        "id": "OCO",
+        "value": "2"
+      },
+      {
+        "id": "MAG",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "4-F",
+    "renderType": "Bar",
+    "scoringMode": "Tracks",
+    "answersData": [
+      {
+        "id": "AUS",
+        "value": "8"
+      },
+      {
+        "id": "QTR",
+        "value": "8"
+      },
+      {
+        "id": "BRA",
+        "value": "6"
+      },
+      {
+        "id": "JAP",
+        "value": "5"
+      },
+      {
+        "id": "MEX",
+        "value": "5"
+      },
+      {
+        "id": "SIN",
+        "value": "4"
+      },
+      {
+        "id": "CTA",
+        "value": "4"
+      },
+      {
+        "id": "BAH",
+        "value": "3"
+      },
+      {
+        "id": "GBR",
+        "value": "3"
+      },
+      {
+        "id": "HUN",
+        "value": "3"
+      },
+      {
+        "id": "NED",
+        "value": "3"
+      },
+      {
+        "id": "LSV",
+        "value": "3"
+      },
+      {
+        "id": "SAA",
+        "value": "2"
+      },
+      {
+        "id": "BAK",
+        "value": "2"
+      },
+      {
+        "id": "MON",
+        "value": "2"
+      },
+      {
+        "id": "CAN",
+        "value": "2"
+      },
+      {
+        "id": "MZA",
+        "value": "2"
+      },
+      {
+        "id": "SPA",
+        "value": "2"
+      },
+      {
+        "id": "BAR",
+        "value": "1"
+      },
+      {
+        "id": "RBR",
+        "value": "1"
+      },
+      {
+        "id": "YMC",
+        "value": "1"
+      }
+    ]
   }
 ]
