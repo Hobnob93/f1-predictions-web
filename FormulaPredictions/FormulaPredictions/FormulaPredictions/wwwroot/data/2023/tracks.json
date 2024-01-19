@@ -25,6 +25,11 @@
     "color": "#020164"
   },
   {
+    "id": "IMO",
+    "name": "Imola",
+    "color": "#424114"
+  },
+  {
     "id": "MON",
     "name": "Monaco",
     "color": "#a4444c"
