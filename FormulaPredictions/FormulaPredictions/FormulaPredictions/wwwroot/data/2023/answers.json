@@ -1463,5 +1463,90 @@
         "value": "1"
       }
     ]
+  },
+  {
+    "id": "5-A",
+    "renderType": "Bool",
+    "rawAnswer": "true"
+  },
+  {
+    "id": "5-B",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-B",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-D",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-E",
+    "renderType": "Bool",
+    "rawAnswer": "true"
+  },
+  {
+    "id": "5-F",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-G",
+    "renderType": "Bool",
+    "rawAnswer": "true"
+  },
+  {
+    "id": "5-H",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-I",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-J",
+    "renderType": "Bool",
+    "rawAnswer": "true"
+  },
+  {
+    "id": "5-K",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-L",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-M",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-N",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-O",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-P",
+    "renderType": "Bool",
+    "rawAnswer": "true"
+  },
+  {
+    "id": "5-Q",
+    "renderType": "Bool",
+    "rawAnswer": "true"
   }
 ]
