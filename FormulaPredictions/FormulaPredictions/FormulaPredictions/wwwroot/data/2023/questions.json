@@ -793,8 +793,8 @@
     "scoring": {
       "type": "GainWhenX",
       "answersId": "2-C",
-      "value": -1,
-      "explanation": "Lose 1 point each time a driver from chosen teams make it to Q2"
+      "value": 1,
+      "explanation": "Gain 1 point each time a driver from chosen teams bow out in Q1"
     },
     "competitorResponses": [
       {
@@ -999,7 +999,7 @@
   },
   {
     "id": "2-G",
-    "question": "Chose two teams who you think the drivers of will finish 10th the most",
+    "question": "Choose two teams who you think the drivers of will finish 10th the most",
     "type": "MultiTeam",
     "scoring": {
       "type": "GainWhenX",

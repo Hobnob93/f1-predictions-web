@@ -292,5 +292,316 @@
         "value": "1550000"
       }
     ]
+  },
+  {
+    "id": "2-A",
+    "renderType": "Bar",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "RBR",
+        "value": "39"
+      },
+      {
+        "id": "MCL",
+        "value": "13"
+      },
+      {
+        "id": "FER",
+        "value": "12"
+      },
+      {
+        "id": "MER",
+        "value": "10"
+      },
+      {
+        "id": "AM",
+        "value": "8"
+      },
+      {
+        "id": "ALP",
+        "value": "2"
+      }
+    ]
+  },
+  {
+    "id": "2-B",
+    "renderType": "Bar",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "WIL",
+        "value": "13"
+      },
+      {
+        "id": "ALP",
+        "value": "11"
+      },
+      {
+        "id": "HAA",
+        "value": "8"
+      },
+      {
+        "id": "FER",
+        "value": "7"
+      },
+      {
+        "id": "AT",
+        "value": "7"
+      },
+      {
+        "id": "AM",
+        "value": "7"
+      },
+      {
+        "id": "AR",
+        "value": "6"
+      },
+      {
+        "id": "MCL",
+        "value": "4"
+      },
+      {
+        "id": "MER",
+        "value": "5"
+      },
+      {
+        "id": "RBR",
+        "value": "3"
+      }
+    ]
+  },
+  {
+    "id": "2-C",
+    "renderType": "Bar",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "AR",
+        "value": "29"
+      },
+      {
+        "id": "WIL",
+        "value": "28"
+      },
+      {
+        "id": "AT",
+        "value": "24"
+      },
+      {
+        "id": "HAA",
+        "value": "23"
+      },
+      {
+        "id": "ALP",
+        "value": "11"
+      },
+      {
+        "id": "MCL",
+        "value": "10"
+      },
+      {
+        "id": "AM",
+        "value": "10"
+      },
+      {
+        "id": "RBR",
+        "value": "3"
+      },
+      {
+        "id": "MER",
+        "value": "2"
+      },
+      {
+        "id": "FER",
+        "value": "2"
+      }
+    ]
+  },
+  {
+    "id": "2-D",
+    "renderType": "OrderedList",
+    "scoringMode": "Teams",
+    "rawAnswer": "MCL,FER,ALP,AM,WIL,MER,HAA,AT,AR,RBR"
+  },
+  {
+    "id": "2-E",
+    "renderType": "Bar",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "ALP",
+        "value": "44.518"
+      },
+      {
+        "id": "HAA",
+        "value": "37.769"
+      },
+      {
+        "id": "MCL",
+        "value": "33.661"
+      },
+      {
+        "id": "AR",
+        "value": "30.167"
+      },
+      {
+        "id": "MER",
+        "value": "27.062"
+      },
+      {
+        "id": "AT",
+        "value": "25.818"
+      },
+      {
+        "id": "AM",
+        "value": "25.800"
+      },
+      {
+        "id": "WIL",
+        "value": "25.670"
+      },
+      {
+        "id": "RBR",
+        "value": "25.091"
+      },
+      {
+        "id": "FER",
+        "value": "24.644"
+      }
+    ]
+  },
+  {
+    "id": "2-F",
+    "renderType": "Bar",
+    "scoringMode": "Tracks",
+    "answersData": [
+      {
+        "id": "MEX",
+        "value": "6"
+      },
+      {
+        "id": "CTA",
+        "value": "5"
+      },
+      {
+        "id": "BRA",
+        "value": "5"
+      },
+      {
+        "id": "YMC",
+        "value": "4"
+      },
+      {
+        "id": "SIN",
+        "value": "2"
+      },
+      {
+        "id": "AUS",
+        "value": "1"
+      },
+      {
+        "id": "BAK",
+        "value": "1"
+      },
+      {
+        "id": "SPA",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "2-G",
+    "renderType": "Bar",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "ALP",
+        "value": "6"
+      },
+      {
+        "id": "MCL",
+        "value": "5"
+      },
+      {
+        "id": "AT",
+        "value": "4"
+      },
+      {
+        "id": "AR",
+        "value": "3"
+      },
+      {
+        "id": "WIL",
+        "value": "2"
+      },
+      {
+        "id": "HAA",
+        "value": "2"
+      },
+      {
+        "id": "AM",
+        "value": "2"
+      },
+      {
+        "id": "RBR",
+        "value": "1"
+      },
+      {
+        "id": "MER",
+        "value": "1"
+      },
+      {
+        "id": "FER",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "2-H",
+    "renderType": "Bar",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "AM",
+        "value": "225"
+      },
+      {
+        "id": "MCL",
+        "value": "143"
+      },
+      {
+        "id": "RBR",
+        "value": "101"
+      },
+      {
+        "id": "WIL",
+        "value": "20"
+      },
+      {
+        "id": "AT",
+        "value": "-10"
+      },
+      {
+        "id": "HAA",
+        "value": "-25"
+      },
+      {
+        "id": "AR",
+        "value": "-39"
+      },
+      {
+        "id": "ALP",
+        "value": "-53"
+      },
+      {
+        "id": "MER",
+        "value": "-106"
+      },
+      {
+        "id": "FER",
+        "value": "-254"
+      }
+    ]
   }
 ]
