@@ -1,0 +1,18 @@
+﻿@inherits BaseRclComponent
+
+@if (OpenGraphSection)
+{
+    <div class="d-flex flex-column justify-center" style="width:750px;height:395px;">
+        @if (!ShowingActual)
+        {
+            <MudText Class="mb-3" Typo="Typo.h4" Align="MudBlazor.Align.Center">Actual</MudText>
+            <div class="d-flex flex-row justify-center">
+                <MudButton Variant="Variant.Filled" Color="MudBlazor.Color.Primary" OnClick="ShowActualClicked">Show Answer</MudButton>
+            </div>
+        }
+        else
+        {
+            @ChildContent
+        }
+    </div>
+}

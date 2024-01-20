@@ -1,27 +1,29 @@
 ﻿@inherits BaseRclComponent
 
-<ChartContainer Title="@Title" UseDivContainer="@IsNonNumericRenderType()">
-    @switch (Answer.RenderType)
-    {
-        case Shared.Enums.RenderType.Pie:
-            <PieChart Data="@GetAnswerChartData()" />
-            break;
-        case Shared.Enums.RenderType.Bar:
-            <BarChart Data="@GetAnswerChartData()" />
-            break;
-        case Shared.Enums.RenderType.MultiBar:
-            <MultiBarChart Data="@GetMultiAnswerChartData()" />
-            break;
-        case Shared.Enums.RenderType.Raw:
-            <FunnelChart Data="@GetSingleAnswerDataPoint()" />
-            break;
-        case Shared.Enums.RenderType.Paired:
-            <StackedChart Data="@GetStackedChartData()" />
-            break;
-        case Shared.Enums.RenderType.Bool:
-        case Shared.Enums.RenderType.List:
-        case Shared.Enums.RenderType.OrderedList:
-            <AnswerListing Answer="@Answer" AppData="@AppData" />
-            break;
-    }
-</ChartContainer>
+<ShowAnswerContainer>
+    <ChartContainer Title="@Title" UseDivContainer="@IsNonNumericRenderType()">
+        @switch (Answer.RenderType)
+        {
+            case Shared.Enums.RenderType.Pie:
+                <PieChart Data="@GetAnswerChartData()" />
+                break;
+            case Shared.Enums.RenderType.Bar:
+                <BarChart Data="@GetAnswerChartData()" />
+                break;
+            case Shared.Enums.RenderType.MultiBar:
+                <MultiBarChart Data="@GetMultiAnswerChartData()" />
+                break;
+            case Shared.Enums.RenderType.Raw:
+                <FunnelChart Data="@GetSingleAnswerDataPoint()" />
+                break;
+            case Shared.Enums.RenderType.Paired:
+                <StackedChart Data="@GetStackedChartData()" />
+                break;
+            case Shared.Enums.RenderType.Bool:
+            case Shared.Enums.RenderType.List:
+            case Shared.Enums.RenderType.OrderedList:
+                <AnswerListing Answer="@Answer" AppData="@AppData" />
+                break;
+        }
+    </ChartContainer>
+</ShowAnswerContainer>

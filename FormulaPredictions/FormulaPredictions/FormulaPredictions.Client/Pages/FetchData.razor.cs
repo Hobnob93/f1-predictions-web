@@ -28,6 +28,7 @@ public partial class FetchData : ComponentBase
             Question: AppState.AppData.Questions.First(),
             ShowingCompetitorResponses: [],
             OpenGraphSection: false,
+            ShowActual: false,
             ShowScores: false
         );
 

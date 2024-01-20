@@ -34,6 +34,7 @@ public partial class QuestionSelectorDialog
             Question: question,
             ShowingCompetitorResponses: [],
             OpenGraphSection: false,
+            ShowActual: false,
             ShowScores: false
         );
     }

@@ -50,6 +50,7 @@ public partial class TitleBar : ComponentBase
             Question: previousQuestion,
             ShowingCompetitorResponses: [],
             OpenGraphSection: false,
+            ShowActual: false,
             ShowScores: false
         );
     }
@@ -65,6 +66,7 @@ public partial class TitleBar : ComponentBase
             Question: nextQuestion,
             ShowingCompetitorResponses: [],
             OpenGraphSection: false,
+            ShowActual: false,
             ShowScores: false
         );
     }
