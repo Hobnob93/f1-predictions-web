@@ -15,7 +15,8 @@
     "id": "BB",
     "name": "Ben",
     "nickname": "BennyB",
-    "color": "#DDDDDD"
+    "color": "#042069",
+    "useDarkText": false
   },
   {
     "id": "HI",
@@ -53,7 +54,8 @@
     "id": "LT",
     "name": "Levi",
     "nickname": "Levi",
-    "color": "#DE3163"
+    "color": "#DE3163",
+    "useDarkText": false
   },
   {
     "id": "SA",

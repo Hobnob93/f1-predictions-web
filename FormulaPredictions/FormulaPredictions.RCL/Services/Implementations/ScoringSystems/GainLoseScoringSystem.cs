@@ -47,6 +47,6 @@ public class GainLoseScoringSystem : BaseScoringSystem, IScoringSystem
             score += current.Question.Scoring.ExtraValue;
         }
 
-        return score < 0 ? 0 : score;
+        return score;
     }
 }

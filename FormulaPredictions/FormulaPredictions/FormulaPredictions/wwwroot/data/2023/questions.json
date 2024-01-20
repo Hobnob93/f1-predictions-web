@@ -1897,11 +1897,11 @@
   {
     "id": "4-E",
     "question": "Excluding 2022's top drivers, pick three drivers you think will score the most at Miami",
-    "type": "MultiTeam",
+    "type": "MultiDriver",
     "scoring": {
       "type": "GetChoiceValue",
       "answersId": "4-E",
-      "explanation": "Whatever your team scored in your picked race, you get equal points"
+      "explanation": "Whatever your drivers scored in this race, you get equal points"
     },
     "competitorResponses": [
       {
@@ -1949,7 +1949,7 @@
   {
     "id": "4-F",
     "question": "Pick four tracks where you think there will be the most DNFs",
-    "type": "MultiDriver",
+    "type": "MultiTrack",
     "scoring": {
       "type": "GainWhenX",
       "answersId": "4-F",

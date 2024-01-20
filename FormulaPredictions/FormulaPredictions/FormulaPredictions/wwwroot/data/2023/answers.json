@@ -1306,17 +1306,9 @@
   },
   {
     "id": "4-A",
-    "renderType": "Pie",
+    "renderType": "BAR",
     "scoringMode": "Teams",
     "answersData": [
-      {
-        "id": "RBR",
-        "value": "40"
-      },
-      {
-        "id": "FER",
-        "value": "26"
-      },
       {
         "id": "ALP",
         "value": "12"
@@ -1324,10 +1316,6 @@
       {
         "id": "AM",
         "value": "12"
-      },
-      {
-        "id": "MER",
-        "value": "10"
       },
       {
         "id": "MCL",
@@ -1391,7 +1379,7 @@
         "value": "6"
       },
       {
-        "id": "JAP",
+        "id": "JPN",
         "value": "5"
       },
       {
@@ -1475,7 +1463,7 @@
     "rawAnswer": "false"
   },
   {
-    "id": "5-B",
+    "id": "5-C",
     "renderType": "Bool",
     "rawAnswer": "false"
   },
@@ -1551,7 +1539,7 @@
   },
   {
     "id": "6-A",
-    "renderType": "Pie",
+    "renderType": "BAR",
     "scoringMode": "Teams",
     "answersData": [
       {
@@ -1566,7 +1554,7 @@
   },
   {
     "id": "6-B",
-    "renderType": "Pie",
+    "renderType": "BAR",
     "scoringMode": "Teams",
     "answersData": [
       {
@@ -1581,7 +1569,7 @@
   },
   {
     "id": "6-C",
-    "renderType": "Pie",
+    "renderType": "BAR",
     "scoringMode": "Teams",
     "answersData": [
       {
@@ -1596,7 +1584,7 @@
   },
   {
     "id": "6-D",
-    "renderType": "Pie",
+    "renderType": "BAR",
     "scoringMode": "Teams",
     "answersData": [
       {
@@ -1611,7 +1599,7 @@
   },
   {
     "id": "6-E",
-    "renderType": "Pie",
+    "renderType": "BAR",
     "scoringMode": "Teams",
     "answersData": [
       {
