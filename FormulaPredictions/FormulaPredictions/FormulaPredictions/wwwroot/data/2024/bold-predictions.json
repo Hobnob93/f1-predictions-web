@@ -1,0 +1,78 @@
+[
+  {
+    "id": 0,
+    "text": "All teams will score points"
+  },
+  {
+    "id": 1,
+    "text": "Red Bull will lose 5 or more races"
+  },
+  {
+    "id": 2,
+    "text": "There will be at least one first-time podium-sitter (excluding sprints)"
+  },
+  {
+    "id": 3,
+    "text": "Less than 30 points separating the top 3 drivers at the summer break"
+  },
+  {
+    "id": 4,
+    "text": "Hamilton wins a main race this season"
+  },
+  {
+    "id": 5,
+    "text": "A collision occurs in the pitlane"
+  },
+  {
+    "id": 6,
+    "text": "CashApp RB makes Q3"
+  },
+  {
+    "id": 7,
+    "text": "All drivers this season stay for next season"
+  },
+  {
+    "id": 8,
+    "text": "At least one race has less than 50% race distance completed before being called off"
+  },
+  {
+    "id": 9,
+    "text": "Ferrari double-DNF in any race (including sprints)"
+  },
+  {
+    "id": 10,
+    "text": "Any team other than Ferrari double-DNF"
+  },
+  {
+    "id": 11,
+    "text": "Albon scores all of Williams' points"
+  },
+  {
+    "id": 12,
+    "text": "The team in the lead at the summer break is NOT the same team that wins the championship"
+  },
+  {
+    "id": 13,
+    "text": "The Formula 2 Driver Champion gets a 2025 F1 seat"
+  },
+  {
+    "id": 14,
+    "text": "Team in 10th place after Race 10 will still be 10th by the end of the season"
+  },
+  {
+    "id": 15,
+    "text": "The winning constructor takes 10 or fewer race wins"
+  },
+  {
+    "id": 16,
+    "text": "A driver gets a race ban for accruing too many license points"
+  },
+  {
+    "id": 17,
+    "text": "Winning constructor wins by a final score margin of 40% or more"
+  },
+  {
+    "id": 18,
+    "text": "Someone crashes at Monaco during the race (please?)"
+  }
+]

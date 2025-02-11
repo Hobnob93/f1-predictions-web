@@ -50,8 +50,8 @@
 	},
 	{
 		"id": "RB",
-		"name": "RB",
-		"imageName": "rb",
+		"name": "CashApp RB",
+		"imageName": "cash-app-rb",
 		"color": "#5E8FAA",
 		"driverIds": [ "TSU", "RIC", "LAW" ]
 	},
