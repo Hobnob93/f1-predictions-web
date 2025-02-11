@@ -2,7 +2,7 @@
 	{
 		"id": "RBR",
 		"name": "Red Bull",
-		"imageName": "red-bull",
+		"imageName": "red-bull-racing",
 		"color": "#3671C6",
 		"driverIds": [ "VER", "PER" ]
 	},

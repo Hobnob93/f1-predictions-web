@@ -9,7 +9,7 @@
     "id": "JB",
     "name": "Joe",
     "nickname": "Marry Me Yuki",
-    "color": "#FFFFFF" //
+    "color": "#FFFFFF"
   },
   {
     "id": "BB",
@@ -34,13 +34,13 @@
     "id": "MB",
     "name": "Matt B",
     "nickname": "Matterial",
-    "color": "#FFFFFF" //
+    "color": "#FFFFFF"
   },
   {
     "id": "MV",
     "name": "Matt V",
     "nickname": "The Rizz-ler",
-    "color": "#FFFFFF" //
+    "color": "#FFFFFF"
   },
   {
     "id": "CB",
@@ -67,18 +67,18 @@
     "id": "AB",
     "name": "Andrew",
     "nickname": "Bloop",
-    "color": "#FFFFFF" //
+    "color": "#FFFFFF"
   },
   {
     "id": "JA",
     "name": "Jack A",
     "nickname": "World's Best Guesser",
-    "color": "#FFFFFF" //
+    "color": "#FFFFFF"
   },
   {
     "id": "JE",
     "name": "Jack E",
     "nickname": "Simplet",
-    "color": "#FFFFFF" //
+    "color": "#FFFFFF"
   }
 ]
