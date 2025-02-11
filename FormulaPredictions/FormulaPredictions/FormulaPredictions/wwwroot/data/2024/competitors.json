@@ -1,0 +1,84 @@
+[
+  {
+    "id": "KH",
+    "name": "Kyle",
+    "nickname": "Boz0",
+    "color": "#28e0d4"
+  },
+  {
+    "id": "JB",
+    "name": "Joe",
+    "nickname": "Marry Me Yuki",
+    "color": "#FFFFFF" //
+  },
+  {
+    "id": "BB",
+    "name": "Ben",
+    "nickname": "BennyB",
+    "color": "#042069",
+    "useDarkText": false
+  },
+  {
+    "id": "HI",
+    "name": "Sam",
+    "nickname": "Higgy",
+    "color": "#13c219"
+  },
+  {
+    "id": "MP",
+    "name": "Matt P",
+    "nickname": "Pateman",
+    "color": "#8fe1fc"
+  },
+  {
+    "id": "MB",
+    "name": "Matt B",
+    "nickname": "Matterial",
+    "color": "#FFFFFF" //
+  },
+  {
+    "id": "MV",
+    "name": "Matt V",
+    "nickname": "The Rizz-ler",
+    "color": "#FFFFFF" //
+  },
+  {
+    "id": "CB",
+    "name": "Courtney",
+    "nickname": "Courtney",
+    "color": "#1002ce",
+    "useDarkText": false
+  },
+  {
+    "id": "LT",
+    "name": "Levi",
+    "nickname": "Levi",
+    "color": "#DE3163",
+    "useDarkText": false
+  },
+  {
+    "id": "SA",
+    "name": "Samuel",
+    "nickname": "Sam Slow King",
+    "color": "#008000",
+    "useDarkText": false
+  },
+  {
+    "id": "AB",
+    "name": "Andrew",
+    "nickname": "Bloop",
+    "color": "#FFFFFF" //
+  },
+  {
+    "id": "JA",
+    "name": "Jack A",
+    "nickname": "World's Best Guesser",
+    "color": "#FFFFFF" //
+  },
+  {
+    "id": "JE",
+    "name": "Jack E",
+    "nickname": "Simplet",
+    "color": "#FFFFFF" //
+  }
+]
