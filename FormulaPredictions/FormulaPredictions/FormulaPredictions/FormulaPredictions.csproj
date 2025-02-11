@@ -17,7 +17,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="wwwroot\data\2024\" />
 		<Folder Include="wwwroot\images\2022\" />
 		<Folder Include="wwwroot\images\2023\cars\" />
 		<Folder Include="wwwroot\images\2023\teams\" />
@@ -38,6 +37,13 @@
 		</Content>
 		<Content Update="wwwroot\data\2022\questions.json">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\data\2024\teams.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Update="wwwroot\data\2024\competitors.json">
+		  <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+		  <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 		</Content>
 		<Content Update="wwwroot\data\2023\teams.json">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
