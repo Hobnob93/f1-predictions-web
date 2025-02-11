@@ -1,5 +1,61 @@
 [
   {
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
+      },
+      {
+        "Id": "MP",
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "JA",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "LT",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
+      },
+      {
+        "Id": "SA",
+        "Response": ""
+      },
+      {
+        "Id": "HI",
+        "Response": ""
+      },
+      {
+        "Id": "MV",
+        "Response": ""
+      },
+      {
+        "Id": "MB",
+        "Response": ""
+      }
+    ]
+  },
+  {
     "id": "0-A",
     "question": "Introduction, and everyone's favourite liveries!",
     "type": "Intro",

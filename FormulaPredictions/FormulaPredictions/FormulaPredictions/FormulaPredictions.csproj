@@ -22,7 +22,6 @@
 		<Folder Include="wwwroot\images\2023\teams\" />
 		<Folder Include="wwwroot\images\2024\cars\" />
 		<Folder Include="wwwroot\images\2024\drivers\" />
-		<Folder Include="wwwroot\images\2024\teams\" />
 	</ItemGroup>
 
 	<ItemGroup>

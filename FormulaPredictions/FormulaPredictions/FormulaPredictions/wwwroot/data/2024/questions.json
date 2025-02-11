@@ -5,12 +5,12 @@
     "type": "Intro",
     "competitorResponses": [
       {
-        "Id": "KH",
-        "Response": "KS"
-      },
-      {
         "Id": "CB",
         "Response": "MER"
+      },
+      {
+        "Id": "KH",
+        "Response": "KS"
       },
       {
         "Id": "MP",
@@ -57,5 +57,69 @@
         "Response": "KS"
       }
     ]
+  },
+  {
+    "id": "0-B",
+    "question": "A curiosity question; which teams are supported?",
+    "type": "MultiTeam",
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "AM,MCL,MER"
+      },
+      {
+        "Id": "KH",
+        "Response": "RB,FER,MCL,WIL"
+      },
+      {
+        "Id": "MP",
+        "Response": "MCL,WIL"
+      },
+      {
+        "Id": "JE",
+        "Response": "FER,MCL,RBR"
+      },
+      {
+        "Id": "JA",
+        "Response": "ALP,AM,RB,FER,HAA,KS,MCL,RBR,WIL"
+      },
+      {
+        "Id": "JB",
+        "Response": "RB"
+      },
+      {
+        "Id": "BB",
+        "Response": "RBR"
+      },
+      {
+        "Id": "LT",
+        "Response": "FER,MCL"
+      },
+      {
+        "Id": "AB",
+        "Response": "MCL"
+      },
+      {
+        "Id": "SA",
+        "Response": "FER,HAA,RBR"
+      },
+      {
+        "Id": "HI",
+        "Response": "MER,WIL"
+      },
+      {
+        "Id": "MV",
+        "Response": "AM,MCL,MER,WIL"
+      },
+      {
+        "Id": "MB",
+        "Response": "MCL"
+      }
+    ]
+  },
+  {
+    "id": "7-A",
+    "question": "That's all! Who has won!?",
+    "type": "Outro"
   }
 ]
