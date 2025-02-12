@@ -118,7 +118,7 @@
     ]
   },
   {
-    "id": "0-B",
+    "id": "0-C",
     "question": "Another curiosity question; which drivers are supported?",
     "type": "MultiDriver",
     "competitorResponses": [
@@ -189,7 +189,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "MER"
       },
       {
         "Id": "KH",
@@ -253,7 +253,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "34"
       },
       {
         "Id": "KH",
@@ -318,7 +318,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "AM"
       },
       {
         "Id": "KH",
@@ -383,7 +383,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "KH",
@@ -448,7 +448,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "HAM"
       },
       {
         "Id": "KH",
@@ -512,7 +512,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "42"
       },
       {
         "Id": "KH",
@@ -577,7 +577,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "GAS"
       },
       {
         "Id": "KH",
@@ -642,7 +642,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "SAR"
       },
       {
         "Id": "KH",
@@ -707,7 +707,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "KS"
       },
       {
         "Id": "KH",
@@ -772,7 +772,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "MCL"
       },
       {
         "Id": "KH",
@@ -837,7 +837,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "STR"
       },
       {
         "Id": "KH",
@@ -902,7 +902,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "HAM"
       },
       {
         "Id": "KH",
@@ -967,7 +967,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "KH",
@@ -1032,7 +1032,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "KH",
@@ -1097,7 +1097,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "HAA,KS"
       },
       {
         "Id": "KH",
@@ -1162,7 +1162,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "KH",
@@ -1216,7 +1216,7 @@
   },
   {
     "id": "2-E",
-    "question": "Which team will have the LONGEST pitstop during the first race?",
+    "question": "Which team will have the LONGEST time in the pitlane in the first race of the season?",
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
@@ -1227,7 +1227,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "KH",
@@ -1291,7 +1291,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "BAH,SAA,JPN,MIA,MON"
       },
       {
         "Id": "KH",
@@ -1356,7 +1356,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "ALP,AM"
       },
       {
         "Id": "KH",
@@ -1421,7 +1421,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "AM"
       },
       {
         "Id": "KH",
@@ -1486,7 +1486,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "KH",
@@ -1552,7 +1552,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "ALB,ALO,BOT,HAM,LEC,NOR,PER,RIC,RUS,SAI,STR,VER"
       },
       {
         "Id": "KH",
@@ -1616,7 +1616,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "PER-BAH,NOR-HUN,STR-MIA,OCO-BAK,SAI-SIN"
       },
       {
         "Id": "KH",
@@ -1681,7 +1681,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "RUS"
       },
       {
         "Id": "KH",
@@ -1746,7 +1746,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "ALB,HUL,OCO,STR"
       },
       {
         "Id": "KH",
@@ -1811,7 +1811,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "ALO,NOR"
       },
       {
         "Id": "KH",
@@ -1876,7 +1876,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "LEC"
       },
       {
         "Id": "KH",
@@ -1941,7 +1941,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "OCO,VER,ZHO"
       },
       {
         "Id": "KH",
@@ -2007,7 +2007,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "SAR,TSU"
       },
       {
         "Id": "KH",
@@ -2072,7 +2072,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "PER"
       },
       {
         "Id": "KH",
@@ -2136,7 +2136,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "MON,CAN,SIN"
       },
       {
         "Id": "KH",
@@ -2200,7 +2200,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "MCL"
       },
       {
         "Id": "KH",
@@ -2264,7 +2264,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "20"
       },
       {
         "Id": "KH",
@@ -2328,7 +2328,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "5"
       },
       {
         "Id": "KH",
@@ -2392,7 +2392,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "20"
       },
       {
         "Id": "KH",
@@ -2456,7 +2456,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "ALO,NOR,STR"
       },
       {
         "Id": "KH",
@@ -2521,7 +2521,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "CHN,MON,SIN,QTR"
       },
       {
         "Id": "KH",
@@ -2585,7 +2585,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "KH",
@@ -2649,7 +2649,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "KH",
@@ -2713,7 +2713,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "KH",
@@ -2777,7 +2777,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "KH",
@@ -2841,7 +2841,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "KH",
@@ -2905,7 +2905,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "KH",
@@ -2969,7 +2969,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "KH",
@@ -3033,7 +3033,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "KH",
@@ -3097,7 +3097,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "KH",
@@ -3161,7 +3161,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "KH",
@@ -3225,7 +3225,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "KH",
@@ -3289,7 +3289,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "KH",
@@ -3353,7 +3353,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "KH",
@@ -3417,7 +3417,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "KH",
@@ -3481,7 +3481,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "KH",
@@ -3545,7 +3545,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "KH",
@@ -3609,7 +3609,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "KH",
@@ -3673,7 +3673,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "KH",
@@ -3737,7 +3737,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "KH",
@@ -3801,7 +3801,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "MER"
       },
       {
         "Id": "KH",
@@ -3865,7 +3865,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "KH",
@@ -3929,7 +3929,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "AM"
       },
       {
         "Id": "KH",
@@ -3993,7 +3993,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "RB"
       },
       {
         "Id": "KH",
@@ -4047,7 +4047,7 @@
   },
   {
     "id": "6-E",
-    "question": "Stake Sauber vs Haas",
+    "question": "Kick Sauber vs Haas",
     "type": "SingleTeam",
     "scoring": {
       "type": "Versus",
@@ -4057,7 +4057,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "KS"
       },
       {
         "Id": "KH",
@@ -4121,7 +4121,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "HAM,HAM"
       },
       {
         "Id": "KH",
@@ -4185,7 +4185,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "VER,VER"
       },
       {
         "Id": "KH",
@@ -4249,7 +4249,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "LEC,SAI"
       },
       {
         "Id": "KH",
@@ -4313,7 +4313,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "NOR,NOR"
       },
       {
         "Id": "KH",
@@ -4377,7 +4377,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "GAS,OCO"
       },
       {
         "Id": "KH",
@@ -4441,7 +4441,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "RIC,RIC"
       },
       {
         "Id": "KH",
@@ -4505,7 +4505,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "ALO,ALO"
       },
       {
         "Id": "KH",
@@ -4569,7 +4569,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "BOT,BOT"
       },
       {
         "Id": "KH",
@@ -4633,7 +4633,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "ALB,ALB"
       },
       {
         "Id": "KH",
@@ -4697,7 +4697,7 @@
     "competitorResponses": [
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "HUL,MAG"
       },
       {
         "Id": "KH",
