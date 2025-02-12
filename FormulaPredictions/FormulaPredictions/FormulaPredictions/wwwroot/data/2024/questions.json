@@ -140,7 +140,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "BOT,LEC,NOR,PER,RUS,SAI,VER"
       },
       {
         "Id": "JB",
@@ -205,7 +205,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "MER"
       },
       {
         "Id": "JB",
@@ -269,7 +269,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "32"
       },
       {
         "Id": "JB",
@@ -334,7 +334,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "AM"
       },
       {
         "Id": "JB",
@@ -399,7 +399,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "JB",
@@ -464,7 +464,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "JB",
@@ -528,7 +528,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "24"
       },
       {
         "Id": "JB",
@@ -593,7 +593,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "MAG"
       },
       {
         "Id": "JB",
@@ -658,7 +658,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "TSU"
       },
       {
         "Id": "JB",
@@ -723,7 +723,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "MCL"
       },
       {
         "Id": "JB",
@@ -788,7 +788,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "KS"
       },
       {
         "Id": "JB",
@@ -853,7 +853,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "ALB"
       },
       {
         "Id": "JB",
@@ -918,7 +918,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "PIA"
       },
       {
         "Id": "JB",
@@ -983,7 +983,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "JB",
@@ -1048,7 +1048,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "MCL"
       },
       {
         "Id": "JB",
@@ -1113,7 +1113,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "RB,HAA"
       },
       {
         "Id": "JB",
@@ -1178,7 +1178,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "JB",
@@ -1243,7 +1243,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "KS"
       },
       {
         "Id": "JB",
@@ -1307,7 +1307,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "JPN,RBR,SPA,MZA,SIN"
       },
       {
         "Id": "JB",
@@ -1372,7 +1372,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "ALP,AM"
       },
       {
         "Id": "JB",
@@ -1437,7 +1437,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "AM"
       },
       {
         "Id": "JB",
@@ -1502,7 +1502,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "JB",
@@ -1568,7 +1568,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "HAM,NOR,OCO,VER"
       },
       {
         "Id": "JB",
@@ -1632,7 +1632,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "PER-SAA,NOR-HUN,STR-EMI,OCO-SPA,SAI-MIA"
       },
       {
         "Id": "JB",
@@ -1697,7 +1697,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "BOT"
       },
       {
         "Id": "JB",
@@ -1762,7 +1762,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "GAS,PER,SAI,STR"
       },
       {
         "Id": "JB",
@@ -1827,7 +1827,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "ALO,LEC"
       },
       {
         "Id": "JB",
@@ -1892,7 +1892,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "JB",
@@ -1957,7 +1957,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "GAS,HAM,VER"
       },
       {
         "Id": "JB",
@@ -2023,7 +2023,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "TSU,ZHO"
       },
       {
         "Id": "JB",
@@ -2088,7 +2088,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "OCO"
       },
       {
         "Id": "JB",
@@ -2152,7 +2152,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "SAA,SPA,SIN"
       },
       {
         "Id": "JB",
@@ -2216,7 +2216,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "MCL"
       },
       {
         "Id": "JB",
@@ -2280,7 +2280,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "24"
       },
       {
         "Id": "JB",
@@ -2344,7 +2344,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "7"
       },
       {
         "Id": "JB",
@@ -2408,7 +2408,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "15"
       },
       {
         "Id": "JB",
@@ -2472,7 +2472,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "ALB,BOT,NOR"
       },
       {
         "Id": "JB",
@@ -2537,7 +2537,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "AUS,CHN,MON,SIN"
       },
       {
         "Id": "JB",
@@ -2601,7 +2601,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -2665,7 +2665,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JB",
@@ -2729,7 +2729,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -2793,7 +2793,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -2857,7 +2857,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -2921,7 +2921,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -2985,7 +2985,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -3049,7 +3049,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JB",
@@ -3113,7 +3113,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JB",
@@ -3177,7 +3177,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JB",
@@ -3241,7 +3241,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -3305,7 +3305,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JB",
@@ -3369,7 +3369,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -3433,7 +3433,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -3497,7 +3497,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JB",
@@ -3561,7 +3561,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JB",
@@ -3625,7 +3625,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -3689,7 +3689,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JB",
@@ -3753,7 +3753,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JB",
@@ -3817,7 +3817,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "JB",
@@ -3881,7 +3881,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "JB",
@@ -3945,7 +3945,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "ALP"
       },
       {
         "Id": "JB",
@@ -4009,7 +4009,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "RB"
       },
       {
         "Id": "JB",
@@ -4073,7 +4073,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "KS"
       },
       {
         "Id": "JB",
@@ -4137,7 +4137,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "RUS,HAM"
       },
       {
         "Id": "JB",
@@ -4201,7 +4201,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "VER,VER"
       },
       {
         "Id": "JB",
@@ -4265,7 +4265,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "LEC,LEC"
       },
       {
         "Id": "JB",
@@ -4329,7 +4329,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "NOR,NOR"
       },
       {
         "Id": "JB",
@@ -4393,7 +4393,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "OCO,GAS"
       },
       {
         "Id": "JB",
@@ -4457,7 +4457,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "RIC,RIC"
       },
       {
         "Id": "JB",
@@ -4521,7 +4521,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "ALO,STR"
       },
       {
         "Id": "JB",
@@ -4585,7 +4585,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "BOT,BOT"
       },
       {
         "Id": "JB",
@@ -4649,7 +4649,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "ALB,ALB"
       },
       {
         "Id": "JB",
@@ -4713,7 +4713,7 @@
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "HUL,HUL"
       },
       {
         "Id": "JB",
