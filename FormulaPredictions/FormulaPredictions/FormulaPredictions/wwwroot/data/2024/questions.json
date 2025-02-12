@@ -128,7 +128,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "ALB,GAS,HAM,LEC,NOR,PIA,RIC,RUS,SAI,TSU"
       },
       {
         "Id": "MP",
@@ -193,7 +193,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "MP",
@@ -257,7 +257,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "20"
       },
       {
         "Id": "MP",
@@ -322,7 +322,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "AM"
       },
       {
         "Id": "MP",
@@ -387,7 +387,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "MP",
@@ -452,7 +452,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "MP",
@@ -516,7 +516,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "40"
       },
       {
         "Id": "MP",
@@ -581,7 +581,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "ALB"
       },
       {
         "Id": "MP",
@@ -636,7 +636,7 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverChampOrder",
-      "Index": 21,
+      "Index": 23,
       "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "competitorResponses": [
@@ -646,7 +646,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "HUL"
       },
       {
         "Id": "MP",
@@ -711,7 +711,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "MP",
@@ -776,7 +776,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "MER"
       },
       {
         "Id": "MP",
@@ -841,7 +841,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "SAR"
       },
       {
         "Id": "MP",
@@ -906,7 +906,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "MP",
@@ -971,7 +971,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "MP",
@@ -1036,7 +1036,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "WIL"
       },
       {
         "Id": "MP",
@@ -1101,7 +1101,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "HAA,KS"
       },
       {
         "Id": "MP",
@@ -1166,7 +1166,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "MP",
@@ -1231,7 +1231,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "MP",
@@ -1295,7 +1295,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "BAH,AUS,JPN,MON,CAN"
       },
       {
         "Id": "MP",
@@ -1360,7 +1360,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "AM,WIL"
       },
       {
         "Id": "MP",
@@ -1425,7 +1425,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "MP",
@@ -1490,7 +1490,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "MP",
@@ -1556,7 +1556,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "ALB,ALO,HAM,LEC,NOR,PIA,RIC,RUS,VER"
       },
       {
         "Id": "MP",
@@ -1620,7 +1620,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "PER-BAH,NOR-CTA,STR-SAA,OCO-SPA,SAI-SIN"
       },
       {
         "Id": "MP",
@@ -1685,7 +1685,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "NOR"
       },
       {
         "Id": "MP",
@@ -1750,7 +1750,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "ALB,GAS,OCO,RIC"
       },
       {
         "Id": "MP",
@@ -1815,7 +1815,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "ALO,PER"
       },
       {
         "Id": "MP",
@@ -1880,7 +1880,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "SAI"
       },
       {
         "Id": "MP",
@@ -1945,7 +1945,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "SAR,STR,TSU"
       },
       {
         "Id": "MP",
@@ -2011,7 +2011,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "BOT,HUL,MAG,PER,SAR"
       },
       {
         "Id": "MP",
@@ -2076,7 +2076,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "PER"
       },
       {
         "Id": "MP",
@@ -2140,7 +2140,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "MIA,RBR,SIN"
       },
       {
         "Id": "MP",
@@ -2204,7 +2204,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "MCL"
       },
       {
         "Id": "MP",
@@ -2268,7 +2268,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "20"
       },
       {
         "Id": "MP",
@@ -2332,7 +2332,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "6"
       },
       {
         "Id": "MP",
@@ -2396,7 +2396,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "20"
       },
       {
         "Id": "MP",
@@ -2460,7 +2460,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "ALO,NOR,PIA"
       },
       {
         "Id": "MP",
@@ -2525,7 +2525,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "BAH,JPN,HUN,BAK"
       },
       {
         "Id": "MP",
@@ -2589,7 +2589,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "MP",
@@ -2653,7 +2653,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "MP",
@@ -2717,7 +2717,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "MP",
@@ -2781,7 +2781,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "MP",
@@ -2845,7 +2845,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "MP",
@@ -2909,7 +2909,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "MP",
@@ -2973,7 +2973,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "MP",
@@ -3037,7 +3037,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "MP",
@@ -3101,7 +3101,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "MP",
@@ -3165,7 +3165,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "MP",
@@ -3229,7 +3229,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "MP",
@@ -3293,7 +3293,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "MP",
@@ -3357,7 +3357,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "MP",
@@ -3421,7 +3421,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "MP",
@@ -3485,7 +3485,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "MP",
@@ -3549,7 +3549,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "MP",
@@ -3613,7 +3613,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "MP",
@@ -3677,7 +3677,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "MP",
@@ -3741,7 +3741,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "MP",
@@ -3805,7 +3805,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "MP",
@@ -3869,7 +3869,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "MP",
@@ -3933,7 +3933,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "AM"
       },
       {
         "Id": "MP",
@@ -3997,7 +3997,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "WIL"
       },
       {
         "Id": "MP",
@@ -4061,7 +4061,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "KS"
       },
       {
         "Id": "MP",
@@ -4125,7 +4125,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "RUS,RUS"
       },
       {
         "Id": "MP",
@@ -4189,7 +4189,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "VER,VER"
       },
       {
         "Id": "MP",
@@ -4253,7 +4253,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "LEC,LEC"
       },
       {
         "Id": "MP",
@@ -4317,7 +4317,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "PIA,NOR"
       },
       {
         "Id": "MP",
@@ -4381,7 +4381,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "OCO,GAS"
       },
       {
         "Id": "MP",
@@ -4445,7 +4445,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "RIC,RIC"
       },
       {
         "Id": "MP",
@@ -4509,7 +4509,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "ALO,ALO"
       },
       {
         "Id": "MP",
@@ -4573,7 +4573,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "BOT,BOT"
       },
       {
         "Id": "MP",
@@ -4637,7 +4637,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "ALB,ALB"
       },
       {
         "Id": "MP",
@@ -4701,7 +4701,7 @@
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "MAG,MAG"
       },
       {
         "Id": "MP",
