@@ -152,7 +152,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "ALO,HAM,LEC,NOR,RIC,SAI,TSU"
       },
       {
         "Id": "AB",
@@ -217,7 +217,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "AB",
@@ -281,7 +281,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "30"
       },
       {
         "Id": "AB",
@@ -346,7 +346,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "MER"
       },
       {
         "Id": "AB",
@@ -411,7 +411,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "AB",
@@ -476,7 +476,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "AB",
@@ -540,7 +540,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "35"
       },
       {
         "Id": "AB",
@@ -605,7 +605,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "STR"
       },
       {
         "Id": "AB",
@@ -670,7 +670,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "SAR"
       },
       {
         "Id": "AB",
@@ -735,7 +735,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "AB",
@@ -800,7 +800,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "AB",
@@ -865,7 +865,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "SAI"
       },
       {
         "Id": "AB",
@@ -930,7 +930,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "RIC"
       },
       {
         "Id": "AB",
@@ -995,7 +995,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "AB",
@@ -1060,7 +1060,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "KS"
       },
       {
         "Id": "AB",
@@ -1125,7 +1125,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "KS,WIL"
       },
       {
         "Id": "AB",
@@ -1190,7 +1190,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "KS"
       },
       {
         "Id": "AB",
@@ -1255,7 +1255,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "AB",
@@ -1319,7 +1319,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "BAR,GBR,HUN,MZA,SIN"
       },
       {
         "Id": "AB",
@@ -1384,7 +1384,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "ALP,RB"
       },
       {
         "Id": "AB",
@@ -1449,7 +1449,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "RB"
       },
       {
         "Id": "AB",
@@ -1514,7 +1514,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "AB",
@@ -1580,7 +1580,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "ALO,BOT,HAM,LEC,NOR,SAI,TSU,VER,ZHO"
       },
       {
         "Id": "AB",
@@ -1644,7 +1644,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "PER-NED,NOR-MIA,STR-BAK,OCO-JPN,SAI-MON"
       },
       {
         "Id": "AB",
@@ -1709,7 +1709,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "NOR"
       },
       {
         "Id": "AB",
@@ -1774,7 +1774,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "BOT,HUL,MAG,OCO"
       },
       {
         "Id": "AB",
@@ -1839,7 +1839,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "ALO,HAM"
       },
       {
         "Id": "AB",
@@ -1904,7 +1904,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "STR"
       },
       {
         "Id": "AB",
@@ -1969,7 +1969,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "HUL,SAR,STR"
       },
       {
         "Id": "AB",
@@ -2035,7 +2035,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "MAG"
       },
       {
         "Id": "AB",
@@ -2100,7 +2100,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "ALO"
       },
       {
         "Id": "AB",
@@ -2164,7 +2164,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "CHN,CAN,BAK"
       },
       {
         "Id": "AB",
@@ -2228,7 +2228,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "MCL"
       },
       {
         "Id": "AB",
@@ -2292,7 +2292,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "25"
       },
       {
         "Id": "AB",
@@ -2356,7 +2356,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "9"
       },
       {
         "Id": "AB",
@@ -2420,7 +2420,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "20"
       },
       {
         "Id": "AB",
@@ -2484,7 +2484,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "ALO,NOR,PIA"
       },
       {
         "Id": "AB",
@@ -2549,7 +2549,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "MON,RBR,GBR,SIN"
       },
       {
         "Id": "AB",
@@ -2613,7 +2613,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "AB",
@@ -2677,7 +2677,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "AB",
@@ -2741,7 +2741,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "AB",
@@ -2805,7 +2805,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "AB",
@@ -2869,7 +2869,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "AB",
@@ -2933,7 +2933,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "AB",
@@ -2997,7 +2997,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "AB",
@@ -3061,7 +3061,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "AB",
@@ -3125,7 +3125,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "AB",
@@ -3189,7 +3189,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "AB",
@@ -3253,7 +3253,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "AB",
@@ -3317,7 +3317,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "AB",
@@ -3381,7 +3381,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "AB",
@@ -3445,7 +3445,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "AB",
@@ -3509,7 +3509,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "AB",
@@ -3573,7 +3573,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "AB",
@@ -3637,7 +3637,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "AB",
@@ -3701,7 +3701,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "AB",
@@ -3765,7 +3765,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "AB",
@@ -3829,7 +3829,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "AB",
@@ -3893,7 +3893,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "AB",
@@ -3957,7 +3957,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "ALP"
       },
       {
         "Id": "AB",
@@ -4021,7 +4021,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "RB"
       },
       {
         "Id": "AB",
@@ -4085,7 +4085,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "AB",
@@ -4149,7 +4149,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "HAM,HAM"
       },
       {
         "Id": "AB",
@@ -4213,7 +4213,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "VER,VER"
       },
       {
         "Id": "AB",
@@ -4277,7 +4277,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "LEC,LEC"
       },
       {
         "Id": "AB",
@@ -4341,7 +4341,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "NOR,NOR"
       },
       {
         "Id": "AB",
@@ -4405,7 +4405,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "OCO,GAS"
       },
       {
         "Id": "AB",
@@ -4469,7 +4469,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "RIC,RIC"
       },
       {
         "Id": "AB",
@@ -4533,7 +4533,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "ALO,ALO"
       },
       {
         "Id": "AB",
@@ -4597,7 +4597,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "ZHO,ZHO"
       },
       {
         "Id": "AB",
@@ -4661,7 +4661,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "ALB,ALB"
       },
       {
         "Id": "AB",
@@ -4725,7 +4725,7 @@
       },
       {
         "Id": "LT",
-        "Response": ""
+        "Response": "HUL,HUL"
       },
       {
         "Id": "AB",
