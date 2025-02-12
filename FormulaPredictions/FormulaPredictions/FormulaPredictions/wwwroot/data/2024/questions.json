@@ -132,7 +132,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "ALB,LEC,NOR,PER,PIA,RIC"
       },
       {
         "Id": "JE",
@@ -197,7 +197,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "JE",
@@ -261,7 +261,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "50"
       },
       {
         "Id": "JE",
@@ -326,7 +326,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "ALP"
       },
       {
         "Id": "JE",
@@ -391,7 +391,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "JE",
@@ -456,7 +456,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "JE",
@@ -520,7 +520,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "35"
       },
       {
         "Id": "JE",
@@ -585,7 +585,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "ALB"
       },
       {
         "Id": "JE",
@@ -650,7 +650,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "MAG"
       },
       {
         "Id": "JE",
@@ -715,7 +715,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "ALP"
       },
       {
         "Id": "JE",
@@ -780,7 +780,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "JE",
@@ -845,7 +845,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "MAG"
       },
       {
         "Id": "JE",
@@ -910,7 +910,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "JE",
@@ -975,7 +975,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "JE",
@@ -1040,7 +1040,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "ALP"
       },
       {
         "Id": "JE",
@@ -1105,7 +1105,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "HAA,KS"
       },
       {
         "Id": "JE",
@@ -1170,7 +1170,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "JE",
@@ -1235,7 +1235,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "JE",
@@ -1299,7 +1299,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "BAH,JPN,CAN,BAK,YMC"
       },
       {
         "Id": "JE",
@@ -1364,7 +1364,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "RB,WIL"
       },
       {
         "Id": "JE",
@@ -1429,7 +1429,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "WIL"
       },
       {
         "Id": "JE",
@@ -1494,7 +1494,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "JE",
@@ -1560,7 +1560,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "ALB,ALO,NOR,PER,PIA"
       },
       {
         "Id": "JE",
@@ -1624,7 +1624,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "PER-BAH,NOR-RBR,STR-HUN,OCO-BRA,SAI-MZA"
       },
       {
         "Id": "JE",
@@ -1689,7 +1689,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "PER"
       },
       {
         "Id": "JE",
@@ -1754,7 +1754,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "HUL,MAG,SAR,STR"
       },
       {
         "Id": "JE",
@@ -1819,7 +1819,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "ALO,HAM"
       },
       {
         "Id": "JE",
@@ -1884,7 +1884,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "OCO"
       },
       {
         "Id": "JE",
@@ -1949,7 +1949,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "OCO,STR,TSU"
       },
       {
         "Id": "JE",
@@ -1995,7 +1995,7 @@
   },
   {
     "id": "3-I",
-    "question": "Which drivers will NOT be on the grid in 2024?",
+    "question": "Which drivers will NOT be on the grid in 2025?",
     "type": "MultiDriver",
     "scoring": {
       "type": "GainLose",
@@ -2015,7 +2015,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "PER,SAR,ZHO"
       },
       {
         "Id": "JE",
@@ -2080,7 +2080,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "SAI"
       },
       {
         "Id": "JE",
@@ -2144,7 +2144,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "BAR,BAK,SIN"
       },
       {
         "Id": "JE",
@@ -2208,7 +2208,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "MCL"
       },
       {
         "Id": "JE",
@@ -2272,7 +2272,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "23"
       },
       {
         "Id": "JE",
@@ -2336,7 +2336,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "8"
       },
       {
         "Id": "JE",
@@ -2400,7 +2400,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "18"
       },
       {
         "Id": "JE",
@@ -2464,7 +2464,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "ALO,NOR,RIC"
       },
       {
         "Id": "JE",
@@ -2529,7 +2529,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "EMI,MON,NED,BRA"
       },
       {
         "Id": "JE",
@@ -2593,7 +2593,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JE",
@@ -2657,7 +2657,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JE",
@@ -2721,7 +2721,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JE",
@@ -2785,7 +2785,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JE",
@@ -2849,7 +2849,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JE",
@@ -2913,7 +2913,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JE",
@@ -2977,7 +2977,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JE",
@@ -3041,7 +3041,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JE",
@@ -3105,7 +3105,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JE",
@@ -3169,7 +3169,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JE",
@@ -3233,7 +3233,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JE",
@@ -3297,7 +3297,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JE",
@@ -3361,7 +3361,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JE",
@@ -3425,7 +3425,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JE",
@@ -3489,7 +3489,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JE",
@@ -3553,7 +3553,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JE",
@@ -3617,7 +3617,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "JE",
@@ -3681,7 +3681,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JE",
@@ -3745,7 +3745,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "JE",
@@ -3809,7 +3809,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "JE",
@@ -3873,7 +3873,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "MCL"
       },
       {
         "Id": "JE",
@@ -3937,7 +3937,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "AM"
       },
       {
         "Id": "JE",
@@ -4001,7 +4001,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "RB"
       },
       {
         "Id": "JE",
@@ -4065,7 +4065,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "KS"
       },
       {
         "Id": "JE",
@@ -4129,7 +4129,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "RUS,HAM"
       },
       {
         "Id": "JE",
@@ -4193,7 +4193,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "VER,VER"
       },
       {
         "Id": "JE",
@@ -4257,7 +4257,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "LEC,LEC"
       },
       {
         "Id": "JE",
@@ -4321,7 +4321,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "NOR,NOR"
       },
       {
         "Id": "JE",
@@ -4385,7 +4385,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "GAS,GAS"
       },
       {
         "Id": "JE",
@@ -4449,7 +4449,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "RIC,RIC"
       },
       {
         "Id": "JE",
@@ -4513,7 +4513,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "ALO,ALO"
       },
       {
         "Id": "JE",
@@ -4577,7 +4577,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "ZHO,BOT"
       },
       {
         "Id": "JE",
@@ -4641,7 +4641,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "ALB,ALB"
       },
       {
         "Id": "JE",
@@ -4705,7 +4705,7 @@
       },
       {
         "Id": "MP",
-        "Response": ""
+        "Response": "HUL,HUL"
       },
       {
         "Id": "JE",
