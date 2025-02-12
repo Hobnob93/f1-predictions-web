@@ -144,7 +144,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "TSU"
       },
       {
         "Id": "BB",
@@ -209,7 +209,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "BB",
@@ -273,7 +273,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "52"
       },
       {
         "Id": "BB",
@@ -338,7 +338,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "RB"
       },
       {
         "Id": "BB",
@@ -403,7 +403,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "BB",
@@ -468,7 +468,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "BB",
@@ -532,7 +532,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "42"
       },
       {
         "Id": "BB",
@@ -597,7 +597,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "TSU"
       },
       {
         "Id": "BB",
@@ -662,7 +662,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "MAG"
       },
       {
         "Id": "BB",
@@ -727,7 +727,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "ALP"
       },
       {
         "Id": "BB",
@@ -792,7 +792,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "BB",
@@ -857,7 +857,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "SAR"
       },
       {
         "Id": "BB",
@@ -922,7 +922,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "BB",
@@ -987,7 +987,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "BB",
@@ -1052,7 +1052,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "ALP"
       },
       {
         "Id": "BB",
@@ -1117,7 +1117,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "HAA,KS"
       },
       {
         "Id": "BB",
@@ -1182,7 +1182,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "ALP"
       },
       {
         "Id": "BB",
@@ -1247,7 +1247,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "HAA"
       },
       {
         "Id": "BB",
@@ -1311,7 +1311,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "MIA,MON,HUN,SIN,YMC"
       },
       {
         "Id": "BB",
@@ -1376,7 +1376,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "ALP,RB"
       },
       {
         "Id": "BB",
@@ -1441,7 +1441,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "RB"
       },
       {
         "Id": "BB",
@@ -1506,7 +1506,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "VER"
       },
       {
         "Id": "BB",
@@ -1572,7 +1572,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "ALB,ALO,GAS,HAM,LEC,NOR,PER,PIA,RIC,SAI,VER"
       },
       {
         "Id": "BB",
@@ -1636,7 +1636,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "PER-BAK,NOR-SIN,STR-HUN,OCO-MON,SAI-SIN"
       },
       {
         "Id": "BB",
@@ -1701,7 +1701,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "NOR"
       },
       {
         "Id": "BB",
@@ -1766,7 +1766,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "BOT,GAS,OCO,TSU"
       },
       {
         "Id": "BB",
@@ -1831,7 +1831,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "ALO,HAM"
       },
       {
         "Id": "BB",
@@ -1870,8 +1870,8 @@
     "scoring": {
       "type": "GainWhenX",
       "answersId": "3-G",
-      "value": 3,
-      "explanation": "3 points for every grid place lost due to penalties"
+      "value": 2,
+      "explanation": "2 points for every grid place lost due to penalties"
     },
     "competitorResponses": [
       {
@@ -1896,7 +1896,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "OCO"
       },
       {
         "Id": "BB",
@@ -1961,7 +1961,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "GAS,OCO,TSU"
       },
       {
         "Id": "BB",
@@ -2027,7 +2027,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "SAR"
       },
       {
         "Id": "BB",
@@ -2092,7 +2092,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "GAS"
       },
       {
         "Id": "BB",
@@ -2156,7 +2156,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "JPN,SPA,BRA"
       },
       {
         "Id": "BB",
@@ -2220,7 +2220,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "AM"
       },
       {
         "Id": "BB",
@@ -2284,7 +2284,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "18"
       },
       {
         "Id": "BB",
@@ -2348,7 +2348,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "6"
       },
       {
         "Id": "BB",
@@ -2412,7 +2412,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "23"
       },
       {
         "Id": "BB",
@@ -2476,7 +2476,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "ALB,NOR,PIA"
       },
       {
         "Id": "BB",
@@ -2541,7 +2541,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "BAH,MON,BAK,YMC"
       },
       {
         "Id": "BB",
@@ -2605,7 +2605,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "BB",
@@ -2669,7 +2669,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "BB",
@@ -2733,7 +2733,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "BB",
@@ -2797,7 +2797,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "BB",
@@ -2861,7 +2861,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "BB",
@@ -2925,7 +2925,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "BB",
@@ -2989,7 +2989,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "BB",
@@ -3053,7 +3053,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "BB",
@@ -3117,7 +3117,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "BB",
@@ -3181,7 +3181,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "BB",
@@ -3245,7 +3245,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "BB",
@@ -3309,7 +3309,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "BB",
@@ -3373,7 +3373,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "BB",
@@ -3437,7 +3437,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "BB",
@@ -3501,7 +3501,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "BB",
@@ -3565,7 +3565,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "BB",
@@ -3629,7 +3629,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "false"
       },
       {
         "Id": "BB",
@@ -3693,7 +3693,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "BB",
@@ -3757,7 +3757,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "true"
       },
       {
         "Id": "BB",
@@ -3821,7 +3821,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "BB",
@@ -3885,7 +3885,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "BB",
@@ -3949,7 +3949,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "AM"
       },
       {
         "Id": "BB",
@@ -4013,7 +4013,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "RB"
       },
       {
         "Id": "BB",
@@ -4077,7 +4077,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "KS"
       },
       {
         "Id": "BB",
@@ -4141,7 +4141,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "HAM,HAM"
       },
       {
         "Id": "BB",
@@ -4205,7 +4205,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "VER,VER"
       },
       {
         "Id": "BB",
@@ -4269,7 +4269,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "LEC,LEC"
       },
       {
         "Id": "BB",
@@ -4333,7 +4333,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "NOR,NOR"
       },
       {
         "Id": "BB",
@@ -4397,7 +4397,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "GAS,OCO"
       },
       {
         "Id": "BB",
@@ -4461,7 +4461,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "TSU,TSU"
       },
       {
         "Id": "BB",
@@ -4525,7 +4525,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "ALO,ALO"
       },
       {
         "Id": "BB",
@@ -4589,7 +4589,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "BOT,BOT"
       },
       {
         "Id": "BB",
@@ -4653,7 +4653,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "ALB,ALB"
       },
       {
         "Id": "BB",
@@ -4717,7 +4717,7 @@
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "HUL,HUL"
       },
       {
         "Id": "BB",
