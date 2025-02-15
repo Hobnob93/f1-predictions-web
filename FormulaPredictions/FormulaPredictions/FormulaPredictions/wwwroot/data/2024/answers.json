@@ -302,29 +302,25 @@
     ]
   },
   {
-    "id": "2-A", //
+    "id": "2-A",
     "renderType": "Bar",
     "scoringMode": "Teams",
     "answersData": [
       {
-        "id": "RBR",
-        "value": "39"
+        "id": "FER",
+        "value": "22"
       },
       {
         "id": "MCL",
-        "value": "13"
+        "value": "21"
       },
       {
-        "id": "FER",
-        "value": "12"
+        "id": "RBR",
+        "value": "18"
       },
       {
         "id": "MER",
-        "value": "10"
-      },
-      {
-        "id": "AM",
-        "value": "8"
+        "value": "9"
       },
       {
         "id": "ALP",
@@ -333,149 +329,149 @@
     ]
   },
   {
-    "id": "2-B", //
+    "id": "2-B",
     "renderType": "Bar",
     "scoringMode": "Teams",
     "answersData": [
       {
         "id": "WIL",
-        "value": "13"
-      },
-      {
-        "id": "ALP",
         "value": "11"
       },
       {
-        "id": "HAA",
-        "value": "8"
-      },
-      {
-        "id": "FER",
+        "id": "RB",
         "value": "7"
       },
       {
-        "id": "AT",
-        "value": "7"
-      },
-      {
-        "id": "AM",
-        "value": "7"
-      },
-      {
-        "id": "AR",
+        "id": "ALP",
         "value": "6"
       },
       {
-        "id": "MCL",
+        "id": "RBR",
+        "value": "6"
+      },
+      {
+        "id": "FER",
+        "value": "4"
+      },
+      {
+        "id": "AM",
+        "value": "4"
+      },
+      {
+        "id": "HAA",
+        "value": "4"
+      },
+      {
+        "id": "KS",
         "value": "4"
       },
       {
         "id": "MER",
-        "value": "5"
+        "value": "3"
       },
       {
-        "id": "RBR",
-        "value": "3"
+        "id": "MCL",
+        "value": "1"
       }
     ]
   },
   {
-    "id": "2-C", //
+    "id": "2-C",
     "renderType": "Bar",
     "scoringMode": "Teams",
     "answersData": [
       {
-        "id": "AR",
-        "value": "29"
+        "id": "FER",
+        "value": "48"
+      },
+      {
+        "id": "MCL",
+        "value": "46"
+      },
+      {
+        "id": "MER",
+        "value": "43"
+      },
+      {
+        "id": "RBR",
+        "value": "42"
+      },
+      {
+        "id": "RB",
+        "value": "37"
+      },
+      {
+        "id": "HAA",
+        "value": "36"
+      },
+      {
+        "id": "ALP",
+        "value": "31"
+      },
+      {
+        "id": "AM",
+        "value": "30"
       },
       {
         "id": "WIL",
-        "value": "28"
-      },
-      {
-        "id": "AT",
         "value": "24"
       },
       {
-        "id": "HAA",
-        "value": "23"
-      },
-      {
-        "id": "ALP",
-        "value": "11"
-      },
-      {
-        "id": "MCL",
-        "value": "10"
-      },
-      {
-        "id": "AM",
-        "value": "10"
-      },
-      {
-        "id": "RBR",
-        "value": "3"
-      },
-      {
-        "id": "MER",
-        "value": "2"
-      },
-      {
-        "id": "FER",
-        "value": "2"
+        "id": "WIL",
+        "value": "24"
       }
     ]
   },
   {
-    "id": "2-D", //
+    "id": "2-D",
     "renderType": "OrderedList",
     "scoringMode": "Teams",
-    "rawAnswer": "MCL,FER,ALP,AM,WIL,MER,HAA,AT,AR,RBR"
+    "rawAnswer": "ALP,AM,RBR,MER,RB,WIL,KS,HAA,FER,MCL"
   },
   {
-    "id": "2-E",//
+    "id": "2-E",
     "renderType": "Bar",
     "scoringMode": "Teams",
     "answersData": [
       {
-        "id": "ALP",
-        "value": "44.518"
+        "id": "KS",
+        "value": "74.773"
       },
       {
         "id": "HAA",
-        "value": "37.769"
-      },
-      {
-        "id": "MCL",
-        "value": "33.661"
-      },
-      {
-        "id": "AR",
-        "value": "30.167"
-      },
-      {
-        "id": "MER",
-        "value": "27.062"
-      },
-      {
-        "id": "AT",
-        "value": "25.818"
-      },
-      {
-        "id": "AM",
-        "value": "25.800"
+        "value": "36.604"
       },
       {
         "id": "WIL",
-        "value": "25.670"
+        "value": "35.729"
+      },
+      {
+        "id": "ALP",
+        "value": "26.462"
+      },
+      {
+        "id": "MCL",
+        "value": "25.450"
+      },
+      {
+        "id": "AM",
+        "value": "25.109"
       },
       {
         "id": "RBR",
-        "value": "25.091"
+        "value": "25.064"
+      },
+      {
+        "id": "RB",
+        "value": "24.988"
+      },
+      {
+        "id": "MER",
+        "value": "24.866"
       },
       {
         "id": "FER",
-        "value": "24.644"
+        "value": "24.474"
       }
     ]
   },
@@ -551,7 +547,7 @@
     ]
   },
   {
-    "id": "2-G", //
+    "id": "2-G",
     "renderType": "Bar",
     "scoringMode": "Teams",
     "answersData": [
@@ -560,284 +556,268 @@
         "value": "6"
       },
       {
-        "id": "MCL",
-        "value": "5"
-      },
-      {
-        "id": "AT",
+        "id": "HAA",
         "value": "4"
       },
       {
-        "id": "AR",
-        "value": "3"
-      },
-      {
-        "id": "WIL",
-        "value": "2"
-      },
-      {
-        "id": "HAA",
-        "value": "2"
+        "id": "RB",
+        "value": "4"
       },
       {
         "id": "AM",
+        "value": "3"
+      },
+      {
+        "id": "MCL",
         "value": "2"
       },
       {
         "id": "RBR",
+        "value": "2"
+      },
+      {
+        "id": "WIL",
         "value": "1"
       },
       {
         "id": "MER",
         "value": "1"
-      },
-      {
-        "id": "FER",
-        "value": "1"
       }
     ]
   },
   {
-    "id": "2-H", //
+    "id": "2-H",
     "renderType": "Bar",
     "scoringMode": "Teams",
     "answersData": [
       {
-        "id": "AM",
-        "value": "225"
-      },
-      {
         "id": "MCL",
-        "value": "143"
-      },
-      {
-        "id": "RBR",
-        "value": "101"
-      },
-      {
-        "id": "WIL",
-        "value": "20"
-      },
-      {
-        "id": "AT",
-        "value": "-10"
-      },
-      {
-        "id": "HAA",
-        "value": "-25"
-      },
-      {
-        "id": "AR",
-        "value": "-39"
-      },
-      {
-        "id": "ALP",
-        "value": "-53"
-      },
-      {
-        "id": "MER",
-        "value": "-106"
+        "value": "364"
       },
       {
         "id": "FER",
-        "value": "-254"
+        "value": "246"
+      },
+      {
+        "id": "MER",
+        "value": "59"
+      },
+      {
+        "id": "HAA",
+        "value": "46"
+      },
+      {
+        "id": "RB",
+        "value": "21"
+      },
+      {
+        "id": "WIL",
+        "value": "-11"
+      },
+      {
+        "id": "KS",
+        "value": "-12"
+      },
+      {
+        "id": "ALP",
+        "value": "-55"
+      },
+      {
+        "id": "AM",
+        "value": "-186"
+      },
+      {
+        "id": "RBR",
+        "value": "-271"
       }
     ]
   },
   {
-    "id": "3-A", //
+    "id": "3-A",
     "renderType": "Bar",
     "scoringMode": "Drivers",
     "answersData": [
       {
         "id": "VER",
-        "value": "1003"
-      },
-      {
-        "id": "PER",
-        "value": "146"
-      },
-      {
-        "id": "SAI",
-        "value": "77"
-      },
-      {
-        "id": "LEC",
-        "value": "41"
+        "value": "560"
       },
       {
         "id": "NOR",
-        "value": "30"
+        "value": "271"
       },
       {
-        "id": "HAM",
-        "value": "13"
+        "id": "LEC",
+        "value": "172"
       },
       {
         "id": "RUS",
-        "value": "6"
+        "value": "138"
       },
       {
-        "id": "TSU",
-        "value": "5"
-      },
-      {
-        "id": "ALO",
-        "value": "3"
+        "id": "SAI",
+        "value": "134"
       },
       {
         "id": "PIA",
+        "value": "123"
+      },
+      {
+        "id": "HAM",
+        "value": "31"
+      },
+      {
+        "id": "OCO",
+        "value": "14"
+      },
+      {
+        "id": "PER",
         "value": "1"
       }
     ]
   },
   {
-    "id": "3-B", //
+    "id": "3-B",
     "renderType": "Pie",
     "scoringMode": "Drivers",
     "answersData": [
       {
         "id": "NOR",
+        "value": "7"
+      },
+      {
+        "id": "LEC",
         "value": "5"
       },
       {
-        "id": "VER",
+        "id": "HAM",
         "value": "3"
-      },
-      {
-        "id": "PER",
-        "value": "3"
-      },
-      {
-        "id": "ALO",
-        "value": "2"
       },
       {
         "id": "SAI",
-        "value": "2"
+        "value": "3"
       },
       {
         "id": "PIA",
         "value": "2"
       },
       {
-        "id": "OCO",
+        "id": "RIC",
         "value": "1"
       },
       {
-        "id": "HAM",
+        "id": "VER",
         "value": "1"
       },
       {
-        "id": "ALB",
+        "id": "ZHO",
         "value": "1"
       },
       {
-        "id": "LEC",
-        "value": "1"
-      },
-      {
-        "id": "TSU",
+        "id": "BEA",
         "value": "1"
       }
     ]
   },
   {
-    "id": "3-C", //
+    "id": "3-C",
     "renderType": "MultiBar",
     "scoringMode": "DriverTracks",
     "answersData": [
       {
         "id": "BAH",
-        "value": "RUS-6,PIA-0,HUL-0,ALO-15,GAS-2"
+        "value": "PER-18,NOR-8,STR-1,OCO-0,SAI-15"
       },
       {
         "id": "SAA",
-        "value": "RUS-12,PIA-0,HUL-0,ALO-15,GAS-2"
+        "value": "PER-18,NOR-4,STR-0,OCO-0,SAI-0"
       },
       {
         "id": "AUS",
-        "value": "RUS-0,PIA-4,HUL-6,ALO-15,GAS-0"
-      },
-      {
-        "id": "BAK",
-        "value": "RUS-5,PIA-0,HUL-0,ALO-12,GAS-0"
-      },
-      {
-        "id": "MIA",
-        "value": "RUS-12,PIA-0,HUL-0,ALO-15,GAS-4"
-      },
-      {
-        "id": "IMO",
-        "value": "RUS-0,PIA-0,HUL-0,ALO-0,GAS-0"
-      },
-      {
-        "id": "MON",
-        "value": "RUS-10,PIA-1,HUL-0,ALO-18,GAS-6"
-      },
-      {
-        "id": "BAR",
-        "value": "RUS-15,PIA-0,HUL-0,ALO-6,GAS-1"
-      },
-      {
-        "id": "CAN",
-        "value": "RUS-0,PIA-0,HUL-0,ALO-18,GAS-0"
-      },
-      {
-        "id": "RBR",
-        "value": "RUS-6,PIA-0,HUL-0,ALO-10,GAS-1"
-      },
-      {
-        "id": "GBR",
-        "value": "RUS-10,PIA-12,HUL-0,ALO-6,GAS-0"
-      },
-      {
-        "id": "HUN",
-        "value": "RUS-8,PIA-10,HUL-0,ALO-2,GAS-0"
-      },
-      {
-        "id": "SPA",
-        "value": "RUS-8,PIA-0,HUL-0,ALO-10,GAS-0"
-      },
-      {
-        "id": "NED",
-        "value": "RUS-0,PIA-2,HUL-0,ALO-19,GAS-0"
-      },
-      {
-        "id": "MZA",
-        "value": "RUS-10,PIA-0,HUL-0,ALO-2,GAS-0"
-      },
-      {
-        "id": "SIN",
-        "value": "RUS-0,PIA-6,HUL-0,ALO-0,GAS-8"
+        "value": "PER-10,NOR-15,STR-8,OCO-0,SAI-25"
       },
       {
         "id": "JPN",
-        "value": "RUS-6,PIA-15,HUL-0,ALO-4,GAS-1"
+        "value": "PER-18,NOR-10,STR-0,OCO-0,SAI-15"
       },
       {
-        "id": "QTR",
-        "value": "RUS-12,PIA-18,HUL-0,ALO-8,GAS-0"
+        "id": "CHN",
+        "value": "PER-21,NOR-18,STR-0,OCO-0,SAI-14"
+      },
+      {
+        "id": "MIA",
+        "value": "PER-18,NOR-25,STR-0,OCO-1,SAI-10"
+      },
+      {
+        "id": "EMI",
+        "value": "PER-4,NOR-18,STR-2,OCO-0,SAI-10"
+      },
+      {
+        "id": "MON",
+        "value": "PER-0,NOR-12,STR-0,OCO-0,SAI-15"
+      },
+      {
+        "id": "CAN",
+        "value": "PER-0,NOR-18,STR-6,OCO-1,SAI-0"
+      },
+      {
+        "id": "BAR",
+        "value": "PER-4,NOR-19,STR-0,OCO-1,SAI-8"
+      },
+      {
+        "id": "RBR",
+        "value": "PER-7,NOR-6,STR-0,OCO-0,SAI-19"
+      },
+      {
+        "id": "GBR",
+        "value": "PER-0,NOR-15,STR-6,OCO-0,SAI-11"
+      },
+      {
+        "id": "HUN",
+        "value": "PER-6,NOR-18,STR-1,OCO-0,SAI-8"
+      },
+      {
+        "id": "SPA",
+        "value": "PER-7,NOR-10,STR-0,OCO-2,SAI-8"
+      },
+      {
+        "id": "NED",
+        "value": "PER-8,NOR-26,STR-0,OCO-0,SAI-10"
+      },
+      {
+        "id": "MZA",
+        "value": "PER-4,NOR-16,STR-0,OCO-0,SAI-12"
+      },
+      {
+        "id": "BAK",
+        "value": "PER-0,NOR-13,STR-0,OCO-0,SAI-0"
+      },
+      {
+        "id": "SIN",
+        "value": "PER-1,NOR-25,STR-0,OCO-0,SAI-6"
       },
       {
         "id": "CTA",
-        "value": "RUS-10,PIA-0,HUL-0,ALO-0,GAS-8"
+        "value": "PER-6,NOR-18,STR-0,OCO-0,SAI-25"
       },
       {
         "id": "MEX",
-        "value": "RUS-8,PIA-4,HUL-0,ALO-0,GAS-0"
+        "value": "PER-0,NOR-18,STR-0,OCO-0,SAI-25"
       },
       {
         "id": "BRA",
-        "value": "RUS-0,PIA-0,HUL-0,ALO-15,GAS-6"
+        "value": "PER-1,NOR-16,STR-0,OCO-18,SAI-4"
       },
       {
         "id": "LSV",
-        "value": "RUS-4,PIA-2,HUL-0,ALO-2,GAS-0"
+        "value": "PER-1,NOR-9,STR-0,OCO-0,SAI-15"
+      },
+      {
+        "id": "QTR",
+        "value": "PER-0,NOR-2,STR-0,OCO-0,SAI-8"
       },
       {
         "id": "YMC",
-        "value": "RUS-15,PIA-8,HUL-0,ALO-6,GAS-0"
+        "value": "PER-0,NOR-25,STR-0,OCO-0,SAI-18"
       }
     ]
   },
