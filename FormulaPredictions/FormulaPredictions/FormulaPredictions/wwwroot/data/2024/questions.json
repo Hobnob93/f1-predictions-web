@@ -3598,7 +3598,7 @@
     ]
   },
   {
-    "id": "5-P",
+    "id": "5-Q",
     "question": "A driver gets a race ban for accruing too many license points.",
     "type": "SingleBool",
     "scoring": {
@@ -3662,7 +3662,7 @@
     ]
   },
   {
-    "id": "5-Q",
+    "id": "5-R",
     "question": "Winning constructor wins by a final score margin of 40% or more.",
     "type": "SingleBool",
     "scoring": {
@@ -3726,7 +3726,7 @@
     ]
   },
   {
-    "id": "5-R",
+    "id": "5-S",
     "question": "Someone crashes at Monaco during the race (please?)",
     "type": "SingleBool",
     "scoring": {
