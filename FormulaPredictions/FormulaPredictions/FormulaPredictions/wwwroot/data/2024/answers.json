@@ -1353,21 +1353,21 @@
     ]
   },
   {
-    "id": "4-A", //
+    "id": "4-A",
     "renderType": "BAR",
     "scoringMode": "Teams",
     "answersData": [
       {
-        "id": "ALP",
-        "value": "12"
+        "id": "MCL",
+        "value": "17"
       },
       {
         "id": "AM",
-        "value": "12"
+        "value": "7"
       },
       {
-        "id": "MCL",
-        "value": "2"
+        "id": "HAA",
+        "value": "1"
       }
     ]
   },
@@ -1387,20 +1387,20 @@
     "rawAnswer": "23"
   },
   {
-    "id": "4-E", //
+    "id": "4-E",
     "renderType": "Bar",
     "scoringMode": "Drivers",
     "answersData": [
       {
-        "id": "ALO",
-        "value": "15"
+        "id": "PIA",
+        "value": "18"
       },
       {
-        "id": "GAS",
-        "value": "4"
+        "id": "NOR",
+        "value": "16"
       },
       {
-        "id": "OCO",
+        "id": "ALB",
         "value": "2"
       },
       {
@@ -1410,56 +1410,36 @@
     ]
   },
   {
-    "id": "4-F", //
+    "id": "4-F",
     "renderType": "Bar",
     "scoringMode": "Tracks",
     "answersData": [
       {
-        "id": "AUS",
-        "value": "8"
+        "id": "CAN",
+        "value": "5"
       },
       {
         "id": "QTR",
-        "value": "8"
+        "value": "5"
       },
       {
-        "id": "BRA",
-        "value": "6"
+        "id": "MON",
+        "value": "4"
+      },
+      {
+        "id": "BAK",
+        "value": "4"
+      },
+      {
+        "id": "YMC",
+        "value": "4"
       },
       {
         "id": "JPN",
-        "value": "5"
-      },
-      {
-        "id": "MEX",
-        "value": "5"
-      },
-      {
-        "id": "SIN",
-        "value": "4"
-      },
-      {
-        "id": "CTA",
-        "value": "4"
-      },
-      {
-        "id": "BAH",
         "value": "3"
       },
       {
-        "id": "GBR",
-        "value": "3"
-      },
-      {
-        "id": "HUN",
-        "value": "3"
-      },
-      {
-        "id": "NED",
-        "value": "3"
-      },
-      {
-        "id": "LSV",
+        "id": "CHN",
         "value": "3"
       },
       {
@@ -1467,27 +1447,31 @@
         "value": "2"
       },
       {
-        "id": "BAK",
+        "id": "AUS",
         "value": "2"
       },
       {
-        "id": "MON",
+        "id": "GBR",
         "value": "2"
       },
       {
-        "id": "CAN",
+        "id": "SIN",
         "value": "2"
       },
       {
-        "id": "MZA",
+        "id": "BRA",
         "value": "2"
       },
       {
-        "id": "SPA",
+        "id": "LSV",
         "value": "2"
       },
       {
-        "id": "BAR",
+        "id": "MIA",
+        "value": "1"
+      },
+      {
+        "id": "EMI",
         "value": "1"
       },
       {
@@ -1495,7 +1479,23 @@
         "value": "1"
       },
       {
-        "id": "YMC",
+        "id": "HUN",
+        "value": "1"
+      },
+      {
+        "id": "SPA",
+        "value": "1"
+      },
+      {
+        "id": "MZA",
+        "value": "1"
+      },
+      {
+        "id": "CTA",
+        "value": "1"
+      },
+      {
+        "id": "MEX",
         "value": "1"
       }
     ]
