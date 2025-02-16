@@ -9,7 +9,8 @@
     "id": "JB",
     "name": "Joe",
     "nickname": "Marry Me Yuki",
-    "color": "#FFFFFF"
+    "color": "#36454F",
+    "useDarkText": false
   },
   {
     "id": "BB",
@@ -34,7 +35,7 @@
     "id": "MB",
     "name": "Matt B",
     "nickname": "Matterial",
-    "color": "#FFFFFF"
+    "color": "#b3dbba"
   },
   {
     "id": "MV",
@@ -67,13 +68,13 @@
     "id": "AB",
     "name": "Andrew",
     "nickname": "Bloop",
-    "color": "#FFFFFF"
+    "color": "#FFF333"
   },
   {
     "id": "JA",
     "name": "Jack A",
     "nickname": "World's Best Guesser",
-    "color": "#FFFFFF"
+    "color": "#8323B7"
   },
   {
     "id": "JE",

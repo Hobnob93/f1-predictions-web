@@ -1,5 +1,4 @@
 using FormulaPredictions.Shared.Models.Charting;
-using FormulaPredictions.Shared.Models;
 
 namespace FormulaPredictions.RCL.Templates.Data;
 

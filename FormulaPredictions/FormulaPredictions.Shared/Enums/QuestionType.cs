@@ -4,6 +4,8 @@ public enum QuestionType
 {
     None,
     Intro,
+    FavTeams,
+    FavDrivers,
     Value,
     SingleTeam,
     SingleDriver,

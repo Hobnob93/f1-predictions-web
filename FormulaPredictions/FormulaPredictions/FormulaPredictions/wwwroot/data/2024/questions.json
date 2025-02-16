@@ -61,7 +61,7 @@
   {
     "id": "0-B",
     "question": "A curiosity question; which teams are supported?",
-    "type": "MultiTeam",
+    "type": "FavTeams",
     "competitorResponses": [
       {
         "Id": "CB",
@@ -120,7 +120,7 @@
   {
     "id": "0-C",
     "question": "Another curiosity question; which drivers are supported?",
-    "type": "MultiDriver",
+    "type": "FavDrivers",
     "competitorResponses": [
       {
         "Id": "CB",
