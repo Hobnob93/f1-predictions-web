@@ -1372,19 +1372,19 @@
     ]
   },
   {
-    "id": "4-B", //
+    "id": "4-B",
     "renderType": "Raw",
-    "rawAnswer": "18"
+    "rawAnswer": "17"
   },
   {
-    "id": "4-C", //
+    "id": "4-C",
     "renderType": "Raw",
-    "rawAnswer": "6"
+    "rawAnswer": "3"
   },
   {
-    "id": "4-D", //
+    "id": "4-D",
     "renderType": "Raw",
-    "rawAnswer": "23"
+    "rawAnswer": "19"
   },
   {
     "id": "4-E",
