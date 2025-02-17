@@ -18,8 +18,8 @@ public partial class SingleBoolTemplate : DataTemplateComponent
 
         ChartData = unique.Select(b => new ChartDataPoint
         {
-            Id = b ? "True" : "False",
-            Name = b ? "True" : "False",
+            Id = b ? "Yes" : "No",
+            Name = b ? "Yes" : "No",
             Color = b ? "#0BBA83" : "#F64E62",
             Value = responses
                 .Count(r => r.Response == b),

@@ -41,7 +41,8 @@
     "id": "MV",
     "name": "Matt V",
     "nickname": "The Rizz-ler",
-    "color": "#FFFFFF"
+    "color": "#333333",
+    "useDarkText": false
   },
   {
     "id": "CB",
@@ -80,6 +81,6 @@
     "id": "JE",
     "name": "Jack E",
     "nickname": "Simplet",
-    "color": "#FFFFFF"
+    "color": "#1E90FF"
   }
 ]

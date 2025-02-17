@@ -1216,7 +1216,7 @@
   },
   {
     "id": "2-E",
-    "question": "Which team will have the LONGEST time in the pitlane in the first race of the season?",
+    "question": "Which team will have the LONGEST time in the pitlane for one stop in the first race of the season?",
     "type": "SingleTeam",
     "scoring": {
       "type": "Leaderboard",
@@ -2717,7 +2717,7 @@
       },
       {
         "Id": "KH",
-        "Response": "false"
+        "Response": "true"
       },
       {
         "Id": "MP",
@@ -2781,7 +2781,7 @@
       },
       {
         "Id": "KH",
-        "Response": "false"
+        "Response": "true"
       },
       {
         "Id": "MP",
@@ -2973,7 +2973,7 @@
       },
       {
         "Id": "KH",
-        "Response": "true"
+        "Response": "false"
       },
       {
         "Id": "MP",
@@ -3485,7 +3485,7 @@
       },
       {
         "Id": "KH",
-        "Response": "true"
+        "Response": "false"
       },
       {
         "Id": "MP",

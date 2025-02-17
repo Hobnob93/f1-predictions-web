@@ -11,7 +11,8 @@ public partial class ValueTemplate : DataTemplateComponent
         var responses = GetValueResponsesForAll<int>();
         var unique = responses
             .OrderByDescending(r => r.Response)
-            .DistinctBy(r => r.Response);
+            .DistinctBy(r => r.Response)
+            .ToList();
 
         var colors = AppState.AppData.Teams
             .Select(t => t.Color)
@@ -21,7 +22,7 @@ public partial class ValueTemplate : DataTemplateComponent
         {
             Id = u.Response.ToString(),
             Name = u.Response.ToString(),
-            Color = colors[i],
+            Color = colors[i % colors.Length],
             Value = u.Response,
             ApplicableCompetitors = responses
                 .Where(r => r.Response == u.Response)

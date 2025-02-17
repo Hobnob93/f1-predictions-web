@@ -2,13 +2,13 @@
 
 @if (State is true)
 {
-    <MudAvatar Color="MudBlazor.Color.Success" Variant="Variant.Filled">
-        <MudIcon Color="MudBlazor.Color.Dark" Icon="@Icons.Material.Filled.Check" Size="MudBlazor.Size.Large" />
-    </MudAvatar>
+    <MudText Color="MudBlazor.Color.Success" Typo="MudBlazor.Typo.h4">
+        YES
+    </MudText>
 }
 else
 {
-    <MudAvatar Color="MudBlazor.Color.Error" Variant="Variant.Filled">
-        <MudIcon Color="MudBlazor.Color.Dark" Icon="@Icons.Material.Filled.Close" Size="MudBlazor.Size.Large" />
-    </MudAvatar>
+    <MudText Color="MudBlazor.Color.Error" Typo="MudBlazor.Typo.h4">
+        NO
+    </MudText>
 }
