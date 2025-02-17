@@ -18,6 +18,6 @@ public partial class Home : ComponentBase
         if (!AppState.AppData.HasFetched)
             NavigationManager.NavigateTo("./fetch-data");
 
-        AppState.AppBarText = "The Results";
+        AppState.AppBarText = "Prediction Results";
     }
 }
