@@ -3,7 +3,6 @@ using FormulaPredictions.Shared.Enums;
 using FormulaPredictions.Shared.State;
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
-using static System.Formats.Asn1.AsnWriter;
 
 namespace FormulaPredictions.RCL.State;
 
@@ -87,7 +86,7 @@ public partial class CascadingState : ComponentBase
         var (topScore, topScorers) = ScoresManager.GetHighestScorers(AppData, oldData);
         if (topScore == 0)
         {
-            Snackbar.Add("No points scored in that last question!", Severity.Normal);
+            Snackbar.Add("No points gained in that last question!", Severity.Normal);
         }
         else if (topScorers.Length == AppData.Competitors.Length)
         {

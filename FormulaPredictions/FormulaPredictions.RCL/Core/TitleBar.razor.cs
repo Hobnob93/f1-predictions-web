@@ -83,7 +83,13 @@ public partial class TitleBar : ComponentBase
 
         AppState.Current = AppState.Current with
         {
-            ShowScores = true
+            ShowScores = true,
+            OpenGraphSection = false
         };
+
+        foreach (var competitor in AppState.AppData.Competitors)
+        {
+            AppState.Current.ShowingCompetitorResponses.Add(competitor);
+        }
     }
 }

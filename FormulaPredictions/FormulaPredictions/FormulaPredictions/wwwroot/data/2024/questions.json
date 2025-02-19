@@ -1286,7 +1286,7 @@
     "scoring": {
       "type": "GetChoiceValue",
       "answersId": "2-F",
-      "explanation": "Whatever Alpha Tauri scored in your picked races, you get equal points"
+      "explanation": "Whatever your choice scores in your picked races, you get equal points"
     },
     "competitorResponses": [
       {
