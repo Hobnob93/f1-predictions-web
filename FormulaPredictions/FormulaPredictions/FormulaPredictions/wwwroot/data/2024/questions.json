@@ -3667,7 +3667,7 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-Q",
+      "answersId": "5-R",
       "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "competitorResponses": [
@@ -3731,7 +3731,7 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-R",
+      "answersId": "5-S",
       "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "competitorResponses": [
