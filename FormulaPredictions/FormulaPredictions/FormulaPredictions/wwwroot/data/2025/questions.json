@@ -5,56 +5,48 @@
     "type": "Intro",
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "MER"
-      },
-      {
-        "Id": "KH",
-        "Response": "KS"
-      },
-      {
-        "Id": "MP",
-        "Response": "MER"
-      },
-      {
-        "Id": "JE",
-        "Response": "FER"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "KS"
-      },
-      {
-        "Id": "JB",
-        "Response": "RB"
-      },
-      {
-        "Id": "BB",
-        "Response": "RB"
-      },
-      {
-        "Id": "LT",
-        "Response": "MCL"
-      },
-      {
-        "Id": "AB",
-        "Response": "MCL"
-      },
-      {
-        "Id": "SA",
-        "Response": "KS"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "KS"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "FER"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "KS"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -64,56 +56,48 @@
     "type": "FavTeams",
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "AM,MCL,MER"
-      },
-      {
-        "Id": "KH",
-        "Response": "RB,FER,MCL,WIL"
-      },
-      {
-        "Id": "MP",
-        "Response": "MCL,WIL"
-      },
-      {
-        "Id": "JE",
-        "Response": "FER,MCL,RBR"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "ALP,AM,RB,FER,HAA,KS,MCL,RBR,WIL"
-      },
-      {
-        "Id": "JB",
-        "Response": "RB"
-      },
-      {
-        "Id": "BB",
-        "Response": "RBR"
-      },
-      {
-        "Id": "LT",
-        "Response": "FER,MCL"
-      },
-      {
-        "Id": "AB",
-        "Response": "MCL"
-      },
-      {
-        "Id": "SA",
-        "Response": "FER,HAA,RBR"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "MER,WIL"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "AM,MCL,MER,WIL"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "MCL"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -123,56 +107,48 @@
     "type": "FavDrivers",
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "HAM,NOR,RIC,RUS"
-      },
-      {
-        "Id": "KH",
-        "Response": "ALB,GAS,HAM,LEC,NOR,PIA,RIC,RUS,SAI,TSU"
-      },
-      {
-        "Id": "MP",
-        "Response": "ALB,LEC,NOR,PER,PIA,RIC"
-      },
-      {
-        "Id": "JE",
-        "Response": "ALB,ALO,PIA,VER"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "BOT,LEC,NOR,PER,RUS,SAI,VER"
-      },
-      {
-        "Id": "JB",
-        "Response": "TSU"
-      },
-      {
-        "Id": "BB",
-        "Response": "GAS"
-      },
-      {
-        "Id": "LT",
-        "Response": "ALO,HAM,LEC,NOR,RIC,SAI,TSU"
-      },
-      {
-        "Id": "AB",
-        "Response": "NOR,RUS,SAI"
-      },
-      {
-        "Id": "SA",
-        "Response": "HAM,LEC,NOR,RIC,RUS"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "ALB,ALO,HAM,LEC,PIA,RUS"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "ALB,ALO,BOT,GAS,HAM,HUL,LEC,MAG,NOR,PER,PIA,RIC,RUS,SAI,SAR,TSU,ZHO"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "NOR"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -188,56 +164,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "MER"
-      },
-      {
-        "Id": "KH",
-        "Response": "RBR"
-      },
-      {
-        "Id": "MP",
-        "Response": "RBR"
-      },
-      {
-        "Id": "JE",
-        "Response": "RBR"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "MER"
-      },
-      {
-        "Id": "JB",
-        "Response": "RBR"
-      },
-      {
-        "Id": "BB",
-        "Response": "RBR"
-      },
-      {
-        "Id": "LT",
-        "Response": "RBR"
-      },
-      {
-        "Id": "AB",
-        "Response": "RBR"
-      },
-      {
-        "Id": "SA",
-        "Response": "RBR"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "RBR"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "MER"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "RBR"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -252,56 +220,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "34"
-      },
-      {
-        "Id": "KH",
-        "Response": "20"
-      },
-      {
-        "Id": "MP",
-        "Response": "50"
-      },
-      {
-        "Id": "JE",
-        "Response": "60"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "32"
-      },
-      {
-        "Id": "JB",
-        "Response": "52"
-      },
-      {
-        "Id": "BB",
-        "Response": "27"
-      },
-      {
-        "Id": "LT",
-        "Response": "30"
-      },
-      {
-        "Id": "AB",
-        "Response": "26"
-      },
-      {
-        "Id": "SA",
-        "Response": "50"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "50"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "16"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "23"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -317,56 +277,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "AM"
-      },
-      {
-        "Id": "KH",
-        "Response": "AM"
-      },
-      {
-        "Id": "MP",
-        "Response": "ALP"
-      },
-      {
-        "Id": "JE",
-        "Response": "RB"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "AM"
-      },
-      {
-        "Id": "JB",
-        "Response": "RB"
-      },
-      {
-        "Id": "BB",
-        "Response": "WIL"
-      },
-      {
-        "Id": "LT",
-        "Response": "MER"
-      },
-      {
-        "Id": "AB",
-        "Response": "AM"
-      },
-      {
-        "Id": "SA",
-        "Response": "ALP"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "AM"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "WIL"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "AM"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -382,56 +334,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "HAA"
-      },
-      {
-        "Id": "KH",
-        "Response": "HAA"
-      },
-      {
-        "Id": "MP",
-        "Response": "HAA"
-      },
-      {
-        "Id": "JE",
-        "Response": "HAA"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "HAA"
-      },
-      {
-        "Id": "JB",
-        "Response": "HAA"
-      },
-      {
-        "Id": "BB",
-        "Response": "HAA"
-      },
-      {
-        "Id": "LT",
-        "Response": "HAA"
-      },
-      {
-        "Id": "AB",
-        "Response": "KS"
-      },
-      {
-        "Id": "SA",
-        "Response": "HAA"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "HAA"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "HAA"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "HAA"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -447,56 +391,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "HAM"
-      },
-      {
-        "Id": "KH",
-        "Response": "VER"
-      },
-      {
-        "Id": "MP",
-        "Response": "VER"
-      },
-      {
-        "Id": "JE",
-        "Response": "VER"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "VER"
-      },
-      {
-        "Id": "JB",
-        "Response": "VER"
-      },
-      {
-        "Id": "BB",
-        "Response": "VER"
-      },
-      {
-        "Id": "LT",
-        "Response": "VER"
-      },
-      {
-        "Id": "AB",
-        "Response": "VER"
-      },
-      {
-        "Id": "SA",
-        "Response": "VER"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "VER"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "VER"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "VER"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -511,56 +447,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "42"
-      },
-      {
-        "Id": "KH",
-        "Response": "40"
-      },
-      {
-        "Id": "MP",
-        "Response": "35"
-      },
-      {
-        "Id": "JE",
-        "Response": "40"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "24"
-      },
-      {
-        "Id": "JB",
-        "Response": "42"
-      },
-      {
-        "Id": "BB",
-        "Response": "24"
-      },
-      {
-        "Id": "LT",
-        "Response": "35"
-      },
-      {
-        "Id": "AB",
-        "Response": "40"
-      },
-      {
-        "Id": "SA",
-        "Response": "55"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "55"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "26"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "34"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -576,56 +504,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "GAS"
-      },
-      {
-        "Id": "KH",
-        "Response": "ALB"
-      },
-      {
-        "Id": "MP",
-        "Response": "ALB"
-      },
-      {
-        "Id": "JE",
-        "Response": "ALB"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "MAG"
-      },
-      {
-        "Id": "JB",
-        "Response": "TSU"
-      },
-      {
-        "Id": "BB",
-        "Response": "PIA"
-      },
-      {
-        "Id": "LT",
-        "Response": "STR"
-      },
-      {
-        "Id": "AB",
-        "Response": "ALO"
-      },
-      {
-        "Id": "SA",
-        "Response": "RIC"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "TSU"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "STR"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "GAS"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -641,56 +561,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "SAR"
-      },
-      {
-        "Id": "KH",
-        "Response": "HUL"
-      },
-      {
-        "Id": "MP",
-        "Response": "MAG"
-      },
-      {
-        "Id": "JE",
-        "Response": "MAG"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "TSU"
-      },
-      {
-        "Id": "JB",
-        "Response": "MAG"
-      },
-      {
-        "Id": "BB",
-        "Response": "SAR"
-      },
-      {
-        "Id": "LT",
-        "Response": "SAR"
-      },
-      {
-        "Id": "AB",
-        "Response": "SAR"
-      },
-      {
-        "Id": "SA",
-        "Response": "ZHO"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "SAR"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "MAG"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "SAR"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -706,56 +618,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "KS"
-      },
-      {
-        "Id": "KH",
-        "Response": "FER"
-      },
-      {
-        "Id": "MP",
-        "Response": "ALP"
-      },
-      {
-        "Id": "JE",
-        "Response": "WIL"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "MCL"
-      },
-      {
-        "Id": "JB",
-        "Response": "ALP"
-      },
-      {
-        "Id": "BB",
-        "Response": "ALP"
-      },
-      {
-        "Id": "LT",
-        "Response": "FER"
-      },
-      {
-        "Id": "AB",
-        "Response": "HAA"
-      },
-      {
-        "Id": "SA",
-        "Response": "HAA"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "ALP"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "RBR"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "ALP"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -771,56 +675,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "MCL"
-      },
-      {
-        "Id": "KH",
-        "Response": "MER"
-      },
-      {
-        "Id": "MP",
-        "Response": "RBR"
-      },
-      {
-        "Id": "JE",
-        "Response": "RBR"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "KS"
-      },
-      {
-        "Id": "JB",
-        "Response": "RBR"
-      },
-      {
-        "Id": "BB",
-        "Response": "HAA"
-      },
-      {
-        "Id": "LT",
-        "Response": "RBR"
-      },
-      {
-        "Id": "AB",
-        "Response": "MCL"
-      },
-      {
-        "Id": "SA",
-        "Response": "RBR"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "RBR"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "MER"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "MCL"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -836,56 +732,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "STR"
-      },
-      {
-        "Id": "KH",
-        "Response": "SAR"
-      },
-      {
-        "Id": "MP",
-        "Response": "MAG"
-      },
-      {
-        "Id": "JE",
-        "Response": "SAR"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "ALB"
-      },
-      {
-        "Id": "JB",
-        "Response": "SAR"
-      },
-      {
-        "Id": "BB",
-        "Response": "OCO"
-      },
-      {
-        "Id": "LT",
-        "Response": "SAI"
-      },
-      {
-        "Id": "AB",
-        "Response": "HUL"
-      },
-      {
-        "Id": "SA",
-        "Response": "MAG"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "STR"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "OCO"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "MAG"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -901,56 +789,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "HAM"
-      },
-      {
-        "Id": "KH",
-        "Response": "VER"
-      },
-      {
-        "Id": "MP",
-        "Response": "VER"
-      },
-      {
-        "Id": "JE",
-        "Response": "VER"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "PIA"
-      },
-      {
-        "Id": "JB",
-        "Response": "VER"
-      },
-      {
-        "Id": "BB",
-        "Response": "VER"
-      },
-      {
-        "Id": "LT",
-        "Response": "RIC"
-      },
-      {
-        "Id": "AB",
-        "Response": "PIA"
-      },
-      {
-        "Id": "SA",
-        "Response": "VER"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "VER"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "ALB"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "NOR"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -966,56 +846,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "RBR"
-      },
-      {
-        "Id": "KH",
-        "Response": "FER"
-      },
-      {
-        "Id": "MP",
-        "Response": "RBR"
-      },
-      {
-        "Id": "JE",
-        "Response": "RBR"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "RBR"
-      },
-      {
-        "Id": "JB",
-        "Response": "RBR"
-      },
-      {
-        "Id": "BB",
-        "Response": "RBR"
-      },
-      {
-        "Id": "LT",
-        "Response": "RBR"
-      },
-      {
-        "Id": "AB",
-        "Response": "RBR"
-      },
-      {
-        "Id": "SA",
-        "Response": "FER"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "RBR"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "RBR"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "RBR"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -1031,56 +903,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "FER"
-      },
-      {
-        "Id": "KH",
-        "Response": "WIL"
-      },
-      {
-        "Id": "MP",
-        "Response": "ALP"
-      },
-      {
-        "Id": "JE",
-        "Response": "HAA"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "MCL"
-      },
-      {
-        "Id": "JB",
-        "Response": "ALP"
-      },
-      {
-        "Id": "BB",
-        "Response": "HAA"
-      },
-      {
-        "Id": "LT",
-        "Response": "KS"
-      },
-      {
-        "Id": "AB",
-        "Response": "RB"
-      },
-      {
-        "Id": "SA",
-        "Response": "HAA"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "WIL"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "ALP"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "HAA"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -1096,56 +960,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "HAA,KS"
-      },
-      {
-        "Id": "KH",
-        "Response": "HAA,KS"
-      },
-      {
-        "Id": "MP",
-        "Response": "HAA,KS"
-      },
-      {
-        "Id": "JE",
-        "Response": "HAA,KS"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "RB,HAA"
-      },
-      {
-        "Id": "JB",
-        "Response": "HAA,KS"
-      },
-      {
-        "Id": "BB",
-        "Response": "HAA,KS"
-      },
-      {
-        "Id": "LT",
-        "Response": "KS,WIL"
-      },
-      {
-        "Id": "AB",
-        "Response": "KS,WIL"
-      },
-      {
-        "Id": "SA",
-        "Response": "HAA,WIL"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "HAA,WIL"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "HAA,KS"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "RB,HAA"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -1161,56 +1017,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "HAA"
-      },
-      {
-        "Id": "KH",
-        "Response": "HAA"
-      },
-      {
-        "Id": "MP",
-        "Response": "HAA"
-      },
-      {
-        "Id": "JE",
-        "Response": "ALP"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "FER"
-      },
-      {
-        "Id": "JB",
-        "Response": "ALP"
-      },
-      {
-        "Id": "BB",
-        "Response": "KS"
-      },
-      {
-        "Id": "LT",
-        "Response": "KS"
-      },
-      {
-        "Id": "AB",
-        "Response": "WIL"
-      },
-      {
-        "Id": "SA",
-        "Response": "HAA"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "FER"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "MER"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "HAA"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -1226,56 +1074,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "FER"
-      },
-      {
-        "Id": "KH",
-        "Response": "HAA"
-      },
-      {
-        "Id": "MP",
-        "Response": "FER"
-      },
-      {
-        "Id": "JE",
-        "Response": "FER"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "KS"
-      },
-      {
-        "Id": "JB",
-        "Response": "HAA"
-      },
-      {
-        "Id": "BB",
-        "Response": "MCL"
-      },
-      {
-        "Id": "LT",
-        "Response": "HAA"
-      },
-      {
-        "Id": "AB",
-        "Response": "FER"
-      },
-      {
-        "Id": "SA",
-        "Response": "FER"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "KS"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "KS"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "HAA"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -1290,56 +1130,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "BAH,SAA,JPN,MIA,MON"
-      },
-      {
-        "Id": "KH",
-        "Response": "BAH,AUS,JPN,MON,CAN"
-      },
-      {
-        "Id": "MP",
-        "Response": "BAH,JPN,CAN,BAK,YMC"
-      },
-      {
-        "Id": "JE",
-        "Response": "AUS,MON,NED,SIN,BRA"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "JPN,RBR,SPA,MZA,SIN"
-      },
-      {
-        "Id": "JB",
-        "Response": "MIA,MON,HUN,SIN,YMC"
-      },
-      {
-        "Id": "BB",
-        "Response": "BAH,SAA,AUS,JPN,CHN"
-      },
-      {
-        "Id": "LT",
-        "Response": "BAR,GBR,HUN,MZA,SIN"
-      },
-      {
-        "Id": "AB",
-        "Response": "CHN,MON,RBR,SPA,BAK"
-      },
-      {
-        "Id": "SA",
-        "Response": "BAH,SAA,CHN,MIA,GBR"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "AUS,EMI,MON,BAK,YMC"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "JPN,GBR,CTA,BRA,QTR"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "AUS,CAN,NED,BRA,LSV"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -1355,56 +1187,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "ALP,AM"
-      },
-      {
-        "Id": "KH",
-        "Response": "AM,WIL"
-      },
-      {
-        "Id": "MP",
-        "Response": "RB,WIL"
-      },
-      {
-        "Id": "JE",
-        "Response": "AM,RB"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "ALP,AM"
-      },
-      {
-        "Id": "JB",
-        "Response": "ALP,RB"
-      },
-      {
-        "Id": "BB",
-        "Response": "ALP,RB"
-      },
-      {
-        "Id": "LT",
-        "Response": "ALP,RB"
-      },
-      {
-        "Id": "AB",
-        "Response": "ALP,HAA"
-      },
-      {
-        "Id": "SA",
-        "Response": "ALP,KS"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "RB,KS"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "ALP,KS"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "ALP,AM"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -1420,56 +1244,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "AM"
-      },
-      {
-        "Id": "KH",
-        "Response": "FER"
-      },
-      {
-        "Id": "MP",
-        "Response": "WIL"
-      },
-      {
-        "Id": "JE",
-        "Response": "RB"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "AM"
-      },
-      {
-        "Id": "JB",
-        "Response": "RB"
-      },
-      {
-        "Id": "BB",
-        "Response": "MCL"
-      },
-      {
-        "Id": "LT",
-        "Response": "RB"
-      },
-      {
-        "Id": "AB",
-        "Response": "MCL"
-      },
-      {
-        "Id": "SA",
-        "Response": "FER"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "RB"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "WIL"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "MCL"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -1485,56 +1301,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "VER"
-      },
-      {
-        "Id": "KH",
-        "Response": "VER"
-      },
-      {
-        "Id": "MP",
-        "Response": "VER"
-      },
-      {
-        "Id": "JE",
-        "Response": "VER"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "VER"
-      },
-      {
-        "Id": "JB",
-        "Response": "VER"
-      },
-      {
-        "Id": "BB",
-        "Response": "VER"
-      },
-      {
-        "Id": "LT",
-        "Response": "VER"
-      },
-      {
-        "Id": "AB",
-        "Response": "VER"
-      },
-      {
-        "Id": "SA",
-        "Response": "VER"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "VER"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "VER"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "VER"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -1551,56 +1359,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "ALB,ALO,BOT,HAM,LEC,NOR,PER,RIC,RUS,SAI,STR,VER"
-      },
-      {
-        "Id": "KH",
-        "Response": "ALB,ALO,HAM,LEC,NOR,PIA,RUS,VER"
-      },
-      {
-        "Id": "MP",
-        "Response": "ALB,ALO,NOR,PER,PIA"
-      },
-      {
-        "Id": "JE",
-        "Response": "LEC,NOR,PIA,SAI,VER"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "HAM,NOR,OCO,VER"
-      },
-      {
-        "Id": "JB",
-        "Response": "ALB,ALO,GAS,HAM,LEC,NOR,PER,PIA,RIC,SAI,VER"
-      },
-      {
-        "Id": "BB",
-        "Response": "ALB,LEC,PIA,VER"
-      },
-      {
-        "Id": "LT",
-        "Response": "ALO,BOT,HAM,LEC,NOR,SAI,TSU,VER,ZHO"
-      },
-      {
-        "Id": "AB",
-        "Response": "ALO,BOT,HAM,LEC,NOR,PER,PIA,RIC,RUS,SAI,VER"
-      },
-      {
-        "Id": "SA",
-        "Response": "BOT,HAM,LEC,RIC,RUS,VER"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "ALO,HAM,LEC,NOR,PER,PIA,RIC,SAI,VER"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "ALB,ALO,GAS,HAM,LEC,NOR,PER,PIA,RIC,RUS,SAI,SAR,TSU,VER"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "ALO,HAM,LEC,NOR,PIA,RUS,SAI,VER"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -1615,56 +1415,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "PER-BAH,NOR-HUN,STR-MIA,OCO-BAK,SAI-SIN"
-      },
-      {
-        "Id": "KH",
-        "Response": "PER-BAH,NOR-CTA,STR-SAA,OCO-SPA,SAI-SIN"
-      },
-      {
-        "Id": "MP",
-        "Response": "PER-BAH,NOR-RBR,STR-HUN,OCO-BRA,SAI-MZA"
-      },
-      {
-        "Id": "JE",
-        "Response": "PER-MON,NOR-JPN,STR-SAA,OCO-BAH,SAI-NED"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "PER-SAA,NOR-HUN,STR-EMI,OCO-SPA,SAI-MIA"
-      },
-      {
-        "Id": "JB",
-        "Response": "PER-BAK,NOR-SIN,STR-HUN,OCO-MON,SAI-SIN"
-      },
-      {
-        "Id": "BB",
-        "Response": "PER-SAA,NOR-RBR,STR-CHN,OCO-HUN,SAI-MZA"
-      },
-      {
-        "Id": "LT",
-        "Response": "PER-NED,NOR-MIA,STR-BAK,OCO-JPN,SAI-MON"
-      },
-      {
-        "Id": "AB",
-        "Response": "PER-BAH,NOR-SAA,STR-EMI,OCO-MON,SAI-RBR"
-      },
-      {
-        "Id": "SA",
-        "Response": "PER-BAH,NOR-HUN,STR-RBR,OCO-HUN,SAI-SAA"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "PER-RBR,NOR-MZA,STR-CHN,OCO-LSV,SAI-YMC"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "PER-SAA,NOR-SIN,STR-BAH,OCO-HUN,SAI-MZA"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "PER-SAA,NOR-HUN,STR-BRA,OCO-LSV,SAI-SIN"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -1680,56 +1472,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "RUS"
-      },
-      {
-        "Id": "KH",
-        "Response": "NOR"
-      },
-      {
-        "Id": "MP",
-        "Response": "PER"
-      },
-      {
-        "Id": "JE",
-        "Response": "HAM"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "BOT"
-      },
-      {
-        "Id": "JB",
-        "Response": "NOR"
-      },
-      {
-        "Id": "BB",
-        "Response": "NOR"
-      },
-      {
-        "Id": "LT",
-        "Response": "NOR"
-      },
-      {
-        "Id": "AB",
-        "Response": "PIA"
-      },
-      {
-        "Id": "SA",
-        "Response": "ALO"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "HAM"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "PIA"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "SAI"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -1745,56 +1529,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "ALB,HUL,OCO,STR"
-      },
-      {
-        "Id": "KH",
-        "Response": "ALB,GAS,OCO,RIC"
-      },
-      {
-        "Id": "MP",
-        "Response": "HUL,MAG,SAR,STR"
-      },
-      {
-        "Id": "JE",
-        "Response": "ALB,GAS,STR,TSU"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "GAS,PER,SAI,STR"
-      },
-      {
-        "Id": "JB",
-        "Response": "BOT,GAS,OCO,TSU"
-      },
-      {
-        "Id": "BB",
-        "Response": "ALB,GAS,OCO,TSU"
-      },
-      {
-        "Id": "LT",
-        "Response": "BOT,HUL,MAG,OCO"
-      },
-      {
-        "Id": "AB",
-        "Response": "HAM,RUS,RIC,STR"
-      },
-      {
-        "Id": "SA",
-        "Response": "ALO,BOT,GAS,HAM"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "ALB,BOT,STR,ZHO"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "HUL,MAG,SAR,ZHO"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "ALB,STR,TSU,ZHO"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -1810,56 +1586,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "ALO,NOR"
-      },
-      {
-        "Id": "KH",
-        "Response": "ALO,PER"
-      },
-      {
-        "Id": "MP",
-        "Response": "ALO,HAM"
-      },
-      {
-        "Id": "JE",
-        "Response": "ALO,HAM"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "ALO,LEC"
-      },
-      {
-        "Id": "JB",
-        "Response": "ALO,HAM"
-      },
-      {
-        "Id": "BB",
-        "Response": "ALO,VER"
-      },
-      {
-        "Id": "LT",
-        "Response": "ALO,HAM"
-      },
-      {
-        "Id": "AB",
-        "Response": "ALO,HAM"
-      },
-      {
-        "Id": "SA",
-        "Response": "ALO,NOR"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "ALO,NOR"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "ALO,HAM"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "ALO,PER"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -1875,56 +1643,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "LEC"
-      },
-      {
-        "Id": "KH",
-        "Response": "SAI"
-      },
-      {
-        "Id": "MP",
-        "Response": "OCO"
-      },
-      {
-        "Id": "JE",
-        "Response": "OCO"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "VER"
-      },
-      {
-        "Id": "JB",
-        "Response": "OCO"
-      },
-      {
-        "Id": "BB",
-        "Response": "GAS"
-      },
-      {
-        "Id": "LT",
-        "Response": "STR"
-      },
-      {
-        "Id": "AB",
-        "Response": "PER"
-      },
-      {
-        "Id": "SA",
-        "Response": "HUL"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "STR"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "PER"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "PER"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -1940,56 +1700,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "OCO,VER,ZHO"
-      },
-      {
-        "Id": "KH",
-        "Response": "SAR,STR,TSU"
-      },
-      {
-        "Id": "MP",
-        "Response": "OCO,STR,TSU"
-      },
-      {
-        "Id": "JE",
-        "Response": "PER,RUS,STR"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "GAS,HAM,VER"
-      },
-      {
-        "Id": "JB",
-        "Response": "GAS,OCO,TSU"
-      },
-      {
-        "Id": "BB",
-        "Response": "GAS,STR,TSU"
-      },
-      {
-        "Id": "LT",
-        "Response": "HUL,SAR,STR"
-      },
-      {
-        "Id": "AB",
-        "Response": "ALO,OCO,VER"
-      },
-      {
-        "Id": "SA",
-        "Response": "ALB,HAM,VER"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "OCO,RUS,STR"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "OCO,PER,STR"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "BOT,MAG,SAR"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -2006,56 +1758,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "SAR,TSU"
-      },
-      {
-        "Id": "KH",
-        "Response": "BOT,HUL,MAG,PER,SAR"
-      },
-      {
-        "Id": "MP",
-        "Response": "PER,SAR,ZHO"
-      },
-      {
-        "Id": "JE",
-        "Response": "MAG,PER,SAR,ZHO"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "TSU,ZHO"
-      },
-      {
-        "Id": "JB",
-        "Response": "SAR"
-      },
-      {
-        "Id": "BB",
-        "Response": "SAR,STR,ZHO"
-      },
-      {
-        "Id": "LT",
-        "Response": "MAG"
-      },
-      {
-        "Id": "AB",
-        "Response": "HUL"
-      },
-      {
-        "Id": "SA",
-        "Response": "HUL,SAR"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "HUL,RIC"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "HUL,MAG,TSU,ZHO"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "SAR"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -2071,56 +1815,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "PER"
-      },
-      {
-        "Id": "KH",
-        "Response": "PER"
-      },
-      {
-        "Id": "MP",
-        "Response": "SAI"
-      },
-      {
-        "Id": "JE",
-        "Response": "ALO"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "OCO"
-      },
-      {
-        "Id": "JB",
-        "Response": "GAS"
-      },
-      {
-        "Id": "BB",
-        "Response": "VER"
-      },
-      {
-        "Id": "LT",
-        "Response": "ALO"
-      },
-      {
-        "Id": "AB",
-        "Response": "LEC"
-      },
-      {
-        "Id": "SA",
-        "Response": "STR"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "ALO"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "PER"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "ALO"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -2135,56 +1871,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "MON,CAN,SIN"
-      },
-      {
-        "Id": "KH",
-        "Response": "MIA,RBR,SIN"
-      },
-      {
-        "Id": "MP",
-        "Response": "BAR,BAK,SIN"
-      },
-      {
-        "Id": "JE",
-        "Response": "BAR,SIN,LSV"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "SAA,SPA,SIN"
-      },
-      {
-        "Id": "JB",
-        "Response": "JPN,SPA,BRA"
-      },
-      {
-        "Id": "BB",
-        "Response": "AUS,JPN,CHN"
-      },
-      {
-        "Id": "LT",
-        "Response": "CHN,CAN,BAK"
-      },
-      {
-        "Id": "AB",
-        "Response": "MON,BAK,BRA"
-      },
-      {
-        "Id": "SA",
-        "Response": "BAH,CTA,LSV"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "SAA,SIN,BRA"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "EMI,HUN,BRA"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "BAR,BRA,QTR"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -2199,56 +1927,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "MCL"
-      },
-      {
-        "Id": "KH",
-        "Response": "MCL"
-      },
-      {
-        "Id": "MP",
-        "Response": "MCL"
-      },
-      {
-        "Id": "JE",
-        "Response": "MCL"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "MCL"
-      },
-      {
-        "Id": "JB",
-        "Response": "AM"
-      },
-      {
-        "Id": "BB",
-        "Response": "MCL"
-      },
-      {
-        "Id": "LT",
-        "Response": "MCL"
-      },
-      {
-        "Id": "AB",
-        "Response": "MCL"
-      },
-      {
-        "Id": "SA",
-        "Response": "RB"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "AM"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "MCL"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "MCL"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -2263,56 +1983,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "20"
-      },
-      {
-        "Id": "KH",
-        "Response": "20"
-      },
-      {
-        "Id": "MP",
-        "Response": "23"
-      },
-      {
-        "Id": "JE",
-        "Response": "18"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "24"
-      },
-      {
-        "Id": "JB",
-        "Response": "18"
-      },
-      {
-        "Id": "BB",
-        "Response": "19"
-      },
-      {
-        "Id": "LT",
-        "Response": "25"
-      },
-      {
-        "Id": "AB",
-        "Response": "19"
-      },
-      {
-        "Id": "SA",
-        "Response": "19"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "20"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "20"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "28"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -2327,56 +2039,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "5"
-      },
-      {
-        "Id": "KH",
-        "Response": "6"
-      },
-      {
-        "Id": "MP",
-        "Response": "8"
-      },
-      {
-        "Id": "JE",
-        "Response": "5"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "7"
-      },
-      {
-        "Id": "JB",
-        "Response": "6"
-      },
-      {
-        "Id": "BB",
-        "Response": "4"
-      },
-      {
-        "Id": "LT",
-        "Response": "9"
-      },
-      {
-        "Id": "AB",
-        "Response": "5"
-      },
-      {
-        "Id": "SA",
-        "Response": "4"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "4"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "8"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "8"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -2391,56 +2095,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "20"
-      },
-      {
-        "Id": "KH",
-        "Response": "20"
-      },
-      {
-        "Id": "MP",
-        "Response": "18"
-      },
-      {
-        "Id": "JE",
-        "Response": "12"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "15"
-      },
-      {
-        "Id": "JB",
-        "Response": "23"
-      },
-      {
-        "Id": "BB",
-        "Response": "18"
-      },
-      {
-        "Id": "LT",
-        "Response": "20"
-      },
-      {
-        "Id": "AB",
-        "Response": "21"
-      },
-      {
-        "Id": "SA",
-        "Response": "23"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "25"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "21"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "24"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -2455,56 +2151,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "10"
-      },
-      {
-        "Id": "KH",
-        "Response": "10"
-      },
-      {
-        "Id": "MP",
-        "Response": "10"
-      },
-      {
-        "Id": "JE",
-        "Response": "10"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "10"
-      },
-      {
-        "Id": "JB",
-        "Response": "10"
-      },
-      {
-        "Id": "BB",
-        "Response": "10"
-      },
-      {
-        "Id": "LT",
-        "Response": "10"
-      },
-      {
-        "Id": "AB",
-        "Response": "10"
-      },
-      {
-        "Id": "SA",
-        "Response": "10"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "10"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "10"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "10"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -2519,56 +2207,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "ALO,NOR,STR"
-      },
-      {
-        "Id": "KH",
-        "Response": "ALO,NOR,PIA"
-      },
-      {
-        "Id": "MP",
-        "Response": "ALO,NOR,RIC"
-      },
-      {
-        "Id": "JE",
-        "Response": "NOR,RIC,TSU"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "ALB,BOT,NOR"
-      },
-      {
-        "Id": "JB",
-        "Response": "ALB,NOR,PIA"
-      },
-      {
-        "Id": "BB",
-        "Response": "ALB,ALO,NOR"
-      },
-      {
-        "Id": "LT",
-        "Response": "ALO,NOR,PIA"
-      },
-      {
-        "Id": "AB",
-        "Response": "ALO,PIA,RIC"
-      },
-      {
-        "Id": "SA",
-        "Response": "BOT,GAS,NOR"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "ALO,NOR,PIA"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "ALB,NOR,RIC"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "GAS,NOR,PIA"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -2584,56 +2264,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "CHN,MON,SIN,QTR"
-      },
-      {
-        "Id": "KH",
-        "Response": "BAH,JPN,HUN,BAK"
-      },
-      {
-        "Id": "MP",
-        "Response": "EMI,MON,NED,BRA"
-      },
-      {
-        "Id": "JE",
-        "Response": "SAA,MON,BRA,QTR"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "AUS,CHN,MON,SIN"
-      },
-      {
-        "Id": "JB",
-        "Response": "BAH,MON,BAK,YMC"
-      },
-      {
-        "Id": "BB",
-        "Response": "BAH,SAA,EMI,SIN"
-      },
-      {
-        "Id": "LT",
-        "Response": "MON,RBR,GBR,SIN"
-      },
-      {
-        "Id": "AB",
-        "Response": "CHN,MON,BAK,SIN"
-      },
-      {
-        "Id": "SA",
-        "Response": "CHN,MIA,BAR,QTR"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "SAA,CHN,MZA,QTR"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "SAA,MON,CAN,SIN"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "AUS,JPN,MEX,BRA"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -2648,56 +2320,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "true"
-      },
-      {
-        "Id": "KH",
-        "Response": "false"
-      },
-      {
-        "Id": "MP",
-        "Response": "true"
-      },
-      {
-        "Id": "JE",
-        "Response": "false"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "true"
-      },
-      {
-        "Id": "JB",
-        "Response": "false"
-      },
-      {
-        "Id": "BB",
-        "Response": "true"
-      },
-      {
-        "Id": "LT",
-        "Response": "true"
-      },
-      {
-        "Id": "AB",
-        "Response": "true"
-      },
-      {
-        "Id": "SA",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "true"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "true"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -2712,56 +2376,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "true"
-      },
-      {
-        "Id": "KH",
-        "Response": "false"
-      },
-      {
-        "Id": "MP",
-        "Response": "false"
-      },
-      {
-        "Id": "JE",
-        "Response": "false"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "false"
-      },
-      {
-        "Id": "JB",
-        "Response": "false"
-      },
-      {
-        "Id": "BB",
-        "Response": "true"
-      },
-      {
-        "Id": "LT",
-        "Response": "true"
-      },
-      {
-        "Id": "AB",
-        "Response": "false"
-      },
-      {
-        "Id": "SA",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -2776,56 +2432,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "false"
-      },
-      {
-        "Id": "KH",
-        "Response": "true"
-      },
-      {
-        "Id": "MP",
-        "Response": "false"
-      },
-      {
-        "Id": "JE",
-        "Response": "true"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "true"
-      },
-      {
-        "Id": "JB",
-        "Response": "false"
-      },
-      {
-        "Id": "BB",
-        "Response": "true"
-      },
-      {
-        "Id": "LT",
-        "Response": "true"
-      },
-      {
-        "Id": "AB",
-        "Response": "false"
-      },
-      {
-        "Id": "SA",
-        "Response": "true"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -2840,56 +2488,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "false"
-      },
-      {
-        "Id": "KH",
-        "Response": "true"
-      },
-      {
-        "Id": "MP",
-        "Response": "false"
-      },
-      {
-        "Id": "JE",
-        "Response": "false"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "true"
-      },
-      {
-        "Id": "JB",
-        "Response": "false"
-      },
-      {
-        "Id": "BB",
-        "Response": "false"
-      },
-      {
-        "Id": "LT",
-        "Response": "false"
-      },
-      {
-        "Id": "AB",
-        "Response": "false"
-      },
-      {
-        "Id": "SA",
-        "Response": "true"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "true"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -2904,56 +2544,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "true"
-      },
-      {
-        "Id": "KH",
-        "Response": "false"
-      },
-      {
-        "Id": "MP",
-        "Response": "false"
-      },
-      {
-        "Id": "JE",
-        "Response": "false"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "true"
-      },
-      {
-        "Id": "JB",
-        "Response": "false"
-      },
-      {
-        "Id": "BB",
-        "Response": "false"
-      },
-      {
-        "Id": "LT",
-        "Response": "false"
-      },
-      {
-        "Id": "AB",
-        "Response": "true"
-      },
-      {
-        "Id": "SA",
-        "Response": "true"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "true"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -2968,56 +2600,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "true"
-      },
-      {
-        "Id": "KH",
-        "Response": "false"
-      },
-      {
-        "Id": "MP",
-        "Response": "true"
-      },
-      {
-        "Id": "JE",
-        "Response": "false"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "true"
-      },
-      {
-        "Id": "JB",
-        "Response": "false"
-      },
-      {
-        "Id": "BB",
-        "Response": "true"
-      },
-      {
-        "Id": "LT",
-        "Response": "false"
-      },
-      {
-        "Id": "AB",
-        "Response": "false"
-      },
-      {
-        "Id": "SA",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "true"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -3032,56 +2656,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "false"
-      },
-      {
-        "Id": "KH",
-        "Response": "false"
-      },
-      {
-        "Id": "MP",
-        "Response": "true"
-      },
-      {
-        "Id": "JE",
-        "Response": "true"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "true"
-      },
-      {
-        "Id": "JB",
-        "Response": "true"
-      },
-      {
-        "Id": "BB",
-        "Response": "true"
-      },
-      {
-        "Id": "LT",
-        "Response": "true"
-      },
-      {
-        "Id": "AB",
-        "Response": "true"
-      },
-      {
-        "Id": "SA",
-        "Response": "true"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "true"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "true"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -3096,56 +2712,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "false"
-      },
-      {
-        "Id": "KH",
-        "Response": "false"
-      },
-      {
-        "Id": "MP",
-        "Response": "false"
-      },
-      {
-        "Id": "JE",
-        "Response": "false"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "false"
-      },
-      {
-        "Id": "JB",
-        "Response": "true"
-      },
-      {
-        "Id": "BB",
-        "Response": "false"
-      },
-      {
-        "Id": "LT",
-        "Response": "true"
-      },
-      {
-        "Id": "AB",
-        "Response": "false"
-      },
-      {
-        "Id": "SA",
-        "Response": "true"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -3160,56 +2768,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "false"
-      },
-      {
-        "Id": "KH",
-        "Response": "false"
-      },
-      {
-        "Id": "MP",
-        "Response": "false"
-      },
-      {
-        "Id": "JE",
-        "Response": "false"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "false"
-      },
-      {
-        "Id": "JB",
-        "Response": "false"
-      },
-      {
-        "Id": "BB",
-        "Response": "false"
-      },
-      {
-        "Id": "LT",
-        "Response": "false"
-      },
-      {
-        "Id": "AB",
-        "Response": "false"
-      },
-      {
-        "Id": "SA",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "true"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "true"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -3224,56 +2824,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "true"
-      },
-      {
-        "Id": "KH",
-        "Response": "true"
-      },
-      {
-        "Id": "MP",
-        "Response": "true"
-      },
-      {
-        "Id": "JE",
-        "Response": "true"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "false"
-      },
-      {
-        "Id": "JB",
-        "Response": "false"
-      },
-      {
-        "Id": "BB",
-        "Response": "true"
-      },
-      {
-        "Id": "LT",
-        "Response": "false"
-      },
-      {
-        "Id": "AB",
-        "Response": "false"
-      },
-      {
-        "Id": "SA",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -3288,56 +2880,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "true"
-      },
-      {
-        "Id": "KH",
-        "Response": "true"
-      },
-      {
-        "Id": "MP",
-        "Response": "true"
-      },
-      {
-        "Id": "JE",
-        "Response": "true"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "true"
-      },
-      {
-        "Id": "JB",
-        "Response": "true"
-      },
-      {
-        "Id": "BB",
-        "Response": "true"
-      },
-      {
-        "Id": "LT",
-        "Response": "true"
-      },
-      {
-        "Id": "AB",
-        "Response": "true"
-      },
-      {
-        "Id": "SA",
-        "Response": "true"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "true"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "true"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -3352,56 +2936,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "false"
-      },
-      {
-        "Id": "KH",
-        "Response": "true"
-      },
-      {
-        "Id": "MP",
-        "Response": "false"
-      },
-      {
-        "Id": "JE",
-        "Response": "false"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "false"
-      },
-      {
-        "Id": "JB",
-        "Response": "true"
-      },
-      {
-        "Id": "BB",
-        "Response": "false"
-      },
-      {
-        "Id": "LT",
-        "Response": "false"
-      },
-      {
-        "Id": "AB",
-        "Response": "false"
-      },
-      {
-        "Id": "SA",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "true"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "true"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -3416,56 +2992,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "false"
-      },
-      {
-        "Id": "KH",
-        "Response": "false"
-      },
-      {
-        "Id": "MP",
-        "Response": "false"
-      },
-      {
-        "Id": "JE",
-        "Response": "false"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "true"
-      },
-      {
-        "Id": "JB",
-        "Response": "false"
-      },
-      {
-        "Id": "BB",
-        "Response": "false"
-      },
-      {
-        "Id": "LT",
-        "Response": "false"
-      },
-      {
-        "Id": "AB",
-        "Response": "false"
-      },
-      {
-        "Id": "SA",
-        "Response": "true"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -3480,56 +3048,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "true"
-      },
-      {
-        "Id": "KH",
-        "Response": "false"
-      },
-      {
-        "Id": "MP",
-        "Response": "true"
-      },
-      {
-        "Id": "JE",
-        "Response": "false"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "true"
-      },
-      {
-        "Id": "JB",
-        "Response": "false"
-      },
-      {
-        "Id": "BB",
-        "Response": "true"
-      },
-      {
-        "Id": "LT",
-        "Response": "false"
-      },
-      {
-        "Id": "AB",
-        "Response": "false"
-      },
-      {
-        "Id": "SA",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "true"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -3544,56 +3104,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "false"
-      },
-      {
-        "Id": "KH",
-        "Response": "false"
-      },
-      {
-        "Id": "MP",
-        "Response": "false"
-      },
-      {
-        "Id": "JE",
-        "Response": "true"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "false"
-      },
-      {
-        "Id": "JB",
-        "Response": "true"
-      },
-      {
-        "Id": "BB",
-        "Response": "false"
-      },
-      {
-        "Id": "LT",
-        "Response": "true"
-      },
-      {
-        "Id": "AB",
-        "Response": "false"
-      },
-      {
-        "Id": "SA",
-        "Response": "true"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "true"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -3608,56 +3160,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "false"
-      },
-      {
-        "Id": "KH",
-        "Response": "false"
-      },
-      {
-        "Id": "MP",
-        "Response": "false"
-      },
-      {
-        "Id": "JE",
-        "Response": "false"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "false"
-      },
-      {
-        "Id": "JB",
-        "Response": "false"
-      },
-      {
-        "Id": "BB",
-        "Response": "false"
-      },
-      {
-        "Id": "LT",
-        "Response": "false"
-      },
-      {
-        "Id": "AB",
-        "Response": "false"
-      },
-      {
-        "Id": "SA",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -3672,56 +3216,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "false"
-      },
-      {
-        "Id": "KH",
-        "Response": "false"
-      },
-      {
-        "Id": "MP",
-        "Response": "false"
-      },
-      {
-        "Id": "JE",
-        "Response": "false"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "true"
-      },
-      {
-        "Id": "JB",
-        "Response": "false"
-      },
-      {
-        "Id": "BB",
-        "Response": "false"
-      },
-      {
-        "Id": "LT",
-        "Response": "false"
-      },
-      {
-        "Id": "AB",
-        "Response": "false"
-      },
-      {
-        "Id": "SA",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -3736,56 +3272,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "false"
-      },
-      {
-        "Id": "KH",
-        "Response": "true"
-      },
-      {
-        "Id": "MP",
-        "Response": "true"
-      },
-      {
-        "Id": "JE",
-        "Response": "true"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "false"
-      },
-      {
-        "Id": "JB",
-        "Response": "true"
-      },
-      {
-        "Id": "BB",
-        "Response": "false"
-      },
-      {
-        "Id": "LT",
-        "Response": "true"
-      },
-      {
-        "Id": "AB",
-        "Response": "true"
-      },
-      {
-        "Id": "SA",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "true"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "false"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "true"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -3800,56 +3328,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "true"
-      },
-      {
-        "Id": "KH",
-        "Response": "true"
-      },
-      {
-        "Id": "MP",
-        "Response": "true"
-      },
-      {
-        "Id": "JE",
-        "Response": "true"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "true"
-      },
-      {
-        "Id": "JB",
-        "Response": "true"
-      },
-      {
-        "Id": "BB",
-        "Response": "true"
-      },
-      {
-        "Id": "LT",
-        "Response": "true"
-      },
-      {
-        "Id": "AB",
-        "Response": "true"
-      },
-      {
-        "Id": "SA",
-        "Response": "true"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "false"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "true"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "true"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -3864,56 +3384,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "MER"
-      },
-      {
-        "Id": "KH",
-        "Response": "RBR"
-      },
-      {
-        "Id": "MP",
-        "Response": "RBR"
-      },
-      {
-        "Id": "JE",
-        "Response": "RBR"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "RBR"
-      },
-      {
-        "Id": "JB",
-        "Response": "RBR"
-      },
-      {
-        "Id": "BB",
-        "Response": "RBR"
-      },
-      {
-        "Id": "LT",
-        "Response": "RBR"
-      },
-      {
-        "Id": "AB",
-        "Response": "RBR"
-      },
-      {
-        "Id": "SA",
-        "Response": "RBR"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "RBR"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "MER"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "RBR"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -3928,56 +3440,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "FER"
-      },
-      {
-        "Id": "KH",
-        "Response": "FER"
-      },
-      {
-        "Id": "MP",
-        "Response": "MCL"
-      },
-      {
-        "Id": "JE",
-        "Response": "FER"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "FER"
-      },
-      {
-        "Id": "JB",
-        "Response": "FER"
-      },
-      {
-        "Id": "BB",
-        "Response": "FER"
-      },
-      {
-        "Id": "LT",
-        "Response": "FER"
-      },
-      {
-        "Id": "AB",
-        "Response": "MCL"
-      },
-      {
-        "Id": "SA",
-        "Response": "FER"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "FER"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "MCL"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "FER"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -3992,56 +3496,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "AM"
-      },
-      {
-        "Id": "KH",
-        "Response": "AM"
-      },
-      {
-        "Id": "MP",
-        "Response": "AM"
-      },
-      {
-        "Id": "JE",
-        "Response": "AM"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "ALP"
-      },
-      {
-        "Id": "JB",
-        "Response": "AM"
-      },
-      {
-        "Id": "BB",
-        "Response": "AM"
-      },
-      {
-        "Id": "LT",
-        "Response": "ALP"
-      },
-      {
-        "Id": "AB",
-        "Response": "AM"
-      },
-      {
-        "Id": "SA",
-        "Response": "AM"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "AM"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "AM"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "AM"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -4056,56 +3552,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "RB"
-      },
-      {
-        "Id": "KH",
-        "Response": "WIL"
-      },
-      {
-        "Id": "MP",
-        "Response": "RB"
-      },
-      {
-        "Id": "JE",
-        "Response": "RB"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "RB"
-      },
-      {
-        "Id": "JB",
-        "Response": "RB"
-      },
-      {
-        "Id": "BB",
-        "Response": "WIL"
-      },
-      {
-        "Id": "LT",
-        "Response": "RB"
-      },
-      {
-        "Id": "AB",
-        "Response": "WIL"
-      },
-      {
-        "Id": "SA",
-        "Response": "RB"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "RB"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "WIL"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "WIL"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -4120,56 +3608,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "KS"
-      },
-      {
-        "Id": "KH",
-        "Response": "KS"
-      },
-      {
-        "Id": "MP",
-        "Response": "KS"
-      },
-      {
-        "Id": "JE",
-        "Response": "KS"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "KS"
-      },
-      {
-        "Id": "JB",
-        "Response": "KS"
-      },
-      {
-        "Id": "BB",
-        "Response": "KS"
-      },
-      {
-        "Id": "LT",
-        "Response": "HAA"
-      },
-      {
-        "Id": "AB",
-        "Response": "HAA"
-      },
-      {
-        "Id": "SA",
-        "Response": "KS"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "KS"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "KS"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "KS"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -4184,56 +3664,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "HAM,HAM"
-      },
-      {
-        "Id": "KH",
-        "Response": "RUS,RUS"
-      },
-      {
-        "Id": "MP",
-        "Response": "RUS,HAM"
-      },
-      {
-        "Id": "JE",
-        "Response": "HAM,HAM"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "RUS,HAM"
-      },
-      {
-        "Id": "JB",
-        "Response": "HAM,HAM"
-      },
-      {
-        "Id": "BB",
-        "Response": "HAM,HAM"
-      },
-      {
-        "Id": "LT",
-        "Response": "HAM,HAM"
-      },
-      {
-        "Id": "AB",
-        "Response": "HAM,RUS"
-      },
-      {
-        "Id": "SA",
-        "Response": "HAM,HAM"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "HAM,HAM"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "HAM,RUS"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "RUS,HAM"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -4248,56 +3720,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "VER,VER"
-      },
-      {
-        "Id": "KH",
-        "Response": "VER,VER"
-      },
-      {
-        "Id": "MP",
-        "Response": "VER,VER"
-      },
-      {
-        "Id": "JE",
-        "Response": "VER,VER"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "VER,VER"
-      },
-      {
-        "Id": "JB",
-        "Response": "VER,VER"
-      },
-      {
-        "Id": "BB",
-        "Response": "VER,VER"
-      },
-      {
-        "Id": "LT",
-        "Response": "VER,VER"
-      },
-      {
-        "Id": "AB",
-        "Response": "VER,VER"
-      },
-      {
-        "Id": "SA",
-        "Response": "PER,VER"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "VER,VER"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "VER,VER"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "VER,VER"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -4312,56 +3776,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "LEC,SAI"
-      },
-      {
-        "Id": "KH",
-        "Response": "LEC,LEC"
-      },
-      {
-        "Id": "MP",
-        "Response": "LEC,LEC"
-      },
-      {
-        "Id": "JE",
-        "Response": "LEC,SAI"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "LEC,LEC"
-      },
-      {
-        "Id": "JB",
-        "Response": "LEC,LEC"
-      },
-      {
-        "Id": "BB",
-        "Response": "LEC,LEC"
-      },
-      {
-        "Id": "LT",
-        "Response": "LEC,LEC"
-      },
-      {
-        "Id": "AB",
-        "Response": "SAI,LEC"
-      },
-      {
-        "Id": "SA",
-        "Response": "SAI,LEC"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "LEC,SAI"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "LEC,SAI"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "LEC,LEC"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -4376,56 +3832,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "NOR,NOR"
-      },
-      {
-        "Id": "KH",
-        "Response": "PIA,NOR"
-      },
-      {
-        "Id": "MP",
-        "Response": "NOR,NOR"
-      },
-      {
-        "Id": "JE",
-        "Response": "NOR,NOR"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "NOR,NOR"
-      },
-      {
-        "Id": "JB",
-        "Response": "NOR,NOR"
-      },
-      {
-        "Id": "BB",
-        "Response": "NOR,NOR"
-      },
-      {
-        "Id": "LT",
-        "Response": "NOR,NOR"
-      },
-      {
-        "Id": "AB",
-        "Response": "PIA,NOR"
-      },
-      {
-        "Id": "SA",
-        "Response": "NOR,NOR"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "NOR,NOR"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "NOR,PIA"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "NOR,NOR"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -4440,56 +3888,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "GAS,OCO"
-      },
-      {
-        "Id": "KH",
-        "Response": "OCO,GAS"
-      },
-      {
-        "Id": "MP",
-        "Response": "GAS,GAS"
-      },
-      {
-        "Id": "JE",
-        "Response": "GAS,GAS"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "OCO,GAS"
-      },
-      {
-        "Id": "JB",
-        "Response": "GAS,OCO"
-      },
-      {
-        "Id": "BB",
-        "Response": "GAS,OCO"
-      },
-      {
-        "Id": "LT",
-        "Response": "OCO,GAS"
-      },
-      {
-        "Id": "AB",
-        "Response": "GAS,OCO"
-      },
-      {
-        "Id": "SA",
-        "Response": "GAS,GAS"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "GAS,OCO"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "GAS,GAS"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "OCO,GAS"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -4504,56 +3944,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "RIC,RIC"
-      },
-      {
-        "Id": "KH",
-        "Response": "RIC,RIC"
-      },
-      {
-        "Id": "MP",
-        "Response": "RIC,RIC"
-      },
-      {
-        "Id": "JE",
-        "Response": "TSU,RIC"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "RIC,RIC"
-      },
-      {
-        "Id": "JB",
-        "Response": "TSU,TSU"
-      },
-      {
-        "Id": "BB",
-        "Response": "RIC,RIC"
-      },
-      {
-        "Id": "LT",
-        "Response": "RIC,RIC"
-      },
-      {
-        "Id": "AB",
-        "Response": "RIC,RIC"
-      },
-      {
-        "Id": "SA",
-        "Response": "RIC,RIC"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "TSU,RIC"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "RIC,TSU"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "RIC,RIC"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -4568,56 +4000,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "ALO,ALO"
-      },
-      {
-        "Id": "KH",
-        "Response": "ALO,ALO"
-      },
-      {
-        "Id": "MP",
-        "Response": "ALO,ALO"
-      },
-      {
-        "Id": "JE",
-        "Response": "ALO,ALO"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "ALO,STR"
-      },
-      {
-        "Id": "JB",
-        "Response": "ALO,ALO"
-      },
-      {
-        "Id": "BB",
-        "Response": "ALO,ALO"
-      },
-      {
-        "Id": "LT",
-        "Response": "ALO,ALO"
-      },
-      {
-        "Id": "AB",
-        "Response": "ALO,STR"
-      },
-      {
-        "Id": "SA",
-        "Response": "ALO,ALO"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "ALO,ALO"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "ALO,ALO"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "ALO,ALO"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -4632,56 +4056,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "BOT,BOT"
-      },
-      {
-        "Id": "KH",
-        "Response": "BOT,BOT"
-      },
-      {
-        "Id": "MP",
-        "Response": "ZHO,BOT"
-      },
-      {
-        "Id": "JE",
-        "Response": "BOT,BOT"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "BOT,BOT"
-      },
-      {
-        "Id": "JB",
-        "Response": "BOT,BOT"
-      },
-      {
-        "Id": "BB",
-        "Response": "BOT,BOT"
-      },
-      {
-        "Id": "LT",
-        "Response": "ZHO,ZHO"
-      },
-      {
-        "Id": "AB",
-        "Response": "BOT,BOT"
-      },
-      {
-        "Id": "SA",
-        "Response": "ZHO,BOT"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "BOT,BOT"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "BOT,BOT"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "BOT,ZHO"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -4696,56 +4112,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "ALB,ALB"
-      },
-      {
-        "Id": "KH",
-        "Response": "ALB,ALB"
-      },
-      {
-        "Id": "MP",
-        "Response": "ALB,ALB"
-      },
-      {
-        "Id": "JE",
-        "Response": "ALB,ALB"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "ALB,ALB"
-      },
-      {
-        "Id": "JB",
-        "Response": "ALB,ALB"
-      },
-      {
-        "Id": "BB",
-        "Response": "ALB,ALB"
-      },
-      {
-        "Id": "LT",
-        "Response": "ALB,ALB"
-      },
-      {
-        "Id": "AB",
-        "Response": "ALB,ALB"
-      },
-      {
-        "Id": "SA",
-        "Response": "ALB,ALB"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "ALB,ALB"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "ALB,ALB"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "ALB,ALB"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
@@ -4760,56 +4168,48 @@
     },
     "competitorResponses": [
       {
-        "Id": "CB",
-        "Response": "HUL,MAG"
-      },
-      {
-        "Id": "KH",
-        "Response": "MAG,MAG"
-      },
-      {
-        "Id": "MP",
-        "Response": "HUL,HUL"
-      },
-      {
-        "Id": "JE",
-        "Response": "HUL,HUL"
+        "Id": "TD",
+        "Response": ""
       },
       {
         "Id": "JA",
-        "Response": "HUL,HUL"
-      },
-      {
-        "Id": "JB",
-        "Response": "HUL,HUL"
-      },
-      {
-        "Id": "BB",
-        "Response": "MAG,HUL"
-      },
-      {
-        "Id": "LT",
-        "Response": "HUL,HUL"
-      },
-      {
-        "Id": "AB",
-        "Response": "MAG,MAG"
-      },
-      {
-        "Id": "SA",
-        "Response": "MAG,MAG"
+        "Response": ""
       },
       {
         "Id": "HI",
-        "Response": "HUL,HUL"
+        "Response": ""
+      },
+      {
+        "Id": "BB",
+        "Response": ""
+      },
+      {
+        "Id": "JB",
+        "Response": ""
+      },
+      {
+        "Id": "AB",
+        "Response": ""
       },
       {
         "Id": "MV",
-        "Response": "HUL,MAG"
+        "Response": ""
       },
       {
         "Id": "MB",
-        "Response": "MAG,HUL"
+        "Response": ""
+      },
+      {
+        "Id": "JE",
+        "Response": ""
+      },
+      {
+        "Id": "CB",
+        "Response": ""
+      },
+      {
+        "Id": "KH",
+        "Response": ""
       }
     ]
   },
