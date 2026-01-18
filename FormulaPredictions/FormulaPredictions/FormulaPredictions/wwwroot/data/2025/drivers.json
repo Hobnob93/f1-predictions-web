@@ -1,0 +1,149 @@
+[
+  {
+    "id": "VER",
+    "firstName": "Max",
+    "name": "Verstappen",
+    "color": "#3671C6",
+    "teamId": "RBR"
+  },
+  {
+    "id": "TSU",
+    "firstName": "Yuki",
+    "name": "Tsunoda",
+    "color": "#5893E8",
+    "teamId": "RBR"
+  },
+  {
+    "id": "HAM",
+    "firstName": "Lewis",
+    "name": "Hamilton",
+    "color": "#F91536",
+    "teamId": "FER"
+  },
+  {
+    "id": "LEC",
+    "firstName": "Charles",
+    "name": "Leclerc",
+    "color": "#D60314",
+    "teamId": "FER"
+  },
+  {
+    "id": "ANT",
+    "firstName": "Kimi",
+    "name": "Antonelli",
+    "color": "#6CD3BF",
+    "teamId": "MER"
+  },
+  {
+    "id": "RUS",
+    "firstName": "George",
+    "name": "Russell",
+    "color": "#8EF5E1",
+    "teamId": "MER"
+  },
+  {
+    "id": "COL",
+    "firstName": "Franco",
+    "name": "Colapinto",
+    "color": "#2293D1",
+    "teamId": "ALP"
+  },
+  {
+    "id": "GAS",
+    "firstName": "Pierre",
+    "name": "Gasly",
+    "color": "#44B5F3",
+    "teamId": "ALP"
+  },
+  {
+    "id": "DOO",
+    "firstName": "Jack",
+    "name": "Doohan",
+    "color": "#33A4E2",
+    "teamId": "ALP"
+  },
+  {
+    "id": "NOR",
+    "firstName": "Lando",
+    "name": "Norris",
+    "color": "#F58020",
+    "teamId": "MCL"
+  },
+  {
+    "id": "PIA",
+    "firstName": "Oscar",
+    "name": "Piastri",
+    "color": "#F7A242",
+    "teamId": "MCL"
+  },
+  {
+    "id": "HUL",
+    "firstName": "Nico",
+    "name": "Hülkenberg",
+    "color": "#EB4F6D",
+    "teamId": "KS"
+  },
+  {
+    "id": "BOR",
+    "firstName": "Gabriel",
+    "name": "Bortoleto",
+    "color": "#C92D4B",
+    "teamId": "KS"
+  },
+  {
+    "id": "OCO",
+    "firstName": "Estaban",
+    "name": "Ocon",
+    "color": "#D8DCDF",
+    "teamId": "HAA"
+  },
+  {
+    "id": "BEA",
+    "firstName": "Oliver",
+    "name": "Bearman",
+    "color": "#B6BABD",
+    "teamId": "HAA"
+  },
+  {
+    "id": "LAW",
+    "firstName": "Liam",
+    "name": "Lawson",
+    "color": "#80B1CC",
+    "teamId": "RB"
+  },
+  {
+    "id": "HAD",
+    "firstName": "Isack",
+    "name": "Hadjar",
+    "color": "#5E8FAA",
+    "teamId": "RB"
+  },
+  {
+    "id": "ALO",
+    "firstName": "Fernando",
+    "name": "Alonso",
+    "color": "#358C75",
+    "teamId": "AM"
+  },
+  {
+    "id": "STR",
+    "firstName": "Lance",
+    "name": "Stroll",
+    "color": "#57AE97",
+    "teamId": "AM"
+  },
+  {
+    "id": "SAI",
+    "firstName": "Carlos",
+    "name": "Sainz",
+    "color": "#59E0FF",
+    "teamId": "WIL"
+  },
+  {
+    "id": "ALB",
+    "firstName": "Alex",
+    "name": "Albon",
+    "color": "#37BEDD",
+    "teamId": "WIL"
+  }
+]

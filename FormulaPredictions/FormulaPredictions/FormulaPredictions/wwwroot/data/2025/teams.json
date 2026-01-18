@@ -1,0 +1,72 @@
+[
+	{
+		"id": "RBR",
+		"name": "Red Bull",
+		"imageName": "red-bull-racing",
+		"color": "#3671C6",
+		"driverIds": [ "VER", "TSU" ]
+	},
+	{
+		"id": "FER",
+		"name": "Ferrari",
+		"imageName": "ferrari",
+		"color": "#F91536",
+		"driverIds": [ "LEC", "HAM" ]
+	},
+	{
+		"id": "MER",
+		"name": "Mercedes",
+		"imageName": "mercedes",
+		"color": "#6CD3BF",
+		"driverIds": [ "ANT", "RUS" ]
+	},
+	{
+		"id": "ALP",
+		"name": "Alpine",
+		"imageName": "alpine",
+		"color": "#2293D1",
+		"driverIds": [ "COL", "GAS", "DOO" ]
+	},
+	{
+		"id": "MCL",
+		"name": "McLaren",
+		"imageName": "mclaren",
+		"color": "#F58020",
+		"driverIds": [ "NOR", "PIA" ]
+	},
+	{
+		"id": "KS",
+		"name": "Kick Sauber",
+		"imageName": "kick-sauber",
+		"color": "#C92D4B",
+		"driverIds": [ "BOR", "HUL" ]
+	},
+	{
+		"id": "HAA",
+		"name": "Haas",
+		"imageName": "haas",
+		"color": "#B6BABD",
+		"driverIds": [ "OCO", "BEA" ]
+	},
+	{
+		"id": "RB",
+		"name": "CashApp RB",
+		"imageName": "cash-app-rb",
+		"color": "#5E8FAA",
+		"driverIds": [ "HAD", "LAW" ]
+	},
+	{
+		"id": "AM",
+		"name": "Aston Martin",
+		"imageName": "aston-martin",
+		"color": "#358C75",
+		"driverIds": [ "ALO", "STR" ]
+	},
+	{
+		"id": "WIL",
+		"name": "Williams",
+		"imageName": "williams",
+		"color": "#37BEDD",
+		"driverIds": [ "ALB", "SAI" ]
+	}
+]
