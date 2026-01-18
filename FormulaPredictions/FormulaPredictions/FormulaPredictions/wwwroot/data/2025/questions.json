@@ -6,47 +6,47 @@
     "competitorResponses": [
       {
         "Id": "TD",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "MCL"
       },
       {
         "Id": "HI",
-        "Response": ""
+        "Response": "RB"
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "RB"
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "RB"
       },
       {
         "Id": "AB",
-        "Response": ""
+        "Response": "MCL"
       },
       {
         "Id": "MV",
-        "Response": ""
+        "Response": "RB"
       },
       {
         "Id": "MB",
-        "Response": ""
+        "Response": "RB"
       },
       {
         "Id": "JE",
-        "Response": ""
+        "Response": "RB"
       },
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "MER"
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "WIL"
       }
     ]
   },
@@ -57,47 +57,47 @@
     "competitorResponses": [
       {
         "Id": "TD",
-        "Response": ""
+        "Response": "FER"
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "MCL,RBR"
       },
       {
         "Id": "HI",
-        "Response": ""
+        "Response": "FER,MER,WIL"
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "RBR"
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "RB,RBR"
       },
       {
         "Id": "AB",
-        "Response": ""
+        "Response": "FER,MCL"
       },
       {
         "Id": "MV",
-        "Response": ""
+        "Response": "MCL,MER,WIL"
       },
       {
         "Id": "MB",
-        "Response": ""
+        "Response": "MCL,WIL"
       },
       {
         "Id": "JE",
-        "Response": ""
+        "Response": "FER,RBR,WIL"
       },
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "AM,MER"
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "FER,MCL,MER,WIL"
       }
     ]
   },
@@ -108,47 +108,47 @@
     "competitorResponses": [
       {
         "Id": "TD",
-        "Response": ""
+        "Response": "LEC"
       },
       {
         "Id": "JA",
-        "Response": ""
+        "Response": "HAD,LEC,NOR,TSU,VER"
       },
       {
         "Id": "HI",
-        "Response": ""
+        "Response": "ALB,ALO,HAM,LEC,RUS,TSU"
       },
       {
         "Id": "BB",
-        "Response": ""
+        "Response": "LAW,VER"
       },
       {
         "Id": "JB",
-        "Response": ""
+        "Response": "TSU,VER"
       },
       {
         "Id": "AB",
-        "Response": ""
+        "Response": "HAM,NOR,PIA,RUS,SAI"
       },
       {
         "Id": "MV",
-        "Response": ""
+        "Response": "ALO,ANT,GAS,HUL,LEC,NOR,PIA,RUS,SAI"
       },
       {
         "Id": "MB",
-        "Response": ""
+        "Response": "NOR,SAI"
       },
       {
         "Id": "JE",
-        "Response": ""
+        "Response": "ALO,ANT,GAS,HUL,LEC,PIA,SAI,VER"
       },
       {
         "Id": "CB",
-        "Response": ""
+        "Response": "HAM,NOR"
       },
       {
         "Id": "KH",
-        "Response": ""
+        "Response": "ALB,ANT,BEA,BOR,DOO,HAD,HAM,LAW,LEC,NOR,PIA,RUS,SAI"
       }
     ]
   },
