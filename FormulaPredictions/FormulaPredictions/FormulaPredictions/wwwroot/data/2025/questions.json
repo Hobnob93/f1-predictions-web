@@ -1,0 +1,4821 @@
+[
+  {
+    "id": "0-A",
+    "question": "Introduction, and everyone's favourite liveries!",
+    "type": "Intro",
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "MER"
+      },
+      {
+        "Id": "KH",
+        "Response": "KS"
+      },
+      {
+        "Id": "MP",
+        "Response": "MER"
+      },
+      {
+        "Id": "JE",
+        "Response": "FER"
+      },
+      {
+        "Id": "JA",
+        "Response": "KS"
+      },
+      {
+        "Id": "JB",
+        "Response": "RB"
+      },
+      {
+        "Id": "BB",
+        "Response": "RB"
+      },
+      {
+        "Id": "LT",
+        "Response": "MCL"
+      },
+      {
+        "Id": "AB",
+        "Response": "MCL"
+      },
+      {
+        "Id": "SA",
+        "Response": "KS"
+      },
+      {
+        "Id": "HI",
+        "Response": "KS"
+      },
+      {
+        "Id": "MV",
+        "Response": "FER"
+      },
+      {
+        "Id": "MB",
+        "Response": "KS"
+      }
+    ]
+  },
+  {
+    "id": "0-B",
+    "question": "A curiosity question; which teams are supported?",
+    "type": "FavTeams",
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "AM,MCL,MER"
+      },
+      {
+        "Id": "KH",
+        "Response": "RB,FER,MCL,WIL"
+      },
+      {
+        "Id": "MP",
+        "Response": "MCL,WIL"
+      },
+      {
+        "Id": "JE",
+        "Response": "FER,MCL,RBR"
+      },
+      {
+        "Id": "JA",
+        "Response": "ALP,AM,RB,FER,HAA,KS,MCL,RBR,WIL"
+      },
+      {
+        "Id": "JB",
+        "Response": "RB"
+      },
+      {
+        "Id": "BB",
+        "Response": "RBR"
+      },
+      {
+        "Id": "LT",
+        "Response": "FER,MCL"
+      },
+      {
+        "Id": "AB",
+        "Response": "MCL"
+      },
+      {
+        "Id": "SA",
+        "Response": "FER,HAA,RBR"
+      },
+      {
+        "Id": "HI",
+        "Response": "MER,WIL"
+      },
+      {
+        "Id": "MV",
+        "Response": "AM,MCL,MER,WIL"
+      },
+      {
+        "Id": "MB",
+        "Response": "MCL"
+      }
+    ]
+  },
+  {
+    "id": "0-C",
+    "question": "Another curiosity question; which drivers are supported?",
+    "type": "FavDrivers",
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "HAM,NOR,RIC,RUS"
+      },
+      {
+        "Id": "KH",
+        "Response": "ALB,GAS,HAM,LEC,NOR,PIA,RIC,RUS,SAI,TSU"
+      },
+      {
+        "Id": "MP",
+        "Response": "ALB,LEC,NOR,PER,PIA,RIC"
+      },
+      {
+        "Id": "JE",
+        "Response": "ALB,ALO,PIA,VER"
+      },
+      {
+        "Id": "JA",
+        "Response": "BOT,LEC,NOR,PER,RUS,SAI,VER"
+      },
+      {
+        "Id": "JB",
+        "Response": "TSU"
+      },
+      {
+        "Id": "BB",
+        "Response": "GAS"
+      },
+      {
+        "Id": "LT",
+        "Response": "ALO,HAM,LEC,NOR,RIC,SAI,TSU"
+      },
+      {
+        "Id": "AB",
+        "Response": "NOR,RUS,SAI"
+      },
+      {
+        "Id": "SA",
+        "Response": "HAM,LEC,NOR,RIC,RUS"
+      },
+      {
+        "Id": "HI",
+        "Response": "ALB,ALO,HAM,LEC,PIA,RUS"
+      },
+      {
+        "Id": "MV",
+        "Response": "ALB,ALO,BOT,GAS,HAM,HUL,LEC,MAG,NOR,PER,PIA,RIC,RUS,SAI,SAR,TSU,ZHO"
+      },
+      {
+        "Id": "MB",
+        "Response": "NOR"
+      }
+    ]
+  },
+  {
+    "id": "1-A",
+    "question": "Who will win the Constructor's Championship?",
+    "type": "SingleTeam",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "TeamChampOrder",
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "MER"
+      },
+      {
+        "Id": "KH",
+        "Response": "RBR"
+      },
+      {
+        "Id": "MP",
+        "Response": "RBR"
+      },
+      {
+        "Id": "JE",
+        "Response": "RBR"
+      },
+      {
+        "Id": "JA",
+        "Response": "MER"
+      },
+      {
+        "Id": "JB",
+        "Response": "RBR"
+      },
+      {
+        "Id": "BB",
+        "Response": "RBR"
+      },
+      {
+        "Id": "LT",
+        "Response": "RBR"
+      },
+      {
+        "Id": "AB",
+        "Response": "RBR"
+      },
+      {
+        "Id": "SA",
+        "Response": "RBR"
+      },
+      {
+        "Id": "HI",
+        "Response": "RBR"
+      },
+      {
+        "Id": "MV",
+        "Response": "MER"
+      },
+      {
+        "Id": "MB",
+        "Response": "RBR"
+      }
+    ]
+  },
+  {
+    "id": "1-B",
+    "question": "What will the percentage of points difference be between first and second place in the Constructor's Championship?",
+    "type": "Value",
+    "scoring": {
+      "Type": "Value",
+      "AnswersId": "1-B",
+      "explanation": "25 points minus each unit away you are from the answer - you cannot score less than 0"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "34"
+      },
+      {
+        "Id": "KH",
+        "Response": "20"
+      },
+      {
+        "Id": "MP",
+        "Response": "50"
+      },
+      {
+        "Id": "JE",
+        "Response": "60"
+      },
+      {
+        "Id": "JA",
+        "Response": "32"
+      },
+      {
+        "Id": "JB",
+        "Response": "52"
+      },
+      {
+        "Id": "BB",
+        "Response": "27"
+      },
+      {
+        "Id": "LT",
+        "Response": "30"
+      },
+      {
+        "Id": "AB",
+        "Response": "26"
+      },
+      {
+        "Id": "SA",
+        "Response": "50"
+      },
+      {
+        "Id": "HI",
+        "Response": "50"
+      },
+      {
+        "Id": "MV",
+        "Response": "16"
+      },
+      {
+        "Id": "MB",
+        "Response": "23"
+      }
+    ]
+  },
+  {
+    "id": "1-C",
+    "question": "Which team will come FIFTH in the Constructor's Championship?",
+    "type": "SingleTeam",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "TeamChampOrder",
+      "Index": 4,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "AM"
+      },
+      {
+        "Id": "KH",
+        "Response": "AM"
+      },
+      {
+        "Id": "MP",
+        "Response": "ALP"
+      },
+      {
+        "Id": "JE",
+        "Response": "RB"
+      },
+      {
+        "Id": "JA",
+        "Response": "AM"
+      },
+      {
+        "Id": "JB",
+        "Response": "RB"
+      },
+      {
+        "Id": "BB",
+        "Response": "WIL"
+      },
+      {
+        "Id": "LT",
+        "Response": "MER"
+      },
+      {
+        "Id": "AB",
+        "Response": "AM"
+      },
+      {
+        "Id": "SA",
+        "Response": "ALP"
+      },
+      {
+        "Id": "HI",
+        "Response": "AM"
+      },
+      {
+        "Id": "MV",
+        "Response": "WIL"
+      },
+      {
+        "Id": "MB",
+        "Response": "AM"
+      }
+    ]
+  },
+  {
+    "id": "1-D",
+    "question": "Which team will come LAST in the Constructor's Championship?",
+    "type": "SingleTeam",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "TeamChampOrder",
+      "Index": 9,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "HAA"
+      },
+      {
+        "Id": "KH",
+        "Response": "HAA"
+      },
+      {
+        "Id": "MP",
+        "Response": "HAA"
+      },
+      {
+        "Id": "JE",
+        "Response": "HAA"
+      },
+      {
+        "Id": "JA",
+        "Response": "HAA"
+      },
+      {
+        "Id": "JB",
+        "Response": "HAA"
+      },
+      {
+        "Id": "BB",
+        "Response": "HAA"
+      },
+      {
+        "Id": "LT",
+        "Response": "HAA"
+      },
+      {
+        "Id": "AB",
+        "Response": "KS"
+      },
+      {
+        "Id": "SA",
+        "Response": "HAA"
+      },
+      {
+        "Id": "HI",
+        "Response": "HAA"
+      },
+      {
+        "Id": "MV",
+        "Response": "HAA"
+      },
+      {
+        "Id": "MB",
+        "Response": "HAA"
+      }
+    ]
+  },
+  {
+    "id": "1-E",
+    "question": "Who will WIN the Driver's Championship?",
+    "type": "SingleDriver",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "DriverChampOrder",
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "HAM"
+      },
+      {
+        "Id": "KH",
+        "Response": "VER"
+      },
+      {
+        "Id": "MP",
+        "Response": "VER"
+      },
+      {
+        "Id": "JE",
+        "Response": "VER"
+      },
+      {
+        "Id": "JA",
+        "Response": "VER"
+      },
+      {
+        "Id": "JB",
+        "Response": "VER"
+      },
+      {
+        "Id": "BB",
+        "Response": "VER"
+      },
+      {
+        "Id": "LT",
+        "Response": "VER"
+      },
+      {
+        "Id": "AB",
+        "Response": "VER"
+      },
+      {
+        "Id": "SA",
+        "Response": "VER"
+      },
+      {
+        "Id": "HI",
+        "Response": "VER"
+      },
+      {
+        "Id": "MV",
+        "Response": "VER"
+      },
+      {
+        "Id": "MB",
+        "Response": "VER"
+      }
+    ]
+  },
+  {
+    "id": "1-F",
+    "question": "What will the percentage of points difference be between first and second place in the Driver's Championship?",
+    "type": "Value",
+    "scoring": {
+      "Type": "Value",
+      "AnswersId": "1-F",
+      "explanation": "25 points minus each unit away you are from the answer - you cannot score less than 0"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "42"
+      },
+      {
+        "Id": "KH",
+        "Response": "40"
+      },
+      {
+        "Id": "MP",
+        "Response": "35"
+      },
+      {
+        "Id": "JE",
+        "Response": "40"
+      },
+      {
+        "Id": "JA",
+        "Response": "24"
+      },
+      {
+        "Id": "JB",
+        "Response": "42"
+      },
+      {
+        "Id": "BB",
+        "Response": "24"
+      },
+      {
+        "Id": "LT",
+        "Response": "35"
+      },
+      {
+        "Id": "AB",
+        "Response": "40"
+      },
+      {
+        "Id": "SA",
+        "Response": "55"
+      },
+      {
+        "Id": "HI",
+        "Response": "55"
+      },
+      {
+        "Id": "MV",
+        "Response": "26"
+      },
+      {
+        "Id": "MB",
+        "Response": "34"
+      }
+    ]
+  },
+  {
+    "id": "1-G",
+    "question": "Who will come TENTH in the Driver's Championship?",
+    "type": "SingleDriver",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "DriverChampOrder",
+      "Index": 9,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "GAS"
+      },
+      {
+        "Id": "KH",
+        "Response": "ALB"
+      },
+      {
+        "Id": "MP",
+        "Response": "ALB"
+      },
+      {
+        "Id": "JE",
+        "Response": "ALB"
+      },
+      {
+        "Id": "JA",
+        "Response": "MAG"
+      },
+      {
+        "Id": "JB",
+        "Response": "TSU"
+      },
+      {
+        "Id": "BB",
+        "Response": "PIA"
+      },
+      {
+        "Id": "LT",
+        "Response": "STR"
+      },
+      {
+        "Id": "AB",
+        "Response": "ALO"
+      },
+      {
+        "Id": "SA",
+        "Response": "RIC"
+      },
+      {
+        "Id": "HI",
+        "Response": "TSU"
+      },
+      {
+        "Id": "MV",
+        "Response": "STR"
+      },
+      {
+        "Id": "MB",
+        "Response": "GAS"
+      }
+    ]
+  },
+  {
+    "id": "1-H",
+    "question": "Who will come LAST in the Driver's Championship?",
+    "type": "SingleDriver",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "DriverChampOrder",
+      "Index": 23,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "SAR"
+      },
+      {
+        "Id": "KH",
+        "Response": "HUL"
+      },
+      {
+        "Id": "MP",
+        "Response": "MAG"
+      },
+      {
+        "Id": "JE",
+        "Response": "MAG"
+      },
+      {
+        "Id": "JA",
+        "Response": "TSU"
+      },
+      {
+        "Id": "JB",
+        "Response": "MAG"
+      },
+      {
+        "Id": "BB",
+        "Response": "SAR"
+      },
+      {
+        "Id": "LT",
+        "Response": "SAR"
+      },
+      {
+        "Id": "AB",
+        "Response": "SAR"
+      },
+      {
+        "Id": "SA",
+        "Response": "ZHO"
+      },
+      {
+        "Id": "HI",
+        "Response": "SAR"
+      },
+      {
+        "Id": "MV",
+        "Response": "MAG"
+      },
+      {
+        "Id": "MB",
+        "Response": "SAR"
+      }
+    ]
+  },
+  {
+    "id": "1-I",
+    "question": "Which team will have the highest repair cost, and WIN the Destructors Championship?",
+    "type": "SingleTeam",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "TeamDestrOrder",
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "KS"
+      },
+      {
+        "Id": "KH",
+        "Response": "FER"
+      },
+      {
+        "Id": "MP",
+        "Response": "ALP"
+      },
+      {
+        "Id": "JE",
+        "Response": "WIL"
+      },
+      {
+        "Id": "JA",
+        "Response": "MCL"
+      },
+      {
+        "Id": "JB",
+        "Response": "ALP"
+      },
+      {
+        "Id": "BB",
+        "Response": "ALP"
+      },
+      {
+        "Id": "LT",
+        "Response": "FER"
+      },
+      {
+        "Id": "AB",
+        "Response": "HAA"
+      },
+      {
+        "Id": "SA",
+        "Response": "HAA"
+      },
+      {
+        "Id": "HI",
+        "Response": "ALP"
+      },
+      {
+        "Id": "MV",
+        "Response": "RBR"
+      },
+      {
+        "Id": "MB",
+        "Response": "ALP"
+      }
+    ]
+  },
+  {
+    "id": "1-J",
+    "question": "Which team will have the lowest repair cost, and come LAST in the Destructors Championship?",
+    "type": "SingleTeam",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "TeamDestrOrder",
+      "Index": 9,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "MCL"
+      },
+      {
+        "Id": "KH",
+        "Response": "MER"
+      },
+      {
+        "Id": "MP",
+        "Response": "RBR"
+      },
+      {
+        "Id": "JE",
+        "Response": "RBR"
+      },
+      {
+        "Id": "JA",
+        "Response": "KS"
+      },
+      {
+        "Id": "JB",
+        "Response": "RBR"
+      },
+      {
+        "Id": "BB",
+        "Response": "HAA"
+      },
+      {
+        "Id": "LT",
+        "Response": "RBR"
+      },
+      {
+        "Id": "AB",
+        "Response": "MCL"
+      },
+      {
+        "Id": "SA",
+        "Response": "RBR"
+      },
+      {
+        "Id": "HI",
+        "Response": "RBR"
+      },
+      {
+        "Id": "MV",
+        "Response": "MER"
+      },
+      {
+        "Id": "MB",
+        "Response": "MCL"
+      }
+    ]
+  },
+  {
+    "id": "1-K",
+    "question": "Which driver will cause the most cost in repairs, and WIN the Destructors Championship?",
+    "type": "SingleDriver",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "DriverDestrOrder",
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "STR"
+      },
+      {
+        "Id": "KH",
+        "Response": "SAR"
+      },
+      {
+        "Id": "MP",
+        "Response": "MAG"
+      },
+      {
+        "Id": "JE",
+        "Response": "SAR"
+      },
+      {
+        "Id": "JA",
+        "Response": "ALB"
+      },
+      {
+        "Id": "JB",
+        "Response": "SAR"
+      },
+      {
+        "Id": "BB",
+        "Response": "OCO"
+      },
+      {
+        "Id": "LT",
+        "Response": "SAI"
+      },
+      {
+        "Id": "AB",
+        "Response": "HUL"
+      },
+      {
+        "Id": "SA",
+        "Response": "MAG"
+      },
+      {
+        "Id": "HI",
+        "Response": "STR"
+      },
+      {
+        "Id": "MV",
+        "Response": "OCO"
+      },
+      {
+        "Id": "MB",
+        "Response": "MAG"
+      }
+    ]
+  },
+  {
+    "id": "1-L",
+    "question": "Which driver will cause the least in repair cost, and come LAST in the Destructors Championship?",
+    "type": "SingleDriver",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "DriverDestrOrder",
+      "Index": 21,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "HAM"
+      },
+      {
+        "Id": "KH",
+        "Response": "VER"
+      },
+      {
+        "Id": "MP",
+        "Response": "VER"
+      },
+      {
+        "Id": "JE",
+        "Response": "VER"
+      },
+      {
+        "Id": "JA",
+        "Response": "PIA"
+      },
+      {
+        "Id": "JB",
+        "Response": "VER"
+      },
+      {
+        "Id": "BB",
+        "Response": "VER"
+      },
+      {
+        "Id": "LT",
+        "Response": "RIC"
+      },
+      {
+        "Id": "AB",
+        "Response": "PIA"
+      },
+      {
+        "Id": "SA",
+        "Response": "VER"
+      },
+      {
+        "Id": "HI",
+        "Response": "VER"
+      },
+      {
+        "Id": "MV",
+        "Response": "ALB"
+      },
+      {
+        "Id": "MB",
+        "Response": "NOR"
+      }
+    ]
+  },
+  {
+    "id": "2-A",
+    "question": "Which team will have the MOST podiums over the season?",
+    "type": "SingleTeam",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "2-A",
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "RBR"
+      },
+      {
+        "Id": "KH",
+        "Response": "FER"
+      },
+      {
+        "Id": "MP",
+        "Response": "RBR"
+      },
+      {
+        "Id": "JE",
+        "Response": "RBR"
+      },
+      {
+        "Id": "JA",
+        "Response": "RBR"
+      },
+      {
+        "Id": "JB",
+        "Response": "RBR"
+      },
+      {
+        "Id": "BB",
+        "Response": "RBR"
+      },
+      {
+        "Id": "LT",
+        "Response": "RBR"
+      },
+      {
+        "Id": "AB",
+        "Response": "RBR"
+      },
+      {
+        "Id": "SA",
+        "Response": "FER"
+      },
+      {
+        "Id": "HI",
+        "Response": "RBR"
+      },
+      {
+        "Id": "MV",
+        "Response": "RBR"
+      },
+      {
+        "Id": "MB",
+        "Response": "RBR"
+      }
+    ]
+  },
+  {
+    "id": "2-B",
+    "question": "Which team will have the MOST DNFs? (A DNF is just for the races and not practise or quali - sprint races will NOT be counted)",
+    "type": "SingleTeam",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "2-B",
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "FER"
+      },
+      {
+        "Id": "KH",
+        "Response": "WIL"
+      },
+      {
+        "Id": "MP",
+        "Response": "ALP"
+      },
+      {
+        "Id": "JE",
+        "Response": "HAA"
+      },
+      {
+        "Id": "JA",
+        "Response": "MCL"
+      },
+      {
+        "Id": "JB",
+        "Response": "ALP"
+      },
+      {
+        "Id": "BB",
+        "Response": "HAA"
+      },
+      {
+        "Id": "LT",
+        "Response": "KS"
+      },
+      {
+        "Id": "AB",
+        "Response": "RB"
+      },
+      {
+        "Id": "SA",
+        "Response": "HAA"
+      },
+      {
+        "Id": "HI",
+        "Response": "WIL"
+      },
+      {
+        "Id": "MV",
+        "Response": "ALP"
+      },
+      {
+        "Id": "MB",
+        "Response": "HAA"
+      }
+    ]
+  },
+  {
+    "id": "2-C",
+    "question": "Chose two teams - every time one of their drivers makes it to Q2, you LOSE 1 point.",
+    "type": "MultiTeam",
+    "scoring": {
+      "type": "GainWhenX",
+      "answersId": "2-C",
+      "value": -1,
+      "explanation": "Lose 1 point each time a driver from chosen teams make it to Q2"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "HAA,KS"
+      },
+      {
+        "Id": "KH",
+        "Response": "HAA,KS"
+      },
+      {
+        "Id": "MP",
+        "Response": "HAA,KS"
+      },
+      {
+        "Id": "JE",
+        "Response": "HAA,KS"
+      },
+      {
+        "Id": "JA",
+        "Response": "RB,HAA"
+      },
+      {
+        "Id": "JB",
+        "Response": "HAA,KS"
+      },
+      {
+        "Id": "BB",
+        "Response": "HAA,KS"
+      },
+      {
+        "Id": "LT",
+        "Response": "KS,WIL"
+      },
+      {
+        "Id": "AB",
+        "Response": "KS,WIL"
+      },
+      {
+        "Id": "SA",
+        "Response": "HAA,WIL"
+      },
+      {
+        "Id": "HI",
+        "Response": "HAA,WIL"
+      },
+      {
+        "Id": "MV",
+        "Response": "HAA,KS"
+      },
+      {
+        "Id": "MB",
+        "Response": "RB,HAA"
+      }
+    ]
+  },
+  {
+    "id": "2-D",
+    "question": "Which team will have the FIRST DNF of the season during a race?",
+    "type": "SingleTeam",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "2-D",
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "HAA"
+      },
+      {
+        "Id": "KH",
+        "Response": "HAA"
+      },
+      {
+        "Id": "MP",
+        "Response": "HAA"
+      },
+      {
+        "Id": "JE",
+        "Response": "ALP"
+      },
+      {
+        "Id": "JA",
+        "Response": "FER"
+      },
+      {
+        "Id": "JB",
+        "Response": "ALP"
+      },
+      {
+        "Id": "BB",
+        "Response": "KS"
+      },
+      {
+        "Id": "LT",
+        "Response": "KS"
+      },
+      {
+        "Id": "AB",
+        "Response": "WIL"
+      },
+      {
+        "Id": "SA",
+        "Response": "HAA"
+      },
+      {
+        "Id": "HI",
+        "Response": "FER"
+      },
+      {
+        "Id": "MV",
+        "Response": "MER"
+      },
+      {
+        "Id": "MB",
+        "Response": "HAA"
+      }
+    ]
+  },
+  {
+    "id": "2-E",
+    "question": "Which team will have the LONGEST time in the pitlane for one stop in the first race of the season?",
+    "type": "SingleTeam",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "2-E",
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "FER"
+      },
+      {
+        "Id": "KH",
+        "Response": "HAA"
+      },
+      {
+        "Id": "MP",
+        "Response": "FER"
+      },
+      {
+        "Id": "JE",
+        "Response": "FER"
+      },
+      {
+        "Id": "JA",
+        "Response": "KS"
+      },
+      {
+        "Id": "JB",
+        "Response": "HAA"
+      },
+      {
+        "Id": "BB",
+        "Response": "MCL"
+      },
+      {
+        "Id": "LT",
+        "Response": "HAA"
+      },
+      {
+        "Id": "AB",
+        "Response": "FER"
+      },
+      {
+        "Id": "SA",
+        "Response": "FER"
+      },
+      {
+        "Id": "HI",
+        "Response": "KS"
+      },
+      {
+        "Id": "MV",
+        "Response": "KS"
+      },
+      {
+        "Id": "MB",
+        "Response": "HAA"
+      }
+    ]
+  },
+  {
+    "id": "2-F",
+    "question": "Pick FIVE races of the season YOU think the Aston Martin drivers will do the BEST at.",
+    "type": "MultiTrack",
+    "scoring": {
+      "type": "GetChoiceValue",
+      "answersId": "2-F",
+      "explanation": "Whatever your choice scores in your picked races, you get equal points"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "BAH,SAA,JPN,MIA,MON"
+      },
+      {
+        "Id": "KH",
+        "Response": "BAH,AUS,JPN,MON,CAN"
+      },
+      {
+        "Id": "MP",
+        "Response": "BAH,JPN,CAN,BAK,YMC"
+      },
+      {
+        "Id": "JE",
+        "Response": "AUS,MON,NED,SIN,BRA"
+      },
+      {
+        "Id": "JA",
+        "Response": "JPN,RBR,SPA,MZA,SIN"
+      },
+      {
+        "Id": "JB",
+        "Response": "MIA,MON,HUN,SIN,YMC"
+      },
+      {
+        "Id": "BB",
+        "Response": "BAH,SAA,AUS,JPN,CHN"
+      },
+      {
+        "Id": "LT",
+        "Response": "BAR,GBR,HUN,MZA,SIN"
+      },
+      {
+        "Id": "AB",
+        "Response": "CHN,MON,RBR,SPA,BAK"
+      },
+      {
+        "Id": "SA",
+        "Response": "BAH,SAA,CHN,MIA,GBR"
+      },
+      {
+        "Id": "HI",
+        "Response": "AUS,EMI,MON,BAK,YMC"
+      },
+      {
+        "Id": "MV",
+        "Response": "JPN,GBR,CTA,BRA,QTR"
+      },
+      {
+        "Id": "MB",
+        "Response": "AUS,CAN,NED,BRA,LSV"
+      }
+    ]
+  },
+  {
+    "id": "2-G",
+    "question": "Choose two teams who you think the drivers of will finish 10th the most",
+    "type": "MultiTeam",
+    "scoring": {
+      "type": "GainWhenX",
+      "answersId": "2-G",
+      "value": 4,
+      "explanation": "Every time a driver from your selected teams finishes 10th, you get 4 points"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "ALP,AM"
+      },
+      {
+        "Id": "KH",
+        "Response": "AM,WIL"
+      },
+      {
+        "Id": "MP",
+        "Response": "RB,WIL"
+      },
+      {
+        "Id": "JE",
+        "Response": "AM,RB"
+      },
+      {
+        "Id": "JA",
+        "Response": "ALP,AM"
+      },
+      {
+        "Id": "JB",
+        "Response": "ALP,RB"
+      },
+      {
+        "Id": "BB",
+        "Response": "ALP,RB"
+      },
+      {
+        "Id": "LT",
+        "Response": "ALP,RB"
+      },
+      {
+        "Id": "AB",
+        "Response": "ALP,HAA"
+      },
+      {
+        "Id": "SA",
+        "Response": "ALP,KS"
+      },
+      {
+        "Id": "HI",
+        "Response": "RB,KS"
+      },
+      {
+        "Id": "MV",
+        "Response": "ALP,KS"
+      },
+      {
+        "Id": "MB",
+        "Response": "ALP,AM"
+      }
+    ]
+  },
+  {
+    "id": "2-H",
+    "question": "Which team will be the BIGGEST winner compared to 2023?",
+    "type": "SingleTeam",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "2-H",
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "AM"
+      },
+      {
+        "Id": "KH",
+        "Response": "FER"
+      },
+      {
+        "Id": "MP",
+        "Response": "WIL"
+      },
+      {
+        "Id": "JE",
+        "Response": "RB"
+      },
+      {
+        "Id": "JA",
+        "Response": "AM"
+      },
+      {
+        "Id": "JB",
+        "Response": "RB"
+      },
+      {
+        "Id": "BB",
+        "Response": "MCL"
+      },
+      {
+        "Id": "LT",
+        "Response": "RB"
+      },
+      {
+        "Id": "AB",
+        "Response": "MCL"
+      },
+      {
+        "Id": "SA",
+        "Response": "FER"
+      },
+      {
+        "Id": "HI",
+        "Response": "RB"
+      },
+      {
+        "Id": "MV",
+        "Response": "WIL"
+      },
+      {
+        "Id": "MB",
+        "Response": "MCL"
+      }
+    ]
+  },
+  {
+    "id": "3-A",
+    "question": "Which driver will lead the MOST laps?",
+    "type": "SingleDriver",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "3-A",
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "VER"
+      },
+      {
+        "Id": "KH",
+        "Response": "VER"
+      },
+      {
+        "Id": "MP",
+        "Response": "VER"
+      },
+      {
+        "Id": "JE",
+        "Response": "VER"
+      },
+      {
+        "Id": "JA",
+        "Response": "VER"
+      },
+      {
+        "Id": "JB",
+        "Response": "VER"
+      },
+      {
+        "Id": "BB",
+        "Response": "VER"
+      },
+      {
+        "Id": "LT",
+        "Response": "VER"
+      },
+      {
+        "Id": "AB",
+        "Response": "VER"
+      },
+      {
+        "Id": "SA",
+        "Response": "VER"
+      },
+      {
+        "Id": "HI",
+        "Response": "VER"
+      },
+      {
+        "Id": "MV",
+        "Response": "VER"
+      },
+      {
+        "Id": "MB",
+        "Response": "VER"
+      }
+    ]
+  },
+  {
+    "id": "3-B",
+    "question": "Which drivers will receive the \"Driver of the Day\" award?",
+    "type": "MultiDriver",
+    "scoring": {
+      "type": "GainLose",
+      "answersId": "3-B",
+      "value": 10,
+      "extraValue": -7,
+      "explanation": "10 points for each correct choice; -7 points for each incorrect and missing choice"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "ALB,ALO,BOT,HAM,LEC,NOR,PER,RIC,RUS,SAI,STR,VER"
+      },
+      {
+        "Id": "KH",
+        "Response": "ALB,ALO,HAM,LEC,NOR,PIA,RUS,VER"
+      },
+      {
+        "Id": "MP",
+        "Response": "ALB,ALO,NOR,PER,PIA"
+      },
+      {
+        "Id": "JE",
+        "Response": "LEC,NOR,PIA,SAI,VER"
+      },
+      {
+        "Id": "JA",
+        "Response": "HAM,NOR,OCO,VER"
+      },
+      {
+        "Id": "JB",
+        "Response": "ALB,ALO,GAS,HAM,LEC,NOR,PER,PIA,RIC,SAI,VER"
+      },
+      {
+        "Id": "BB",
+        "Response": "ALB,LEC,PIA,VER"
+      },
+      {
+        "Id": "LT",
+        "Response": "ALO,BOT,HAM,LEC,NOR,SAI,TSU,VER,ZHO"
+      },
+      {
+        "Id": "AB",
+        "Response": "ALO,BOT,HAM,LEC,NOR,PER,PIA,RIC,RUS,SAI,VER"
+      },
+      {
+        "Id": "SA",
+        "Response": "BOT,HAM,LEC,RIC,RUS,VER"
+      },
+      {
+        "Id": "HI",
+        "Response": "ALO,HAM,LEC,NOR,PER,PIA,RIC,SAI,VER"
+      },
+      {
+        "Id": "MV",
+        "Response": "ALB,ALO,GAS,HAM,LEC,NOR,PER,PIA,RIC,RUS,SAI,SAR,TSU,VER"
+      },
+      {
+        "Id": "MB",
+        "Response": "ALO,HAM,LEC,NOR,PIA,RUS,SAI,VER"
+      }
+    ]
+  },
+  {
+    "id": "3-C",
+    "question": "Select ONE track for Perez, Norris, Stroll, Ocon, and Sainz you think they will be BEST at.",
+    "type": "MultiDriverTrack",
+    "scoring": {
+      "type": "MultiDriverOnTrack",
+      "answersId": "3-C",
+      "explanation": "You score whatever your driver scores on their respective track"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "PER-BAH,NOR-HUN,STR-MIA,OCO-BAK,SAI-SIN"
+      },
+      {
+        "Id": "KH",
+        "Response": "PER-BAH,NOR-CTA,STR-SAA,OCO-SPA,SAI-SIN"
+      },
+      {
+        "Id": "MP",
+        "Response": "PER-BAH,NOR-RBR,STR-HUN,OCO-BRA,SAI-MZA"
+      },
+      {
+        "Id": "JE",
+        "Response": "PER-MON,NOR-JPN,STR-SAA,OCO-BAH,SAI-NED"
+      },
+      {
+        "Id": "JA",
+        "Response": "PER-SAA,NOR-HUN,STR-EMI,OCO-SPA,SAI-MIA"
+      },
+      {
+        "Id": "JB",
+        "Response": "PER-BAK,NOR-SIN,STR-HUN,OCO-MON,SAI-SIN"
+      },
+      {
+        "Id": "BB",
+        "Response": "PER-SAA,NOR-RBR,STR-CHN,OCO-HUN,SAI-MZA"
+      },
+      {
+        "Id": "LT",
+        "Response": "PER-NED,NOR-MIA,STR-BAK,OCO-JPN,SAI-MON"
+      },
+      {
+        "Id": "AB",
+        "Response": "PER-BAH,NOR-SAA,STR-EMI,OCO-MON,SAI-RBR"
+      },
+      {
+        "Id": "SA",
+        "Response": "PER-BAH,NOR-HUN,STR-RBR,OCO-HUN,SAI-SAA"
+      },
+      {
+        "Id": "HI",
+        "Response": "PER-RBR,NOR-MZA,STR-CHN,OCO-LSV,SAI-YMC"
+      },
+      {
+        "Id": "MV",
+        "Response": "PER-SAA,NOR-SIN,STR-BAH,OCO-HUN,SAI-MZA"
+      },
+      {
+        "Id": "MB",
+        "Response": "PER-SAA,NOR-HUN,STR-BRA,OCO-LSV,SAI-SIN"
+      }
+    ]
+  },
+  {
+    "id": "3-D",
+    "question": "The best of the rest out of all sessions?",
+    "type": "SingleDriver",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "3-D",
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "RUS"
+      },
+      {
+        "Id": "KH",
+        "Response": "NOR"
+      },
+      {
+        "Id": "MP",
+        "Response": "PER"
+      },
+      {
+        "Id": "JE",
+        "Response": "HAM"
+      },
+      {
+        "Id": "JA",
+        "Response": "BOT"
+      },
+      {
+        "Id": "JB",
+        "Response": "NOR"
+      },
+      {
+        "Id": "BB",
+        "Response": "NOR"
+      },
+      {
+        "Id": "LT",
+        "Response": "NOR"
+      },
+      {
+        "Id": "AB",
+        "Response": "PIA"
+      },
+      {
+        "Id": "SA",
+        "Response": "ALO"
+      },
+      {
+        "Id": "HI",
+        "Response": "HAM"
+      },
+      {
+        "Id": "MV",
+        "Response": "PIA"
+      },
+      {
+        "Id": "MB",
+        "Response": "SAI"
+      }
+    ]
+  },
+  {
+    "id": "3-E",
+    "question": "Pick four drivers you think will be Q2 specialists.",
+    "type": "MultiDriver",
+    "scoring": {
+      "type": "GainWhenX",
+      "answersId": "3-E",
+      "value": 2,
+      "explanation": "2 points each time one of your drivers make it to Q2, but NOT Q3"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "ALB,HUL,OCO,STR"
+      },
+      {
+        "Id": "KH",
+        "Response": "ALB,GAS,OCO,RIC"
+      },
+      {
+        "Id": "MP",
+        "Response": "HUL,MAG,SAR,STR"
+      },
+      {
+        "Id": "JE",
+        "Response": "ALB,GAS,STR,TSU"
+      },
+      {
+        "Id": "JA",
+        "Response": "GAS,PER,SAI,STR"
+      },
+      {
+        "Id": "JB",
+        "Response": "BOT,GAS,OCO,TSU"
+      },
+      {
+        "Id": "BB",
+        "Response": "ALB,GAS,OCO,TSU"
+      },
+      {
+        "Id": "LT",
+        "Response": "BOT,HUL,MAG,OCO"
+      },
+      {
+        "Id": "AB",
+        "Response": "HAM,RUS,RIC,STR"
+      },
+      {
+        "Id": "SA",
+        "Response": "ALO,BOT,GAS,HAM"
+      },
+      {
+        "Id": "HI",
+        "Response": "ALB,BOT,STR,ZHO"
+      },
+      {
+        "Id": "MV",
+        "Response": "HUL,MAG,SAR,ZHO"
+      },
+      {
+        "Id": "MB",
+        "Response": "ALB,STR,TSU,ZHO"
+      }
+    ]
+  },
+  {
+    "id": "3-F",
+    "question": "Pick two drivers from the top 6 of 2023 who will make the podium the LEAST",
+    "type": "MultiDriver",
+    "scoring": {
+      "type": "GainWhenX",
+      "answersId": "3-F",
+      "value": -2,
+      "explanation": "LOSE 2 points each time a selected driver makes the podium"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "ALO,NOR"
+      },
+      {
+        "Id": "KH",
+        "Response": "ALO,PER"
+      },
+      {
+        "Id": "MP",
+        "Response": "ALO,HAM"
+      },
+      {
+        "Id": "JE",
+        "Response": "ALO,HAM"
+      },
+      {
+        "Id": "JA",
+        "Response": "ALO,LEC"
+      },
+      {
+        "Id": "JB",
+        "Response": "ALO,HAM"
+      },
+      {
+        "Id": "BB",
+        "Response": "ALO,VER"
+      },
+      {
+        "Id": "LT",
+        "Response": "ALO,HAM"
+      },
+      {
+        "Id": "AB",
+        "Response": "ALO,HAM"
+      },
+      {
+        "Id": "SA",
+        "Response": "ALO,NOR"
+      },
+      {
+        "Id": "HI",
+        "Response": "ALO,NOR"
+      },
+      {
+        "Id": "MV",
+        "Response": "ALO,HAM"
+      },
+      {
+        "Id": "MB",
+        "Response": "ALO,PER"
+      }
+    ]
+  },
+  {
+    "id": "3-G",
+    "question": "Which driver will get the most grid penalties?",
+    "type": "SingleDriver",
+    "scoring": {
+      "type": "GainWhenX",
+      "answersId": "3-G",
+      "value": 2,
+      "explanation": "2 points for every grid place lost due to penalties"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "LEC"
+      },
+      {
+        "Id": "KH",
+        "Response": "SAI"
+      },
+      {
+        "Id": "MP",
+        "Response": "OCO"
+      },
+      {
+        "Id": "JE",
+        "Response": "OCO"
+      },
+      {
+        "Id": "JA",
+        "Response": "VER"
+      },
+      {
+        "Id": "JB",
+        "Response": "OCO"
+      },
+      {
+        "Id": "BB",
+        "Response": "GAS"
+      },
+      {
+        "Id": "LT",
+        "Response": "STR"
+      },
+      {
+        "Id": "AB",
+        "Response": "PER"
+      },
+      {
+        "Id": "SA",
+        "Response": "HUL"
+      },
+      {
+        "Id": "HI",
+        "Response": "STR"
+      },
+      {
+        "Id": "MV",
+        "Response": "PER"
+      },
+      {
+        "Id": "MB",
+        "Response": "PER"
+      }
+    ]
+  },
+  {
+    "id": "3-H",
+    "question": "Which three drivers will be the most mischievous and get the most license points?",
+    "type": "MultiDriver",
+    "scoring": {
+      "type": "GainWhenX",
+      "answersId": "3-H",
+      "value": 3,
+      "explanation": "3 points for every license point gained by selected drivers"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "OCO,VER,ZHO"
+      },
+      {
+        "Id": "KH",
+        "Response": "SAR,STR,TSU"
+      },
+      {
+        "Id": "MP",
+        "Response": "OCO,STR,TSU"
+      },
+      {
+        "Id": "JE",
+        "Response": "PER,RUS,STR"
+      },
+      {
+        "Id": "JA",
+        "Response": "GAS,HAM,VER"
+      },
+      {
+        "Id": "JB",
+        "Response": "GAS,OCO,TSU"
+      },
+      {
+        "Id": "BB",
+        "Response": "GAS,STR,TSU"
+      },
+      {
+        "Id": "LT",
+        "Response": "HUL,SAR,STR"
+      },
+      {
+        "Id": "AB",
+        "Response": "ALO,OCO,VER"
+      },
+      {
+        "Id": "SA",
+        "Response": "ALB,HAM,VER"
+      },
+      {
+        "Id": "HI",
+        "Response": "OCO,RUS,STR"
+      },
+      {
+        "Id": "MV",
+        "Response": "OCO,PER,STR"
+      },
+      {
+        "Id": "MB",
+        "Response": "BOT,MAG,SAR"
+      }
+    ]
+  },
+  {
+    "id": "3-I",
+    "question": "Which drivers will NOT be on the grid in 2025?",
+    "type": "MultiDriver",
+    "scoring": {
+      "type": "GainLose",
+      "answersId": "3-I",
+      "value": 10,
+      "extraValue": -7,
+      "explanation": "10 points for each correct choice; -7 points for each incorrect and missing choice"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "SAR,TSU"
+      },
+      {
+        "Id": "KH",
+        "Response": "BOT,HUL,MAG,PER,SAR"
+      },
+      {
+        "Id": "MP",
+        "Response": "PER,SAR,ZHO"
+      },
+      {
+        "Id": "JE",
+        "Response": "MAG,PER,SAR,ZHO"
+      },
+      {
+        "Id": "JA",
+        "Response": "TSU,ZHO"
+      },
+      {
+        "Id": "JB",
+        "Response": "SAR"
+      },
+      {
+        "Id": "BB",
+        "Response": "SAR,STR,ZHO"
+      },
+      {
+        "Id": "LT",
+        "Response": "MAG"
+      },
+      {
+        "Id": "AB",
+        "Response": "HUL"
+      },
+      {
+        "Id": "SA",
+        "Response": "HUL,SAR"
+      },
+      {
+        "Id": "HI",
+        "Response": "HUL,RIC"
+      },
+      {
+        "Id": "MV",
+        "Response": "HUL,MAG,TSU,ZHO"
+      },
+      {
+        "Id": "MB",
+        "Response": "SAR"
+      }
+    ]
+  },
+  {
+    "id": "3-J",
+    "question": "Who will be the biggest LOSER compared to 2023?",
+    "type": "SingleDriver",
+    "scoring": {
+      "type": "Leaderboard",
+      "AnswersId": "3-J",
+      "Index": 0,
+      "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "PER"
+      },
+      {
+        "Id": "KH",
+        "Response": "PER"
+      },
+      {
+        "Id": "MP",
+        "Response": "SAI"
+      },
+      {
+        "Id": "JE",
+        "Response": "ALO"
+      },
+      {
+        "Id": "JA",
+        "Response": "OCO"
+      },
+      {
+        "Id": "JB",
+        "Response": "GAS"
+      },
+      {
+        "Id": "BB",
+        "Response": "VER"
+      },
+      {
+        "Id": "LT",
+        "Response": "ALO"
+      },
+      {
+        "Id": "AB",
+        "Response": "LEC"
+      },
+      {
+        "Id": "SA",
+        "Response": "STR"
+      },
+      {
+        "Id": "HI",
+        "Response": "ALO"
+      },
+      {
+        "Id": "MV",
+        "Response": "PER"
+      },
+      {
+        "Id": "MB",
+        "Response": "ALO"
+      }
+    ]
+  },
+  {
+    "id": "3-K",
+    "question": "Pick THREE races of the season you think Russell will do the BEST at.",
+    "type": "MultiTrack",
+    "scoring": {
+      "type": "GetChoiceValue",
+      "answersId": "3-K",
+      "explanation": "Whatever Perez scored in your picked races, you get equal points"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "MON,CAN,SIN"
+      },
+      {
+        "Id": "KH",
+        "Response": "MIA,RBR,SIN"
+      },
+      {
+        "Id": "MP",
+        "Response": "BAR,BAK,SIN"
+      },
+      {
+        "Id": "JE",
+        "Response": "BAR,SIN,LSV"
+      },
+      {
+        "Id": "JA",
+        "Response": "SAA,SPA,SIN"
+      },
+      {
+        "Id": "JB",
+        "Response": "JPN,SPA,BRA"
+      },
+      {
+        "Id": "BB",
+        "Response": "AUS,JPN,CHN"
+      },
+      {
+        "Id": "LT",
+        "Response": "CHN,CAN,BAK"
+      },
+      {
+        "Id": "AB",
+        "Response": "MON,BAK,BRA"
+      },
+      {
+        "Id": "SA",
+        "Response": "BAH,CTA,LSV"
+      },
+      {
+        "Id": "HI",
+        "Response": "SAA,SIN,BRA"
+      },
+      {
+        "Id": "MV",
+        "Response": "EMI,HUN,BRA"
+      },
+      {
+        "Id": "MB",
+        "Response": "BAR,BRA,QTR"
+      }
+    ]
+  },
+  {
+    "id": "4-A",
+    "question": "Excluding 2023's top 3 teams, pick the team you think will score the highest at China",
+    "type": "SingleTeam",
+    "scoring": {
+      "type": "GetChoiceValue",
+      "answersId": "4-A",
+      "explanation": "Whatever your team scored in your picked race, you get equal points"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "MCL"
+      },
+      {
+        "Id": "KH",
+        "Response": "MCL"
+      },
+      {
+        "Id": "MP",
+        "Response": "MCL"
+      },
+      {
+        "Id": "JE",
+        "Response": "MCL"
+      },
+      {
+        "Id": "JA",
+        "Response": "MCL"
+      },
+      {
+        "Id": "JB",
+        "Response": "AM"
+      },
+      {
+        "Id": "BB",
+        "Response": "MCL"
+      },
+      {
+        "Id": "LT",
+        "Response": "MCL"
+      },
+      {
+        "Id": "AB",
+        "Response": "MCL"
+      },
+      {
+        "Id": "SA",
+        "Response": "RB"
+      },
+      {
+        "Id": "HI",
+        "Response": "AM"
+      },
+      {
+        "Id": "MV",
+        "Response": "MCL"
+      },
+      {
+        "Id": "MB",
+        "Response": "MCL"
+      }
+    ]
+  },
+  {
+    "id": "4-B",
+    "question": "How many safety cars will there be during the races, including sprint races?",
+    "type": "Value",
+    "scoring": {
+      "type": "Value",
+      "answersId": "4-B",
+      "explanation": "25 points minus each unit away you are from the answer - you cannot score less than 0"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "20"
+      },
+      {
+        "Id": "KH",
+        "Response": "20"
+      },
+      {
+        "Id": "MP",
+        "Response": "23"
+      },
+      {
+        "Id": "JE",
+        "Response": "18"
+      },
+      {
+        "Id": "JA",
+        "Response": "24"
+      },
+      {
+        "Id": "JB",
+        "Response": "18"
+      },
+      {
+        "Id": "BB",
+        "Response": "19"
+      },
+      {
+        "Id": "LT",
+        "Response": "25"
+      },
+      {
+        "Id": "AB",
+        "Response": "19"
+      },
+      {
+        "Id": "SA",
+        "Response": "19"
+      },
+      {
+        "Id": "HI",
+        "Response": "20"
+      },
+      {
+        "Id": "MV",
+        "Response": "20"
+      },
+      {
+        "Id": "MB",
+        "Response": "28"
+      }
+    ]
+  },
+  {
+    "id": "4-C",
+    "question": "How many red flags will there be during the races, including sprint races?",
+    "type": "Value",
+    "scoring": {
+      "type": "Value",
+      "answersId": "4-C",
+      "explanation": "25 points minus each unit away you are from the answer - you cannot score less than 0"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "5"
+      },
+      {
+        "Id": "KH",
+        "Response": "6"
+      },
+      {
+        "Id": "MP",
+        "Response": "8"
+      },
+      {
+        "Id": "JE",
+        "Response": "5"
+      },
+      {
+        "Id": "JA",
+        "Response": "7"
+      },
+      {
+        "Id": "JB",
+        "Response": "6"
+      },
+      {
+        "Id": "BB",
+        "Response": "4"
+      },
+      {
+        "Id": "LT",
+        "Response": "9"
+      },
+      {
+        "Id": "AB",
+        "Response": "5"
+      },
+      {
+        "Id": "SA",
+        "Response": "4"
+      },
+      {
+        "Id": "HI",
+        "Response": "4"
+      },
+      {
+        "Id": "MV",
+        "Response": "8"
+      },
+      {
+        "Id": "MB",
+        "Response": "8"
+      }
+    ]
+  },
+  {
+    "id": "4-D",
+    "question": "How many wet sessions will there be?",
+    "type": "Value",
+    "scoring": {
+      "type": "Value",
+      "answersId": "4-D",
+      "explanation": "25 points minus each unit away you are from the answer - you cannot score less than 0"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "20"
+      },
+      {
+        "Id": "KH",
+        "Response": "20"
+      },
+      {
+        "Id": "MP",
+        "Response": "18"
+      },
+      {
+        "Id": "JE",
+        "Response": "12"
+      },
+      {
+        "Id": "JA",
+        "Response": "15"
+      },
+      {
+        "Id": "JB",
+        "Response": "23"
+      },
+      {
+        "Id": "BB",
+        "Response": "18"
+      },
+      {
+        "Id": "LT",
+        "Response": "20"
+      },
+      {
+        "Id": "AB",
+        "Response": "21"
+      },
+      {
+        "Id": "SA",
+        "Response": "23"
+      },
+      {
+        "Id": "HI",
+        "Response": "25"
+      },
+      {
+        "Id": "MV",
+        "Response": "21"
+      },
+      {
+        "Id": "MB",
+        "Response": "24"
+      }
+    ]
+  },
+  {
+    "id": "4-E",
+    "question": "How many DNFs will there be across the sprint races and feature races?",
+    "type": "Value",
+    "scoring": {
+      "type": "Value",
+      "answersId": "4-E",
+      "explanation": "25 points minus each unit away you are from the answer - you cannot score less than 0"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "10"
+      },
+      {
+        "Id": "KH",
+        "Response": "10"
+      },
+      {
+        "Id": "MP",
+        "Response": "10"
+      },
+      {
+        "Id": "JE",
+        "Response": "10"
+      },
+      {
+        "Id": "JA",
+        "Response": "10"
+      },
+      {
+        "Id": "JB",
+        "Response": "10"
+      },
+      {
+        "Id": "BB",
+        "Response": "10"
+      },
+      {
+        "Id": "LT",
+        "Response": "10"
+      },
+      {
+        "Id": "AB",
+        "Response": "10"
+      },
+      {
+        "Id": "SA",
+        "Response": "10"
+      },
+      {
+        "Id": "HI",
+        "Response": "10"
+      },
+      {
+        "Id": "MV",
+        "Response": "10"
+      },
+      {
+        "Id": "MB",
+        "Response": "10"
+      }
+    ]
+  },
+  {
+    "id": "4-F",
+    "question": "Pick 3 drivers from Australia; whatever they score, you do, too!",
+    "type": "MultiDriver",
+    "scoring": {
+      "type": "GetChoiceValue",
+      "answersId": "4-F",
+      "explanation": "Whatever your drivers scored in this race, you get equal points"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "ALO,NOR,STR"
+      },
+      {
+        "Id": "KH",
+        "Response": "ALO,NOR,PIA"
+      },
+      {
+        "Id": "MP",
+        "Response": "ALO,NOR,RIC"
+      },
+      {
+        "Id": "JE",
+        "Response": "NOR,RIC,TSU"
+      },
+      {
+        "Id": "JA",
+        "Response": "ALB,BOT,NOR"
+      },
+      {
+        "Id": "JB",
+        "Response": "ALB,NOR,PIA"
+      },
+      {
+        "Id": "BB",
+        "Response": "ALB,ALO,NOR"
+      },
+      {
+        "Id": "LT",
+        "Response": "ALO,NOR,PIA"
+      },
+      {
+        "Id": "AB",
+        "Response": "ALO,PIA,RIC"
+      },
+      {
+        "Id": "SA",
+        "Response": "BOT,GAS,NOR"
+      },
+      {
+        "Id": "HI",
+        "Response": "ALO,NOR,PIA"
+      },
+      {
+        "Id": "MV",
+        "Response": "ALB,NOR,RIC"
+      },
+      {
+        "Id": "MB",
+        "Response": "GAS,NOR,PIA"
+      }
+    ]
+  },
+  {
+    "id": "4-G",
+    "question": "Pick four tracks where you think there will be the most DNFs during the race. For fairness, sprint races are excluded in the count.",
+    "type": "MultiTrack",
+    "scoring": {
+      "type": "GainWhenX",
+      "answersId": "4-G",
+      "value": 5,
+      "explanation": "5 points for every DNF during the Sunday race"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "CHN,MON,SIN,QTR"
+      },
+      {
+        "Id": "KH",
+        "Response": "BAH,JPN,HUN,BAK"
+      },
+      {
+        "Id": "MP",
+        "Response": "EMI,MON,NED,BRA"
+      },
+      {
+        "Id": "JE",
+        "Response": "SAA,MON,BRA,QTR"
+      },
+      {
+        "Id": "JA",
+        "Response": "AUS,CHN,MON,SIN"
+      },
+      {
+        "Id": "JB",
+        "Response": "BAH,MON,BAK,YMC"
+      },
+      {
+        "Id": "BB",
+        "Response": "BAH,SAA,EMI,SIN"
+      },
+      {
+        "Id": "LT",
+        "Response": "MON,RBR,GBR,SIN"
+      },
+      {
+        "Id": "AB",
+        "Response": "CHN,MON,BAK,SIN"
+      },
+      {
+        "Id": "SA",
+        "Response": "CHN,MIA,BAR,QTR"
+      },
+      {
+        "Id": "HI",
+        "Response": "SAA,CHN,MZA,QTR"
+      },
+      {
+        "Id": "MV",
+        "Response": "SAA,MON,CAN,SIN"
+      },
+      {
+        "Id": "MB",
+        "Response": "AUS,JPN,MEX,BRA"
+      }
+    ]
+  },
+  {
+    "id": "5-A",
+    "question": "All teams will score points.",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-A",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "true"
+      },
+      {
+        "Id": "KH",
+        "Response": "false"
+      },
+      {
+        "Id": "MP",
+        "Response": "true"
+      },
+      {
+        "Id": "JE",
+        "Response": "false"
+      },
+      {
+        "Id": "JA",
+        "Response": "true"
+      },
+      {
+        "Id": "JB",
+        "Response": "false"
+      },
+      {
+        "Id": "BB",
+        "Response": "true"
+      },
+      {
+        "Id": "LT",
+        "Response": "true"
+      },
+      {
+        "Id": "AB",
+        "Response": "true"
+      },
+      {
+        "Id": "SA",
+        "Response": "false"
+      },
+      {
+        "Id": "HI",
+        "Response": "true"
+      },
+      {
+        "Id": "MV",
+        "Response": "false"
+      },
+      {
+        "Id": "MB",
+        "Response": "true"
+      }
+    ]
+  },
+  {
+    "id": "5-B",
+    "question": "Red Bull will lose 5 or more races.",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-B",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "true"
+      },
+      {
+        "Id": "KH",
+        "Response": "false"
+      },
+      {
+        "Id": "MP",
+        "Response": "false"
+      },
+      {
+        "Id": "JE",
+        "Response": "false"
+      },
+      {
+        "Id": "JA",
+        "Response": "false"
+      },
+      {
+        "Id": "JB",
+        "Response": "false"
+      },
+      {
+        "Id": "BB",
+        "Response": "true"
+      },
+      {
+        "Id": "LT",
+        "Response": "true"
+      },
+      {
+        "Id": "AB",
+        "Response": "false"
+      },
+      {
+        "Id": "SA",
+        "Response": "false"
+      },
+      {
+        "Id": "HI",
+        "Response": "false"
+      },
+      {
+        "Id": "MV",
+        "Response": "false"
+      },
+      {
+        "Id": "MB",
+        "Response": "false"
+      }
+    ]
+  },
+  {
+    "id": "5-C",
+    "question": "There will be at least one first-time podium-sitter (excluding sprint races).",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-C",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "false"
+      },
+      {
+        "Id": "KH",
+        "Response": "true"
+      },
+      {
+        "Id": "MP",
+        "Response": "false"
+      },
+      {
+        "Id": "JE",
+        "Response": "true"
+      },
+      {
+        "Id": "JA",
+        "Response": "true"
+      },
+      {
+        "Id": "JB",
+        "Response": "false"
+      },
+      {
+        "Id": "BB",
+        "Response": "true"
+      },
+      {
+        "Id": "LT",
+        "Response": "true"
+      },
+      {
+        "Id": "AB",
+        "Response": "false"
+      },
+      {
+        "Id": "SA",
+        "Response": "true"
+      },
+      {
+        "Id": "HI",
+        "Response": "false"
+      },
+      {
+        "Id": "MV",
+        "Response": "false"
+      },
+      {
+        "Id": "MB",
+        "Response": "false"
+      }
+    ]
+  },
+  {
+    "id": "5-D",
+    "question": "Less than 30 points separating the top 3 drivers at the summer break",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-D",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "false"
+      },
+      {
+        "Id": "KH",
+        "Response": "true"
+      },
+      {
+        "Id": "MP",
+        "Response": "false"
+      },
+      {
+        "Id": "JE",
+        "Response": "false"
+      },
+      {
+        "Id": "JA",
+        "Response": "true"
+      },
+      {
+        "Id": "JB",
+        "Response": "false"
+      },
+      {
+        "Id": "BB",
+        "Response": "false"
+      },
+      {
+        "Id": "LT",
+        "Response": "false"
+      },
+      {
+        "Id": "AB",
+        "Response": "false"
+      },
+      {
+        "Id": "SA",
+        "Response": "true"
+      },
+      {
+        "Id": "HI",
+        "Response": "false"
+      },
+      {
+        "Id": "MV",
+        "Response": "false"
+      },
+      {
+        "Id": "MB",
+        "Response": "true"
+      }
+    ]
+  },
+  {
+    "id": "5-E",
+    "question": "Hamilton wins a race (excluding sprint races).",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-E",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "true"
+      },
+      {
+        "Id": "KH",
+        "Response": "false"
+      },
+      {
+        "Id": "MP",
+        "Response": "false"
+      },
+      {
+        "Id": "JE",
+        "Response": "false"
+      },
+      {
+        "Id": "JA",
+        "Response": "true"
+      },
+      {
+        "Id": "JB",
+        "Response": "false"
+      },
+      {
+        "Id": "BB",
+        "Response": "false"
+      },
+      {
+        "Id": "LT",
+        "Response": "false"
+      },
+      {
+        "Id": "AB",
+        "Response": "true"
+      },
+      {
+        "Id": "SA",
+        "Response": "true"
+      },
+      {
+        "Id": "HI",
+        "Response": "false"
+      },
+      {
+        "Id": "MV",
+        "Response": "true"
+      },
+      {
+        "Id": "MB",
+        "Response": "false"
+      }
+    ]
+  },
+  {
+    "id": "5-F",
+    "question": "A collision occurs in the pitlane.",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-F",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "true"
+      },
+      {
+        "Id": "KH",
+        "Response": "false"
+      },
+      {
+        "Id": "MP",
+        "Response": "true"
+      },
+      {
+        "Id": "JE",
+        "Response": "false"
+      },
+      {
+        "Id": "JA",
+        "Response": "true"
+      },
+      {
+        "Id": "JB",
+        "Response": "false"
+      },
+      {
+        "Id": "BB",
+        "Response": "true"
+      },
+      {
+        "Id": "LT",
+        "Response": "false"
+      },
+      {
+        "Id": "AB",
+        "Response": "false"
+      },
+      {
+        "Id": "SA",
+        "Response": "false"
+      },
+      {
+        "Id": "HI",
+        "Response": "false"
+      },
+      {
+        "Id": "MV",
+        "Response": "false"
+      },
+      {
+        "Id": "MB",
+        "Response": "true"
+      }
+    ]
+  },
+  {
+    "id": "5-G",
+    "question": "CashApp RB makes Q3 at least once.",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-G",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "false"
+      },
+      {
+        "Id": "KH",
+        "Response": "false"
+      },
+      {
+        "Id": "MP",
+        "Response": "true"
+      },
+      {
+        "Id": "JE",
+        "Response": "true"
+      },
+      {
+        "Id": "JA",
+        "Response": "true"
+      },
+      {
+        "Id": "JB",
+        "Response": "true"
+      },
+      {
+        "Id": "BB",
+        "Response": "true"
+      },
+      {
+        "Id": "LT",
+        "Response": "true"
+      },
+      {
+        "Id": "AB",
+        "Response": "true"
+      },
+      {
+        "Id": "SA",
+        "Response": "true"
+      },
+      {
+        "Id": "HI",
+        "Response": "true"
+      },
+      {
+        "Id": "MV",
+        "Response": "true"
+      },
+      {
+        "Id": "MB",
+        "Response": "false"
+      }
+    ]
+  },
+  {
+    "id": "5-H",
+    "question": "All drivers this season stay for next season.",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-H",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "false"
+      },
+      {
+        "Id": "KH",
+        "Response": "false"
+      },
+      {
+        "Id": "MP",
+        "Response": "false"
+      },
+      {
+        "Id": "JE",
+        "Response": "false"
+      },
+      {
+        "Id": "JA",
+        "Response": "false"
+      },
+      {
+        "Id": "JB",
+        "Response": "true"
+      },
+      {
+        "Id": "BB",
+        "Response": "false"
+      },
+      {
+        "Id": "LT",
+        "Response": "true"
+      },
+      {
+        "Id": "AB",
+        "Response": "false"
+      },
+      {
+        "Id": "SA",
+        "Response": "true"
+      },
+      {
+        "Id": "HI",
+        "Response": "false"
+      },
+      {
+        "Id": "MV",
+        "Response": "false"
+      },
+      {
+        "Id": "MB",
+        "Response": "false"
+      }
+    ]
+  },
+  {
+    "id": "5-I",
+    "question": "At least one race has less than 50% race distance completed before being called off.",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-I",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "false"
+      },
+      {
+        "Id": "KH",
+        "Response": "false"
+      },
+      {
+        "Id": "MP",
+        "Response": "false"
+      },
+      {
+        "Id": "JE",
+        "Response": "false"
+      },
+      {
+        "Id": "JA",
+        "Response": "false"
+      },
+      {
+        "Id": "JB",
+        "Response": "false"
+      },
+      {
+        "Id": "BB",
+        "Response": "false"
+      },
+      {
+        "Id": "LT",
+        "Response": "false"
+      },
+      {
+        "Id": "AB",
+        "Response": "false"
+      },
+      {
+        "Id": "SA",
+        "Response": "false"
+      },
+      {
+        "Id": "HI",
+        "Response": "false"
+      },
+      {
+        "Id": "MV",
+        "Response": "true"
+      },
+      {
+        "Id": "MB",
+        "Response": "true"
+      }
+    ]
+  },
+  {
+    "id": "5-J",
+    "question": "Ferrari double-DNF in any race (including sprint races).",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-J",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "true"
+      },
+      {
+        "Id": "KH",
+        "Response": "true"
+      },
+      {
+        "Id": "MP",
+        "Response": "true"
+      },
+      {
+        "Id": "JE",
+        "Response": "true"
+      },
+      {
+        "Id": "JA",
+        "Response": "false"
+      },
+      {
+        "Id": "JB",
+        "Response": "false"
+      },
+      {
+        "Id": "BB",
+        "Response": "true"
+      },
+      {
+        "Id": "LT",
+        "Response": "false"
+      },
+      {
+        "Id": "AB",
+        "Response": "false"
+      },
+      {
+        "Id": "SA",
+        "Response": "false"
+      },
+      {
+        "Id": "HI",
+        "Response": "false"
+      },
+      {
+        "Id": "MV",
+        "Response": "false"
+      },
+      {
+        "Id": "MB",
+        "Response": "false"
+      }
+    ]
+  },
+  {
+    "id": "5-K",
+    "question": "Any team other than Ferrari double-DNF.",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-K",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "true"
+      },
+      {
+        "Id": "KH",
+        "Response": "true"
+      },
+      {
+        "Id": "MP",
+        "Response": "true"
+      },
+      {
+        "Id": "JE",
+        "Response": "true"
+      },
+      {
+        "Id": "JA",
+        "Response": "true"
+      },
+      {
+        "Id": "JB",
+        "Response": "true"
+      },
+      {
+        "Id": "BB",
+        "Response": "true"
+      },
+      {
+        "Id": "LT",
+        "Response": "true"
+      },
+      {
+        "Id": "AB",
+        "Response": "true"
+      },
+      {
+        "Id": "SA",
+        "Response": "true"
+      },
+      {
+        "Id": "HI",
+        "Response": "true"
+      },
+      {
+        "Id": "MV",
+        "Response": "false"
+      },
+      {
+        "Id": "MB",
+        "Response": "true"
+      }
+    ]
+  },
+  {
+    "id": "5-L",
+    "question": "Albon scores all of Williams' points.",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-L",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "false"
+      },
+      {
+        "Id": "KH",
+        "Response": "true"
+      },
+      {
+        "Id": "MP",
+        "Response": "false"
+      },
+      {
+        "Id": "JE",
+        "Response": "false"
+      },
+      {
+        "Id": "JA",
+        "Response": "false"
+      },
+      {
+        "Id": "JB",
+        "Response": "true"
+      },
+      {
+        "Id": "BB",
+        "Response": "false"
+      },
+      {
+        "Id": "LT",
+        "Response": "false"
+      },
+      {
+        "Id": "AB",
+        "Response": "false"
+      },
+      {
+        "Id": "SA",
+        "Response": "false"
+      },
+      {
+        "Id": "HI",
+        "Response": "true"
+      },
+      {
+        "Id": "MV",
+        "Response": "false"
+      },
+      {
+        "Id": "MB",
+        "Response": "true"
+      }
+    ]
+  },
+  {
+    "id": "5-M",
+    "question": "The team in the lead at the summer break is NOT the same team that wins the championship.",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-M",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "false"
+      },
+      {
+        "Id": "KH",
+        "Response": "false"
+      },
+      {
+        "Id": "MP",
+        "Response": "false"
+      },
+      {
+        "Id": "JE",
+        "Response": "false"
+      },
+      {
+        "Id": "JA",
+        "Response": "true"
+      },
+      {
+        "Id": "JB",
+        "Response": "false"
+      },
+      {
+        "Id": "BB",
+        "Response": "false"
+      },
+      {
+        "Id": "LT",
+        "Response": "false"
+      },
+      {
+        "Id": "AB",
+        "Response": "false"
+      },
+      {
+        "Id": "SA",
+        "Response": "true"
+      },
+      {
+        "Id": "HI",
+        "Response": "false"
+      },
+      {
+        "Id": "MV",
+        "Response": "false"
+      },
+      {
+        "Id": "MB",
+        "Response": "false"
+      }
+    ]
+  },
+  {
+    "id": "5-N",
+    "question": "The Formula 2 Driver Champion gets a 2025 F1 seat.",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-N",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "true"
+      },
+      {
+        "Id": "KH",
+        "Response": "false"
+      },
+      {
+        "Id": "MP",
+        "Response": "true"
+      },
+      {
+        "Id": "JE",
+        "Response": "false"
+      },
+      {
+        "Id": "JA",
+        "Response": "true"
+      },
+      {
+        "Id": "JB",
+        "Response": "false"
+      },
+      {
+        "Id": "BB",
+        "Response": "true"
+      },
+      {
+        "Id": "LT",
+        "Response": "false"
+      },
+      {
+        "Id": "AB",
+        "Response": "false"
+      },
+      {
+        "Id": "SA",
+        "Response": "false"
+      },
+      {
+        "Id": "HI",
+        "Response": "false"
+      },
+      {
+        "Id": "MV",
+        "Response": "false"
+      },
+      {
+        "Id": "MB",
+        "Response": "true"
+      }
+    ]
+  },
+  {
+    "id": "5-O",
+    "question": "Team in 10th place after Race 10 will still be 10th by the end of the season.",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-O",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "false"
+      },
+      {
+        "Id": "KH",
+        "Response": "false"
+      },
+      {
+        "Id": "MP",
+        "Response": "false"
+      },
+      {
+        "Id": "JE",
+        "Response": "true"
+      },
+      {
+        "Id": "JA",
+        "Response": "false"
+      },
+      {
+        "Id": "JB",
+        "Response": "true"
+      },
+      {
+        "Id": "BB",
+        "Response": "false"
+      },
+      {
+        "Id": "LT",
+        "Response": "true"
+      },
+      {
+        "Id": "AB",
+        "Response": "false"
+      },
+      {
+        "Id": "SA",
+        "Response": "true"
+      },
+      {
+        "Id": "HI",
+        "Response": "false"
+      },
+      {
+        "Id": "MV",
+        "Response": "true"
+      },
+      {
+        "Id": "MB",
+        "Response": "false"
+      }
+    ]
+  },
+  {
+    "id": "5-P",
+    "question": "The winning constructor takes 10 or fewer race wins.",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-P",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "false"
+      },
+      {
+        "Id": "KH",
+        "Response": "false"
+      },
+      {
+        "Id": "MP",
+        "Response": "false"
+      },
+      {
+        "Id": "JE",
+        "Response": "false"
+      },
+      {
+        "Id": "JA",
+        "Response": "false"
+      },
+      {
+        "Id": "JB",
+        "Response": "false"
+      },
+      {
+        "Id": "BB",
+        "Response": "false"
+      },
+      {
+        "Id": "LT",
+        "Response": "false"
+      },
+      {
+        "Id": "AB",
+        "Response": "false"
+      },
+      {
+        "Id": "SA",
+        "Response": "false"
+      },
+      {
+        "Id": "HI",
+        "Response": "false"
+      },
+      {
+        "Id": "MV",
+        "Response": "false"
+      },
+      {
+        "Id": "MB",
+        "Response": "false"
+      }
+    ]
+  },
+  {
+    "id": "5-Q",
+    "question": "A driver gets a race ban for accruing too many license points.",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-P",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "false"
+      },
+      {
+        "Id": "KH",
+        "Response": "false"
+      },
+      {
+        "Id": "MP",
+        "Response": "false"
+      },
+      {
+        "Id": "JE",
+        "Response": "false"
+      },
+      {
+        "Id": "JA",
+        "Response": "true"
+      },
+      {
+        "Id": "JB",
+        "Response": "false"
+      },
+      {
+        "Id": "BB",
+        "Response": "false"
+      },
+      {
+        "Id": "LT",
+        "Response": "false"
+      },
+      {
+        "Id": "AB",
+        "Response": "false"
+      },
+      {
+        "Id": "SA",
+        "Response": "false"
+      },
+      {
+        "Id": "HI",
+        "Response": "false"
+      },
+      {
+        "Id": "MV",
+        "Response": "false"
+      },
+      {
+        "Id": "MB",
+        "Response": "false"
+      }
+    ]
+  },
+  {
+    "id": "5-R",
+    "question": "Winning constructor wins by a final score margin of 40% or more.",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-R",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "false"
+      },
+      {
+        "Id": "KH",
+        "Response": "true"
+      },
+      {
+        "Id": "MP",
+        "Response": "true"
+      },
+      {
+        "Id": "JE",
+        "Response": "true"
+      },
+      {
+        "Id": "JA",
+        "Response": "false"
+      },
+      {
+        "Id": "JB",
+        "Response": "true"
+      },
+      {
+        "Id": "BB",
+        "Response": "false"
+      },
+      {
+        "Id": "LT",
+        "Response": "true"
+      },
+      {
+        "Id": "AB",
+        "Response": "true"
+      },
+      {
+        "Id": "SA",
+        "Response": "false"
+      },
+      {
+        "Id": "HI",
+        "Response": "true"
+      },
+      {
+        "Id": "MV",
+        "Response": "false"
+      },
+      {
+        "Id": "MB",
+        "Response": "true"
+      }
+    ]
+  },
+  {
+    "id": "5-S",
+    "question": "Someone crashes at Monaco during the race (please?)",
+    "type": "SingleBool",
+    "scoring": {
+      "type": "Bool",
+      "answersId": "5-S",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "true"
+      },
+      {
+        "Id": "KH",
+        "Response": "true"
+      },
+      {
+        "Id": "MP",
+        "Response": "true"
+      },
+      {
+        "Id": "JE",
+        "Response": "true"
+      },
+      {
+        "Id": "JA",
+        "Response": "true"
+      },
+      {
+        "Id": "JB",
+        "Response": "true"
+      },
+      {
+        "Id": "BB",
+        "Response": "true"
+      },
+      {
+        "Id": "LT",
+        "Response": "true"
+      },
+      {
+        "Id": "AB",
+        "Response": "true"
+      },
+      {
+        "Id": "SA",
+        "Response": "true"
+      },
+      {
+        "Id": "HI",
+        "Response": "false"
+      },
+      {
+        "Id": "MV",
+        "Response": "true"
+      },
+      {
+        "Id": "MB",
+        "Response": "true"
+      }
+    ]
+  },
+  {
+    "id": "6-A",
+    "question": "Red Bull vs Mercedes",
+    "type": "SingleTeam",
+    "scoring": {
+      "type": "Versus",
+      "answersId": "6-A",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "MER"
+      },
+      {
+        "Id": "KH",
+        "Response": "RBR"
+      },
+      {
+        "Id": "MP",
+        "Response": "RBR"
+      },
+      {
+        "Id": "JE",
+        "Response": "RBR"
+      },
+      {
+        "Id": "JA",
+        "Response": "RBR"
+      },
+      {
+        "Id": "JB",
+        "Response": "RBR"
+      },
+      {
+        "Id": "BB",
+        "Response": "RBR"
+      },
+      {
+        "Id": "LT",
+        "Response": "RBR"
+      },
+      {
+        "Id": "AB",
+        "Response": "RBR"
+      },
+      {
+        "Id": "SA",
+        "Response": "RBR"
+      },
+      {
+        "Id": "HI",
+        "Response": "RBR"
+      },
+      {
+        "Id": "MV",
+        "Response": "MER"
+      },
+      {
+        "Id": "MB",
+        "Response": "RBR"
+      }
+    ]
+  },
+  {
+    "id": "6-B",
+    "question": "Ferrari vs McLaren",
+    "type": "SingleTeam",
+    "scoring": {
+      "type": "Versus",
+      "answersId": "6-B",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "FER"
+      },
+      {
+        "Id": "KH",
+        "Response": "FER"
+      },
+      {
+        "Id": "MP",
+        "Response": "MCL"
+      },
+      {
+        "Id": "JE",
+        "Response": "FER"
+      },
+      {
+        "Id": "JA",
+        "Response": "FER"
+      },
+      {
+        "Id": "JB",
+        "Response": "FER"
+      },
+      {
+        "Id": "BB",
+        "Response": "FER"
+      },
+      {
+        "Id": "LT",
+        "Response": "FER"
+      },
+      {
+        "Id": "AB",
+        "Response": "MCL"
+      },
+      {
+        "Id": "SA",
+        "Response": "FER"
+      },
+      {
+        "Id": "HI",
+        "Response": "FER"
+      },
+      {
+        "Id": "MV",
+        "Response": "MCL"
+      },
+      {
+        "Id": "MB",
+        "Response": "FER"
+      }
+    ]
+  },
+  {
+    "id": "6-C",
+    "question": "Alpine vs Aston Martin",
+    "type": "SingleTeam",
+    "scoring": {
+      "type": "Versus",
+      "answersId": "6-C",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "AM"
+      },
+      {
+        "Id": "KH",
+        "Response": "AM"
+      },
+      {
+        "Id": "MP",
+        "Response": "AM"
+      },
+      {
+        "Id": "JE",
+        "Response": "AM"
+      },
+      {
+        "Id": "JA",
+        "Response": "ALP"
+      },
+      {
+        "Id": "JB",
+        "Response": "AM"
+      },
+      {
+        "Id": "BB",
+        "Response": "AM"
+      },
+      {
+        "Id": "LT",
+        "Response": "ALP"
+      },
+      {
+        "Id": "AB",
+        "Response": "AM"
+      },
+      {
+        "Id": "SA",
+        "Response": "AM"
+      },
+      {
+        "Id": "HI",
+        "Response": "AM"
+      },
+      {
+        "Id": "MV",
+        "Response": "AM"
+      },
+      {
+        "Id": "MB",
+        "Response": "AM"
+      }
+    ]
+  },
+  {
+    "id": "6-D",
+    "question": "Williams vs CashApp RB",
+    "type": "SingleTeam",
+    "scoring": {
+      "type": "Versus",
+      "answersId": "6-D",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "RB"
+      },
+      {
+        "Id": "KH",
+        "Response": "WIL"
+      },
+      {
+        "Id": "MP",
+        "Response": "RB"
+      },
+      {
+        "Id": "JE",
+        "Response": "RB"
+      },
+      {
+        "Id": "JA",
+        "Response": "RB"
+      },
+      {
+        "Id": "JB",
+        "Response": "RB"
+      },
+      {
+        "Id": "BB",
+        "Response": "WIL"
+      },
+      {
+        "Id": "LT",
+        "Response": "RB"
+      },
+      {
+        "Id": "AB",
+        "Response": "WIL"
+      },
+      {
+        "Id": "SA",
+        "Response": "RB"
+      },
+      {
+        "Id": "HI",
+        "Response": "RB"
+      },
+      {
+        "Id": "MV",
+        "Response": "WIL"
+      },
+      {
+        "Id": "MB",
+        "Response": "WIL"
+      }
+    ]
+  },
+  {
+    "id": "6-E",
+    "question": "Kick Sauber vs Haas",
+    "type": "SingleTeam",
+    "scoring": {
+      "type": "Versus",
+      "answersId": "6-E",
+      "explanation": "10 points for a correct answer; 0 for incorrect answer"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "KS"
+      },
+      {
+        "Id": "KH",
+        "Response": "KS"
+      },
+      {
+        "Id": "MP",
+        "Response": "KS"
+      },
+      {
+        "Id": "JE",
+        "Response": "KS"
+      },
+      {
+        "Id": "JA",
+        "Response": "KS"
+      },
+      {
+        "Id": "JB",
+        "Response": "KS"
+      },
+      {
+        "Id": "BB",
+        "Response": "KS"
+      },
+      {
+        "Id": "LT",
+        "Response": "HAA"
+      },
+      {
+        "Id": "AB",
+        "Response": "HAA"
+      },
+      {
+        "Id": "SA",
+        "Response": "KS"
+      },
+      {
+        "Id": "HI",
+        "Response": "KS"
+      },
+      {
+        "Id": "MV",
+        "Response": "KS"
+      },
+      {
+        "Id": "MB",
+        "Response": "KS"
+      }
+    ]
+  },
+  {
+    "id": "6-F",
+    "question": "Mercedes Drivers Head to Head",
+    "type": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-F",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "HAM,HAM"
+      },
+      {
+        "Id": "KH",
+        "Response": "RUS,RUS"
+      },
+      {
+        "Id": "MP",
+        "Response": "RUS,HAM"
+      },
+      {
+        "Id": "JE",
+        "Response": "HAM,HAM"
+      },
+      {
+        "Id": "JA",
+        "Response": "RUS,HAM"
+      },
+      {
+        "Id": "JB",
+        "Response": "HAM,HAM"
+      },
+      {
+        "Id": "BB",
+        "Response": "HAM,HAM"
+      },
+      {
+        "Id": "LT",
+        "Response": "HAM,HAM"
+      },
+      {
+        "Id": "AB",
+        "Response": "HAM,RUS"
+      },
+      {
+        "Id": "SA",
+        "Response": "HAM,HAM"
+      },
+      {
+        "Id": "HI",
+        "Response": "HAM,HAM"
+      },
+      {
+        "Id": "MV",
+        "Response": "HAM,RUS"
+      },
+      {
+        "Id": "MB",
+        "Response": "RUS,HAM"
+      }
+    ]
+  },
+  {
+    "id": "6-G",
+    "question": "Red Bull Drivers Head to Head",
+    "type": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-G",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "VER,VER"
+      },
+      {
+        "Id": "KH",
+        "Response": "VER,VER"
+      },
+      {
+        "Id": "MP",
+        "Response": "VER,VER"
+      },
+      {
+        "Id": "JE",
+        "Response": "VER,VER"
+      },
+      {
+        "Id": "JA",
+        "Response": "VER,VER"
+      },
+      {
+        "Id": "JB",
+        "Response": "VER,VER"
+      },
+      {
+        "Id": "BB",
+        "Response": "VER,VER"
+      },
+      {
+        "Id": "LT",
+        "Response": "VER,VER"
+      },
+      {
+        "Id": "AB",
+        "Response": "VER,VER"
+      },
+      {
+        "Id": "SA",
+        "Response": "PER,VER"
+      },
+      {
+        "Id": "HI",
+        "Response": "VER,VER"
+      },
+      {
+        "Id": "MV",
+        "Response": "VER,VER"
+      },
+      {
+        "Id": "MB",
+        "Response": "VER,VER"
+      }
+    ]
+  },
+  {
+    "id": "6-H",
+    "question": "Ferrari Drivers Head to Head",
+    "type": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-H",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "LEC,SAI"
+      },
+      {
+        "Id": "KH",
+        "Response": "LEC,LEC"
+      },
+      {
+        "Id": "MP",
+        "Response": "LEC,LEC"
+      },
+      {
+        "Id": "JE",
+        "Response": "LEC,SAI"
+      },
+      {
+        "Id": "JA",
+        "Response": "LEC,LEC"
+      },
+      {
+        "Id": "JB",
+        "Response": "LEC,LEC"
+      },
+      {
+        "Id": "BB",
+        "Response": "LEC,LEC"
+      },
+      {
+        "Id": "LT",
+        "Response": "LEC,LEC"
+      },
+      {
+        "Id": "AB",
+        "Response": "SAI,LEC"
+      },
+      {
+        "Id": "SA",
+        "Response": "SAI,LEC"
+      },
+      {
+        "Id": "HI",
+        "Response": "LEC,SAI"
+      },
+      {
+        "Id": "MV",
+        "Response": "LEC,SAI"
+      },
+      {
+        "Id": "MB",
+        "Response": "LEC,LEC"
+      }
+    ]
+  },
+  {
+    "id": "6-I",
+    "question": "McLaren Drivers Head to Head",
+    "type": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-I",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "NOR,NOR"
+      },
+      {
+        "Id": "KH",
+        "Response": "PIA,NOR"
+      },
+      {
+        "Id": "MP",
+        "Response": "NOR,NOR"
+      },
+      {
+        "Id": "JE",
+        "Response": "NOR,NOR"
+      },
+      {
+        "Id": "JA",
+        "Response": "NOR,NOR"
+      },
+      {
+        "Id": "JB",
+        "Response": "NOR,NOR"
+      },
+      {
+        "Id": "BB",
+        "Response": "NOR,NOR"
+      },
+      {
+        "Id": "LT",
+        "Response": "NOR,NOR"
+      },
+      {
+        "Id": "AB",
+        "Response": "PIA,NOR"
+      },
+      {
+        "Id": "SA",
+        "Response": "NOR,NOR"
+      },
+      {
+        "Id": "HI",
+        "Response": "NOR,NOR"
+      },
+      {
+        "Id": "MV",
+        "Response": "NOR,PIA"
+      },
+      {
+        "Id": "MB",
+        "Response": "NOR,NOR"
+      }
+    ]
+  },
+  {
+    "id": "6-J",
+    "question": "Alpine Drivers Head to Head",
+    "type": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-J",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "GAS,OCO"
+      },
+      {
+        "Id": "KH",
+        "Response": "OCO,GAS"
+      },
+      {
+        "Id": "MP",
+        "Response": "GAS,GAS"
+      },
+      {
+        "Id": "JE",
+        "Response": "GAS,GAS"
+      },
+      {
+        "Id": "JA",
+        "Response": "OCO,GAS"
+      },
+      {
+        "Id": "JB",
+        "Response": "GAS,OCO"
+      },
+      {
+        "Id": "BB",
+        "Response": "GAS,OCO"
+      },
+      {
+        "Id": "LT",
+        "Response": "OCO,GAS"
+      },
+      {
+        "Id": "AB",
+        "Response": "GAS,OCO"
+      },
+      {
+        "Id": "SA",
+        "Response": "GAS,GAS"
+      },
+      {
+        "Id": "HI",
+        "Response": "GAS,OCO"
+      },
+      {
+        "Id": "MV",
+        "Response": "GAS,GAS"
+      },
+      {
+        "Id": "MB",
+        "Response": "OCO,GAS"
+      }
+    ]
+  },
+  {
+    "id": "6-K",
+    "question": "CashApp RB Drivers Head to Head",
+    "type": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-K",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "RIC,RIC"
+      },
+      {
+        "Id": "KH",
+        "Response": "RIC,RIC"
+      },
+      {
+        "Id": "MP",
+        "Response": "RIC,RIC"
+      },
+      {
+        "Id": "JE",
+        "Response": "TSU,RIC"
+      },
+      {
+        "Id": "JA",
+        "Response": "RIC,RIC"
+      },
+      {
+        "Id": "JB",
+        "Response": "TSU,TSU"
+      },
+      {
+        "Id": "BB",
+        "Response": "RIC,RIC"
+      },
+      {
+        "Id": "LT",
+        "Response": "RIC,RIC"
+      },
+      {
+        "Id": "AB",
+        "Response": "RIC,RIC"
+      },
+      {
+        "Id": "SA",
+        "Response": "RIC,RIC"
+      },
+      {
+        "Id": "HI",
+        "Response": "TSU,RIC"
+      },
+      {
+        "Id": "MV",
+        "Response": "RIC,TSU"
+      },
+      {
+        "Id": "MB",
+        "Response": "RIC,RIC"
+      }
+    ]
+  },
+  {
+    "id": "6-L",
+    "question": "Aston Martin Drivers Head to Head",
+    "type": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-L",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "ALO,ALO"
+      },
+      {
+        "Id": "KH",
+        "Response": "ALO,ALO"
+      },
+      {
+        "Id": "MP",
+        "Response": "ALO,ALO"
+      },
+      {
+        "Id": "JE",
+        "Response": "ALO,ALO"
+      },
+      {
+        "Id": "JA",
+        "Response": "ALO,STR"
+      },
+      {
+        "Id": "JB",
+        "Response": "ALO,ALO"
+      },
+      {
+        "Id": "BB",
+        "Response": "ALO,ALO"
+      },
+      {
+        "Id": "LT",
+        "Response": "ALO,ALO"
+      },
+      {
+        "Id": "AB",
+        "Response": "ALO,STR"
+      },
+      {
+        "Id": "SA",
+        "Response": "ALO,ALO"
+      },
+      {
+        "Id": "HI",
+        "Response": "ALO,ALO"
+      },
+      {
+        "Id": "MV",
+        "Response": "ALO,ALO"
+      },
+      {
+        "Id": "MB",
+        "Response": "ALO,ALO"
+      }
+    ]
+  },
+  {
+    "id": "6-M",
+    "question": "Stake Sauber Drivers Head to Head",
+    "type": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-M",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "BOT,BOT"
+      },
+      {
+        "Id": "KH",
+        "Response": "BOT,BOT"
+      },
+      {
+        "Id": "MP",
+        "Response": "ZHO,BOT"
+      },
+      {
+        "Id": "JE",
+        "Response": "BOT,BOT"
+      },
+      {
+        "Id": "JA",
+        "Response": "BOT,BOT"
+      },
+      {
+        "Id": "JB",
+        "Response": "BOT,BOT"
+      },
+      {
+        "Id": "BB",
+        "Response": "BOT,BOT"
+      },
+      {
+        "Id": "LT",
+        "Response": "ZHO,ZHO"
+      },
+      {
+        "Id": "AB",
+        "Response": "BOT,BOT"
+      },
+      {
+        "Id": "SA",
+        "Response": "ZHO,BOT"
+      },
+      {
+        "Id": "HI",
+        "Response": "BOT,BOT"
+      },
+      {
+        "Id": "MV",
+        "Response": "BOT,BOT"
+      },
+      {
+        "Id": "MB",
+        "Response": "BOT,ZHO"
+      }
+    ]
+  },
+  {
+    "id": "6-N",
+    "question": "Williams Drivers Head to Head",
+    "type": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-N",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "ALB,ALB"
+      },
+      {
+        "Id": "KH",
+        "Response": "ALB,ALB"
+      },
+      {
+        "Id": "MP",
+        "Response": "ALB,ALB"
+      },
+      {
+        "Id": "JE",
+        "Response": "ALB,ALB"
+      },
+      {
+        "Id": "JA",
+        "Response": "ALB,ALB"
+      },
+      {
+        "Id": "JB",
+        "Response": "ALB,ALB"
+      },
+      {
+        "Id": "BB",
+        "Response": "ALB,ALB"
+      },
+      {
+        "Id": "LT",
+        "Response": "ALB,ALB"
+      },
+      {
+        "Id": "AB",
+        "Response": "ALB,ALB"
+      },
+      {
+        "Id": "SA",
+        "Response": "ALB,ALB"
+      },
+      {
+        "Id": "HI",
+        "Response": "ALB,ALB"
+      },
+      {
+        "Id": "MV",
+        "Response": "ALB,ALB"
+      },
+      {
+        "Id": "MB",
+        "Response": "ALB,ALB"
+      }
+    ]
+  },
+  {
+    "id": "6-O",
+    "question": "Haas Drivers Head to Head",
+    "type": "HeadToHead",
+    "scoring": {
+      "type": "HeadToHead",
+      "answersId": "6-O",
+      "explanation": "10 points for predicting quali; 10 points for predicting race"
+    },
+    "competitorResponses": [
+      {
+        "Id": "CB",
+        "Response": "HUL,MAG"
+      },
+      {
+        "Id": "KH",
+        "Response": "MAG,MAG"
+      },
+      {
+        "Id": "MP",
+        "Response": "HUL,HUL"
+      },
+      {
+        "Id": "JE",
+        "Response": "HUL,HUL"
+      },
+      {
+        "Id": "JA",
+        "Response": "HUL,HUL"
+      },
+      {
+        "Id": "JB",
+        "Response": "HUL,HUL"
+      },
+      {
+        "Id": "BB",
+        "Response": "MAG,HUL"
+      },
+      {
+        "Id": "LT",
+        "Response": "HUL,HUL"
+      },
+      {
+        "Id": "AB",
+        "Response": "MAG,MAG"
+      },
+      {
+        "Id": "SA",
+        "Response": "MAG,MAG"
+      },
+      {
+        "Id": "HI",
+        "Response": "HUL,HUL"
+      },
+      {
+        "Id": "MV",
+        "Response": "HUL,MAG"
+      },
+      {
+        "Id": "MB",
+        "Response": "MAG,HUL"
+      }
+    ]
+  },
+  {
+    "id": "7-A",
+    "question": "That's all! Who has won!?",
+    "type": "Outro"
+  }
+]

@@ -2,7 +2,7 @@
 	{
 		"id": "RBR",
 		"name": "Red Bull",
-		"imageName": "red-bull-racing",
+		"imageName": "redbull-racing",
 		"color": "#3671C6",
 		"driverIds": [ "VER", "TSU" ]
 	},
@@ -50,8 +50,8 @@
 	},
 	{
 		"id": "RB",
-		"name": "CashApp RB",
-		"imageName": "cash-app-rb",
+		"name": "Racing Bulls",
+		"imageName": "racing-bulls",
 		"color": "#5E8FAA",
 		"driverIds": [ "HAD", "LAW" ]
 	},
