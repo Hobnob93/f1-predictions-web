@@ -1,16 +1,16 @@
 [
   {
-    "id": "AUS",
+    "id": "OZZ",
     "name": "Australia",
     "color": "#525572"
   },
   {
-    "id": "CHN",
+    "id": "CHI",
     "name": "China",
     "color": "#AA0000"
   },
   {
-    "id": "JPN",
+    "id": "JAP",
     "name": "Japan",
     "color": "#FF0000"
   },
@@ -20,7 +20,7 @@
     "color": "#a31c24"
   },
   {
-    "id": "SAA",
+    "id": "SAU",
     "name": "Saudi Arabia",
     "color": "#006c35"
   },
@@ -40,7 +40,7 @@
     "color": "#a4444c"
   },
   {
-    "id": "BAR",
+    "id": "SPA",
     "name": "Spain",
     "color": "#fabd00"
   },
@@ -50,7 +50,7 @@
     "color": "#fe0000"
   },
   {
-    "id": "RBR",
+    "id": "AUS",
     "name": "Austria",
     "color": "#c80f2e"
   },
@@ -60,7 +60,7 @@
     "color": "#01237e"
   },
   {
-    "id": "SPA",
+    "id": "BEL",
     "name": "Belgium",
     "color": "#000000"
   },
@@ -75,13 +75,13 @@
     "color": "#1e448b"
   },
   {
-    "id": "MZA",
+    "id": "ITA",
     "name": "Italy",
     "color": "#1d4803"
   },
   {
-    "id": "BAK",
-    "name": "Baku",
+    "id": "AZE",
+    "name": "Azerbaijan",
     "color": "#00b9e5"
   },
   {
@@ -90,7 +90,7 @@
     "color": "#d4435e"
   },
   {
-    "id": "CTA",
+    "id": "USA",
     "name": "United States",
     "color": "#020164"
   },
@@ -105,17 +105,17 @@
     "color": "#ffdf00"
   },
   {
-    "id": "LSV",
+    "id": "LAS",
     "name": "Las Vegas",
     "color": "#017E30"
   },
   {
-    "id": "QTR",
+    "id": "QAT",
     "name": "Qatar",
     "color": "#69033B"
   },
   {
-    "id": "YMC",
+    "id": "ABU",
     "name": "Abu Dhabi",
     "color": "#04742c"
   }
