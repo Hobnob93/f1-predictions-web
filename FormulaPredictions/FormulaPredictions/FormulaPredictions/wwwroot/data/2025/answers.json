@@ -1,0 +1,1839 @@
+[
+  {
+    "id": "TeamChampOrder",
+    "renderType": "Bar",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "MCL",
+        "value": "833"
+      },
+      {
+        "id": "MER",
+        "value": "469"
+      },
+      {
+        "id": "RBR",
+        "value": "451"
+      },
+      {
+        "id": "FER",
+        "value": "398"
+      },
+      {
+        "id": "WIL",
+        "value": "137"
+      },
+      {
+        "id": "RB",
+        "value": "92"
+      },
+      {
+        "id": "AM",
+        "value": "89"
+      },
+      {
+        "id": "HAA",
+        "value": "79"
+      },
+      {
+        "id": "KS",
+        "value": "70"
+      },
+      {
+        "id": "ALP",
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "id": "1-B",
+    "renderType": "Raw",
+    "rawAnswer": "44"
+  },
+  {
+    "id": "DriverChampOrder",
+    "renderType": "Bar",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "NOR",
+        "value": "423"
+      },
+      {
+        "id": "VER",
+        "value": "421"
+      },
+      {
+        "id": "PIA",
+        "value": "410"
+      },
+      {
+        "id": "RUS",
+        "value": "319"
+      },
+      {
+        "id": "LEC",
+        "value": "242"
+      },
+      {
+        "id": "HAM",
+        "value": "156"
+      },
+      {
+        "id": "ANT",
+        "value": "150"
+      },
+      {
+        "id": "ALB",
+        "value": "73"
+      },
+      {
+        "id": "SAI",
+        "value": "64"
+      },
+      {
+        "id": "ALO",
+        "value": "56"
+      },
+      {
+        "id": "HUL",
+        "value": "51"
+      },
+      {
+        "id": "HAD",
+        "value": "51"
+      },
+      {
+        "id": "BEA",
+        "value": "41"
+      },
+      {
+        "id": "LAW",
+        "value": "38"
+      },
+      {
+        "id": "OCO",
+        "value": "38"
+      },
+      {
+        "id": "STR",
+        "value": "33"
+      },
+      {
+        "id": "TSU",
+        "value": "33"
+      },
+      {
+        "id": "GAS",
+        "value": "22"
+      },
+      {
+        "id": "BOR",
+        "value": "19"
+      },
+      {
+        "id": "COL",
+        "value": "0"
+      },
+      {
+        "id": "DOO",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "1-F",
+    "renderType": "Raw",
+    "rawAnswer": "0"
+  },
+  {
+    "id": "DriverDestrOrder",
+    "renderType": "Bar",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "BOR",
+        "value": "3976000"
+      },
+      {
+        "id": "TSU",
+        "value": "3497000"
+      },
+      {
+        "id": "NOR",
+        "value": "2899000"
+      },
+      {
+        "id": "STR",
+        "value": "2678000"
+      },
+      {
+        "id": "LEC",
+        "value": "2204000"
+      },
+      {
+        "id": "PIA",
+        "value": "2172000"
+      },
+      {
+        "id": "DOO",
+        "value": "2144000"
+      },
+      {
+        "id": "HAD",
+        "value": "1971000"
+      },
+      {
+        "id": "COL",
+        "value": "1877000"
+      },
+      {
+        "id": "LAW",
+        "value": "1747000"
+      },
+      {
+        "id": "BEA",
+        "value": "1707000"
+      },
+      {
+        "id": "HAM",
+        "value": "1650000"
+      },
+      {
+        "id": "SAI",
+        "value": "1532000"
+      },
+      {
+        "id": "GAS",
+        "value": "1327000"
+      },
+      {
+        "id": "ALB",
+        "value": "1230000"
+      },
+      {
+        "id": "HUL",
+        "value": "1039000"
+      },
+      {
+        "id": "ALO",
+        "value": "927000"
+      },
+      {
+        "id": "ANT",
+        "value": "910000"
+      },
+      {
+        "id": "OCO",
+        "value": "692000"
+      },
+      {
+        "id": "RUS",
+        "value": "475000"
+      },
+      {
+        "id": "VER",
+        "value": "450000"
+      }
+    ]
+  },
+  {
+    "id": "TeamDestrOrder",
+    "renderType": "Bar",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "ALP",
+        "value": "5348000"
+      },
+      {
+        "id": "MCL",
+        "value": "5071000"
+      },
+      {
+        "id": "KS",
+        "value": "5015000"
+      },
+      {
+        "id": "RBR",
+        "value": "3947000"
+      },
+      {
+        "id": "FER",
+        "value": "3854000"
+      },
+      {
+        "id": "RB",
+        "value": "3718000"
+      },
+      {
+        "id": "AM",
+        "value": "3605000"
+      },
+      {
+        "id": "WIL",
+        "value": "2762000"
+      },
+      {
+        "id": "HAA",
+        "value": "2399000"
+      },
+      {
+        "id": "MER",
+        "value": "1385000"
+      }
+    ]
+  },
+  {
+    "id": "2-A",
+    "renderType": "Bar",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "MCL",
+        "value": "42"
+      },
+      {
+        "id": "RBR",
+        "value": "18"
+      },
+      {
+        "id": "MER",
+        "value": "16"
+      },
+      {
+        "id": "FER",
+        "value": "9"
+      },
+      {
+        "id": "WIL",
+        "value": "3"
+      },
+      {
+        "id": "KS",
+        "value": "1"
+      },
+      {
+        "id": "RB",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "2-B",
+    "renderType": "Bar",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "WIL",
+        "value": "8"
+      },
+      {
+        "id": "KS",
+        "value": "7"
+      },
+      {
+        "id": "AM",
+        "value": "7"
+      },
+      {
+        "id": "RB",
+        "value": "6"
+      },
+      {
+        "id": "MER",
+        "value": "4"
+      },
+      {
+        "id": "FER",
+        "value": "4"
+      },
+      {
+        "id": "HAA",
+        "value": "4"
+      },
+      {
+        "id": "ALP",
+        "value": "4"
+      },
+      {
+        "id": "MCL",
+        "value": "3"
+      },
+      {
+        "id": "RBR",
+        "value": "3"
+      }
+    ]
+  },
+  {
+    "id": "2-C",
+    "renderType": "Bar",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "MCL",
+        "value": "60"
+      },
+      {
+        "id": "FER",
+        "value": "59"
+      },
+      {
+        "id": "MER",
+        "value": "56"
+      },
+      {
+        "id": "RB",
+        "value": "51"
+      },
+      {
+        "id": "WIL",
+        "value": "48"
+      },
+      {
+        "id": "RBR",
+        "value": "46"
+      },
+      {
+        "id": "AM",
+        "value": "41"
+      },
+      {
+        "id": "HAA",
+        "value": "35"
+      },
+      {
+        "id": "KS",
+        "value": "32"
+      },
+      {
+        "id": "ALP",
+        "value": "27"
+      }
+    ]
+  },
+  {
+    "id": "2-D",
+    "renderType": "OrderedList",
+    "scoringMode": "Teams",
+    "rawAnswer": "ALP,AM,RBR,KS,WIL,HAA,RB,MER,MCL,FER"
+  },
+  {
+    "id": "2-E",
+    "renderType": "Bar",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "KS",
+        "value": "26.214"
+      },
+      {
+        "id": "FER",
+        "value": "24.528"
+      },
+      {
+        "id": "HAA",
+        "value": "22.494"
+      },
+      {
+        "id": "MER",
+        "value": "21.946"
+      },
+      {
+        "id": "RBR",
+        "value": "20.067"
+      },
+      {
+        "id": "MCL",
+        "value": "19.850"
+      },
+      {
+        "id": "ALP",
+        "value": "19.589"
+      },
+      {
+        "id": "RB",
+        "value": "19.312"
+      },
+      {
+        "id": "WIL",
+        "value": "18.952"
+      },
+      {
+        "id": "AM",
+        "value": "18.901"
+      }
+    ]
+  },
+  {
+    "id": "2-F",
+    "renderType": "Bar",
+    "scoringMode": "Tracks",
+    "answersData": [
+      {
+        "id": "OZZ",
+        "value": "8"
+      },
+      {
+        "id": "CHI",
+        "value": "2"
+      },
+      {
+        "id": "MIA",
+        "value": "4"
+      },
+      {
+        "id": "SPA",
+        "value": "2"
+      },
+      {
+        "id": "CAN",
+        "value": "6"
+      },
+      {
+        "id": "AUS",
+        "value": "6"
+      },
+      {
+        "id": "GBR",
+        "value": "8"
+      },
+      {
+        "id": "HUN",
+        "value": "16"
+      },
+      {
+        "id": "NED",
+        "value": "10"
+      },
+      {
+        "id": "SIN",
+        "value": "6"
+      },
+      {
+        "id": "USA",
+        "value": "1"
+      },
+      {
+        "id": "BRA",
+        "value": "3"
+      },
+      {
+        "id": "QAT",
+        "value": "8"
+      },
+      {
+        "id": "ABU",
+        "value": "9"
+      }
+    ]
+  },
+  {
+    "id": "2-G",
+    "renderType": "Bar",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "RB",
+        "value": "6"
+      },
+      {
+        "id": "WIL",
+        "value": "5"
+      },
+      {
+        "id": "HAA",
+        "value": "5"
+      },
+      {
+        "id": "RBR",
+        "value": "4"
+      },
+      {
+        "id": "ALP",
+        "value": "3"
+      },
+      {
+        "id": "AM",
+        "value": "3"
+      },
+      {
+        "id": "MER",
+        "value": "2"
+      },
+      {
+        "id": "FER",
+        "value": "1"
+      },
+      {
+        "id": "KS",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "2-H",
+    "renderType": "Bar",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "MCL",
+        "value": "167"
+      },
+      {
+        "id": "WIL",
+        "value": "120"
+      },
+      {
+        "id": "KS",
+        "value": "66"
+      },
+      {
+        "id": "RB",
+        "value": "46"
+      },
+      {
+        "id": "HAA",
+        "value": "21"
+      },
+      {
+        "id": "MER",
+        "value": "1"
+      },
+      {
+        "id": "AM",
+        "value": "-5"
+      },
+      {
+        "id": "ALP",
+        "value": "-43"
+      },
+      {
+        "id": "RBR",
+        "value": "-138"
+      },
+      {
+        "id": "FER",
+        "value": "-254"
+      }
+    ]
+  },
+  {
+    "id": "3-A",
+    "renderType": "Bar",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "VER",
+        "value": "454"
+      },
+      {
+        "id": "PIA",
+        "value": "452"
+      },
+      {
+        "id": "NOR",
+        "value": "373"
+      },
+      {
+        "id": "RUS",
+        "value": "103"
+      },
+      {
+        "id": "LEC",
+        "value": "48"
+      },
+      {
+        "id": "ANT",
+        "value": "11"
+      },
+      {
+        "id": "HAM",
+        "value": "2"
+      },
+      {
+        "id": "ALB",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "3-B",
+    "renderType": "Pie",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "VER",
+        "value": "7"
+      },
+      {
+        "id": "ANT",
+        "value": "2"
+      },
+      {
+        "id": "HAM",
+        "value": "2"
+      },
+      {
+        "id": "LEC",
+        "value": "2"
+      },
+      {
+        "id": "BOR",
+        "value": "2"
+      },
+      {
+        "id": "NOR",
+        "value": "1"
+      },
+      {
+        "id": "TSU",
+        "value": "1"
+      },
+      {
+        "id": "PIA",
+        "value": "1"
+      },
+      {
+        "id": "HUL",
+        "value": "1"
+      },
+      {
+        "id": "HAD",
+        "value": "1"
+      },
+      {
+        "id": "SAI",
+        "value": "1"
+      },
+      {
+        "id": "ALO",
+        "value": "1"
+      },
+      {
+        "id": "BEA",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "3-C",
+    "renderType": "MultiBar",
+    "scoringMode": "DriverTracks",
+    "answersData": [
+      {
+        "id": "OZZ",
+        "value": "HAM-1,VER-18,ALO-0,GAS-0,OCO-0"
+      },
+      {
+        "id": "CHI",
+        "value": "HAM-8,VER-18,ALO-0,GAS-0,OCO-10"
+      },
+      {
+        "id": "JAP",
+        "value": "HAM-6,VER-25,ALO-0,GAS-0,OCO-0"
+      },
+      {
+        "id": "BAH",
+        "value": "HAM-10,VER-8,ALO-0,GAS-6,OCO-4"
+      },
+      {
+        "id": "SAU",
+        "value": "HAM-6,VER-18,ALO-0,GAS-0,OCO-0"
+      },
+      {
+        "id": "MIA",
+        "value": "HAM-10,VER-12,ALO-0,GAS-1,OCO-0"
+      },
+      {
+        "id": "EMI",
+        "value": "HAM-12,VER-25,ALO-0,GAS-0,OCO-0"
+      },
+      {
+        "id": "MON",
+        "value": "HAM-10,VER-12,ALO-0,GAS-0,OCO-6"
+      },
+      {
+        "id": "CAN",
+        "value": "HAM-8,VER-18,ALO-6,GAS-0,OCO-2"
+      },
+      {
+        "id": "AUS",
+        "value": "HAM-12,VER-0,ALO-6,GAS-0,OCO-1"
+      },
+      {
+        "id": "BEL",
+        "value": "HAM-6,VER-20,ALO-0,GAS-1,OCO-4"
+      },
+      {
+        "id": "HUN",
+        "value": "HAM-0,VER-2,ALO-10,GAS-0,OCO-0"
+      },
+      {
+        "id": "ITA",
+        "value": "HAM-8,VER-25,ALO-0,GAS-0,OCO-0"
+      },
+      {
+        "id": "AZE",
+        "value": "HAM-4,VER-25,ALO-0,GAS-0,OCO-0"
+      },
+      {
+        "id": "SIN",
+        "value": "HAM-4,VER-18,ALO-6,GAS-0,OCO-0"
+      },
+      {
+        "id": "USA",
+        "value": "HAM-17,VER-33,ALO-1,GAS-0,OCO-0"
+      },
+      {
+        "id": "MEX",
+        "value": "HAM-4,VER-15,ALO-0,GAS-0,OCO-2"
+      },
+      {
+        "id": "BRA",
+        "value": "HAM-2,VER-20,ALO-3,GAS-2,OCO-0"
+      },
+      {
+        "id": "LAS",
+        "value": "HAM-4,VER-25,ALO-0,GAS-0,OCO-2"
+      },
+      {
+        "id": "QAT",
+        "value": "HAM-0,VER-30,ALO-8,GAS-0,OCO-0"
+      },
+      {
+        "id": "ABU",
+        "value": "HAM-4,VER-25,ALO-8,GAS-0,OCO-6"
+      }
+    ]
+  },
+  {
+    "id": "3-D",
+    "renderType": "Bar",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "RUS",
+        "value": "36"
+      },
+      {
+        "id": "LEC",
+        "value": "26"
+      },
+      {
+        "id": "VER",
+        "value": "21"
+      },
+      {
+        "id": "HAM",
+        "value": "17"
+      },
+      {
+        "id": "PIA",
+        "value": "17"
+      },
+      {
+        "id": "ANT",
+        "value": "13"
+      },
+      {
+        "id": "NOR",
+        "value": "12"
+      },
+      {
+        "id": "ALO",
+        "value": "9"
+      },
+      {
+        "id": "HAD",
+        "value": "5"
+      },
+      {
+        "id": "ALB",
+        "value": "4"
+      },
+      {
+        "id": "STR",
+        "value": "4"
+      },
+      {
+        "id": "HUL",
+        "value": "3"
+      },
+      {
+        "id": "SAI",
+        "value": "3"
+      },
+      {
+        "id": "BEA",
+        "value": "2"
+      },
+      {
+        "id": "TSU",
+        "value": "2"
+      },
+      {
+        "id": "OCO",
+        "value": "1"
+      },
+      {
+        "id": "GAS",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "3-E",
+    "renderType": "Bar",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "BEA",
+        "value": "14"
+      },
+      {
+        "id": "HUL",
+        "value": "13"
+      },
+      {
+        "id": "LAW",
+        "value": "12"
+      },
+      {
+        "id": "SAI",
+        "value": "12"
+      },
+      {
+        "id": "ALO",
+        "value": "11"
+      },
+      {
+        "id": "OCO",
+        "value": "10"
+      },
+      {
+        "id": "ALB",
+        "value": "10"
+      },
+      {
+        "id": "BOR",
+        "value": "10"
+      },
+      {
+        "id": "TSU",
+        "value": "9"
+      },
+      {
+        "id": "HAD",
+        "value": "9"
+      },
+      {
+        "id": "STR",
+        "value": "9"
+      },
+      {
+        "id": "GAS",
+        "value": "7"
+      },
+      {
+        "id": "HAM",
+        "value": "7"
+      },
+      {
+        "id": "ANT",
+        "value": "6"
+      },
+      {
+        "id": "COL",
+        "value": "4"
+      },
+      {
+        "id": "RUS",
+        "value": "3"
+      },
+      {
+        "id": "DOO",
+        "value": "3"
+      },
+      {
+        "id": "COL",
+        "value": "2"
+      },
+      {
+        "id": "LEC",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "3-F",
+    "renderType": "Bar",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "NOR",
+        "value": "22"
+      },
+      {
+        "id": "PIA",
+        "value": "20"
+      },
+      {
+        "id": "VER",
+        "value": "18"
+      },
+      {
+        "id": "LEC",
+        "value": "7"
+      },
+      {
+        "id": "HAM",
+        "value": "2"
+      },
+      {
+        "id": "LAW",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "3-G",
+    "renderType": "Paired",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "ANT",
+        "value": "21"
+      },
+      {
+        "id": "LAW",
+        "value": "9"
+      },
+      {
+        "id": "ANT",
+        "value": "17"
+      },
+      {
+        "id": "LAW",
+        "value": "6"
+      }
+    ]
+  },
+  {
+    "id": "3-H",
+    "renderType": "Bar",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "BEA",
+        "value": "10"
+      },
+      {
+        "id": "TSU",
+        "value": "8"
+      },
+      {
+        "id": "LAW",
+        "value": "6"
+      },
+      {
+        "id": "STR",
+        "value": "6"
+      },
+      {
+        "id": "ANT",
+        "value": "5"
+      },
+      {
+        "id": "SAI",
+        "value": "4"
+      },
+      {
+        "id": "DOO",
+        "value": "4"
+      },
+      {
+        "id": "HAM",
+        "value": "3"
+      },
+      {
+        "id": "ALB",
+        "value": "3"
+      },
+      {
+        "id": "VER",
+        "value": "3"
+      },
+      {
+        "id": "BOR",
+        "value": "2"
+      },
+      {
+        "id": "GAS",
+        "value": "2"
+      },
+      {
+        "id": "COL",
+        "value": "1"
+      },
+      {
+        "id": "LEC",
+        "value": "1"
+      },
+      {
+        "id": "OCO",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "3-I",
+    "renderType": "List",
+    "scoringMode": "Drivers",
+    "rawAnswer": "DOO,TSU"
+  },
+  {
+    "id": "3-J",
+    "renderType": "Bar",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "SAI",
+        "value": "-226"
+      },
+      {
+        "id": "LEC",
+        "value": "-114"
+      },
+      {
+        "id": "HAM",
+        "value": "-67"
+      },
+      {
+        "id": "GAS",
+        "value": "-20"
+      },
+      {
+        "id": "VER",
+        "value": "-16"
+      },
+      {
+        "id": "ALO",
+        "value": "-14"
+      },
+      {
+        "id": "COL",
+        "value": "-5"
+      },
+      {
+        "id": "DOO",
+        "value": "0"
+      },
+      {
+        "id": "TSU",
+        "value": "3"
+      },
+      {
+        "id": "STR",
+        "value": "9"
+      },
+      {
+        "id": "HUL",
+        "value": "10"
+      },
+      {
+        "id": "OCO",
+        "value": "15"
+      },
+      {
+        "id": "LAW",
+        "value": "34"
+      },
+      {
+        "id": "BEA",
+        "value": "34"
+      },
+      {
+        "id": "NOR",
+        "value": "49"
+      },
+      {
+        "id": "ALB",
+        "value": "61"
+      },
+      {
+        "id": "RUS",
+        "value": "74"
+      },
+      {
+        "id": "PIA",
+        "value": "118"
+      }
+    ]
+  },
+  {
+    "id": "3-K",
+    "renderType": "Bar",
+    "scoringMode": "Tracks",
+    "answersData": [
+      {
+        "id": "OZZ",
+        "value": "1"
+      },
+      {
+        "id": "CHI",
+        "value": "8"
+      },
+      {
+        "id": "JAP",
+        "value": "6"
+      },
+      {
+        "id": "BAH",
+        "value": "10"
+      },
+      {
+        "id": "SAU",
+        "value": "6"
+      },
+      {
+        "id": "MIA",
+        "value": "10"
+      },
+      {
+        "id": "EMI",
+        "value": "12"
+      },
+      {
+        "id": "MON",
+        "value": "10"
+      },
+      {
+        "id": "SPA",
+        "value": "8"
+      },
+      {
+        "id": "CAN",
+        "value": "8"
+      },
+      {
+        "id": "AUS",
+        "value": "12"
+      },
+      {
+        "id": "GBR",
+        "value": "12"
+      },
+      {
+        "id": "BEL",
+        "value": "6"
+      },
+      {
+        "id": "HUN",
+        "value": "0"
+      },
+      {
+        "id": "NED",
+        "value": "0"
+      },
+      {
+        "id": "ITA",
+        "value": "8"
+      },
+      {
+        "id": "AZE",
+        "value": "4"
+      },
+      {
+        "id": "SIN",
+        "value": "4"
+      },
+      {
+        "id": "USA",
+        "value": "17"
+      },
+      {
+        "id": "MEX",
+        "value": "4"
+      },
+      {
+        "id": "BRA",
+        "value": "2"
+      },
+      {
+        "id": "LAS",
+        "value": "4"
+      },
+      {
+        "id": "QAT",
+        "value": "0"
+      },
+      {
+        "id": "ABU",
+        "value": "4"
+      }
+    ]
+  },
+  {
+    "id": "4-A",
+    "renderType": "BAR",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "HAA",
+        "value": "14"
+      },
+      {
+        "id": "WIL",
+        "value": "7"
+      },
+      {
+        "id": "RB",
+        "value": "3"
+      },
+      {
+        "id": "AM",
+        "value": "2"
+      },
+      {
+        "id": "ALP",
+        "value": "0"
+      },
+      {
+        "id": "KS",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "4-B",
+    "renderType": "Raw",
+    "rawAnswer": "18"
+  },
+  {
+    "id": "4-C",
+    "renderType": "Raw",
+    "rawAnswer": "3"
+  },
+  {
+    "id": "4-D",
+    "renderType": "Raw",
+    "rawAnswer": "23"
+  },
+  {
+    "id": "4-E",
+    "renderType": "Raw",
+    "rawAnswer": "61"
+  },
+  {
+    "id": "4-F",
+    "renderType": "Bar",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "ANT",
+        "value": "12"
+      },
+      {
+        "id": "ALB",
+        "value": "10"
+      },
+      {
+        "id": "STR",
+        "value": "8"
+      },
+      {
+        "id": "HUL",
+        "value": "6"
+      },
+      {
+        "id": "HAM",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "4-G",
+    "renderType": "Bar",
+    "scoringMode": "Tracks",
+    "answersData": [
+      {
+        "id": "OZZ",
+        "value": "5"
+      },
+      {
+        "id": "CHI",
+        "value": "1"
+      },
+      {
+        "id": "BAH",
+        "value": "1"
+      },
+      {
+        "id": "SAU",
+        "value": "2"
+      },
+      {
+        "id": "MIA",
+        "value": "4"
+      },
+      {
+        "id": "EMI",
+        "value": "2"
+      },
+      {
+        "id": "MON",
+        "value": "2"
+      },
+      {
+        "id": "SPA",
+        "value": "2"
+      },
+      {
+        "id": "CAN",
+        "value": "3"
+      },
+      {
+        "id": "AUS",
+        "value": "3"
+      },
+      {
+        "id": "GBR",
+        "value": "4"
+      },
+      {
+        "id": "HUN",
+        "value": "1"
+      },
+      {
+        "id": "NED",
+        "value": "3"
+      },
+      {
+        "id": "ITA",
+        "value": "1"
+      },
+      {
+        "id": "AZE",
+        "value": "1"
+      },
+      {
+        "id": "USA",
+        "value": "1"
+      },
+      {
+        "id": "MEX",
+        "value": "4"
+      },
+      {
+        "id": "BRA",
+        "value": "3"
+      },
+      {
+        "id": "LAS",
+        "value": "3"
+      },
+      {
+        "id": "QAT",
+        "value": "4"
+      }
+    ]
+  },
+  {
+    "id": "5-A",
+    "renderType": "Bool",
+    "rawAnswer": "true"
+  },
+  {
+    "id": "5-B",
+    "renderType": "Bool",
+    "rawAnswer": "true"
+  },
+  {
+    "id": "5-C",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-D",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-E",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-F",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-G",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-H",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-I",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-J",
+    "renderType": "Bool",
+    "rawAnswer": "true"
+  },
+  {
+    "id": "5-K",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-L",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-M",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-N",
+    "renderType": "Bool",
+    "rawAnswer": "true"
+  },
+  {
+    "id": "5-O",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-P",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "5-Q",
+    "renderType": "Bool",
+    "rawAnswer": "true"
+  },
+  {
+    "id": "5-R",
+    "renderType": "Bool",
+    "rawAnswer": "false"
+  },
+  {
+    "id": "6-A",
+    "renderType": "BAR",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "MCL",
+        "value": "833"
+      },
+      {
+        "id": "FER",
+        "value": "398"
+      }
+    ]
+  },
+  {
+    "id": "6-B",
+    "renderType": "BAR",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "MER",
+        "value": "469"
+      },
+      {
+        "id": "RBR",
+        "value": "451"
+      }
+    ]
+  },
+  {
+    "id": "6-C",
+    "renderType": "BAR",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "AM",
+        "value": "89"
+      },
+      {
+        "id": "ALP",
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "id": "6-D",
+    "renderType": "BAR",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "RB",
+        "value": "92"
+      },
+      {
+        "id": "HAA",
+        "value": "79"
+      }
+    ]
+  },
+  {
+    "id": "6-E",
+    "renderType": "BAR",
+    "scoringMode": "Teams",
+    "answersData": [
+      {
+        "id": "WIL",
+        "value": "137"
+      },
+      {
+        "id": "KS",
+        "value": "70"
+      }
+    ]
+  },
+  {
+    "id": "6-F",
+    "renderType": "Paired",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "RUS",
+        "value": "25"
+      },
+      {
+        "id": "ANT",
+        "value": "5"
+      },
+      {
+        "id": "RUS",
+        "value": "26"
+      },
+      {
+        "id": "ANT",
+        "value": "4"
+      }
+    ]
+  },
+  {
+    "id": "6-G",
+    "renderType": "Paired",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "VER",
+        "value": "3"
+      },
+      {
+        "id": "LAW",
+        "value": "0"
+      },
+      {
+        "id": "VER",
+        "value": "2"
+      },
+      {
+        "id": "LAW",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "6-H",
+    "renderType": "Paired",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "LEC",
+        "value": "24"
+      },
+      {
+        "id": "HAM",
+        "value": "7"
+      },
+      {
+        "id": "LEC",
+        "value": "21"
+      },
+      {
+        "id": "HAM",
+        "value": "6"
+      }
+    ]
+  },
+  {
+    "id": "6-I",
+    "renderType": "Paired",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "NOR",
+        "value": "15"
+      },
+      {
+        "id": "PIA",
+        "value": "15"
+      },
+      {
+        "id": "NOR",
+        "value": "15"
+      },
+      {
+        "id": "PIA",
+        "value": "13"
+      }
+    ]
+  },
+  {
+    "id": "6-J",
+    "renderType": "Paired",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "GAS",
+        "value": "5"
+      },
+      {
+        "id": "DOO",
+        "value": "2"
+      },
+      {
+        "id": "GAS",
+        "value": "3"
+      },
+      {
+        "id": "DOO",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "6-K",
+    "renderType": "Paired",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "TSU",
+        "value": "2"
+      },
+      {
+        "id": "HAD",
+        "value": "1"
+      },
+      {
+        "id": "TSU",
+        "value": "1"
+      },
+      {
+        "id": "HAD",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "id": "6-L",
+    "renderType": "Paired",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "ALO",
+        "value": "29"
+      },
+      {
+        "id": "STR",
+        "value": "1"
+      },
+      {
+        "id": "ALO",
+        "value": "18"
+      },
+      {
+        "id": "STR",
+        "value": "11"
+      }
+    ]
+  },
+  {
+    "id": "6-M",
+    "renderType": "Paired",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "BOR",
+        "value": "15"
+      },
+      {
+        "id": "HUL",
+        "value": "14"
+      },
+      {
+        "id": "BOR",
+        "value": "15"
+      },
+      {
+        "id": "HUL",
+        "value": "14"
+      }
+    ]
+  },
+  {
+    "id": "6-N",
+    "renderType": "Paired",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "SAI",
+        "value": "17"
+      },
+      {
+        "id": "ALB",
+        "value": "12"
+      },
+      {
+        "id": "ALB",
+        "value": "16"
+      },
+      {
+        "id": "SAI",
+        "value": "13"
+      }
+    ]
+  },
+  {
+    "id": "6-O",
+    "renderType": "Paired",
+    "scoringMode": "Drivers",
+    "answersData": [
+      {
+        "id": "BEA",
+        "value": "18"
+      },
+      {
+        "id": "OCO",
+        "value": "12"
+      },
+      {
+        "id": "BEA",
+        "value": "16"
+      },
+      {
+        "id": "OCO",
+        "value": "14"
+      }
+    ]
+  }
+]

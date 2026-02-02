@@ -556,7 +556,7 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverChampOrder",
-      "Index": 23,
+      "Index": 20,
       "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "competitorResponses": [
@@ -784,7 +784,7 @@
     "scoring": {
       "type": "Leaderboard",
       "AnswersId": "DriverDestrOrder",
-      "Index": 21,
+      "Index": 20,
       "explanation": "25 points for an exact guess, otherwise it's 18, 15, 12, 10, 8, 6, 4, 2, 1 points for 1-9 positions off respectively"
     },
     "competitorResponses": [
@@ -1291,7 +1291,7 @@
   },
   {
     "id": "3-A",
-    "question": "Which driver will lead the MOST laps?",
+    "question": "Which driver will lead the MOST laps across feature races?",
     "type": "SingleDriver",
     "scoring": {
       "type": "Leaderboard",
@@ -1576,7 +1576,7 @@
   },
   {
     "id": "3-F",
-    "question": "Pick two drivers from the top 2 teams of 2024 who will make the podium the LEAST",
+    "question": "Pick two drivers from the top 3 teams of 2024 who will make the podium the LEAST",
     "type": "MultiDriver",
     "scoring": {
       "type": "GainWhenX",
@@ -2197,7 +2197,7 @@
   },
   {
     "id": "4-F",
-    "question": "Pick 3 drivers from Australia; whatever they score, you do, too!",
+    "question": "Pick 3 drivers for Australia; whatever they score, you do, too!",
     "type": "MultiDriver",
     "scoring": {
       "type": "GetChoiceValue",
