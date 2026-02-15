@@ -3210,7 +3210,7 @@
     "type": "SingleBool",
     "scoring": {
       "type": "Bool",
-      "answersId": "5-P",
+      "answersId": "5-Q",
       "explanation": "10 points for a correct answer; 0 for incorrect answer"
     },
     "competitorResponses": [
